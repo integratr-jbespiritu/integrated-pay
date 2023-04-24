@@ -1,169 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;900&display=swap');
+:root {
+   --gray: #44435F;
+}
 
 .poppins {
   /* Poppins/H1/Bold */
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;   
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  color: #44435F;
+  color: var(--gray);
 }
 
   /* Heading 1 */
-.Poppins-H1-SemiBold {
-   font-family: 'Poppins';
+.Poppins-h1-semibold {
+   font-family: 'Poppins' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 32px;
    line-height: 48px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
    }   
-   
-.Poppins-H1-Bold {
-   font-family: 'Poppins';
+
+.Poppins-h1-bold {
+   font-family: 'Poppins' sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 32px;
    line-height: 48px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
    }
    
-.Poppins-H1-Black {
-   font-family: 'Poppins';
+.Poppins-h1-black {
+   font-family: 'Poppins' sans-serif;
    font-style: normal;
    font-weight: 900;
    font-size: 32px;
    line-height: 48px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
    /* Heading2 */   
-.Poppins-H2-SemiBold {
-    font-family: 'Poppins';
+.Poppins-h2-semibold {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-H2-Bold {
-    font-family: 'Poppins';
+.Poppins-h2-bold {
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-H2-Black {
-    font-family: 'Poppins';
+.Poppins-h2-black {
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
 /* Subheading */
-.Poppins-SubHeading-SemiBold {
-    font-family: 'Poppins';
+.Poppins-subheading-semibold {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-SubHeading-Bold {
-    font-family: 'Poppins';
+.Poppins-subheading-bold {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-SubHeading-Black {
-    font-family: 'Poppins';
+.Poppins-subheading-black {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
    /* Body 1 */
-.Poppins-Body-Light {
-    font-family: 'Poppins';
+.Poppins-body-light {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-Body-Regular {
-    font-family: 'Poppins';
+.Poppins-body-regular {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
-.Poppins-Body-SemiBold {
-    font-family: 'Poppins';
+.Poppins-body-semibold {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
    }
 
 /* Body 2 */
-.Poppins-Body2-Light {
-    font-family: 'Poppins';
+.Poppins-body2-light {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
    }
 
-.Poppins-Body2-Regular {
-    font-family: 'Poppins';
+.Poppins-body2-regular {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
    }
 
-.Poppins-Body2-SemiBold {
-    font-family: 'Poppins';
+.Poppins-body2-semibold {
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #44435F;
+    color: var(--gray)
 }
 
 
@@ -173,191 +174,192 @@
    font-weight: 700;
    font-size: 32px;
    line-height: 39px;
-   color: #44435F;
+   color: var(--gray)
 }
 
   /* Heading 1 */
-.Inter-H1-SemiBold {
-  font-family: 'Inter';
+.Inter-h1-semibold {
+  font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #44435F;
+  color: var(--gray)
   }   
   
-.Inter-H1-Bold {
-  font-family: 'Inter';
+.Inter-h1-bold {
+  font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #44435F;
+  color: var(--gray)
   }
   
-.Inter-H1-Black {
-  font-family: 'Inter';
+.Inter-h1-black {
+  font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #44435F;
+  color: var(--gray)
 }
 
   /* Heading2 */   
-.Inter-H2-SemiBold {
-   font-family: 'Inter';
+.Inter-h2-semibold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
    line-height: 36px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-H2-Bold {
-   font-family: 'Inter';
+.Inter-h2-bold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 24px;
    line-height: 36px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-H2-Black {
-   font-family: 'Poppins';
+.Inter-h2-black {
+   font-family: 'Poppins' sans-serif;
    font-style: normal;
    font-weight: 900;
    font-size: 24px;
    line-height: 36px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
 /* Subheading */
-.Inter-SubHeading-SemiBold {
-   font-family: 'Inter';
+.Inter-subheading-semibold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 20px;
    line-height: 30px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-SubHeading-Bold {
-   font-family: 'Inter';
+.Inter-subheading-bold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 20px;
    line-height: 30px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-SubHeading-Black {
-   font-family: 'Inter';
+.Inter-subheading-black {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 900;
    font-size: 20px;
    line-height: 30px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
   /* Body 1 */
-.Inter-Body-Light {
-   font-family: 'Inter';
+.Inter-body-light {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 300;
    font-size: 16px;
    line-height: 24px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-Body-Regular{
-   font-family: 'Inter';
+.Inter-body-regular{
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 24px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-Body-SemiBold {
-   font-family: 'Inter';
+.Inter-body-semibold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 16px;
    line-height: 24px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
   }
 
    /* Body 2 */
-.Inter-Body2-Light{
-   font-family: 'Inter';
+.Inter-body2-light{
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 300;
    font-size: 12px;
    line-height: 18px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
   }
 
-.Inter-Body2-Regular{
-   font-family: 'Inter';
+.Inter-body2-regular{
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
    line-height: 18px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
   }
 
-.Inter-Body2-SemiBold {
-   font-family: 'Poppins';
+.Inter-body2-semibold {
+   font-family: 'Poppins' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 12px;
    line-height: 18px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 } 
 
 /* Body 3 */
-.Inter-Body3-Light {
-   font-family: 'Inter';
+.Inter-body3-light {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 300;
    font-size: 10px;
    line-height: 10.1px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-Body3-Regular {
-   font-family: 'Inter';
+.Inter-body3-regular {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 10px;
    line-height: 10.1px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
 
-.Inter-Body3-SemiBold {
-   font-family: 'Inter';
+.Inter-body3-semibold {
+   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 10px;
    line-height: 10.1px;
    text-align: center;
-   color: #44435F;
+   color: var(--gray)
 }
+

@@ -8,71 +8,66 @@
     <title>Poppins</title>
 </head>
     <body>
-
     <div class="container">
       <p class="poppins">Poppins</p>
     </div> 
 
     <!-- Heading 1 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
         <div class=" col ">
-           <p class="Poppins-H1-SemiBold"> Display 01 Semi Bold</p>
+           <h1 class="Poppins-h1-semibold"> Display 01 Semi Bold</h1>
         </div>
         <div class="col">
-           <p class="Poppins-H1-Bold"> Display 01 Bold </p>
+           <h1 class="Poppins-h1-bold"> Display 01 Bold </h1>
         </div>
         <div class="col">
-          <p class="Poppins-H1-Black">Display 01 Black </p>
+          <h1 class="Poppins-h1-black">Display 01 Black </h1>
        </div>
       </div>
-    </div>
+    </div>  
    
     <!-- Heading 2 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-        <p class="Poppins-H2-SemiBold">Display 02 Semi Bold</p>
+        <h2 class="Poppins-h2-semibold">Display 02 Semi Bold</h2>
        </div>
        <div class="col">
-          <p class="Poppins-H2-Bold"> Display 02 Bold </p>
+          <h2 class="Poppins-h2-bold"> Display 02 Bold </h2>
       </div>
         <div class="col">
-        <p class="Poppins-H2-Black">Display 02 Black </p>
+        <h2 class="Poppins-h2-black">Display 02 Black </h2>
         </div>
      </div>  
     </div>
 
      <!-- Subheading -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-        <p class="Poppins-SubHeading-SemiBold">Display 03 Semi Bold</p>
+        <h3 class="Poppins-subheading-semibold">Display 03 Semi Bold</h3>
        </div>
        <div class="col">
-        <p class="Poppins-SubHeading-Bold"> Display 03 Bold </p>
+        <h3 class="Poppins-subheading-bold"> Display 03 Bold </h3>
        </div>
       <div class="col">
-        <p class="Poppins-SubHeading-Black">Display 03 Black </p>
+        <h3 class="Poppins-subheading-black">Display 03 Black </h3>
       </div>
     </div>
     </div>
 
   <!-- Body 1 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-         <p class="Poppins-Body-Light"> Display 04 Light</p>
+         <h4 class="Poppins-body-light"> Display 04 Light</h4>
        </div>
        <div class="col">
-        <p class="Poppins-Body-Regular"> Display 04 Regular </p>
+        <h4 class="Poppins-body-regular"> Display 04 Regular </h4>
        </div>
        <div class="col">
-        <p class="Poppins-Body-SemiBold">Display 04 Semi Bold </p>
+        <h4 class="Poppins-body-semibold">Display 04 Semi Bold </h4>
        </div>
       </div>
     </div>  
@@ -82,19 +77,18 @@
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-         <p class="Poppins-Body2-Light"> Display 05 Light</p>
+         <h5 class="Poppins-body2-light"> Display 05 Light</h5>
        </div>
        <div class="col">
-         <p class="Poppins-Body2-Regular"> Display Regular </p>
+         <h5 class="Poppins-body2-regular"> Display Regular </h5>
        </div>
        <div class="col">
-         <p class="Poppins-Body2-SemiBold">Display Semi Bold</p>
+         <h5 class="Poppins-body2-semibold">Display Semi Bold</h5>
        </div>
       </div>
     </div> <br>
 
   <!-- INTER -->
-
     <div class="container"><br>
       <p class="inter">Inter</p>
     </div>
@@ -103,77 +97,73 @@
     <div class="container"><hr>
       <div class="row align-items-start">
         <div class=" col ">
-           <p class="Inter-H1-SemiBold"> Display 01 Semi Bold</p>
+           <h1 class="Inter-h1-semibold"> Display 01 Semi Bold</h1>
         </div>
         <div class="col">
-           <p class="Inter-H1-Bold"> Display 01 Bold </p>
+           <h1 class="Inter-h1-bold"> Display 01 Bold </h1>
         </div>
         <div class="col">
-          <p class="Inter-H1-Black">Display 01 Black </p>
+          <h1 class="Inter-h1-black">Display 01 Black </h1>
        </div>
       </div>
     </div>
    
     <!-- Heading 2 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-        <p class="Inter-H2-SemiBold">Display 02 Semi Bold</p>
+        <h2 class="Inter-h2-semibold">Display 02 Semi Bold</h2>
        </div>
        <div class="col">
-          <p class="Inter-H2-Bold"> Display 02 Bold </p>
+          <h2 class="Inter-h2-bold"> Display 02 Bold </h2>
       </div>
         <div class="col">
-        <p class="Inter-H2-Black">Display 02 Black </p>
+        <h2 class="Inter-h2-black">Display 02 Black </h2>
         </div>
      </div>  
     </div>
 
  <!-- Subheading -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-        <p class="Inter-SubHeading-SemiBold">Display 03 Semi Bold</p>
+        <h3 class="Inter-subheading-semibold">Display 03 Semi Bold</h3>
        </div>
        <div class="col">
-        <p class="Inter-SubHeading-Bold"> Display 03 Bold </p>
+        <h3 class="Inter-subheading-bold"> Display 03 Bold </h3>
        </div>
       <div class="col">
-        <p class="Inter-SubHeading-Black">Display 03 Black </p>
+        <h3 class="Inter-subheading-black">Display 03 Black </h3>
       </div>
     </div>
     </div>
 
   <!-- Body 1 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-         <p class="Inter-Body-Light"> Display 04 Light</p>
+         <h4 class="Inter-body-light"> Display 04 Light</h4>
        </div>
        <div class="col">
-        <p class="Inter-Body-Regular"> Display 04 Regular </p>
+        <h4 class="Inter-body-regular"> Display 04 Regular </h4>
        </div>
        <div class="col">
-        <p class="Inter-Body-SemiBold">Display 04 Semi Bold </p>
+        <h4 class="Inter-body-semibold">Display 04 Semi Bold </h4>
        </div>
       </div>
     </div>  
      
   <!-- Body 2 -->
-
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-         <p class="Inter-Body2-Light"> Display 05 Light</p>
+         <h5 class="Inter-body2-light"> Display 05 Light</h5>
        </div>
        <div class="col">
-         <p class="Inter-Body2-Regular"> Display Regular </p>
+         <h5 class="Inter-body2-regular"> Display Regular </h5>
        </div>
        <div class="col">
-         <p class="Inter-Body2-SemiBold">Display Semi Bold</p>
+         <h5 class="Inter-body2-semibold">Display Semi Bold</h5>
        </div>
       </div>
     </div> 
@@ -182,17 +172,17 @@
     <div class="container"><hr>
       <div class="row align-items-start">
        <div class=" col ">
-         <p class="Inter-Body3-Light"> Display 06 Light</p>
+         <h6 class="Inter-body3-light"> Display 06 Light</h6>
        </div>
        <div class="col">
-         <p class="Inter-Body3-Regular"> Display 06 Regular </p>
+         <h6 class="Inter-body3-regular"> Display 06 Regular </h6>
        </div>
        <div class="col">
-         <p class="Inter-Body3-SemiBold">Display 06 Semi Bold</p>
+         <h6 class="Inter-body3-semibold">Display 06 Semi Bold</h6>
        </div>
       </div>
     </div> 
-
+    
   </body>
 </html>
 </template>
