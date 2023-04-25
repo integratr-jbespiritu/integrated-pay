@@ -1,0 +1,170 @@
+.th{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color:  #7755D6;
+  } 
+  
+  .con1{
+    font-family: 'Inter', sans-serif;
+    width: 1 192px;
+    height: 64px;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 40px;
+    background-position-x: left;
+    background-position-y: top;
+    border-width: 2px;
+    border-color: #7755D6;
+    flex:none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    background-color: #FFFFFF;
+  }
+  
+  .btn1{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid;
+    color: #F64771;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #F64771;
+    outline-width: thin;
+    justify-content: space-between;
+  }
+  
+  .btn2{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #F64771;
+    text-align: center;
+    outline-style: solid;
+    outline-color:#F64771;
+    justify-content: space-between;
+  }
+  
+  .btn3{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #F4B91D;
+    text-align: center;
+    outline-style: solid;
+    outline-color:#F4B91D;
+    justify-content: space-between;
+  }
+  
+  .btn4{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #F4B91D;
+    text-align: center;
+    outline-style: solid;
+    outline-color:#F4B91D;
+    justify-content: space-between;
+  }
+  
+  .btn5{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    color: #27AE60;
+    outline-style: solid;
+    outline-color: #27AE60;
+    justify-content: space-between;
+  }
+  
+  .btn6{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #27AE60;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #27AE60;
+    justify-content: space-between;
+  }
+  
+  .btn7{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #27AE60;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #27AE60;
+    justify-content: space-between;
+  }
+  
+  .btn8{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #27AE60;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #27AE60;
+    justify-content: space-between;
+  }
+  
+  .btn9{
+    font-family: 'Inter', sans-serif;
+    font-style: 'Semi Bold';
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #27AE60;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #27AE60;
+    justify-content: space-between;
+  }
+  
+  .btn0{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: #27AE60;
+    text-align: center;
+    outline-style: solid;
+    outline-color:  #27AE60;
+    justify-content: space-between;
+  }
+  
