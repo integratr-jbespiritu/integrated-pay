@@ -1,3 +1,17 @@
+  /* customized colors */
+  :root {
+    --vt-c-gray: #44435F; 
+    --vt-c-purple: #7755D6;
+    --vt-c-blue: #7DA7F1;  
+    --vt-c-black: #000000;
+    --vt-c-light-black: #2B2B2B;
+    --vt-c-default-white: #FFFFFF;
+    --vt-c-white: #F9F9F9;
+    --vt-c-sky:#407BE2;
+    --vt-c-light-purple: #E9DBF9;
+    
+  }
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
