@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    width: 1536px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.header img {
+    width: 132px;
+    /* height: 36px; */
+    max-width: 100%;
+    margin-left: 1rem;
+}
+
+.icon1 {
+  margin-left: 15rem;
+  width: 90px;
+  padding-block: 20px;
+  color: #fff;
+} 
+
+.icon2 {
+  margin-left: 55rem;
+  width: 90px;
+  padding-block: 20px;
+  color: #fff;
+} 
+
+
