@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import TheTypography from '../components/TheTypography.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <TheTypography />
   </main>
 </template>
