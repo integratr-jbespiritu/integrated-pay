@@ -1,14 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-import Sidebar from '../components/Sidebar.vue'
 import Footer from '../components/Footer.vue'
-
-
+import TheTypography from '../components/TheTypography.vue'
 </script>
 
 <template>
-  <main>
-    <Sidebar />
-    <!-- <Footer /> -->
+  <main>  
+    <TheTypography />
+    <Footer />
   </main>
 </template>

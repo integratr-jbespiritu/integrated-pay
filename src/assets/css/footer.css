@@ -9,7 +9,7 @@ footer {
   justify-content: space-around;
   /* margin-top: 35rem; */
 }
-p {
+.footer p {
   left: 70.44%;
   right: 5.92%;
   font-size: 15px;

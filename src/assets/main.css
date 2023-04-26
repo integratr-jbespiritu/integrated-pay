@@ -1,4 +1,8 @@
-    /* @import 'src/assets/base.css';
-    @import 'css/bootstrap/bootstrap.css';
-    @import './assets/css/style.css'
-    */
+@import './base.css';
+@import 'css/bootstrap/bootstrap.css';
+@import 'css/typography.css';
+@import 'css/footer.css';
+
+#app {
+  max-width: 1280px;
+}

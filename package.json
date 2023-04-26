@@ -12,6 +12,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "iconsax": "^0.0.1",
+    "bootstrap-icons": "^1.10.4",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
     "vuesax": "^4.0.1-alpha.25"
