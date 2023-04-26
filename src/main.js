@@ -2,9 +2,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
+
 import './assets/main.css'
 import '@fortawesome/fontawesome-free/css/all.css'
-import './assets/js/bootstrap.js'
+import './assets/js/bootstrap/bootstrap.js'
 
 const app = createApp(App)
 
