@@ -2,6 +2,7 @@
 @import 'css/bootstrap/bootstrap.css';
 @import 'css/typography.css';
 @import 'css/footer.css';
+@import 'css/header.css';
 
 #app {
   max-width: 1280px;
