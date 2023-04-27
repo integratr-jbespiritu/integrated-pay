@@ -1,0 +1,113 @@
+.sidebar {
+    width: 286px;
+    height: 1743px;
+    background-color: var(--vt-c-purple);
+    font-family: 'Poppins', sans-serif;
+    color: var(--vt-c-white);
+    position: absolute;
+  }
+  
+  .sidebar .account {
+    background-color: var(--vt-c-blue);
+    width: 286px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .account h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 20px;
+  }
+  
+  .sidebar .account p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  
+  .sidebar .notification-row .icon {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 23px;
+    bottom: 8.33%;
+  }
+  
+  .sidebar .notification-row h3 {
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 58px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .sidebar .notification-row .notification-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 8px;
+    width: 24px;
+    height: 22px;
+    background: var(--vt-c-light-blue);
+    color: var(--vt-c-black);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    left: 78%;
+    top: 20px;
+  }
+  
+  .sidebar .services {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    top: 32px;
+    left: 20px;
+  }
+  
+  .sidebar .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 284px;
+    margin: 44px;
+    margin-bottom: 45px;
+    margin-left: 24px;
+  }
+  
+  .sidebar .menu .main-menu:hover {
+    background-color: var(--vt-c-black);
+    margin: 0%;
+  }
+  
+  .sidebar .menu a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-left: 12px;
+    gap: 78%;
+    color: var(--vt-c-white);
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 24px;
+  }
+  
+  .sidebar .menu i {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+  }
+  
+  .sidebar .menu .xtended-menu {
+    top: 24px;
+  }

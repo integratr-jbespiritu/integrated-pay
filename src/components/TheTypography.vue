@@ -1,14 +1,5 @@
 <template>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poppins</title>
-</head>
-    <body>
-    <div class="container" style="background-color: white;">
+  <div class="container" style="background-color: white; margin-left:300px;">
     <div class="container">
       <p class="poppins">Poppins</p>
     </div> 
@@ -184,8 +175,5 @@
       </div>
     </div> 
   </div>
-    
-  </body>
-</html>
 </template>
 
