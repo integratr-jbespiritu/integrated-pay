@@ -4,7 +4,7 @@
     height: 64px;
     left: 0px;
     top: 0px;
-    background: var(--vt-c-black);
+    background-color: var(--vt-c-black);
 }
 
 .header img {
