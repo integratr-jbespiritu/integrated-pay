@@ -1,8 +1,11 @@
 @import './base.css';
 @import 'css/bootstrap/bootstrap.css';
-@import 'css/typography.css';
-@import 'css/footer.css';
-@import 'css/header.css';
+/* @import 'css/typography.css'; */
+/* @import 'css/footer.css'; */
+/* @import 'css/header.css'; */
+@import 'css/table.css';
+/* @import 'css/payment.css'; */
+/* @import 'css/issuerefund.css'; */
 
 #app {
   max-width: 1280px;

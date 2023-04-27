@@ -19,6 +19,7 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  
 
   --vt-c-gray: #44435F; 
   --vt-c-light-gray: #CCCCCC;
@@ -32,6 +33,9 @@
   --vt-c-light-purple: #E9DBF9;
   --vt-c-lavender: #7755D6;
   --vt-c-violet:#5A32C7;
+  --vtc-c-light-red: #F74771;
+  --vtc-c-yellow: #F4B91D;
+  --vtc-c-green: #27AE60;
 }
 
 /* semantic color variables for this project */

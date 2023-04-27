@@ -1,0 +1,169 @@
+.th{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color:  var(--vt-c-purple);
+  } 
+  
+  .con1{
+    font-family: 'Inter', sans-serif;
+    width: 1 192px;
+    height: 64px;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 40px;
+    background-position-x: left;
+    background-position-y: top;
+    border-width: 2px;
+    border-color: var(--vt-c-purple);
+    flex:none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    background-color: var(--vt-c-default-white);
+  }
+  
+  .btn1{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid;
+    color: var( --vtc-c-light-red);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var( --vtc-c-light-red);
+    outline-width: thin;
+    justify-content: space-between;
+  }
+  
+  .btn2{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var( --vtc-c-light-red);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var( --vtc-c-light-red);
+    justify-content: space-between;
+  }
+  
+  .btn3{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-yellow);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-yellow);
+    justify-content: space-between;
+  }
+  
+  .btn4{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-yellow);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-yellow);
+    justify-content: space-between;
+  }
+  
+  .btn5{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    color: var(--vtc-c-green);
+    outline-style: solid;
+    outline-color: var(--vtc-c-green);
+    justify-content: space-between;
+  }
+  
+  .btn6{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-green);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-green);
+    justify-content: space-between;
+  }
+  
+  .btn7{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-green);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-green);
+    justify-content: space-between;
+  }
+  
+  .btn8{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-green);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-green);
+    justify-content: space-between;
+  }
+  
+  .btn9{
+    font-family: 'Inter', sans-serif;
+    font-style: 'Semi Bold';
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-green);
+    text-align: center;
+    outline-style: solid;
+    outline-color: var(--vtc-c-green);
+    justify-content: space-between;
+  }
+  
+  .btn0{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    height: 40px;
+    border: 2px solid;
+    padding: 20px;
+    border: 2px;
+    color: var(--vtc-c-green);
+    text-align: center;
+    outline-style: solid;
+    outline-color:  var(--vtc-c-green);
+    justify-content: space-between;
+  }

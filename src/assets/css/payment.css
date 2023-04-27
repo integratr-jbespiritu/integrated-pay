@@ -1,0 +1,39 @@
+.con{
+    height: 255px;
+    padding: 20px, 0px;
+    top: 10px;
+    margin: 50px;
+    border: 1px solid var(--vt-c-gray);
+}
+
+.con .row .pd {
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.con .row .rfd {
+    margin-left: 24rem;
+    font-size: 15px;
+    color: var(--vt-c-blue);
+    padding-left: 20%;
+}
+
+.container1{
+    height: 250px;
+    padding: 20px, 0px;
+    top: 10px;
+    margin: 50px;
+    border: 1px solid var(--vt-c-gray);
+}
+
+.container1 .row .rfnd {
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.container1 .row .rfnd1 {
+    margin-left: 24rem;
+    font-size: 15px;
+    color: var(--vt-c-blue);
+    padding-left: 20%;
+}
