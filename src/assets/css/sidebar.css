@@ -1,14 +1,14 @@
 .sidebar {
     width: 286px;
     height: 1743px;
-    background-color: #7755D6;
+    background-color: var(--vt-c-purple);
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: var(--vt-c-white);
     position: absolute;
   }
   
   .sidebar .account {
-    background-color: #7DA7F1;
+    background-color: var(--vt-c-blue);
     width: 286px;
     height: 82px;
     display: flex;
@@ -55,8 +55,8 @@
     padding: 1px 8px;
     width: 24px;
     height: 22px;
-    background: #D8F4FE;
-    color: #000000;
+    background: var(--vt-c-light-blue);
+    color: var(--vt-c-black);
     border-radius: 100px;
     font-weight: 600;
     font-size: 12px;
@@ -87,7 +87,7 @@
   }
   
   .sidebar .menu .main-menu:hover {
-    background-color: #000000;
+    background-color: var(--vt-c-black);
     margin: 0%;
   }
   
@@ -96,7 +96,7 @@
     text-decoration: none;
     margin-left: 12px;
     gap: 78%;
-    color: #fff;
+    color: var(--vt-c-white);
     font-weight: 600;
     font-size: 1em;
     line-height: 24px;
