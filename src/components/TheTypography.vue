@@ -1,23 +1,17 @@
 <template>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poppins</title>
-</head>
-    <body>
     <div class="container" style="background-color: white;">
+
     <div class="container">
       <p class="poppins">Poppins</p>
-    </div> 
+      <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2 EM </p>
+    </div>
 
     <!-- Heading 1 -->
-    <div class="container"><hr>
-      <div class="row align-items-start">
-        <div class=" col ">
+    <div class="container">
+      <div class="row align-items-start"> <hr>
+        <div class="col">
            <h1 class="poppins-h1-semibold"> Display 01 Semi Bold</h1>
+           <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 2 / 24X / 1.5 EM </p>
         </div>
         <div class="col">
            <h1 class="poppins-h1-bold"> Display 01 Bold </h1>
@@ -25,57 +19,61 @@
         <div class="col">
           <h1 class="poppins-h1-black">Display 01 Black </h1>
        </div>
+       <hr>
       </div>
-    </div>  
+    </div> 
    
     <!-- Heading 2 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
         <h2 class="poppins-h2-semibold">Display 02 Semi Bold</h2>
+        <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 2 / 32PX / 2EM </p>
        </div>
        <div class="col">
           <h2 class="poppins-h2-bold"> Display 02 Bold </h2>
       </div>
         <div class="col">
         <h2 class="poppins-h2-black">Display 02 Black </h2>
-        </div>
+        </div> <hr>
      </div>  
     </div>
 
      <!-- Subheading -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
         <h3 class="poppins-subheading-semibold">Display 03 Semi Bold</h3>
-       </div>
+        <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">SUBHEADING / 20PX / 1.5 2EM </p> 
+      </div>
        <div class="col">
         <h3 class="poppins-subheading-bold"> Display 03 Bold </h3>
        </div>
       <div class="col">
         <h3 class="poppins-subheading-black">Display 03 Black </h3>
-      </div>
+      </div> <hr>
     </div>
     </div>
 
   <!-- Body 1 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
          <h4 class="poppins-body-light"> Display 04 Light</h4>
+         <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">BODY 1 / 12PX / 0.75 EM </p>
        </div>
        <div class="col">
         <h4 class="poppins-body-regular"> Display 04 Regular </h4>
        </div>
        <div class="col">
         <h4 class="poppins-body-semibold">Display 04 Semi Bold </h4>
-       </div>
+       </div> <hr>
       </div>
     </div>  
      
   <!-- Body 2 -->
 
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
          <h5 class="poppins-body2-light"> Display 05 Light</h5>
@@ -92,85 +90,91 @@
   <!-- INTER -->
     <div class="container"><br>
       <p class="inter">Inter</p>
-    </div>
+      <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2EM </p>
+    </div> 
 
     <!-- Heading 1 -->
-    <div class="container"><hr>
-      <div class="row align-items-start">
+    <div class="container">
+      <div class="row align-items-start"> <hr>
         <div class=" col ">
            <h1 class="inter-h1-semibold"> Display 01 Semi Bold</h1>
+           <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2EM </p>
         </div>
         <div class="col">
            <h1 class="inter-h1-bold"> Display 01 Bold </h1>
         </div>
         <div class="col">
           <h1 class="inter-h1-black">Display 01 Black </h1>
-       </div>
+       </div> <hr>
       </div>
     </div>
    
     <!-- Heading 2 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
         <h2 class="inter-h2-semibold">Display 02 Semi Bold</h2>
-       </div>
+        <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">SUBHEADING 2 / 20 PX / 1.25 EM </p>
+        </div>
        <div class="col">
           <h2 class="inter-h2-bold"> Display 02 Bold </h2>
       </div>
         <div class="col">
         <h2 class="inter-h2-black">Display 02 Black </h2>
-        </div>
+        </div> <hr>
      </div>  
     </div>
 
  <!-- Subheading -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
         <h3 class="inter-subheading-semibold">Display 03 Semi Bold</h3>
+        <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">BODY 1 / 16PX / 1 EM </p>
        </div>
        <div class="col">
         <h3 class="inter-subheading-bold"> Display 03 Bold </h3>
        </div>
       <div class="col">
         <h3 class="inter-subheading-black">Display 03 Black </h3>
-      </div>
+      </div> <hr>
     </div>
     </div>
 
   <!-- Body 1 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
          <h4 class="inter-body-light"> Display 04 Light</h4>
+         <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">BODY 2 / 12PX / 0.75 EM </p>
        </div>
        <div class="col">
         <h4 class="inter-body-regular"> Display 04 Regular </h4>
        </div>
        <div class="col">
         <h4 class="inter-body-semibold">Display 04 Semi Bold </h4>
-       </div>
+       </div> <hr>
       </div>
     </div>  
      
   <!-- Body 2 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
          <h5 class="inter-body2-light"> Display 05 Light</h5>
+         <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">BODY 3 / 10PX / 0.625 EM </p>
        </div>
        <div class="col">
          <h5 class="inter-body2-regular"> Display Regular </h5>
        </div>
        <div class="col">
          <h5 class="inter-body2-semibold">Display Semi Bold</h5>
-       </div>
+       </div> <hr>
       </div>
     </div> 
 
     <!-- Body 3 -->
-    <div class="container"><hr>
+    <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
          <h6 class="inter-body3-light"> Display 06 Light</h6>
@@ -184,8 +188,5 @@
       </div>
     </div> 
   </div>
-    
-  </body>
-</html>
 </template>
 

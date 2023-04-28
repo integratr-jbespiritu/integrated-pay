@@ -1,7 +1,9 @@
- body {
+body {
    background-color: var(--vt-c-light-purple);
  }
-
+hr {
+   margin: 20px;
+}
 .poppins {
   /* Poppins/H1/Bold */
   font-family: 'Poppins' sans-serif;   
@@ -14,12 +16,13 @@
 
   /* Heading 1 */
 .poppins-h1-semibold {
-   font-family: 'Poppins' sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 32px;
-   line-height: 48px;
+   line-height: 52px;
    text-align: center;
+   padding-left: 1.25rem;;
    color: var(--vt-c-gray);
    }   
 

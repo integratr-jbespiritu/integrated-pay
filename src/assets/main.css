@@ -1,6 +1,7 @@
 @import './base.css';
 @import 'css/bootstrap/bootstrap.css';
 @import 'css/typography.css';
+@import 'css/input-colors-button.css';
 @import 'css/footer.css';
 
 #app {

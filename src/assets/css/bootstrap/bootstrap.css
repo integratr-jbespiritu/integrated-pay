@@ -2164,7 +2164,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 0;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2426,9 +2426,9 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #86b7fe;
+  /* border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
 }
 .form-check-input:checked {
   background-color: #0d6efd;
@@ -2586,7 +2586,13 @@ textarea.form-control-lg {
 
 .form-floating {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  border: 1px solid;
 }
+
 .form-floating > .form-control,
 .form-floating > .form-select {
   height: calc(3.5rem + 2px);
@@ -2654,6 +2660,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
+  border: 1px solid;
+  border-radius: 0rem;
 }
 .input-group > .form-control,
 .input-group > .form-select {
@@ -2661,6 +2669,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   width: 1%;
   min-width: 0;
+  border-radius: 0rem;
 }
 .input-group > .form-control:focus,
 .input-group > .form-select:focus {
@@ -2930,9 +2939,9 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.btn:hover {
+/* .btn:hover {
   color: #212529;
-}
+} */
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -10833,6 +10842,9 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important;
+  }
+  .plus-icon-size{
+    font-size: 5px;
   }
 }
 
