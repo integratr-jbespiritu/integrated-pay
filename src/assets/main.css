@@ -4,6 +4,72 @@
 @import 'css/input-colors-button.css';
 @import 'css/footer.css';
 
-#app {
-  max-width: 1280px;
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../assets/font_styles/Poppins-Regular.ttf') format(truetype);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../assets/font_styles/Poppins-Bold.ttf') format(truetype);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins-Black;
+  src: url('../assets/font_styles/Poppins-Black.ttf') format(truetype);
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url('../assets/font_styles/Poppins-Light.ttf') format(truetype);
+  font-style: normal;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: Poppins-Semibold;
+  src: url('../assets/font_styles/Poppins-SemiBold.ttf') format(truetype);
+  font-style: normal;
+  font-weight: semibold;
+}
+
+@font-face {
+  font-family: Inter-Semibold;
+  src: url('../assets/font_styles/Inter-SemiBold.ttf') format(truetype);
+  font-style: normal;
+  font-weight: semibold;
+}
+
+@font-face {
+  font-family: Inter-Black;
+  src: url('../assets/font_styles/Inter-Black.ttf') format(truetype);
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url('../assets/font_styles/Inter-Bold.ttf') format(truetype);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url('../assets/font_styles/Inter-Regular.ttf') format(truetype);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url('../assets/font_styles/Inter-Regular.ttf') format(truetype);
+  font-style: normal;
+  font-weight: light;
 }
