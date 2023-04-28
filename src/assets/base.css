@@ -34,6 +34,9 @@
   --vt-c-light-purple: #E9DBF9;
   --vt-c-lavender: #7755D6;
   --vt-c-violet:#5A32C7;
+  --vt-c-light-red: #F64771;
+  --vt-c-yellow: #F4B91D;
+  --vt-c-green: #27AE60;
   --vt-c-light-blue: #D8F4FE;
   --vt-c-dim-gray: #AAAAAA;
 }
@@ -52,7 +55,7 @@
 
   --section-gap: 160px;
 }
-
+  
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
