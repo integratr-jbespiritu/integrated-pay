@@ -3,6 +3,7 @@
 @import 'css/typography.css';
 @import 'css/footer.css';
 @import 'css/sidebar.css';
+@import 'css/login.css';
 
 #app {
   max-width: 1280px;

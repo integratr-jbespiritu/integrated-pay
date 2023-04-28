@@ -3,7 +3,7 @@
     height: 1743px;
     background-color: var(--vt-c-purple);
     font-family: 'Poppins', sans-serif;
-    color: var(--vt-c-white);
+    color: var(--vt-c-default-white);
     position: absolute;
   }
   
@@ -96,7 +96,7 @@
     text-decoration: none;
     margin-left: 12px;
     gap: 78%;
-    color: var(--vt-c-white);
+    color: var(--vt-c-default-white);
     font-weight: 600;
     font-size: 1em;
     line-height: 24px;
