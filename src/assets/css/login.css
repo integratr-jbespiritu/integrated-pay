@@ -1,85 +1,5 @@
-.vh-100 .container-fluid .row .col-md-8 {
-    background-color: var(--vt-c-purple);  
-    padding: 20px;
-    gap: 40px;
-    position: absolute;
-    width: 778px;
-    height: 600px;
-    left: 350px;
-    top: 0px;
-    position: relative;
-}
-/* bg of form */
-.vh-100 .col-md-10 .carousel-caption {
-    position: absolute;
-    width: 592px;
-    height: 120px;
-    left: 74px;
-    top: 32px;
-}
-/* form */
-.vh-100 .col-md-8 form {
-    box-sizing: border-box;
-    background-color: var(--vt-c-default-white);
-    border: none;
-    padding: 20px;
-    gap: 40px;
-    position: absolute;
-    width: 592px;
-    height: 387px;
-    left: 12%;
-    top: 17%;
-}
-/* input fields */
-.vh-100 .col-md-8 form .form-floating, .password-container {
-    border: 1px solid var(--vt-c-purple);
-} 
-/* Sign in to your account  */
-.vh-100 .col-md-8 form .text-heading {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 0px;
-}
-/* Forgot password? */
-.vh-100 .col-md-8 form .d-flex .forgot-pass {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-decoration: none;
-    color: var(--vt-c-purple);
-}
-/* div design for login btn and signup */
-.vh-100 .col-md-8 form .text-center {
-    padding: 10px 20px;
-    height: 11px;
-}
-/* Sign up */
-.vh-100 .col-md-8 form .text-center .link-danger {
-    font-family: 'Inter', sans-serif;
-    color: var(--vt-c-purple);
-    font-weight: 600;
-    font-size: 16px;
-    text-decoration: none;
-    top: 15px;
-}
-/* button */
-.vh-100 .col-md-8 form .text-center .login-button {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: var(--vt-c-purple);
-    padding-left: 1.5rem; 
-    padding-right: 1.5rem;
-    border: none;
-    border-radius: 0%;
-    align-items: center;
-    padding: 10px 20px;
-    width: 82px;
-    height: 44px;
-}
 /* Amplify your payments with */
-.vh-100 .col-md-10 h2 {
+.row .col-md-6 .carousel-caption h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 40px;
@@ -87,42 +7,116 @@
     margin: 0 0 10px;
 }
 /* ampliPAY */
-.vh-100 .col-md-10  span {
+.row .col-md-6 .carousel-caption span {
     color: var(--vt-c-blue);
     font-weight: 900;
     font-size: 40px;
-    margin: 20px;
     font-family: 'Poppins', sans-serif;
   }
-/* img design */
-.image-column {
-    position: absolute;
-    width: 778px;
-    height: 600px;
-    left: 0px;
-    top: 0px;
-    background: var(--vt-c-bs-gradient), url('src/assets/images/Img.svg' );
+
+  .row .col-md-6 .carousel-caption {
+    bottom: 29.5rem;
+    left: 5.5rem;
   }
 
-input[type="checkbox"] {
+.row  .login-form {
+    background-color: var(--vt-c-purple);
+}
+.row .login-form form {
+    background-color: var(--vt-c-default-white);
+    border: 1px solid var(--vt-c-dim-gray);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 592px;
+    height: 387px;
+    top: 8rem;
+    left: 5rem;
+}
+
+.row .login-form form .divider .text-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+    bottom: 1.7rem;
+}
+
+.row .login-form form .form-group {
+    bottom: 3rem;
+}
+
+.row .login-form form .form-group .form-floating input {
+    border-radius: 0%;
+}
+
+.row .login-form form .form-group .password-container {
+    bottom: .5rem;
+}
+
+.row input:focus {
+    box-shadow: none;
+}
+
+.row form .d-flex .forgot-pass {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    bottom: 3.7rem;
+}
+/* remember me checkbox */
+.row form .d-flex .form-check {
+    bottom: 4.2rem;
+}
+
+.row input[type="checkbox"] {
     width: 20px;
     height: 20px;
     background-color: var(--vt-c-default-white);
     cursor: pointer;
   }
   
-input[type="checkbox"]:checked {
+.row input[type="checkbox"]:checked {
     background-color: var(--vt-c-purple);
   }
 
-.password-container {
-    position: relative;
+  .row input[type="checkbox"]:focus {
+   border: none;
   }
   
-.password-toggle {
+.row .password-toggle {
     position: absolute;
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
     cursor: pointer;
   }
+
+.row .login-form form .text-center .login-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--vt-c-purple);
+    border: none;
+    border-radius: 0%;
+    align-items: center;
+    width: 82px;
+    height: 44px;
+
+}
+
+.row .login-form form .text-center .login-button:focus {
+    box-shadow: none;
+}
+
+.row .login-form form .pt-8 {
+    bottom: 3rem;
+}
+
+.row .login-form form .pt-8 a {
+    left: 0rem;
+    top: 1.3rem;
+}
