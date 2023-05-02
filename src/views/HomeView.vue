@@ -12,13 +12,13 @@ import Issuerefund from '../components/Issuerefund.vue';
 </script>
 
 <template>
-  <main>  
-      <!-- <Header />   
-       <Sidebar/> 
-      <TheTypography />    -->
-     <Table />   
-     <!-- <Transaction /> 
-    <Issuerefund />
-     <Footer />       -->
+  <main>
+      <Header />
+      <Sidebar />
+      <TheTypography />
+      <Table />
+      <Transaction />
+      <Issuerefund />
+      <Footer />
   </main>
 </template>
