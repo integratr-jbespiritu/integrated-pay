@@ -1,93 +1,71 @@
 /* TICKET NAME: FOOTER */
-footer {
-  padding: 30px;
+.footer {
+  padding: 40px;
   font-family: 'Poppins', sans-serif;
-  color: #7755D6;
-}
-.row {
-  /* flex-wrap: wrap; */
-  justify-content: space-around;
-  /* margin-top: 35rem; */
-}
-.footer p {
-  left: 70.44%;
-  right: 5.92%;
-  font-size: 15px;
-  line-height: 22px;
-  display: flex;
-  align-items: end;
-}
-ul {
-  text-align: start;
-  right: 12%;
-}
-.menu-item1 {
-  /* position: absolute; */
-  text-decoration: none;
-  height: 23px;
-  color: #7755D6;
-  left: 5.92%;
-  right: 89.76%;
-  top: calc(50% - 23px/2 + 383px);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-}
-.menu-item2 {
-/* position: absolute; */
-  text-decoration: none;
-  color: #7755D6;
-  height: 23px;
-  left: 13.5%;
-  right: 81.14%;
-  top: calc(50% - 23px/2 + 383px);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-}
-.menu-item3 {
-/* position: absolute; */
-  text-decoration: none;
-  color: #7755D6;
-  height: 23px;
-  left: 22.12%;
-  right: 71.73%;
-  top: calc(50% - 23px/2 + 383px);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-}
-.menu-item4 {
-  /* position: absolute; */
-  text-decoration: none;
-  color: #7755D6;
-  height: 23PX;
-  left: 31.52%;
-  right: 62%;
-  top: calc(50% - 23px/2 + 383px);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-}
-.social {
-  text-align: end;
-  margin-bottom: 30px;
-}
-.social a {
-  color: #7755D6;
-  margin-right: 1rem;
-  left: 73%;
-  right: 2.5%;
-}
-.social i:hover {
-  color: #7755d6a0;
-}
-img {
-  margin-bottom: 20px;
+  color: var(--vt-c-purple);
+  background-color: var(--vt-c-default-white);
 }
 
-/* TICKET NAME: SIDEBAR */
+.footer .row {
+  justify-content: space-around;
+}
+
+.footer .logo img {
+  width: 150px;
+  left: .5rem;
+}
+
+.footer .sitemap {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer .sitemap li {
+  margin-bottom: 10px;
+}
+
+.footer .sitemap a {
+  text-decoration: none;
+  color: var(--vt-c-purple);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.204545px;
+  margin: .5rem;
+  top: 1.5rem;
+}
+
+.footer .social {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 30px;
+  left: 33.5rem;
+}
+
+.footer .social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .social a {
+  color: var(--vt-c-purple);
+  font-size: 25px;
+}
+
+.footer .social i {
+  font-size: 20px;
+  margin: .4rem;
+}
+
+.footer .social i:hover {
+  color: var(--vt-c-purple);
+}
+
+.footer .copy {
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.204545px;
+  top: 4.1rem;
+  left: .5rem;
+}

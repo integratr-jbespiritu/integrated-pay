@@ -1,28 +1,32 @@
 <template>
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="logo">
             <img src="src/assets/images/Logo.svg" alt="Logo">
-          <ul>
-            <a class="menu-item1" href="#">About Us</a>
-            <a class="menu-item2" href="#">Contact Us</a>
-            <a class="menu-item3" href="#">Terms of Use</a>
-            <a class="menu-item4" href="#">Privacy Policy</a>
-          </ul>
           </div>
-        <div class="col-md-4">
-          <ul class="social">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+          <ul class="sitemap">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
           </ul>
-          <p>&copy; 2022 Integratr Corporation, All Rights Reserved</p>
         </div>
+        <div class="col-md-4 col-sm-6">
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p class="copy">&copy; 2022 Integratr Corporation, All Rights Reserved</p>
+        </div>
+      </div>
     </div>
-    </div>
-    </footer>
+  </footer>
 </template>
 
 <script>
