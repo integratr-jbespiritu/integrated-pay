@@ -1,7 +1,3 @@
-body {
-    background-color: var(--vt-c-light-purple);
-  }
-  
 .colors {
     display: flex;
     flex-direction: row;
@@ -12,24 +8,24 @@ body {
  }  
  
  .purple {
-    width: 150px;;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-purple);
     margin: 10px;
     padding: 20px;
  }
  
  .blue {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-blue);
     margin: 10px;
     padding: 20px;
  }
  
  .black {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-black);
     margin: 10px;
     padding: 20px;
@@ -37,16 +33,16 @@ body {
  }
  
  .light-black {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-light-black);
     margin: 10px;
     padding: 20px;
  }
  
  .default-white {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-default-white);
     margin:10px;
     padding: 20px;
@@ -54,8 +50,8 @@ body {
  }
  
  .white {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: var(--vt-c-white);
     padding: 20px;
     margin: 10px;
@@ -101,6 +97,10 @@ body {
  .default-search  {
    padding-left: 3.5rem;
    background: var(--vt-c-black);
+ }
+
+ .default-search-purple {
+  border: 1px solid var(--vt-c-purple);
  }
 
  .selected-search {
@@ -235,8 +235,7 @@ body {
  }
 
  .disabled-button:hover , .disabled-button:focus {
-   background: var;
-   box-shadow: 0 0 0 0.1rem  var(--vt-c-lavender);
+   box-shadow: 0 0 0 0.1rem  var(--vt-c-light-gray);
  }
 
  .disabled-outline {
@@ -322,10 +321,6 @@ body {
    font-size: 24px;
  }
 
- .icon-search  {
-   color: var(--vt-c-violet);   
- }
-
 .icon-span {
     background-color: var(--vt-c-default-white);
     font-size: 24px;
@@ -339,14 +334,13 @@ body {
     font-size: 24px;
 }
 
+  /* close button */
 .close-button {
     width: 44px;
     height: 44px; 
     border-radius: 50%;
     background-color: var(--vt-c-blue);
     color: white;
-    text-align: center;
-    transform: rotate(-90deg);
     cursor: pointer;
 }
 
@@ -395,11 +389,12 @@ body {
 
  .btn-purple-filter {
    background: var(--vt-c-purple);
+   border-radius: 0%;
  }
 
  .btn-default {
    background: var(--vt-c-default-white);
    border: 1px solid var(--vt-c-black);
+   border-radius:0%;
+   box-shadow: none;
  }
-
- 

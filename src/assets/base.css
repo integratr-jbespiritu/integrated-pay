@@ -10,6 +10,8 @@
 
   --vt-c-indigo: #2c3e50;
 
+  --vt-c-bs-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
@@ -34,6 +36,11 @@
   --vt-c-violet:#5A32C7;
   --vt-c-dark-gray :#AAAAAA;
   --vt-c-light-green: #34AEA7;
+  --vt-c-light-red: #F64771;
+  --vt-c-yellow: #F4B91D;
+  --vt-c-green: #27AE60;
+  --vt-c-light-blue: #D8F4FE;
+  --vt-c-dim-gray: #AAAAAA;
 }
 
 /* semantic color variables for this project */
@@ -50,7 +57,7 @@
 
   --section-gap: 160px;
 }
-
+  
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);

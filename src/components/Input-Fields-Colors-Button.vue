@@ -1,48 +1,46 @@
 <template>
-    <hr> <div class="container" style="background-color: var(--vt-c-default-white)"><br>
-        <h1 class="inter">Colors</h1>  
+        <div class="col-md-9 ms-sm-auto col-lg-10 px-md-5">
+      <div class="d-flex justify-content-between flex-wrap pt-3 pb-2">
+        <h1 class="inter px-3">Colors</h1>  
        <div class="d-flex flex-row">
              <!-- color1  -->
              <div class="m-2">
                 <div class="purple d-flex"></div>
-                <h1 class="inter px-3">#7755D6</h1>
+                <h1 class="inter fs-4 px-3">#7755D6</h1>
              </div>
              <!-- color2  -->
              <div class="m-2">
                 <div class="blue"></div>
-                <p class=" inter px-3">#7DA7F1</p>
+                <p class=" inter fs-4 px-3">#7DA7F1</p>
              </div>
              <!-- color3  -->
              <div class="m-2">
                 <div class="black"></div>
-                <p class=" inter px-3">#000000</p>
+                <p class=" inter fs-4 px-3">#000000</p>
              </div>
              <!-- color4  -->
              <div class="m-2">
                 <div class="light-black"></div>
-                <p class="inter px-3">#2B2B2B</p>
+                <p class="inter fs-4 px-3">#2B2B2B</p>
              </div>
              <!-- color5  -->
              <div class="m-2">
                 <div class="default-white"></div>
-                <p class="inter px-3">#FFFFFF</p>
+                <p class="inter fs-4 px-3">#FFFFFF</p>
              </div>
              <!-- color6  -->
              <div class="m-2">
                 <div class="white"></div>
-                <p class="inter px-3">#F9F9F9</p>
+                <p class="inter fs-4 px-3">#F9F9F9</p>
              </div>
           </div>
             </div><br>
         
-
 <!-- input fields -->
 <div class="container">
   <h1 class="inter">Input Fields</h1>
   <div class="flex-container">
-  <div class="row ms-auto">
-  <div class="input-fields col-sm-4 " style="background: var(--vt-c-default-white); column-gap: 3rem;">
-
+  <div class="input-fields col-sm-6">
     <!-- default field -->
     <div class="input-group mb-3">
         <input type="email" class="default form-control" placeholder="Default Field" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -81,18 +79,18 @@
     <div class="input-group mb-3">
         <input type="text" class="selected-search form-control" placeholder="Selected  Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
         <div class="position-absolute top-0 start-0 ms-4 pt-2">
-        <i class="icon isax isax-search-status-1"></i>
+        <i class="icon isax isax-search-status-1 mx-0 "></i>
         </div>
     </div> 
      <!-- default search -->
     <div class="default-search-light input-group mb-3">
         <span class="icon-span input-group-text"><i class="isax isax-search-status-1"></i></span>
-        <input type="text" class="form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
+        <input type="text" class="default-search-light form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
     </div> 
      <!-- default search purple border -->
     <div class="default-search-purple input-group mb-3">
-        <span class="icon-span-purple input-group-text"><i class="icon-search isax isax-search-status-1"></i></span>
-        <input type="text" class="form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2" style="border: 1px solid #7755D6;"> 
+        <span class="icon-span-purple input-group-text"><i class="isax isax-search-status-1"></i></span>
+        <input type="text" class="default-search-purple form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2" style="border: 1px solid #7755D6;"> 
     </div> 
      <!-- default duration -->
     <div class="default-duration input-group mb-3">
@@ -107,8 +105,8 @@
   
      <!-- selected duration -->
     <div class="default-duration input-group mb-3">
-        <span class="icon-span-purple input-group-text"><i class="icon-search isax isax-clock"></i></span>
-        <select class="form-select" aria-label="Default select example" style="border: 1px solid #7755D6;">
+        <span class="icon-span-purple input-group-text"><i class="isax isax-clock"></i></span>
+        <select class="form-select" aria-label="Default select example">
         <option selected>Selected Duration</option>
         <option value="1"></option>
         <option value="2"></option>
@@ -118,18 +116,18 @@
      <!-- default date range -->
     <div class="default-date-range input-group mb-3">
         <span class="icon-span input-group-text"><i class="isax isax-calendar-1"></i></span>
-        <input type="text" class="form-control" placeholder="Default Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
+        <input type="text" class="default-date-range form-control" placeholder="Default Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
     </div> 
      <!-- selected date range -->
     <div class="selected-date-range input-group mb-3">
-        <span class="icon-span-purple input-group-text"><i class="icon-search isax isax-calendar-1"></i></span>
-        <input type="text" class="form-control" style="border: 1px solid #7755D6;" placeholder="Selected Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
+        <span class="icon-span-purple input-group-text"><i class="isax isax-calendar-1"></i></span>
+        <input type="text" class="default-search-purple form-control" placeholder="Selected Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
     </div> 
     </div>
 
     <!-- button -->
-    <div class="button col-md- ms-auto"><br>
-        <div class="container d-flex">
+    <div class="button ms-2"><br>
+        <div class="container d-flex ">
             <div class="row d-flex">
             <div class="col-md"><button type="button" class="default-button">Default</button></div>
             <div class="col-md"><button type="button" class="click-hover-button">Click/Hover</button></div>
@@ -225,7 +223,7 @@
     <!-- close button -->
         <div class="col">
             <button type="button" class="close-button btn-close" disabled aria-label="Close"></button>
-            <button type="button" class="close-button btn-close" style="margin-left: 1rem;" disabled aria-label="Close"></button>
+            <button type="button" class="close-button-green btn-close" style="margin-left: 1rem;" disabled aria-label="Close"></button>
          </div>
     <!-- filter button -->
      <div class="container d-flex mt-3">
