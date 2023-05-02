@@ -1,5 +1,5 @@
 .sidebar {
-  width: 284px;
+  width: 248px;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -12,7 +12,7 @@
 
 .sidebar-header {
   background-color: var(--vt-c-blue);
-  width: 284px;
+  width: 248px;
   height: 82px;
 }
 
@@ -24,7 +24,7 @@
 
 .sidebar-header .account a {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   color: var(--vt-c-default-white);
 }
@@ -37,7 +37,7 @@
 .sidebar .dashboard a {
   color: var(--vt-c-default-white);
   left: 2.7rem;
-  top: 1rem;
+  top: 1.3rem;
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -51,34 +51,24 @@
   align-items: center;
 }
 
-.sidebar .nav-item:hover {
-  background-color: black;
+.sidebar li {
+  line-height: 2.3rem;
+}
+
+.sidebar .nav li:hover {
+  background-color: var(--vt-c-black);
   margin: 0%;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  height: 2.5rem;
 }
 
-.sidebar ul {
-  left: 0rem;
-  top: 0rem;
-}
-
-.sidebar .nav-item a {
-  color: var(--vt-c-default-white);
-  left: 1rem;
-}
-
-.sidebar .nav-item, .sidebar .nav-link {
+.sidebar .nav-link {
   display: flex;
   align-items: center;
+  gap: 1.3rem;
 }
 
 .sidebar .nav-link i {
-  margin-right: 10px;
   font-size: 24px;
-  right: .5rem;
+  margin-left: .4rem;
 }
 
 .sidebar .notification-row .notification-number {
@@ -92,8 +82,8 @@
   border-radius: 100px;
   font-weight: 600;
   font-size: 12px;
-  left: 78%;
-  bottom: .5rem;
+  left: 80%;
+  bottom: .1rem;
   justify-content: center;
 }
 

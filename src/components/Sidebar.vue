@@ -12,43 +12,21 @@
             <div class="notification-row">
                <span class="notification-number">{{ notificationCount }}</span>
             </div>
-            <p class="services">services</p>
+            <p class="services">Services</p>
          </div>
-         <ul class="nav flex-column">
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Reports</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Payment Channels</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 4</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 5</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 6</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 7</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 8</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 9</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 10</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-setting5"></i> Settings</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#"><i class="isax isax-logout5"></i> Logout</a>
-            </li>
-         </ul>
+         <nav class="nav flex-column">
+            <li><a class="text-md-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Reports</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Payment Channels</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 4</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 5</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 6</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 7</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 8</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 9</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-dcube5"></i>Service 10</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-setting5"></i>Settings</a></li>
+            <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-logout5"></i>Logout</a></li>
+         </nav>
       </div>
    </div>
 </template>

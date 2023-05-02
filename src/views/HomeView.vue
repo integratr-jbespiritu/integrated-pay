@@ -10,9 +10,9 @@ import LoginConsumer from '../views/LoginConsumer.vue'
 <template>
   <main>  
     <Sidebar/>
-    <Login />
+    <!-- <Login />
     <LoginConsumer />
     <TheTypography />
-    <Footer />
+    <Footer /> -->
   </main>
 </template>
