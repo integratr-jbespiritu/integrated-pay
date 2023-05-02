@@ -1,10 +1,10 @@
-<template>
-    <div class="container" style="background-color: white;">
-
-    <div class="container">
-      <p class="poppins">Poppins</p>
+<template> 
+      <div class="d-flex col-md-9 ms-sm-auto col-lg-10 px-md-5">
+      <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2 ">
+      <p class="poppins mt-5 py-2">Poppins</p>
+      <div class="container">
       <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2 EM </p>
-    </div>
+      </div>
 
     <!-- Heading 1 -->
     <div class="container">
@@ -21,10 +21,10 @@
        </div>
        <hr>
       </div>
-    </div> 
-   
+    </div>  
+  
     <!-- Heading 2 -->
-    <div class="container">
+     <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
         <h2 class="poppins-h2-semibold">Display 02 Semi Bold</h2>
@@ -39,7 +39,7 @@
      </div>  
     </div>
 
-     <!-- Subheading -->
+      <!-- Subheading  -->
     <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
@@ -53,9 +53,9 @@
         <h3 class="poppins-subheading-black">Display 03 Black </h3>
       </div> <hr>
     </div>
-    </div>
+    </div>  
 
-  <!-- Body 1 -->
+   <!-- Body 1 -->
     <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
@@ -69,10 +69,9 @@
         <h4 class="poppins-body-semibold">Display 04 Semi Bold </h4>
        </div> <hr>
       </div>
-    </div>  
+    </div>   
      
-  <!-- Body 2 -->
-
+    <!-- Body 2   -->
     <div class="container">
       <div class="row align-items-start">
        <div class=" col ">
@@ -91,7 +90,7 @@
     <div class="container"><br>
       <p class="inter">Inter</p>
       <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2EM </p>
-    </div> 
+    </div>  
 
     <!-- Heading 1 -->
     <div class="container">
@@ -187,6 +186,37 @@
        </div>
       </div>
     </div> 
+  <!-- </div> -->
   </div>
+</div>
+ <!-- <template>  
+<div class="bd-cheatsheet container-fluid bg-body"> </div>
+
+      <div>
+        <div class="bd-example">
+        <p class="display-1">Display 1</p>
+        <p class="display-2">Display 2</p>
+        <p class="display-3">Display 3</p>
+        <p class="display-4">Display 4</p>
+        <p class="display-5">Display 5</p>
+        <p class="display-6">Display 6</p>
+        </div>
+
+        <div class="bd-example">
+        <p class="h1">Heading 1</p>
+        <p class="h2">Heading 2</p>
+        <p class="h3">Heading 3</p>
+        <p class="h4">Heading 4</p>
+        <p class="h5">Heading 5</p>
+        <p class="h6">Heading 6</p>
+        </div>
+
+        <div class="bd-example">
+        <p class="lead">
+          This is a lead paragraph. It stands out from regular paragraphs.
+        </p>
+        </div>
+  </div>  -->
+  
 </template>
 
