@@ -4,7 +4,47 @@
 @import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
+@import 'css/register.css';
+@import 'css/consumer.css';
 
-#app {
-  max-width: 1280px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/font_styles/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/font_styles/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/font_styles/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/font_styles/Inter-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/font_styles/Inter-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/font_styles/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
 }

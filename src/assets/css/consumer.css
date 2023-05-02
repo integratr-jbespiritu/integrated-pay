@@ -1,0 +1,151 @@
+.consumer-login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: var(--vt-c-bs-gradient), url('src/assets/images/Login background.svg');
+    background-size: cover;
+    background-position: center center;
+}
+/* consumer label */
+.consumer-login-page .text-white  {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    word-break: break-all;
+    bottom: 2rem;
+}
+
+.consumer-login-page .text-white h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.consumer-login-page .text-white span {
+    font-weight: 900;
+    color: var(--vt-c-blue);
+}
+
+.consumer-login-page .col-md-8 form {
+    box-sizing: border-box;
+    background-color: var(--vt-c-default-white);
+    border: none;
+    padding: 20px;
+    width: 592px;
+    height: 387px;
+    right: 2.5rem;
+}
+/* adjusting input fields */
+.consumer-login-page .col-md-8 form .form-content {
+    bottom: 1rem;
+}
+/* color of input label */
+.consumer-login-page .col-md-8 form .form-content label {
+    color: var(--vt-c-grayish);
+}
+/* input fields */
+.consumer-login-page .col-md-8 form  .form-floating input {
+    border-radius: 0%;
+}
+
+.consumer-login-page .col-md-8 form  .form-floating input {
+    box-shadow: none;
+}
+/* sign in to your acc   */
+.consumer-login-page .divider .text-center {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+    color: var(--vt-c-black);
+    bottom: 1rem;
+    right: 6rem;
+}
+
+.form-floating .isax {
+    font-size: 24px;
+}
+
+form .divider .text-center {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+    right: 4.5rem;
+}
+
+form .d-flex .forgot-pass {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--vt-c-purple);
+    bottom: 1.6rem;
+}
+/* sign up link */
+form .text-center .link-danger {
+    font-family: 'Inter', sans-serif;
+    color: var(--vt-c-purple);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    top: 1.8rem;
+    right: 5rem;
+}
+
+.consumer-login-page .col-md-8 form .login-button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--vt-c-purple);
+    border: none;
+    border-radius: 0%;
+    align-items: center;
+    padding: 10px 20px;
+    width: 103px;
+    height: 44px;
+    bottom: 1.5rem;
+}
+.consumer-login-page .col-md-8 form .login-button:focus {
+    box-shadow: none;
+  }
+/* remember me and checkbox */
+.consumer-login-page .col-md-8 form .d-flex .form-check {
+    bottom: 2rem;
+}
+  
+.consumer-login-page .col-md-8 form .d-flex .form-check-label span {
+    color: var(--vt-c-purple);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.consumer-login-page .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.consumer-login-page .pt-8 .link-danger {
+    top: 0rem;
+    left: 0rem;
+}
+
+.consumer-login-page input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: var(--vt-c-default-white);
+    cursor: pointer;
+}
+  
+.consumer-login-page input[type="checkbox"]:checked {
+    background-color: var(--vt-c-purple);
+}
+
+.consumer-login-page input[type="checkbox"]:focus {
+    box-shadow: none;
+}
