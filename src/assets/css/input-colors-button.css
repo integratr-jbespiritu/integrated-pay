@@ -95,8 +95,9 @@
  }
  
  .default-search  {
-   padding-left: 3.5rem;
+   padding-left: 3rem;
    background: var(--vt-c-black);
+   -webkit-text-fill-color: azure;
  }
 
  .default-search-purple {
@@ -104,7 +105,7 @@
  }
 
  .selected-search {
-   padding-left: 3.5rem;
+   padding-left: 3rem;
    color: var(--vt-c-violet);
    border-bottom:2px solid var(--vt-c-purple)
  }
