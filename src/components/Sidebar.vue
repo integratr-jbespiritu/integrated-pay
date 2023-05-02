@@ -1,75 +1,65 @@
 <template>
-  <div class="sidebar">
-        <div class="account">
-            <h5>Juan Dela Cruz</h5>
-            <p>Admin</p>
-      </div>  
-       <div class="notification-row">
-    <i class="icon isax isax-category5"></i>
-    <h3>Dashboard</h3>
-    <span class="notification-number">3{{ notificationCount }}</span>
-  </div>
-      <p class="services">services</p>
-      <div class="menu">
-        <ul>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i>
-            <a href="#">Reports</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Payment Channels</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 4</a>
-          </div>
-           <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 5</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 6</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 7</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 8</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 9</a>
-          </div>
-          <div class="main-menu">
-            <i class="isax isax-dcube5"></i> 
-            <a href="#">Service 10</a>
-          </div>
-          <div class="xtended-menu">
-            <i class="isax isax-setting5"></i>
-            <a href="#">Settings</a>
-          </div>
-          <div class="xtended-menu">
-            <i class="isax isax-logout5"></i>
-            <a href="#">Logout</a>
-          </div>
-          </ul>
-          </div>
+   <div class="container-fluid">
+      <div class="sidebar">
+         <div class="sidebar-header">
+            <div class="account">
+               <a href="#">{{ accountName }}</a>
+               <p>Admin</p>
+            </div>
+         </div>
+         <div class="dashboard">
+            <a href="#"><i class="icon isax isax-category5"></i> Dashboard</a>
+            <div class="notification-row">
+               <span class="notification-number">{{ notificationCount }}</span>
+            </div>
+            <p class="services">services</p>
+         </div>
+         <ul class="nav flex-column">
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Reports</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Payment Channels</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 4</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 5</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 6</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 7</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 8</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 9</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-dcube5"></i> Service 10</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-setting5"></i> Settings</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="isax isax-logout5"></i> Logout</a>
+            </li>
+         </ul>
       </div>
+   </div>
 </template>
-
 <script>
-
-export default {
-  data() {
-    return {
-      accountName: 'Juan Dela Cruz',
-      notificationNumber: 3,
-    };
-  },
-};
-
+   export default {
+     data() {
+       return {
+         accountName: 'Juan Dela Cruz',
+         notificationCount: 3
+       };
+     },
+   };
+   
 </script>

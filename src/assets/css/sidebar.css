@@ -1,113 +1,107 @@
 .sidebar {
-    width: 286px;
-    height: 1743px;
-    background-color: var(--vt-c-purple);
-    font-family: 'Poppins', sans-serif;
-    color: var(--vt-c-default-white);
-    position: absolute;
-  }
-  
-  .sidebar .account {
-    background-color: var(--vt-c-blue);
-    width: 286px;
-    height: 82px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .sidebar .account h5 {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 18px;
-    margin-top: 20px;
-  }
-  
-  .sidebar .account p {
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 18px;
-  }
-  
-  .sidebar .notification-row .icon {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 23px;
-    bottom: 8.33%;
-  }
-  
-  .sidebar .notification-row h3 {
-    position: absolute;
-    width: 91px;
-    height: 24px;
-    left: 58px;
-    top: 20px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-  }
-  
-  .sidebar .notification-row .notification-number {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1px 8px;
-    width: 24px;
-    height: 22px;
-    background: var(--vt-c-light-blue);
-    color: var(--vt-c-black);
-    border-radius: 100px;
-    font-weight: 600;
-    font-size: 12px;
-    left: 78%;
-    top: 20px;
-  }
-  
-  .sidebar .services {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-transform: uppercase;
-    top: 32px;
-    left: 20px;
-  }
-  
-  .sidebar .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    width: 284px;
-    margin: 44px;
-    margin-bottom: 45px;
-    margin-left: 24px;
-  }
-  
-  .sidebar .menu .main-menu:hover {
-    background-color: var(--vt-c-black);
-    margin: 0%;
-  }
-  
-  .sidebar .menu a {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    margin-left: 12px;
-    gap: 78%;
-    color: var(--vt-c-default-white);
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 24px;
-  }
-  
-  .sidebar .menu i {
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: 0.5em;
-  }
-  
-  .sidebar .menu .xtended-menu {
-    top: 24px;
-  }
+  width: 284px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--vt-c-purple);
+  color: var(--vt-c-default-white);
+  z-index: 1;
+}
+
+.sidebar-header {
+  background-color: var(--vt-c-blue);
+  width: 284px;
+  height: 82px;
+}
+
+.sidebar-header .account {
+  text-align: center;
+  top: 1.2rem;
+  right: .5rem;
+}
+
+.sidebar-header .account a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--vt-c-default-white);
+}
+
+.sidebar-header .account p {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.sidebar .dashboard a {
+  color: var(--vt-c-default-white);
+  left: 2.7rem;
+  top: 1rem;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sidebar .dashboard i {
+  font-size: 24px;
+  right: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-item:hover {
+  background-color: black;
+  margin: 0%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  height: 2.5rem;
+}
+
+.sidebar ul {
+  left: 0rem;
+  top: 0rem;
+}
+
+.sidebar .nav-item a {
+  color: var(--vt-c-default-white);
+  left: 1rem;
+}
+
+.sidebar .nav-item, .sidebar .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-link i {
+  margin-right: 10px;
+  font-size: 24px;
+  right: .5rem;
+}
+
+.sidebar .notification-row .notification-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24px;
+  height: 22px;
+  background: var(--vt-c-light-blue);
+  color: var(--vt-c-black);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 12px;
+  left: 78%;
+  bottom: .5rem;
+  justify-content: center;
+}
+
+.sidebar .services {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  top: 1rem;
+  left: 1rem;
+} 
