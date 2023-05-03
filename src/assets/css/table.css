@@ -1,0 +1,15 @@
+.table-heading1{
+    padding-right: 2.25rem !important;
+    color: var(--vt-c-purple); 
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.text-start{
+   font-size: 1rem;
+}
+.btn{
+    border-radius: 0;
+    width: 115px;
+    height: 40px; 
+}
