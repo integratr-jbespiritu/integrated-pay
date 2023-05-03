@@ -12,10 +12,12 @@ import LoginConsumer from '../views/LoginConsumer.vue'
 
 <template>
   <main>  
-    <Header />
-    <!-- <Sidebar/> -->
-    <TheTypography />
-    <Table />
+    <!-- <Header />
+    <Sidebar/> -->
+    <Login />
+    <LoginConsumer />
+    <!-- <TheTypography />
+    <Table /> -->
     <Footer />
   </main>
 </template>

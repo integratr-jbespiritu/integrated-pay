@@ -1,71 +1,66 @@
 /* TICKET NAME: FOOTER */
-.footer {
-  padding: 40px;
-  font-family: 'Poppins', sans-serif;
-  color: var(--vt-c-purple);
-  background-color: var(--vt-c-default-white);
+@media only screen and (max-width: 576px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .nav.sitemmap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .nav.sitemmap .nav-link {
+    padding: 0.25rem 0.5rem;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .text-align-end {
+    text-align: center;
+  }
 }
 
-.footer .row {
-  justify-content: space-around;
+@media only screen and (min-width: 576px) {
+  .nav.sitemmap .nav-link {
+    padding: 0.25rem 0.5rem;
+  }
+  .social {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav.sitemmap {
+    margin-bottom: 0;
+  }
+  .social {
+    gap: 1rem;
+  }
+}
+
+.footer {
+    font-family: 'Poppins' sans-serif;
+    color: var(--vt-c-purple);
+    background-color: var(--vt-c-default-white);
+}
+
+.footer .nav .nav-item a {
+    color: var(--vt-c-purple);
+}
+
+.footer .nav i {
+    color: var(--vt-c-purple);
+    font-size: 24px;
 }
 
 .footer .logo img {
-  width: 150px;
-  left: .5rem;
-}
-
-.footer .sitemap {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.footer .sitemap li {
-  margin-bottom: 10px;
-}
-
-.footer .sitemap a {
-  text-decoration: none;
-  color: var(--vt-c-purple);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-  margin: .5rem;
-  top: 1.5rem;
-}
-
-.footer .social {
-  list-style-type: none;
-  text-align: center;
-  margin-bottom: 30px;
-  left: 33.5rem;
-}
-
-.footer .social li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer .social a {
-  color: var(--vt-c-purple);
-  font-size: 25px;
-}
-
-.footer .social i {
-  font-size: 20px;
-  margin: .4rem;
-}
-
-.footer .social i:hover {
-  color: var(--vt-c-purple);
-}
-
-.footer .copy {
-  text-align: center;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: -0.204545px;
-  top: 4.1rem;
-  left: .5rem;
+    width: 150px;
 }

@@ -1,122 +1,61 @@
-/* Amplify your payments with */
-.row .col-md-6 .carousel-caption h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    font-size: 36px;
-    margin: 0 0 10px;
-}
-/* ampliPAY */
-.row .col-md-6 .carousel-caption span {
-    color: var(--vt-c-blue);
-    font-weight: 900;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .row .col-md-6 .carousel-caption {
-    bottom: 29.5rem;
-    left: 5.5rem;
-  }
-
-.row  .login-form {
-    background-color: var(--vt-c-purple);
-}
-.row .login-form form {
-    background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-dim-gray);
-    box-sizing: border-box;
-    display: flex;
+@media (max-width: 576px) {
+  .row {
     flex-direction: column;
-    padding: 20px;
-    gap: 10px;
-    width: 592px;
-    height: 387px;
-    top: 8rem;
-    left: 5rem;
-}
-
-.row .login-form form .divider .text-heading {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 0px;
-    bottom: 1.7rem;
-}
-
-.row .login-form form .form-group {
-    bottom: 3rem;
-}
-
-.row .login-form form .form-group .form-floating input {
-    border-radius: 0%;
-}
-
-.row .login-form form .form-group .password-container {
-    bottom: .5rem;
-}
-
-.row input:focus {
-    box-shadow: none;
-}
-
-.row form .d-flex .forgot-pass {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    bottom: 3.7rem;
-}
-/* remember me checkbox */
-.row form .d-flex .form-check {
-    bottom: 4.2rem;
-}
-
-.row input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    background-color: var(--vt-c-default-white);
-    cursor: pointer;
-  }
-  
-.row input[type="checkbox"]:checked {
-    background-color: var(--vt-c-purple);
+    align-items: center;
   }
 
-  .row input[type="checkbox"]:focus {
-   border: none;
+  .col-md-6 {
+    margin-bottom: 2rem;
   }
-  
-.row .password-toggle {
+
+  .login-form {
+    max-width: 320px;
+  }
+
+  .carousel-caption {
+    position: relative;
+    top: unset;
+    transform: unset;
+  }
+}
+
+@media (min-width: 576px) {
+  .row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .col-md-6 {
+    margin-bottom: 0;
+  }
+
+  .login-form {
+    max-width: 400px;
+  }
+
+  .carousel-caption {
     position: absolute;
     top: 50%;
-    right: 10px;
     transform: translateY(-50%);
-    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  .row {
+    margin-top: 4rem;
   }
 
-.row .login-form form .text-center .login-button {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: var(--vt-c-purple);
-    border: none;
-    border-radius: 0%;
-    align-items: center;
-    width: 82px;
-    height: 44px;
-
+  .login-form {
+    max-width: 480px;
+  }
 }
 
-.row .login-form form .text-center .login-button:focus {
-    box-shadow: none;
-}
+@media (min-width: 1200px) {
+  .row {
+    margin-top: 6rem;
+  }
 
-.row .login-form form .pt-8 {
-    bottom: 3rem;
-}
-
-.row .login-form form .pt-8 a {
-    left: 0rem;
-    top: 1.3rem;
+  .login-form {
+    max-width: 560px;
+  }
 }

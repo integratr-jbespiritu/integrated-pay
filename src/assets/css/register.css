@@ -6,41 +6,41 @@
     background: var(--vt-c-bs-gradient), url('src/assets/images/Reg_img.svg');
     background-size: cover;
     background-position: center center;
-}
+  }
   
-.registration-page .col-md-8 form {
+  .registration-page .col-md-8 form {
     box-sizing: border-box;
     background-color: var(--vt-c-default-white);
     border: none;
     padding: 20px 0px;
-    width: 592px; 
+    width: 592px;
     height: 663px;
     right: 2.5rem;
-}
-
-.registration-page .col-md-8 form hr {
+  }
+  
+  .registration-page .col-md-8 form hr {
     border: 1px solid var(--vt-c-light-gray);
     bottom: 1.5rem;
-}
-/* adjusting input fields */
-.registration-page .col-md-8 form .form-content {
+  }
+  
+  .registration-page .col-md-8 form .form-content {
     bottom: 2.5rem;
     padding: 24px;
-}
-/* color of input label */
-.registration-page .col-md-8 form .form-content label {
+  }
+  
+  .registration-page .col-md-8 form .form-content label {
     color: var(--vt-c-grayish);
-}
-/* input fields */
-.registration-page .col-md-8 form  .form-floating input {
+  }
+  
+  .registration-page .col-md-8 form .form-floating input {
     border-radius: 0%;
-}
-
-.registration-page .col-md-8 form  .form-floating input:focus {
+  }
+  
+  .registration-page .col-md-8 form .form-floating input:focus {
     box-shadow: none;
-}
-/* create an account heading  */
-.registration-page .mx-6 {
+  }
+  
+  .registration-page .mx-6 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -48,13 +48,13 @@
     color: var(--vt-c-black);
     bottom: .5rem;
     left: 0rem;
-}
-
-.registration-page .form-floating .isax {
+  }
+  
+  .registration-page .form-floating .isax {
     font-size: 24px;
-}
-
-.registration-page .col-md-8 form .login-button {
+  }
+  
+  .registration-page .col-md-8 form .login-button {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -67,53 +67,55 @@
     width: 103px;
     height: 44px;
     bottom: 3.3rem;
-}
-
-.registration-page .col-md-8 form .login-button:focus {
+  }
+  
+  .registration-page .col-md-8 form .login-button:focus {
     box-shadow: none;
-}
-
-.registration-page .password-toggle {
+  }
+  
+  .registration-page .password-toggle {
     position: absolute;
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
     cursor: pointer;
-}
-/* accept terms */
-.registration-page .col-md-8 form .d-flex .form-check {
+  }
+  
+  .registration-page .col-md-8 form .d-flex .form-check {
     bottom: 3rem;
     left: 1.5rem;
-}
-
-.registration-page input[type="checkbox"] {
+  }
+  
+  .registration-page input[type="checkbox"] {
     width: 20px;
     height: 20px;
     background-color: var(--vt-c-default-white);
     cursor: pointer;
-}
+  }
   
-.registration-page input[type="checkbox"]:checked {
+  .registration-page input[type="checkbox"]:checked {
     background-color: var(--vt-c-purple);
-}
-
-.registration-page input[type="checkbox"]:focus {
-    box-shadow: none;
-}
+  }
   
-.registration-page .col-md-8 form .d-flex .form-check-label span {
+  .registration-page input[type="checkbox"]:focus {
+    box-shadow: none;
+  }
+  
+  .registration-page .col-md-8 form .d-flex .form-check-label span {
     color: var(--vt-c-purple);
     font-weight: 400;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-}
-  
-@media (max-width: 768px) {
-  .registration-page .col-md-8 form {
-    width: 100%;
-    padding: 10px;
   }
-    
+  
+  @media (max-width: 768px) {
+    .registration-page .col-md-8 form {
+      width: 100%;
+      max-width: 592px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+  
   .registration-page .divider .text-center {
     font-size: 24px;
   }
