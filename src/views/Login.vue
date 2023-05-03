@@ -50,7 +50,11 @@ import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
-<<<<<<< HEAD
+  name: "Login",
+   components: {
+      Header,
+      Footer
+  },
   methods: {
     redirectToRegistration() {
       this.$router.push('/registration');
@@ -58,12 +62,3 @@ export default {
   }
 }
 </script>
-=======
-  name: "Login",
-   components: {
-      Header,
-      Footer
-   }
-};
-</script>
->>>>>>> develop
