@@ -5,17 +5,13 @@ import Sidebar from '../components/Sidebar.vue'
 import TheTypography from '../components/TheTypography.vue'
 import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vue';
 import Table from '../components/Table.vue';
-
-
-
-
 </script>
 
 <template>
   <main>  
     <Header />
     <Sidebar/>
-      <TheTypography />
+    <TheTypography />
     <InputFieldsColorsButton/>
     <Table /> 
     <Footer />

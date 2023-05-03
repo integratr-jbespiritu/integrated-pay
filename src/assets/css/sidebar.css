@@ -1,0 +1,85 @@
+.sidebar {
+    width: 248px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--vt-c-purple);
+    color: var(--vt-c-default-white);
+    z-index: 1;
+}
+.sidebar-header {
+    background-color: var(--vt-c-blue);
+    width: 248px;
+    height: 82px;
+}
+.sidebar-header .account {
+    text-align: center;
+    top: 1.2rem;
+    right: 0.5rem;
+}
+.sidebar-header .account a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--vt-c-default-white);
+}
+.sidebar-header .account p {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+.sidebar .dashboard a {
+    color: var(--vt-c-default-white);
+    left: 2.7rem;
+    top: 1.3rem;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.sidebar .dashboard i {
+    font-size: 24px;
+    right: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.sidebar li {
+    line-height: 2.3rem;
+}
+.sidebar .nav li:hover {
+    background-color: var(--vt-c-black);
+    margin: 0%;
+}
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.sidebar .nav-link i {
+    font-size: 24px;
+    margin-left: 0.4rem;
+}
+.sidebar .notification-row .notification-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+    height: 22px;
+    background: var(--vt-c-light-blue);
+    color: var(--vt-c-black);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    left: 80%;
+    bottom: 0.1rem;
+    justify-content: center;
+}
+.sidebar .services {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    top: 1rem;
+    left: 1rem;
+}
