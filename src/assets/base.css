@@ -30,11 +30,13 @@
   --vt-c-black: #000000;
   --vt-c-light-black: #2B2B2B;
   --vt-c-default-white: #FFFFFF;
-  --vt-c-white: #CCCCCC;
+  --vt-c-white: #f9f9f9;
   --vt-c-sky:#407BE2;
   --vt-c-light-purple: #E9DBF9;
   --vt-c-lavender: #7755D6;
   --vt-c-violet:#5A32C7;
+  --vt-c-dark-gray :#AAAAAA;
+  --vt-c-light-green: #34AEA7;
   --vt-c-light-red: #F64771;
   --vt-c-yellow: #F4B91D;
   --vt-c-green: #27AE60;

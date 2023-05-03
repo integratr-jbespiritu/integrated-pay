@@ -4,8 +4,15 @@
     align-items: center;
   }
 
-  .col-md-6 {
-    margin-bottom: 2rem;
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: var(--vt-c-default-white);
+    cursor: pointer;
+  }
+
+input[type="checkbox"]:checked {
+    background-color: var(--vt-c-purple);
   }
 
   .login-form {
@@ -17,23 +24,8 @@
     top: unset;
     transform: unset;
   }
-}
 
-@media (min-width: 576px) {
-  .row {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .col-md-6 {
-    margin-bottom: 0;
-  }
-
-  .login-form {
-    max-width: 400px;
-  }
-
-  .carousel-caption {
+.password-toggle {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
