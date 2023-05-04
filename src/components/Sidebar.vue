@@ -52,7 +52,9 @@
                <div class="height-auto scrollable">
                   <template v-for="module_type in module_services.module_types" :key="module_type">
                      <nav class="nav flex-column">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: module_type.route}" >
                            <li><a class="text-md-center text-nowrap nav-link text-light" href="#"><i class="isax isax-dcube5 me-2"></i>{{module_type.name}}</a></li>
+                        </router-link>
                      </nav>
                   </template>
                </div>
@@ -60,7 +62,6 @@
             <nav class="nav flex-column">
                <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-setting5  me-2"></i>Settings</a></li>
                <li><router-link class="text-sm-center nav-link text-light" :to="{name: 'login'}" ><i class="isax isax-logout5 me-2"></i>Logout</router-link></li>
-                
             </nav>
          </div>
       </div>
@@ -76,16 +77,20 @@ export default {
                title: 'Services',
                module_types: [
                   {
-                     name: 'Transactions'
+                     name: 'Transactions',
+                     route: ''
                   },
                   {
-                     name: 'Disbursement'
+                     name: 'Disbursement',
+                     route: ''
                   },
                   {
-                     name: 'Payment Channels'
+                     name: 'Payment Channels',
+                     route: 'payments'
                   },
                   {
-                     name: 'Developers'
+                     name: 'Developers',
+                     route: ''
                   }
                ]
             },

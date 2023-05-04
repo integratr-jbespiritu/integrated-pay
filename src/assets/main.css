@@ -124,8 +124,6 @@
   background: var(--vt-c-blue) !important;
   border-radius: 10px;
 }
-
-
 /* Badges */
 .badge {
   background: var(--vt-c-light-blue);
