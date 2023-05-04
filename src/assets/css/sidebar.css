@@ -1,5 +1,5 @@
 .sidebar {
-    width: 248px;
+    width: 258px;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -9,10 +9,12 @@
     color: var(--vt-c-default-white);
     z-index: 1;
 }
+.sidebar .sidebar-header{
+    width: 258px;
+}
 .sidebar-header {
-    background-color: var(--vt-c-blue);
+    background-color: var(--vt-c-black);
     width: 248px;
-    height: 82px;
 }
 .sidebar-header .account {
     text-align: center;
@@ -54,32 +56,22 @@
 .sidebar .nav-link {
     display: flex;
     align-items: center;
-    gap: 1.3rem;
 }
 .sidebar .nav-link i {
     font-size: 24px;
     margin-left: 0.4rem;
 }
-.sidebar .notification-row .notification-number {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 24px;
-    height: 22px;
-    background: var(--vt-c-light-blue);
-    color: var(--vt-c-black);
-    border-radius: 100px;
-    font-weight: 600;
-    font-size: 12px;
-    left: 80%;
-    bottom: 0.1rem;
-    justify-content: center;
-}
-.sidebar .services {
+.sidebar .sub-menu {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
     top: 1rem;
     left: 1rem;
+}
+.sidebar .flex-column {
+    font-family: Poppins-Semibold;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0%;
 }

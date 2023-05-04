@@ -1,47 +1,41 @@
 <template>
    <Header/>
-   <section class="vh-100">
-      <div class="container-fluid h-custom">
-         <div class="row d-flex h-100">
-            <div class="col-md-10 col-lg-6 image-column">
-               <div class="carousel-caption d-md-block">
-                  <div class="text-start">
-                  <h2>Amplify your payments</h2>
-                  <h2>with<span>ampliPAY.</span></h2>
-                  </div>
-               </div>
+   <div class="row gx-0 g-0">
+      <div class="col image-column p-5">
+         <div class="title-1 text-white">Amplify your payments</div>
+         <div class="d-flex">
+            <div class="title-1 text-white">with</div>
+            <div class="text-blue title-1">&nbsp;ampliPAY.</div>
+         </div>
+      </div>
+      <div class="col bg-purple container-box pad-x-40p">
+         <div class="card-box pad-x-10p p-4">
+            <p class="title-2 mx-6 mt-0">Sign in to your account</p>
+            <div class="form-floating border-light mb-3 mt-3">
+               <input type="email" class="form-control input-text" id="floatingInput" placeholder="name@example.com" value="juandelacruz@gmail.com">
+               <label for="floatingInput">Email address</label>
             </div>
-            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-               <form>
-                  <div class="divider d-flex my-4">
-                     <p class="text-heading mx-6">Sign in to your account</p>
-                  </div>    
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="juandelacruz@gmail.com">
-                    <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="password-container form-floating">
-                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                     <i class="isax isax-eye-slash password-toggle"></i>
-                     <label for="floatingPassword">Password</label>
-                    </div>
-                  <div class="d-flex justify-content-between align-items-center">
-                     <div class="form-check mb-0 pt-2">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
-                        <label class="form-check-label" for="cbox">Remember me</label>
-                     </div>
-                     <a href="#!" class="forgot-pass">Forgot password?</a>
-                  </div>
-                  <div class="text-center mt-8 pt-8">
-                     <router-link :to="{name: 'home'}" class="login-button btn btn-primary btn-lg" style="">Login</router-link>
-                     <br>
-                     <a href="#" class="link-danger">Sign up</a>
-                  </div>
-               </form> 
+            <div class="password-container form-floating border-light">
+               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+               <i class="isax isax-eye-slash password-toggle fs-4"></i>
+               <label for="floatingPassword">Password</label>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+               <div class="form-check mb-0 pt-2">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
+                  <label class="form-check-label" for="cbox">Remember me</label>
+               </div>
+               <a href="#!" class="forgot-pass text-decoration-none text-purple fw-bold mt-2">Forgot password?</a>
+            </div>
+            <div class="text-center mt-3 pt-1">
+               <router-link :to="{name: 'home'}" class="button-1 text-decoration-none" style="">Login</router-link>
+               <div class="mt-4 mb-0">
+                  <a href="#" class="link-danger text-decoration-none text-purple fw-bold">Sign up</a>
+               </div>
             </div>
          </div>
       </div>
-   </section>
+   </div>
    <Footer/>
 </template>
 
