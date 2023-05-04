@@ -17,8 +17,7 @@ import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vu
       <Sidebar />
              <TheTypography />
              <InputFieldsColorsButton/>
-      <!-- <InputFieldsColorsButton/>
       <Table />
-      <Footer /> -->
+      <Footer /> 
   </main>
 </template>
