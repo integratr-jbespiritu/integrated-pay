@@ -1,18 +1,24 @@
-.header{
+.header {
+    width: 1479px;
     height: 60px;
     gap: 10px;
     background: var(--vt-c-black);
 }
-.header img{
+.header img {
+    /* width: 132.49px; height: 36px; */
     bottom: 1rem;
-    padding-top: 1px;
-    padding-left: 29px;
+    padding-top: 12px;
+    padding-left: 20px;
     max-width: 100%;
+    padding-right: 20px;
     padding-right: 20px;
 }
 .icon-search{
     height: 5.6rem;
     color: var(--vt-c-white);
+    padding-top: 2rem;
+    padding-left: 35rem;
+    font-size: 25px;
     margin-right: 52rem;
     font-size: 25px;
 }

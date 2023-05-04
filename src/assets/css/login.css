@@ -110,7 +110,7 @@ input[type="checkbox"] {
     background-color: var(--vt-c-default-white);
     cursor: pointer;
   }
-  
+
 input[type="checkbox"]:checked {
     background-color: var(--vt-c-purple);
   }
@@ -118,7 +118,7 @@ input[type="checkbox"]:checked {
 .password-container {
     position: relative;
   }
-  
+
 .password-toggle {
     position: absolute;
     top: 50%;

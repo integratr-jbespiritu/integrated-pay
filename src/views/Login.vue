@@ -1,4 +1,5 @@
 <template>
+   <Header/>
    <section class="vh-100">
       <div class="container-fluid h-custom">
          <div class="row d-flex h-100">
@@ -32,18 +33,27 @@
                      <a href="#!" class="forgot-pass">Forgot password?</a>
                   </div>
                   <div class="text-center mt-8 pt-8">
-                     <button type="button" class="login-button btn btn-primary btn-lg" style="">Login</button> <br>
-                      <a href="#" class="link-danger">Sign up</a>
+                     <router-link :to="{name: 'home'}" class="login-button btn btn-primary btn-lg" style="">Login</router-link>
+                     <br>
+                     <a href="#" class="link-danger">Sign up</a>
                   </div>
                </form> 
             </div>
          </div>
       </div>
    </section>
+   <Footer/>
 </template>
 
 <script>
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
+
 export default {
   name: "Login",
+   components: {
+      Header,
+      Footer
+   }
 };
 </script>
