@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar.vue'
 import TheTypography from '../components/TheTypography.vue'
 import Table from '../components/Table.vue';
 import Transaction from '../components/Transaction.vue';
-import Issuerefund from '../components/Issuerefund.vue';
 
 
 
@@ -13,12 +12,11 @@ import Issuerefund from '../components/Issuerefund.vue';
 
 <template>
   <main>
-      <Header />
-      <Sidebar />
-      <TheTypography />
-      <Table />
-      <Transaction />
-      <Issuerefund />
-      <Footer />
+         <Header />
+       <Sidebar />    
+      <TheTypography /> 
+      <Table />  
+         <Transaction />   
+      <Footer />   
   </main>
 </template>
