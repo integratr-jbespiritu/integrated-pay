@@ -1,32 +1,73 @@
 <template>
     <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+      <div class="row gx-0 g-0 gy-4">
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="col">
             <img src="src/assets/images/Logo.svg" alt="Logo">
-          <ul>
-            <a class="menu-item1" href="#">About Us</a>
-            <a class="menu-item2" href="#">Contact Us</a>
-            <a class="menu-item3" href="#">Terms of Use</a>
-            <a class="menu-item4" href="#">Privacy Policy</a>
-          </ul>
           </div>
-        <div class="col-md-4">
-          <ul class="social">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </ul>
-          <p>&copy; 2022 Integratr Corporation, All Rights Reserved</p>
+          <div class="col">
+            <div class="row gx-0 g-0 gy">
+              <div class="col">
+                <template v-for="quick_link in quick_links" :key="quick_link">
+                  <a class="text-decoration-none text-purple me-5" href="#">{{quick_link.name}}</a>
+                </template>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
+        <div class="col-12 col-md-6 col-lg-6 fs-5">
+          <div class="row gx-0 g-0">
+            <div class="col-12 justify-content-start justify-content-md-end justify-content-lg-end d-flex">
+              <div class="mt-1">
+                <template v-for="account in social_media" :key="account">  
+                  <a href="#"><i class="fab text-purple pe-3" :class="account.icon"></i></a>
+                </template>
+              </div>
+            </div>
+            <div class="col justify-content-start justify-content-md-end justify-content-lg-end d-flex">
+              <div class="fs-6 pe-3 mt-3">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 </template>
 
 <script>
 export default {
   name: "Footer",
+
+  data() {
+    return {
+      quick_links: [
+        {
+          name: 'About Us'
+        },
+        {
+          name: 'Contact Us'
+        },
+        {
+          name: 'Terms of User'
+        },
+        {
+          name: 'Privacy Policy'
+        },
+      ],
+      social_media: [
+        {
+          icon: 'fab fa-twitter'
+        },
+        {
+          icon: 'fab fa-facebook-f'
+        },
+        {
+          icon: 'fab fa-youtube'
+        },
+        {
+          icon: 'fab fa-instagram'
+        }
+      ]
+    }
+  }
 };
 </script>
