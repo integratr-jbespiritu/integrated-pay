@@ -3,15 +3,15 @@
   <Header />
   <div class="payments container bg-light" style="margin-left: 12rem;">
     <div class="row gx-1 mx-5">
-      <header class="header bg-light lh-1 p-4">
+      <header class="header bg-light lh-1 p-3">
         <div class="col-12">
           <a class="title-2 text-decoration-none text-dark mx-3" href="#">Payment Channels</a>
         </div>
       </header>
-      <div class="gx-5 g-3" style="margin-left: 2rem;">
+      <div class="gx-4 g-3" style="margin-left: 2rem;">
         <div class="row">
           <div class="col">
-            <div class="p-4 pe-5 px-5 bg-white">
+            <div class="p-3 pe-5 px-4 bg-white">
               <div class="title-4">
                 Payment Options
               </div>
