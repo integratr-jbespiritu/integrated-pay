@@ -36,10 +36,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <a class="text-sm-center nav-link text-light" href="#">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer'}" >
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
-                        </a>
+                        </router-link>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <span class="badge badge-count">4/4</span>

@@ -11,13 +11,14 @@ import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vu
 
 </script>
 
+
 <template>
   <main>
       <Header />
       <Sidebar />
              <TheTypography />
              <InputFieldsColorsButton/>
-      <InputFieldsColorsButton/>
       <Table />
+      <Footer /> 
   </main>
 </template>

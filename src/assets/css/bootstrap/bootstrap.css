@@ -2001,6 +2001,9 @@ progress {
   border-color: #bacbe6;
 }
 
+.bor-style-solid-perma{
+  border-style: solid;
+}
 .table-secondary {
   --bs-table-bg: #e2e3e5;
   --bs-table-striped-bg: #d7d8da;
@@ -10859,6 +10862,9 @@ textarea.form-control-lg {
   .plus-icon-size{
     font-size: 5px;
   }
+}
+.border-bottom-solid{
+  border-bottom: 3px solid ;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

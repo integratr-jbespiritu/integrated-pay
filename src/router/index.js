@@ -30,6 +30,11 @@ const router = createRouter({
       component: HomeView
     }, 
     {
+      path: '/consumer',
+      name: 'consumer',
+      component: HomeView
+    }, 
+    {
       path: '/dashboard',
       name: 'dashboard',
       component: Dashboard
@@ -38,7 +43,8 @@ const router = createRouter({
       path: '/payments',
       name: 'payments',
       component: PaymentChannels
-    },
+    }, 
+    ,
   ]
 })
 
