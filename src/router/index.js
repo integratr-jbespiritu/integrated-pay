@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
 import Registration from '../views/Registration.vue'
 import LoginConsumer from '../views/LoginConsumer.vue'
-import Dashboard from '../views/Dashboard.vue'
 import PaymentChannels from '../views/PaymentChannels.vue'
 
 const router = createRouter({
@@ -28,17 +27,7 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: HomeView
-    }, 
-    {
-      path: '/consumer',
-      name: 'consumer',
-      component: HomeView
-    }, 
-    {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Dashboard
-    },
+    },  
     {
       path: '/payments',
       name: 'payments',
@@ -48,7 +37,7 @@ const router = createRouter({
       path: '/activate-account',
       name: 'Activate Account',
       component: ActivateAccount
-    },
+    }
  ]
 })
 
