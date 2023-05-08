@@ -7,6 +7,10 @@
 @import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
+@import 'css/consumer.css';
+@import 'css/register.css';
+@import 'css/dashboard.css';
+@import 'css/paymentChannels.css';
 
 @font-face {
   font-family: Poppins-Semibold;
@@ -26,7 +30,7 @@
   font-family: Poppins-Bold;
   src: url('../assets/font_styles/Poppins-Bold.ttf') format(truetype);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 @font-face {
@@ -130,8 +134,6 @@
   background: var(--vt-c-blue) !important;
   border-radius: 10px;
 }
-
-
 /* Badges */
 .badge {
   background: var(--vt-c-light-blue);
@@ -146,7 +148,7 @@
 .badge.badge-notification {
   border-radius: 100%;
 }
-
+/* background colors */
 .bg-black {
   background-color: var(--vt-c-black);
 }
@@ -154,7 +156,7 @@
 .bg-purple {
   background: var(--vt-c-purple);
 }
-
+/* text primary colors */
 .text-purple {
   color: var(--vt-c-purple);
 }
@@ -166,7 +168,10 @@
 .text-white {
   color: var(--vt-c-white);
 }
-
+.text-gray {
+  color: var(--vt-c-light-gray);
+}
+/* heading/title format */
 .title-1 {
   font-family: Poppins-Bold;
   font-weight: 700;
@@ -181,11 +186,69 @@
   margin-bottom: 0px;
 }
 
-title-3 {
+.title-3 {
   font-family: Poppins-Semibold;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 0%;
+}
+
+.title-4 {
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0%;
+}
+
+.title-5 {
+  font-family: Inter-Regular;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-6 {
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-7 {
+  font-family: Inter-Semibold;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-8 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-9 {
+  font-family: Poppins-Bold;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.title-10 {
+  font-family: Inter-Black;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 0%;
+}
+
+.input-border-gray {
+  border-color: var(--vt-c-light-gray);
+}
+
+.border-seafoam {
+  border: 1px;
+  border-color: var(--vt-c-seafoam-green);
 }
 
 .card-box {
@@ -206,4 +269,9 @@ title-3 {
   background: var(--vt-c-purple);
   color: var(--vt-c-white);
   font-family: Inter-Regular;
+}
+
+.switch-blue {
+  /* border: var(--vt-c-blue); */
+  font-size: 24px;
 }

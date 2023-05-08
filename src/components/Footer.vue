@@ -3,10 +3,10 @@
       <div class="row gx-0 g-0 gy-4">
         <div class="col-12 col-md-6 col-lg-6">
           <div class="col">
-            <img src="src/assets/images/Logo.svg" alt="Logo">
+            <img class="px-5" src="src/assets/images/Logo.svg" alt="Logo">
           </div>
           <div class="col">
-            <div class="row gx-0 g-0 gy">
+            <div class="row gx-0 g-0 px-5">
               <div class="col">
                 <template v-for="quick_link in quick_links" :key="quick_link">
                   <a class="text-decoration-none text-purple me-5" href="#">{{quick_link.name}}</a>
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 fs-5">
-          <div class="row gx-0 g-0">
+          <div class="row gx-0 g-0 px-5">
             <div class="col-12 justify-content-start justify-content-md-end justify-content-lg-end d-flex">
               <div class="mt-1">
                 <template v-for="account in social_media" :key="account">  
