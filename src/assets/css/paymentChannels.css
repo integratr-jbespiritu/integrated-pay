@@ -1,0 +1,12 @@
+.paymets .form-check-input:checked {
+    background-color: var(--vt-c-blue);
+    border: var(--vt-c-blue);
+}
+  
+.paymets .form-check-input:focus {
+    box-shadow: none;
+}
+
+.payments .input-border:hover {
+    border-color: aquamarine;
+}
