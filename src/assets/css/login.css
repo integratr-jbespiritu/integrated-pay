@@ -1,25 +1,15 @@
-/* bg of form */
-.vh-100 .col-md-10 .carousel-caption {
-    position: absolute;
-    width: 592px;
-    height: 120px;
-    left: 74px;
-    top: 32px;
-}
-/* Sign in to your account  */
-.vh-100 .col-md-8 form .text-heading {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 0px;
-}
+
 /* div design for login btn and signup */
-.vh-100 .col-md-8 form .text-center {
+.login-form .col-md-8 form .text-center {
     padding: 10px 20px;
     height: 11px;
 }
+
+.login-form .form-check-label {
+    top: .1rem;
+}
 /* button */
-.vh-100 .col-md-8 form .text-center .login-button {
+.login-form .col-md-8 form .text-center .login-button {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -27,7 +17,7 @@
     box-shadow: none;
 }
 /* Amplify your payments with */
-.vh-100 .col-md-10 h2 {
+.login-form .col-md-10 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 40px;
@@ -35,7 +25,7 @@
     margin: 0 0 10px;
 }
 /* ampliPAY */
-.vh-100 .col-md-10  span {
+.login-form .col-md-10  span {
     color: var(--vt-c-blue);
     font-weight: 900;
     font-size: 40px;
@@ -50,7 +40,7 @@
     background: url('src/assets/images/Img.svg');
 }
 
-.vh-100 [type="checkbox"] {
+.login-form [type="checkbox"] {
     width: 20px;
     height: 20px;
     background-color: var(--vt-c-default-white);
@@ -58,14 +48,27 @@
     display: flex;
 }
 
-.vh-100 [type="checkbox"]:checked {
+.login-form [type="checkbox"]:checked {
     background-color: var(--vt-c-purple); 
 }
 
-.vh-100.password-container {
+.login-form.password-container {
     position: relative;
 }
-/* input fields */
-.vh-100 .form-control, form-floating {
+
+.login-form .forgot-pass:focus {
     color: var(--vt-c-purple);
-} 
+}
+
+.login-form .style-1:hover
+ {
+    color: var(--vt-c-purple);
+}
+
+.login-form input[type="email"]:focus {
+    box-shadow: none;
+}
+
+.login-form input[type="password"]:focus {
+    box-shadow: none;
+}
