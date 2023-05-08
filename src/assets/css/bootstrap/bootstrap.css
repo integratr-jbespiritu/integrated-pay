@@ -1262,6 +1262,7 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    
   }
 
   .col-md-7 {
@@ -2590,7 +2591,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .form-floating > .form-control,

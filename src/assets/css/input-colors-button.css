@@ -103,7 +103,7 @@
  }
 
  .default-search-purple {
-  border:var(--vt-c-purple);
+  border:var(--vt-c-light-green);
  }
 
  .selected-search {
@@ -114,51 +114,44 @@
 
  .default-search:focus , .default-search:hover {
     background: var(--vt-c-black);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
 
  .selected-search:focus , .selected-search:hover {
     background: var(--vt-c-default-white);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
  
  .default-search-light:focus , .default-search-light:hover {
     background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-light-gray); 
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
+    border: var(--vt-c-light-gray); 
  }
  
  .default-search-purple:focus , .default-search-purple:hover {
     background: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
  
  .default-duration:focus , .default-duration:hover {
     background: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
  
  .selected-duration:focus , .selected-duration:hover {
     background: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
  
  .selected-duration-purple {
-  border: 1px solid var(--vt-c-purple);
+    border: 1px solid var(--vt-c-purple);
  }
  
  .default-date-range:focus , .default-date-range:hover {
     background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
+    border: var(--vt-c-purple);
  }
  
  .selected-date-range:focus , .selected-date-range:hover {
     background: var(--vt-c-default-white);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
+    border: var(--vt-c-purple);
  }
 
  .password-toggle {
@@ -205,7 +198,7 @@
    background: var(--vt-c-default-white);
  }
  .click-hover-button {
-   width: 118px;
+   width: 114px;
    height: 42px;
    color: var(--vt-c-white);
    background: var(--vt-c-violet);
@@ -214,11 +207,11 @@
 
  .click-hover-button:hover , .click-hover-button:focus {
    background: var(--vt-c-violet);
-   box-shadow: 0 0 0 0.1rem  var(--vt-c-violet);
+   border:var(--vt-c-black);
  }
 
  .click-hover-outline {
-   width: 118px;
+   width: 114px;
    height: 42px;
    color: var(--vt-c-blue);
    border: 2px solid var(--vt-c-blue);
@@ -226,7 +219,7 @@
  }
 
  .click-hover-outline-purple {
-   width: 118px;
+   width: 114px;
    height: 42px;
    color: var(--vt-c-violet);
    border: 2px solid var(--vt-c-violet);
@@ -326,6 +319,17 @@
  .icon-eye , .icon-filter {
    color: var(--vt-c-default-white);
    font-size: 24px;
+ }
+
+ .icon-black {
+  color: var(--vt-c-default-white);
+  font-size: 24px;
+  margin-left: 1px;
+ }
+
+ .icon-select {
+  font-size: 24px;
+  margin-left: 1px;
  }
 
 .icon-span {

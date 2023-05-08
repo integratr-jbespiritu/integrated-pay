@@ -7,6 +7,7 @@
 @import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
+@import 'css/activate-account.css';
 
 
 @font-face {
@@ -200,4 +201,14 @@ title-3 {
   background: var(--vt-c-purple);
   color: var(--vt-c-white);
   font-family: Inter-Regular;
+}
+
+/* background colors */
+
+.bg-default-white {
+  background-color: #FFFFFF !important;
+}
+
+.bg-light-gray {
+  background-color: F9F9F9F !important;
 }
