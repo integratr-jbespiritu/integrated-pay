@@ -2002,6 +2002,9 @@ progress {
   border-color: #bacbe6;
 }
 
+.bor-style-solid-perma{
+  border-style: solid;
+}
 .table-secondary {
   --bs-table-bg: #e2e3e5;
   --bs-table-striped-bg: #d7d8da;
@@ -2465,18 +2468,26 @@ textarea.form-control-lg {
   background-position: left center;
   border-radius: 2em;
   transition: background-position 0.15s ease-in-out;
+  border-color: var(--vt-c-blue);
 }
 @media (prefers-reduced-motion: reduce) {
   .form-switch .form-check-input {
     transition: none;
+    background-color: var(--vt-c-blue);
   }
 }
 .form-switch .form-check-input:focus {
+  background-color: var(--vt-c-blue);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e");
 }
 .form-switch .form-check-input:checked {
+  background-color: var(--vt-c-blue);
+  color: var(--vt-c-blue);
   background-position: right center;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+.form-switch .form-check-input:hover {
+  background-color: var(--vt-c-blue);
 }
 
 .form-check-inline {
@@ -10852,6 +10863,9 @@ textarea.form-control-lg {
   .plus-icon-size{
     font-size: 5px;
   }
+}
+.border-bottom-solid{
+  border-bottom: 3px solid ;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

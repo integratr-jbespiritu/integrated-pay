@@ -3,7 +3,7 @@
     height: 60px;
     gap: 10px;
     background: var(--vt-c-black);
-}
+}npm
 .header img {
     /* width: 132.49px; height: 36px; */
     bottom: 1rem;
@@ -11,21 +11,22 @@
     padding-left: 20px;
     max-width: 100%;
     padding-right: 20px;
+    padding-right: 20px;
 }
-.icon-search {
-    width: 20.5px;
+.icon-search{
     height: 5.6rem;
     color: var(--vt-c-white);
     padding-top: 2rem;
     padding-left: 35rem;
     font-size: 25px;
+    margin-right: 52rem;
+    font-size: 25px;
 }
-.icon-notification5 {
-    width: 20.5px;
-    height: 5.6rem;
-    padding-top: 2rem;
-    font-size: 12px;
-    padding-left: 176.2rem;
+.icon-notification5{
+    height: 3.9rem;
+    padding-top: 2.1rem;
+    padding-right: 1rem;
     font-size: 25px;
     color: var(--vt-c-white);
+    margin-left: 84rem;
 }
