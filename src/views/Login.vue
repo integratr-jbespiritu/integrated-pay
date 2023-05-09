@@ -2,10 +2,9 @@
    <Header/>
    <div class="login-form row gx-0 g-0">
       <div class="col image-column p-5">
-         <div class="title-1 text-white">Amplify your payments</div>
+         <div class="title-9 text-white">Amplify your payments</div>
          <div class="d-flex">
-            <div class="title-1 text-white">with</div>
-            <div class="text-blue title-1">&nbsp;ampliPAY.</div>
+            <div class="title-9 text-white">with<span class="text-blue title-9"> ampliPAY</span>.</div>
          </div>
       </div>
       <div class="col bg-purple container-box pad-x-40p">
@@ -17,7 +16,7 @@
             </div>
             <div class="password-container form-floating border-light">
                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-               <i class="isax isax-eye-slash password-toggle fs-4"></i>
+               <i class="isax isax-eye-slash password-toggle fs-4 me-2"></i>
                <label for="floatingPassword" class="title-8 text-gray">Password</label>
             </div>
             <div class="d-flex justify-content-between align-items-center">
@@ -25,7 +24,7 @@
                   <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
                   <label class="form-check-label title-8" for="cbox">Remember Me</label>
                </div>
-               <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-2">Forgot password?</a>
+               <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-3">Forgot password?</a>
             </div>
             <div class="text-center mt-3 pt-1">
                <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>

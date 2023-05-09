@@ -5,6 +5,7 @@ import Registration from '../views/Registration.vue'
 import LoginConsumer from '../views/LoginConsumer.vue'
 import Dashboard from '../views/Dashboard.vue'
 import PaymentChannels from '../views/PaymentChannels.vue'
+import Transactions from '../views/Transactions.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,7 +45,11 @@ const router = createRouter({
       name: 'payments',
       component: PaymentChannels
     }, 
-    ,
+    {
+      path: '/transactions',
+      name: 'transactions',
+      component: Transactions
+    },
   ]
 })
 
