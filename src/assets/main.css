@@ -9,9 +9,9 @@
 @import 'css/login.css';
 @import 'css/consumer.css';
 @import 'css/register.css';
-@import 'css/dashboard.css';
 @import 'css/paymentChannels.css';
 @import 'css/transactions.css';
+@import 'css/activate-account.css';
 
 @font-face {
   font-family: Poppins-Semibold;

@@ -25,7 +25,7 @@
                 </template>
             </div>
             </div>
-            <div class="default-search-light input-group px-3 mx-4 mb-3 py-2">
+            <div class="jessa input-group">
                 <span class="input-group-text bg-light rounded-0" id="basic-addon1"><i class="isax isax-search-status-1 fs-4"></i></span>
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
             </div>  

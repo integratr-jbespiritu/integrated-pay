@@ -3,9 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
 import Registration from '../views/Registration.vue'
 import LoginConsumer from '../views/LoginConsumer.vue'
-import Dashboard from '../views/Dashboard.vue'
 import PaymentChannels from '../views/PaymentChannels.vue'
 import Transactions from '../views/Transactions.vue'
+import ActivateAccount from '../views/ActivateAccount.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,17 +29,7 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: HomeView
-    }, 
-    {
-      path: '/consumer',
-      name: 'consumer',
-      component: HomeView
-    }, 
-    {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Dashboard
-    },
+    },  
     {
       path: '/payments',
       name: 'payments',
@@ -50,7 +40,12 @@ const router = createRouter({
       name: 'transactions',
       component: Transactions
     },
-  ]
+    {
+      path: '/activate-account',
+      name: 'Activate Account',
+      component: ActivateAccount
+    },
+ ]
 })
 
 export default router
