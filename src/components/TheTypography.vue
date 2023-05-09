@@ -1,7 +1,7 @@
 <template> 
 <main class="container d-flex col-md-9 ms-sm-auto col-lg-10"> <br> 
  <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
-  <div class="content" style="margin-left: 15rem;"> 
+  <div class="content" style="margin-left:15rem;"> 
   <p class="inter">Poppins</p>
   <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2EM </p>
 

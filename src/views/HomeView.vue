@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar.vue'
 import TheTypography from '../components/TheTypography.vue'
 import Table from '../components/Table.vue';
 import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vue';
+import ActivateAccount from './ActivateAccount.vue';
 
 
 
@@ -14,11 +15,12 @@ import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vu
 
 <template>
   <main>
-      <Header />
-      <Sidebar />
-             <TheTypography />
-             <InputFieldsColorsButton/>
+        <Header /> 
+       <Sidebar /> 
+               <TheTypography />
+          <Input-Fields-Colors-Button/> 
+          <ActivateAccount/>
       <Table />
-      <Footer /> 
+      <Footer />  
   </main>
 </template>

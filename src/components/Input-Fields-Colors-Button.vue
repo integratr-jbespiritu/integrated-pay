@@ -73,14 +73,14 @@
     <div class="input-group mb-3">
         <input type="text" class="default-search form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
         <div class="position-absolute top-0 start-0 ms-4 pt-3">
-        <i class="icon-eye isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i>
+        <i class="icon-black isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i>
         </div>
     </div>      
      <!-- selected search -->
     <div class="input-group mb-3">
         <input type="text" class="selected-search form-control" placeholder="Selected Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
         <div class="position-absolute top-0 start-0 ms-4 pt-2">
-        <i class="icon isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i> 
+        <i class="icon-select isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i> 
         </div>
     </div> 
      <!-- default search -->
@@ -97,11 +97,11 @@
     <div class="default-duration input-group mb-3">
         <span class="icon-span input-group-text"><i class="isax isax-clock"></i></span>
         <select class="form-select" aria-label="Default select example">
-        <option selected>Default Duration</option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        </select>
+            <option selected>Default Duration</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>   
     </div>
   
      <!-- selected duration -->
