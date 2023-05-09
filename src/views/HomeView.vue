@@ -15,12 +15,11 @@ import ActivateAccount from './ActivateAccount.vue';
 
 <template>
   <main>
-        <Header /> 
-       <Sidebar /> 
-               <TheTypography />
-          <Input-Fields-Colors-Button/> 
-          <ActivateAccount/>
-      <Table />
-      <Footer />  
+      <Header />
+      <Sidebar />
+             <TheTypography />
+             <InputFieldsColorsButton/>
+             <ActivateAccount/>
+      <Table /> 
   </main>
 </template>

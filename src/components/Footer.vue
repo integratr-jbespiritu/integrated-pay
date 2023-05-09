@@ -9,7 +9,7 @@
             <div class="row gx-0 g-0 px-5">
               <div class="col">
                 <template v-for="quick_link in quick_links" :key="quick_link">
-                  <a class="text-decoration-none text-purple me-5" href="#">{{quick_link.name}}</a>
+                  <a class="quick-links text-decoration-none text-purple me-5" href="#">{{quick_link.name}}</a>
                 </template>
               </div>
             </div>
@@ -18,14 +18,14 @@
         <div class="col-12 col-md-6 col-lg-6 fs-5">
           <div class="row gx-0 g-0 px-5">
             <div class="col-12 justify-content-start justify-content-md-end justify-content-lg-end d-flex">
-              <div class="mt-1">
+              <div class="mt-1 mx-2">
                 <template v-for="account in social_media" :key="account">  
                   <a href="#"><i class="fab text-purple pe-3" :class="account.icon"></i></a>
                 </template>
               </div>
             </div>
             <div class="col justify-content-start justify-content-md-end justify-content-lg-end d-flex">
-              <div class="fs-6 pe-3 mt-3">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
+              <div class="fs-6 pe-3 mt-4">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
             </div>
           </div>
         </div>

@@ -21,10 +21,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'dashboard'}">
+                        <div class="text-sm-center nav-link text-light">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
-                        </router-link>
+                        </div>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <div class="badge badge-notification">3</div>
@@ -36,10 +36,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer'}" >
+                        <div class="text-sm-center nav-link text-light" >
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
-                        </router-link>
+                        </div>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <span class="badge badge-count">4/4</span>
@@ -52,7 +52,7 @@
                <div class="height-auto scrollable">
                   <template v-for="module_type in module_services.module_types" :key="module_type">
                      <nav class="nav flex-column">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: module_type.route}" >
+                        <router-link class="text-sm-center text-decoration-none text-light" :to="{name: module_type.route}" >
                            <li><a class="text-md-center text-nowrap nav-link text-light" href="#"><i class="isax isax-dcube5 me-2"></i>{{module_type.name}}</a></li>
                         </router-link>
                      </nav>
@@ -60,7 +60,7 @@
                </div>
             </template>
             <nav class="nav flex-column">
-               <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-setting5 me-2"></i>Settings</a></li>
+               <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-user-tick me-2"></i>Account</a></li>
                <li><router-link class="text-sm-center nav-link text-light" :to="{name: 'login'}"><i class="isax isax-logout5 me-2"></i>Logout</router-link></li>
             </nav>
          </div>
@@ -70,7 +70,7 @@
 
 <script>
 export default {
-   data() {5
+   data() {
       return {
          modules: [
             {
@@ -78,7 +78,7 @@ export default {
                module_types: [
                   {
                      name: 'Transactions',
-                     route: ''
+                     route: 'transactions'
                   },
                   {
                      name: 'Disbursement',
@@ -97,7 +97,11 @@ export default {
             {
                title: 'Settings',
                module_types: [
-               
+                  {
+                     name: 'Disbursement Account',
+                     route: ''
+                  },
+                  
                ]
             }
          ]

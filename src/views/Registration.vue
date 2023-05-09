@@ -35,7 +35,7 @@
                 <label for="floatingPassword" class="title-8 text-gray mx-3"> Confirm Password</label>
             </div>
              <div class="d-flex justify-content-between align-items-center">
-               <div class="form-check mb-0 pt-2 mx-3">
+               <div class="form-check mb-0 pt-3 mx-3">
                   <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
                   <label class="form-check-label title-8" for="cbox">I accept the terms of the offer of the <span class="text-purple text-center title-8">privacy policy</span></label>
                </div>

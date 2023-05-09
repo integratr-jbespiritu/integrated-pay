@@ -10,6 +10,7 @@
 @import 'css/consumer.css';
 @import 'css/register.css';
 @import 'css/paymentChannels.css';
+@import 'css/transactions.css';
 @import 'css/activate-account.css';
 
 @font-face {
@@ -239,6 +240,20 @@
   font-family: Inter-Black;
   font-weight: 900;
   font-size: 32px;
+  margin-bottom: 0%;
+}
+
+.title-11 {
+  font-family: Inter-Black;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 0%;
+}
+
+.title-12 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 12px;
   margin-bottom: 0%;
 }
 
