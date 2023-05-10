@@ -1,7 +1,7 @@
 <template>
     <main class="container d-flex col-md-9 ms-sm-auto col-lg-10"> <br> 
  <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
-  <div class="content" style="margin-left: 15rem;"> 
+  <div class="content bg-white" style="margin-left: 15rem;"> 
         <h1 class="inter px-3">Colors</h1>  
        <div class="d-flex flex-row">
              <!-- color1  -->
@@ -38,7 +38,7 @@
             <br>
         
 <!-- input fields -->
-<div class="container">
+<div class="container" style="background-color: var(--vt-c-default-white)">
   <h1 class="inter">Input Fields</h1>
   <div class="flex-container">
   <div class="input-fields col-sm-6">
@@ -70,12 +70,12 @@
     </form>
     </div>
      <!-- default search black -->
-    <div class="input-group mb-3">
-        <input type="text" class="default-search form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
-        <div class="position-absolute top-0 start-0 ms-4 pt-3">
-        <i class="icon-black isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i>
+     <div class="input-group mb-3">
+        <input type="text" class="text bg-dark form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
+        <div class="position-absolute top-0 start-0 ms-4 pt-2">
+        <i class="icon-black isax isax-search-status-1 position-absolute top-50 start-0 translate-middle mt-3"></i> 
         </div>
-    </div>      
+    </div>     
      <!-- selected search -->
     <div class="input-group mb-3">
         <input type="text" class="selected-search form-control" placeholder="Selected Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
@@ -84,14 +84,15 @@
         </div>
     </div> 
      <!-- default search -->
-    <div class="default-search-light input-group mb-3">
+    <div class="input-group mb-3">
         <span class="icon-span input-group-text"><i class="isax isax-search-status-1"></i></span>
-        <input type="text" class="default-search-light form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
-    </div> 
+        <input type="text" class="form-control" placeholder="Default Search" aria-label="Selected-Field"> 
+    </div>
+
      <!-- default search purple border -->
-    <div class="default-search-purple input-group mb-3">
+    <div class="input-group mb-3">
         <span class="icon-span-purple input-group-text"><i class="isax isax-search-status-1"></i></span>
-        <input type="text" class="default-search-purple form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2" style="border: 1px solid #7755D6;"> 
+        <input type="text" class="default-search-purple form-control" placeholder="Default Search" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
     </div> 
      <!-- default duration -->
     <div class="default-duration input-group mb-3">
@@ -115,9 +116,9 @@
         </select>
     </div> 
      <!-- default date range -->
-    <div class="default-date-range input-group mb-3">
+    <div class="input-group mb-3">
         <span class="icon-span input-group-text"><i class="isax isax-calendar-1"></i></span>
-        <input type="text" class="default-date-range form-control" placeholder="Default Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
+        <input type="text" class="form-control" placeholder="Default Date Range" aria-label="Selected-Field" aria-describedby="basic-addon2"> 
     </div> 
      <!-- selected date range -->
     <div class="selected-date-range input-group mb-3">
@@ -155,16 +156,16 @@
     <div class="container d-flex">
         <div class="row">
             <div class="col-md"><button type="button" class="default-icon">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Default</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Default</span>
             </button></div>
             <div class="col-md"><button type="button" class="click-hover-icon">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Click/Hover</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Click/Hover</span>
             </button></div>
             <div class="col-md"><button type="button" class="disabled-icon">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Disabled</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Disabled</span>
             </button></div>
         </div>
     </div><br>  
@@ -172,16 +173,16 @@
      <div class="container d-flex">
         <div class="row">
             <div class="col-md"><button type="button" class="default-purple">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Default</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Default</span>
             </button></div>
             <div class="col-md"><button type="button" class="click-hover-purple">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Click/Hover</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Click/Hover</span>
             </button></div>
             <div class="col-md"><button type="button" class="disabled-icon">
-                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-2"></i>
-                <span class="position-absolute top-50 end-0 translate-middle-y me-3">Disabled</span>
+                <i class="icon isax isax-add position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <span class="position-absolute top-50 end-0 translate-middle-y me-4">Disabled</span>
             </button></div>
         </div>
         </div><br>
@@ -209,33 +210,37 @@
         <div class="row align-items-start">
          <div class="col-sm-3">
         <div class="form-check">    
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">Checkbox</label>
+            <input class="checkbox form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label mt-1 ms-3" for="flexCheckDefault">Checkbox</label>
     </div>
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">Checkbox </label>
+            <input class="checkbox form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label mt-1 ms-3" for="flexCheckChecked">Checkbox </label>
         </div>
     </div>
+    
     <!-- close button -->
-        <div class="col">
-            <button type="button" class="close-button btn-close" disabled aria-label="Close"></button>
-            <button type="button" class="close-button-green btn-close" style="margin-left: 1rem;" disabled aria-label="Close"></button>
+        <div class="col d-flex">
+            <div class="close-icon isax isax-close-circle5"></div>
+            <div class="close-icon2 isax isax-close-circle5"></div>
          </div>
 
     <!-- filter button -->
      <div class="container d-flex mt-3">
-        <div class=" input-group mb-3">
+
+        <div class="input-group mb-3">
         <span class="btn-default input-group-text"> <i class="icon isax isax-filter-search"></i></span>
         <button type="button" class="btn-default-icon" aria-label="Selected-Field" aria-describedby="basic-addon2">Default Filter</button>
         </div>
     </div>
-        <div class=" input-group mb-3">
+
+    <div class=" input-group mb-3">
         <span class="btn-purple-filter input-group-text"> <i class="icon-filter isax isax-filter-search"></i></span>
         <button type="button" class="btn-filter" aria-label="Selected-Field" aria-describedby="basic-addon2">Default Filter</button>
-        </div>
     </div>
 
+   
+    </div>
      </div>
         </div>
      </div>

@@ -21,10 +21,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'dashboard'}">
+                        <div class="text-sm-center nav-link text-light">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
-                        </router-link>
+                        </div>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <div class="badge badge-notification">3</div>
@@ -36,7 +36,7 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer'}" >
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'Activate Account'}">
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
                         </router-link>
@@ -84,10 +84,12 @@ export default {
                      name: 'Disbursement',
                      route: ''
                   },
+
                   {
                      name: 'Payment Channels',
                      route: 'payments'
                   },
+
                   {
                      name: 'Developers',
                      route: ''
