@@ -34,13 +34,13 @@
             </nav>
             <nav class="nav flex-column">
                <li>
-                  <div class="row gx-0 g-0 pe-4">
+                  <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
                         <router-link class="text-sm-center nav-link text-light" :to="{name: 'Activate Account'}">
-                           <i class="icon isax isax-user-tick me-2 mx-2"></i>
+                           <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
                         </router-link>
-                     </div>
+                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <span class="badge badge-count">4/4</span>
                      </div>
@@ -84,10 +84,12 @@ export default {
                      name: 'Disbursement',
                      route: ''
                   },
+
                   {
                      name: 'Payment Channels',
                      route: 'payments'
                   },
+
                   {
                      name: 'Developers',
                      route: ''

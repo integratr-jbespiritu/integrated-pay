@@ -1,0 +1,10 @@
+.logoheader{
+    height: 64px;
+    background: var(--vt-c-black);
+}
+.logoheader img {
+    width: 140px;
+    height: 65px;
+    max-width: 100%;
+    margin-left: 1rem;
+}
