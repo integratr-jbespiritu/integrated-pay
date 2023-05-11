@@ -22,11 +22,11 @@
                 </div>
                 <div class="row mt-3">
                   <div class="col">
-                    <img src="src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
-                    <img src="src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
-                    <img src="src/assets/images/GCash.svg" class="img-fluid me-3" alt="GCash" />
-                    <img src="src/assets/images/PayMaya.svg" class="img-fluid me-3" alt="PayMaya" />
-                    <img src="src/assets/images/ECPay.svg" class="img-fluid me-3" alt="ECPay" />
+                    <img src="/src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
+                    <img src="/src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
+                    <img src="/src/assets/images/GCash.svg" class="img-fluid me-3" alt="GCash" />
+                    <img src="/src/assets/images/PayMaya.svg" class="img-fluid me-3" alt="PayMaya" />
+                    <img src="/src/assets/images/ECPay.svg" class="img-fluid me-3" alt="ECPay" />
                   </div>
                 </div>
               </div>
@@ -82,25 +82,25 @@
             channel: 'Debit/Credit Cards',
             mode_of_payments: [
               {
-                logo: 'src/assets/images/Visa.svg',
+                logo: '/assets/images/Visa.svg',
                 name: 'Visa',
                 percentage: '2%',
                 is_accepted: true
               },
               {
-                logo: 'src/assets/images/MasterCard.svg',
+                logo: '/assets/images/MasterCard.svg',
                 name: 'MasterCard',
                 percentage: '2%',
                 is_accepted: true
               },
               {
-                logo: 'src/assets/images/Maestro.svg',
+                logo: '/assets/images/Maestro.svg',
                 name: 'Maestro',
                 percentage: '2%',
                 is_accepted: false
               },
               {
-                logo: 'src/assets/images/AMEX.svg',
+                logo: '/assets/images/AMEX.svg',
                 name: 'Amex',
                 percentage: '2%',
                 is_accepted: false  
@@ -112,19 +112,19 @@
             channel: 'E-Wallets',
             mode_of_payments: [
               {
-                logo: 'src/assets/images/GCash.svg',
+                logo: '/assets/images/GCash.svg',
                 name: 'Gcash',
                 percentage: '2%',
                 is_accepted: true  
               },
               {
-                logo: 'src/assets/images/PayMaya.svg',
+                logo: '/assets/images/PayMaya.svg',
                 name: 'PayMaya',
                 percentage: '2%',
                 is_accepted: true  
               },
               {
-                logo: 'src/assets/images/GrabPay.svg',
+                logo: '/assets/images/GrabPay.svg',
                 name: 'GrabPay',
                 percentage: '2%',
                 is_accepted: false  
@@ -135,19 +135,19 @@
             channel: 'Payment Outlet/Centers',
             mode_of_payments: [
               {
-                logo: 'src/assets/images/ECPay.svg',
+                logo: '/assets/images/ECPay.svg',
                 name: 'ECPay',
                 percentage: '1% + PHP 30.00%',
                 is_accepted: true 
               },
               {
-                logo: 'src/assets/images/BayadCenter.svg',
+                logo: '/assets/images/BayadCenter.svg',
                 name: 'Bayad Center',
                 percentage: '1% + PHP 30.00%',
                 is_accepted: false 
               },
               {
-                logo: 'src/assets/images/Cebuana.svg',
+                logo: '/assets/images/Cebuana.svg',
                 name: 'Cebuana Lhuillier',
                 percentage: '1% + PHP 30.00%',
                 is_accepted: false 

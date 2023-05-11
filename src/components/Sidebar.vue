@@ -4,10 +4,10 @@
          <div class="sidebar-header">
             <div class="row gx-0 g-0 pad-bottom-10p">
                <div class="col-12 justify-content-center d-flex pt-1">
-                  <img src="src\assets\images\Logo_White.svg">
+                  <img src="/src/assets/images/Logo_White.svg">
                </div>
                <div class="col-12 justify-content-center d-flex pb-2">
-                  <img src="src\assets\images\avatar.svg" class="h-100">
+                  <img src="/src/assets/images/avatar.svg" class="h-100">
                </div>
                <div class="col-12 mb-2">
                   <div class="account">

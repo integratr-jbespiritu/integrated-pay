@@ -61,7 +61,7 @@
         </div>
         <div class="col-md-6">
           <div class="d-flex mt-4 mb-3 ms-2">
-              <img src="src\assets\images\step2.svg" class="activate-image">
+              <img src="/src/assets/images/Step2.svg" class="activate-image">
           </div>
         </div>
         <!-- button -->
