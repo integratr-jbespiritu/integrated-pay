@@ -1,12 +1,42 @@
-.paymets .form-check-input:checked {
+.payments input[type="checkbox"].toggle{
+    opacity: 0;
+    position:absolute;
+    
+  }
+.payments input[type="checkbox"].toggle + label{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+.payments input[type="checkbox"].toggle + label::before{
+    content: "";
+    height: 24px;
+    width: 48px;
+    background-color:var(--vt-c-white);
+    border: 2px solid var(--vt-c-blue);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    transition: 300ms ease-in-out;
+  }
+.payments input[type="checkbox"].toggle + label::after{
+    position: absolute;
+    left: .3em;
+    content: "";
+    width: 1rem;
+    height: 1rem; 
     background-color: var(--vt-c-blue);
-    border: var(--vt-c-blue);
-}
-  
-.paymets .form-check-input:focus {
-    box-shadow: none;
-}
-
-.payments .input-border:hover {
-    border-color: aquamarine;
-}
+    border-radius: 1rem;
+    margin-right: 1rem;
+    transition: 300ms ease-in-out;
+  }
+.payments input[type="checkbox"].toggle:checked + label::after{
+    transform: translateX(1.5rem);
+    background-color:var(--vt-c-white);
+  }
+.payments input[type="checkbox"].toggle:checked + label::before{
+    background-color: var(--vt-c-blue);
+    border: 2px solid var(--vt-c-blue);
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
