@@ -1,0 +1,13 @@
+/* button */
+.btn-link{
+    color: var(--vt-c-purple);
+    padding-left: 3rem;
+}
+.button-process{
+    width: var( --c-s-150px);
+    height: var(  --c-s-44px);
+    border-radius: var( --c-s-4px);
+    background-color: var(--vt-c-purple);
+    border-color: var(--vt-c-purple);
+    color: var( --vt-c-default-white);
+}

@@ -21,10 +21,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <a class="text-sm-center nav-link text-light" href="#">
+                        <div class="text-sm-center nav-link text-light" href="#">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
-                        </a>
+                        </div>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <div class="badge badge-notification">3</div>
@@ -36,10 +36,12 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer'}" >
+                        <div class="text-sm-center nav-link text-light">
+                           <router-link class="text-sm-center nav-link text-light" :to="{name: 'stepone'}" >
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
-                        </router-link>
+                           </router-link>
+                        </div>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <span class="badge badge-count">4/4</span>
@@ -60,7 +62,7 @@
             <nav class="nav flex-column">
                <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-setting5  me-2"></i>Settings</a></li>
                <li><router-link class="text-sm-center nav-link text-light" :to="{name: 'login'}" ><i class="isax isax-logout5 me-2"></i>Logout</router-link></li>
-                
+
             </nav>
          </div>
       </div>
@@ -76,7 +78,8 @@ export default {
                title: 'Services',
                module_types: [
                   {
-                     name: 'Transactions'
+                     name: 'Transactions',
+                     route: 'viewtransaction'
                   },
                   {
                      name: 'Disbursement'

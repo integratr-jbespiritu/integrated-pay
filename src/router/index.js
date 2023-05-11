@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
+import Modal from '../components/Modal.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,13 +17,13 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     }, 
-    {
-      path: '/consumer',
-      name: 'consumer',
-      component: HomeView
-    }, 
-    
-  ]
+    {    
+     path: '/modal',
+     name: 'modal',
+     component: Modal
+    },
+     
+]
 })
 
 export default router

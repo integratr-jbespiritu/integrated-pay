@@ -1,0 +1,39 @@
+.transaction .container-fluid{
+    align-items: center;
+    justify-content: space-between;
+   }
+   .transaction .row{
+       border: 1px solid;
+   }
+   .transaction-row{
+       display: flex;
+       top: 12px;
+       left: 96rem;
+       border: 2px solid;
+       width: 45rem;
+       height: 19rem;
+   }
+   .border-top{
+       height: 15rem;
+       width: 60rem; 
+       right: 0.2rem;
+       display: flex ;
+   }
+   .border-bottom{
+       bottom: 4rem;
+   }
+   .row-container{
+       border: 2px solid;
+       width: 45rem;
+       height: 15rem;
+       top: 15rem;
+   }
+   .border-top1{
+       height: 10rem;
+       width: 95rem; 
+       display: flex ;
+   }
+   .border-bottom1{
+       bottom: 4rem;
+   }
+   
