@@ -23,39 +23,38 @@
       </div>
 
 
-        <div class="container pe-5 pb-3 ms-4  bg-white"   >
+  <div class="container pe-5 pb-3 ms-4 bg-white"   >
       <div class="py-2 text-center">
         <h1 class="inter-h1-black fw-bold py-2" style="font-size: 32px; color: var(--vt-c-black);">
            Are you a?...</h1>
-        <div class="border-bottom"> </div>
-        
+        <div class="border-bottom"> </div> 
       </div>
-          <div class="container pt-3">
-            <div class="row">
-          <div class="col-md-6">
-            <div class="rectangle d-flex mt-4 mb-3 ms-3">
-                <div class="icons isax isax-shop4 ms-4 mt-0"></div>
-                <div class="container">
-                <div class="col">
-                    <h5 class="fw-bold text-black mt-3">Business</h5>
-                </div> 
-                <div class="col">
-                    <p class="inter-regular me-3">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                         elit, sed do eiusmod tempor incididunt ut labore et <br>
-                          dolore magna aliqua.</p>
+    <div class="container pt-3">
+          <div class="row">
+           <div class="col-md-6">
+             <div class="rectangle d-flex mt-4 mb-3 ms-3">
+              <div class="icons isax isax-shop4 ms-4 mt-0"></div>
+    <div class="container">
+            <div class="col">
+                    <h5 class="inter-subheading-bold text-start text-black mt-3">Business</h5>
+            </div> 
+              <div class="col">
+                  <p class="inter-regular me-3">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                   elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua.</p>
                 </div>
-                </div>
+              </div>
             </div>
-            <div class="rectangle d-flex mt-4 mb-3 ms-3">
-                <div class="icons isax isax-bank ms-4 mt-0"></div>
-                <div class="container">
+      <div class="rectangle d-flex mt-4 mb-3 ms-3">
+            <div class="icons isax isax-bank ms-4 mt-0"></div>
+              <div class="container">
                 <div class="col">
                     <h5 class="fw-bold text-black mt-3">Government Unit</h5>
                 </div> 
-                <div class="col">
+          <div class="col">
                     <p class="inter-regular me-3">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                         elit, sed do eiusmod tempor incididunt ut labore et <br>
-                          dolore magna aliqua.</p>
+                   elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua.</p>
                 </div>
                 </div>
             </div>
@@ -66,20 +65,18 @@
           </div>
         </div>
         <!-- button -->
-        <div class="mt-4 py-4 mb-4 me-3">
+     <div class="mt-4 py-4 mb-4 me-3">
         <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> <span class="px-3 pe-4 text-purple">Back</span>
           <button type="button" class="click-hover-button">Continue</button>
         </a>
+      </div>
+    </div>
         </div>
-        </div>
-        </div>
-        </div>
-
-    
+          </div>
            </div>
   </main> 
   </template>
-  <script>
+    <script>
   
   import Header from '../components/Header.vue';
   import Sidebar from '../components/Sidebar.vue';
