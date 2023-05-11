@@ -66,9 +66,9 @@
         </div>
         <!-- button -->
      <div class="mt-4 py-4 mb-4 me-3">
-        <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> <span class="px-3 pe-4 text-purple">Back</span>
-          <button type="button" class="click-hover-button">Continue</button>
-        </a>
+      <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> 
+      <router-link :to="{name: 'Activate Account'}" class="text-decoration-none"><span class="px-3 pe-4 text-purple">Back</span></router-link>
+          <button type="button" class="click-hover-button">Continue</button> </a>
       </div>
     </div>
         </div>

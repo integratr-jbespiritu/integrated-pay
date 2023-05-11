@@ -106,7 +106,7 @@
             </select>
           </div>
         </div>
-        
+
       <!-- column 2 -->
          <div class="col-md-6">
           <!-- input field lastname  -->
@@ -143,12 +143,11 @@
             </select>
           </div>
 
-          <div>
-            <h5 class="Inter fw-bold mb-3" > &nbsp;</h5>
-          </div>
+             <div class="d-flex">&nbsp;</div>
+          
 
             <!-- building name -->
-            <div class="input-group mb-3">
+            <div class="input-group mb-3 mt-3">
             <form class="form-floating">
               <input type="email" class="input-height form-control" id="floatingInputValue" placeholder="Building Name">
               <label for="floatingInputValue">Building Name</label>
@@ -187,7 +186,8 @@
 
             <!-- button -->
   <div class="mt-4 py-3 mb-2 ">
-      <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> <span class="px-3 text-purple">Back</span>
+      <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> 
+        <span class="px-3 text-purple">Back</span>
         <router-link :to="{name: 'ActivateStepII'}">
         <button type="button" class="click-hover-button">Continue</button> </router-link>
       </a>
