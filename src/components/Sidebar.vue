@@ -21,10 +21,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <div class="text-sm-center nav-link text-light">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'dashboard'}">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
-                        </div>
+                        </router-link>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <div class="badge badge-notification">3</div>

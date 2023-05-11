@@ -1,8 +1,17 @@
-.jessa {
+.search {
     width: 25%;
-    height: 20pxq;
+    height: 25%;
  }
 
 .btn-default {
     border-color: gray;
 }
+
+.badge-red {
+    color: var(--vt-c-light-red);
+}
+
+.accordion-toggle {
+    cursor: pointer;
+  }
+  

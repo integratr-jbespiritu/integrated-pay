@@ -24,7 +24,7 @@
                   <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
                   <label class="form-check-label title-8" for="cbox">Remember Me</label>
                </div>
-               <a href="#!" class="forgot-pass text-decoration-none style-2 text-purple title-7 fw-bold mt-2">Forgot password?</a>
+               <a href="#!" class="forgot-pass text-decoration-none style-2 text-purple title-7 fw-bold mt-1">Forgot password?</a>
             </div>
              <div class="text-center mt-5 pt-8">
             <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>

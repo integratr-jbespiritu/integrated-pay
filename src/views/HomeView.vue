@@ -5,11 +5,7 @@ import TheTypography from '../components/TheTypography.vue'
 import Table from '../components/Table.vue';
 import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vue';
 
-
-
-
 </script>
-
 
 <template>
   <main>
