@@ -292,8 +292,9 @@ tr,
 td,
 th {
   border-color: inherit;
-  border-style: solid;
+  /* border-style: solid; */
   border-width: 0;
+  height: 5rem;
 }
 
 label {

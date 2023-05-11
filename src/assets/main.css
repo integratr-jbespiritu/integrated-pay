@@ -12,6 +12,7 @@
 @import 'css/paymentChannels.css';
 @import 'css/transactions.css';
 @import 'css/activate-account.css';
+@import 'css/dashboard.css';
 
 @font-face {
   font-family: Poppins-Semibold;
@@ -172,6 +173,10 @@
 .text-gray {
   color: var(--vt-c-light-gray);
 }
+
+.text-light-red {
+  color: var(--vt-c-light-red);
+}
 /* heading/title format */
 .title-1 {
   font-family: Poppins-Bold;
@@ -253,6 +258,13 @@
 .title-12 {
   font-family: Inter-Regular;
   font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
+.title-13 {
+  font-family: Inter-Semibold;
+  font-weight: 600;
   font-size: 12px;
   margin-bottom: 0%;
 }

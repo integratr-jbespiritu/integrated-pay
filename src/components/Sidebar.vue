@@ -21,10 +21,10 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <div class="text-sm-center nav-link text-light">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'dashboard'}">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
-                        </div>
+                        </router-link>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <div class="badge badge-notification">3</div>
@@ -34,12 +34,12 @@
             </nav>
             <nav class="nav flex-column">
                <li>
-                  <div class="row gx-0 g-0 pe-3">
+                  <div class="row gx-0 g-0 pe-4">
                      <div class="col-9 text-nowrap">
-                        <div class="text-sm-center nav-link text-light" >
-                           <i class="icon isax isax-user-tick me-2"></i>
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'Activate Account'}">
+                           <i class="icon isax isax-user-tick me-2 mx-2"></i>
                            Activate Account
-                        </div>
+                        </router-link>
                      </div>
                      <div class="col my-auto justify-content-end d-flex">
                         <span class="badge badge-count">4/4</span>

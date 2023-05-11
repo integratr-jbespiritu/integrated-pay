@@ -7,11 +7,7 @@ import Table from '../components/Table.vue';
 import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vue';
 import ActivateAccount from './ActivateAccount.vue';
 
-
-
-
 </script>
-
 
 <template>
   <main>
