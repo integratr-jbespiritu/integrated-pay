@@ -43,7 +43,7 @@
                       <div class="col mt-3 mb-2 title-6">
                         {{ payment_method.name}}
                       </div>
-                      <div class="col mt-4 title-7">
+                      <div class="col mt-3 mb-2 title-7">
                         {{ payment_method.percentage}}
                       </div>
                       <div class="col-4">

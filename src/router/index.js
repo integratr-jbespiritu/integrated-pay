@@ -6,6 +6,7 @@ import LoginConsumer from '../views/LoginConsumer.vue'
 import PaymentChannels from '../views/PaymentChannels.vue'
 import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
+import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
 
 const router = createRouter({
@@ -45,6 +46,11 @@ const router = createRouter({
       path: '/activate-account',
       name: 'Activate Account',
       component: ActivateAccount
+    },
+    {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: Dashboard
     },
     {
       path: '/activate-StepII',
