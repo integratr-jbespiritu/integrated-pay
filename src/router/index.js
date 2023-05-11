@@ -6,6 +6,7 @@ import LoginConsumer from '../views/LoginConsumer.vue'
 import PaymentChannels from '../views/PaymentChannels.vue'
 import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
+import ActivateStepII from  '../views/ActivateStepII.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/activate-account',
       name: 'Activate Account',
       component: ActivateAccount
+    },
+    {
+      path: '/activate-StepII',
+      name: 'ActivateStepII',
+      component: ActivateStepII
     },
  ]
 })

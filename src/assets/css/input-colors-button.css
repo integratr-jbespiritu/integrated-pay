@@ -72,70 +72,57 @@
   height: 56px;
 }
 
- .default:focus , .default:hover {
-    background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-light-gray);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
- }
- 
- .default-password:focus , .default-password:hover {  
-    background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-light-gray);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
- }
-
- .selected:focus , .selected:hover {
-   background: var(--vt-c-default-white);
-   box-shadow: 0 0 0 0.1rem var(--vt-c-purple);
+.default-search-purple {
+  border-color: var(--vt-c-purple);
 }
 
- .selected-password:focus , .selected-password:hover {
+ .default:hover {
     background: var(--vt-c-default-white);
-    box-shadow: 0 0 0 0.1rem  var(--vt-c-sky);
  }
  
- .default-search  {
-   padding-left: 3rem;
-   background: var(--vt-c-black);
-   -webkit-text-fill-color: azure;
-   border: var(--vt-c-black);
-   height: 44px;
+ .default-password:hover {  
+    background: var(--vt-c-default-white);
  }
 
- .default-search-purple {
-  border:var(--vt-c-light-green);
+ .selected:hover {
+   background: var(--vt-c-default-white);
+   border: var(--vt-c-purple);
+}
+
+ .selected-password:hover {
+    background: var(--vt-c-default-white);
+    border: var(--vt-c-sky);
+ }
+ 
+   .input-group:hover {
+  border: 1px var(--vt-c-purple);
  }
 
+ .text {
+  padding-left: 3rem;
+  color: var(--vt-c-default-white);
+}
  .selected-search {
    padding-left: 3rem;
    color: var(--vt-c-violet);
    border-bottom:2px solid var(--vt-c-purple)
  }
 
- .default-search:focus , .default-search:hover {
-    background: var(--vt-c-black);
- }
-
  .selected-search:focus , .selected-search:hover {
     background: var(--vt-c-default-white);
  }
  
- .default-search-light:focus , .default-search-light:hover {
+ .default-search-light:hover {
     background: var(--vt-c-default-white);
-    border: var(--vt-c-light-gray); 
+    border: var(--vt-c-purple);
  }
  
- .default-search-purple:focus , .default-search-purple:hover {
+ .default-duration:hover {
     background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple);
+    border:var(--vt-c-purple);
  }
  
- .default-duration:focus , .default-duration:hover {
-    background: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple);
- }
- 
- .selected-duration:focus , .selected-duration:hover {
+ .selected-duration:hover {
     background: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple);
  }
@@ -162,44 +149,51 @@
    cursor: pointer;
 
  }
-      /* buttons */
-  .button {
-    background-color: var(--vt-c-default-white);
-    height: 45rem; 
-    width:40rem;
-  }    
+      /* buttons */   
 
  .default-button {
-    width: 85px;
-    height: 42px;
+    width: 95px;
+    height: 44px;
+    padding: 10px, 20px, 10px, 20px;
     color: var(--vt-c-white);
     background: var(--vt-c-lavender);  
     border: var(--vt-c-purple);
  }
  
- .default-button:hover , .default-button:focus {
-   background: var;
-   box-shadow: 0 0 0 0.1rem  var(--vt-c-lavender);
- }
+ .default-button:hover{
+   background-color: var(--vt-c-violet);
+ }  
 
  .default-outline {
-   width: 85px;
-   height: 42px;
+  width: 95px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-blue);
    border: 2px solid var(--vt-c-blue);
    background: var(--vt-c-default-white);
  }
 
+ .default-outline:hover {
+  border-color: var(--vt-c-dark-blue);
+ }
+
  .default-outline-purple {
-   width: 85px;
-   height: 42px;
+  width: 95px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-lavender);
    border: 2px solid var(--vt-c-lavender);
    background: var(--vt-c-default-white);
  }
+
+ .default-outline-purple:hover {
+  border-color: var(--vt-c-violet);
+ }
+
  .click-hover-button {
-   width: 114px;
-   height: 42px;
+  width: 128px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-white);
    background: var(--vt-c-violet);
    border: var(--vt-c-purple);
@@ -211,36 +205,36 @@
  }
 
  .click-hover-outline {
-   width: 114px;
-   height: 42px;
-   color: var(--vt-c-blue);
-   border: 2px solid var(--vt-c-blue);
+   width: 128px;
+   height: 44px;
+   padding: 10px, 20px, 10px, 20px;
+   color: var(--vt-c-dark-blue);
+   border: 2px solid var(--vt-c-dark-blue);
    background: var(--vt-c-default-white);
  }
 
  .click-hover-outline-purple {
-   width: 114px;
-   height: 42px;
+  width: 128px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-violet);
    border: 2px solid var(--vt-c-violet);
    background: var(--vt-c-default-white);
  }
 
  .disabled-button {
-   width: 96px;
+   width: 106px;
    height: 42px;
+   padding: 10px, 20px, 10px, 20px;;
    color: var(--vt-c-default-white);
    background: var(--vt-c-light-gray);
    border: var(--vt-c-purple);
  }
 
- .disabled-button:hover , .disabled-button:focus {
-   box-shadow: 0 0 0 0.1rem  var(--vt-c-light-gray);
- }
-
  .disabled-outline {
-   width: 96px;
+   width: 106px;
    height: 42px;
+   padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-light-gray);
    border: 2px solid var(--vt-c-light-gray);
    background: var(--vt-c-default-white);
@@ -252,40 +246,51 @@
 }
 
  .default-icon {
-   width: 110px;
-   height: 42px;
+  width: 124px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-blue);
    border: 2px solid var(--vt-c-blue);
    background: var(--vt-c-default-white);
  }
 
+ .default-icon:hover {
+  border-color: var(--vt-c-dark-blue);
+ }
+
  .click-hover-icon {
-   width: 137px;
-   height: 42px;
-   color: var(--vt-c-sky);
-   border: 2px solid var(--vt-c-sky);
+  width: 157px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
+   color: var(--vt-c-dark-blue);
+   border: 2px solid var(--vt-c-dark-blue);
    background: var(--vt-c-default-white);
  }
 
  .disabled-icon {
-   width: 115px;
-   height: 42px;
+   width: 135px;
+   height: 44px;
    color: var(--vt-c-light-gray);
    border: 2px solid var(--vt-c-light-gray);
    background: var(--vt-c-default-white);
  }
 
  .default-purple {
-   width: 114px;
-   height: 42px;
+   width: 124px;
+   height: 44px;
    color: var(--vt-c-lavender);
    border: 2px solid var(--vt-c-lavender);
    background: var(--vt-c-default-white);
  }
 
+ .default-purple:hover {
+  border-color: var(--vt-c-violet);
+ }
+
  .click-hover-purple {
-   width: 137px;
-   height: 42px;
+  width: 157px;
+  height: 44px;
+  padding: 10px, 20px, 10px, 20px;
    color: var(--vt-c-violet);
    border: 2px solid var(--vt-c-violet);
    background: var(--vt-c-default-white);
@@ -295,6 +300,10 @@
  .text-default {
    font-family: 'Inter' sans-serif;
    color: var(--vt-c-lavender);
+ }
+
+ .text-default:hover {
+  color: var(--vt-c-violet);
  }
 
  .text-click-hover {
@@ -339,31 +348,46 @@
 }
 
 .icon-span-purple {
-    border: 1px solid var(--vt-c-violet);
+    border-top-color: var(--vt-c-purple);
+    border-bottom-color: var(--vt-c-purple);
+    border-left-color: var(--vt-c-purple);
+    border-right-color:var(--vt-c-default-white) ;
     border-radius: 0rem;
     background-color: var(--vt-c-default-white);
     font-size: 24px;
 }
 
+.checkbox {
+  width: 24px;
+  height: 24px;
+}
+
   /* close button */
-.close-button {
-    width: 44px;
-    height: 44px; 
-    border-radius: 50%;
-    background-color: var(--vt-c-blue);
-    cursor: pointer;
+/* .close-button {
+  position: relative;
+  border-radius: 50%;
+  height:44px;
+  width:44px;
+  background-color: var(--vt-c-purple);
   }
 
-.close-button-green {
-    width: 44px;
-    height: 44px; 
-    border-radius: 50%;
-    background-color: var( --vt-c-light-green);
-    color: white;
-    text-align: center;
-    transform: rotate(-90deg);
-    cursor: pointer;
-  }
+
+.close-button2 {
+  position: relative;
+  border-radius: 50%;
+  height:44px;
+  width:44px;
+  background-color: var(--vt-c-purple);
+  } */
+.close-icon {
+  font-size: 44px;
+  color: var(--vt-c-purple);
+}
+
+.close-icon2 {
+  font-size: 44px;
+  color: var(--vt-c-light-green);
+}
 /* filter */
 .btn-filter {
    width: 130px;
@@ -419,4 +443,22 @@
    box-shadow: none;  
    height: 42px;
    width: 130px;
+}
+
+.filter-button {
+  width: 161px;
+  height: 44px;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid var(--vt-c-light-gray);
+  box-sizing: border-box;
+}
+
+.border-line {
+  border-left: 1px solid var(--vt-c-light-gray); 
+  height: 5px;
+}
+
+.btn-purple-filter:hover .span:hover {
+  border-color: 20px black;
 }
