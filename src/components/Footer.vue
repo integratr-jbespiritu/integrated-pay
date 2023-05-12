@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-      <div class="row gx-0 g-0">
+      <div class="row gx-0 g-0 mt-3">
         <div class="col-12 col-md-6 col-lg-6">
           <div class="col">
             <img class="img-fluid px-5" src="src/assets/images/Logo.svg" alt="Logo">
