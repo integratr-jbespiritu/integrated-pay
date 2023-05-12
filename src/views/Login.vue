@@ -21,8 +21,8 @@
     </div>
     <div class="d-flex justify-content-between align-items-center my-2">
       <div class="form-check">
-        <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
-        <label class="form-check-label title-8" for="cbox">Remember Me</label>
+        <input class="form-check-input" type="checkbox" value="" id="cbox" />
+        <label class="form-check-label title-8 mx-2" for="cbox">Remember Me</label>
       </div>
       <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-1">Forgot password?</a>
     </div>
