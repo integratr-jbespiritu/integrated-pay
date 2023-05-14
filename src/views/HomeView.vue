@@ -9,7 +9,6 @@ import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vu
 
 <template>
   <main>
-      <Header />
       <Sidebar />
              <TheTypography />
              <InputFieldsColorsButton/>

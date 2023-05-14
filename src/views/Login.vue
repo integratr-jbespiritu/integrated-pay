@@ -1,5 +1,5 @@
 <template>
-   <Header/>
+   <Logoheader />
    <div class="login-form row gx-0 g-0">
       <div class="col image-column p-5">
          <div class="title-9 text-white">Amplify your payments</div>
@@ -40,13 +40,13 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue';
+import Logoheader from '../components/Logoheader.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
   name: "Login",
    components: {
-      Header,
+      Logoheader,
       Footer
    }
 };
