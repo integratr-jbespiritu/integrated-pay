@@ -3,12 +3,12 @@
   <div class="consumer-login-page justify-content-center align-items-center">
     <div class="col col-xl-5">
       <div class="image-fluid">
-        <div class="box bg-transparent text-center">
+        <div class="box bg-transparent text-center pb-3">
           <div class="title-9 text-white">Amplify your payments</div>
             <div class="title-9 text-center text-white">with<span class="text-blue text-center title-9"> ampliPAY</span>.</div>
           </div>
-          <div class="form col bg-white pad-x-10p">
-            <div class="py-3 me-6 px-3 mt-5">
+          <div class="form col bg-white my-0 pad-x-10p">
+            <div class="py-3 px-3 mt-5">
             <p class="title-2 mx-6 mt-0 mb-2">Sign in to your account</p>
             <div class="form-floating mt-2 mb-3 border-light">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="juandelacruz@gmail.com">
@@ -24,7 +24,7 @@
                   <input class="form-check-input me-2" type="checkbox" value="" id="cbox" />
                   <label class="form-check-label title-8" for="cbox">Remember Me</label>
                </div>
-               <a href="#!" class="forgot-pass text-decoration-none style-2 text-purple title-7 fw-bold mt-1">Forgot password?</a>
+               <a href="#!" class="forgot-pass text-decoration-none style-2 text-purple title-7 fw-bold mt-2">Forgot password?</a>
             </div>
              <div class="text-center mt-5 pt-8">
             <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>
