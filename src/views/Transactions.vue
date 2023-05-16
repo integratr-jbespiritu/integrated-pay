@@ -108,40 +108,127 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
-import Sidebar from "../components/Sidebar.vue";
-import Header from "../components/Header.vue";
+  import Sidebar from "../components/Sidebar.vue";
+  import Logoheader from '../components/Logoheader.vue';
 
-export default {
-    name: "Dashboard",
+  export default {
+    name: "DashBoard",
     components: {
       Sidebar,
-      Header
+      Logoheader,
     },
-    data () {
-        return {
-            transactions: [
-                {
-                    label: 'Expected Amount',
-                    value: 'PHP 100,000.00',
-                    transaction_count: '24'
-                },
-                {
-                    label: 'Total Amount of Completed Transactions',
-                    value: 'PHP 80,000.00',
-                    transaction_count: '18'
-                }, 
-                {
-                    label: 'Total Amount of Refunded Transactions',
-                    value: 'PHP 20,000.00',
-                    transaction_count: '6'
-                }
-            ]
+    data() {
+      return {
+        transactions: [
+          {
+            label: "Expected Amount",
+            value: "PHP 100,000.00",
+            transaction_count: "24",
+          },
+          {
+            label: "Total Amount of Completed Transactions",
+            value: "PHP 80,000.00",
+            transaction_count: "18",
+          },
+          {
+            label: "Total Amount of Refunded Transactions",
+            value: "PHP 20,000.00",
+            transaction_count: "6",
+          },
+        ],
+      transaction_records: [
+        {
+          transaction_no: '2201010000112221',
+          amount: 'PHP 10,000.00',
+          channel: 'Over-the-counter',
+          service_product: 'Business Licensing Permit',
+          status: 'Paid',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112222',
+          amount: 'PHP 100.00',
+          channel: 'GCash',
+          service_product: 'Community Tax Certificate',
+          status: 'Refunded',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112223',
+          amount: 'PHP 10,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Real Property Tax',
+          status: 'Pending',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112224',
+          amount: 'PHP 8,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Business Licensing Permit',
+          status: 'Paid',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112225',
+          amount: 'PHP 5,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Business Licensing Permit',
+          status: 'Refunded',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112226',
+          amount: 'PHP 100,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Business Licensing Permit',
+          status: 'Paid',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112227',
+          amount: 'PHP 1,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Real Property Tax',
+          status: 'Paid',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112228',
+          amount: 'PHP 1,500.00',
+          channel: 'Debit/Credit',
+          service_product: 'Community Tax Certificate',
+          status: 'Pending',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112229',
+          amount: 'PHP 200.00',
+          channel: 'Debit/Credit',
+          service_product: 'Local Civil Registry',
+          status: 'Refunded',
+          time_stamp: '01/01/2023 7:28 AM',
+        },
+        {
+          transaction_no: '2201010000112230',
+          amount: 'PHP1,000.00',
+          channel: 'Debit/Credit',
+          service_product: 'Building Permit',
+          status: 'Paid',
+          time_stamp: '01/01/2023 7:28 AM',
         }
-    }
-}
+      ]
+      };
+    },
 
+    methods: {
+      getStatus(data){
+  return `status-${data.toLowerCase()}`;
+}
+    }
+  };
 </script>
