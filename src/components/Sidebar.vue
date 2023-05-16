@@ -36,7 +36,7 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'Activate Account'}">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'ActivateStep1'}">
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
                         </router-link>

@@ -1,0 +1,93 @@
+body {
+background-color: var(--vt-c-white);
+}
+.input-height {
+height: 57px;
+}
+.input-city {
+height: 56px;
+}
+.progressbar {
+display: flex;
+justify-content:space-between;
+position: relative;
+}
+.progressbar::before{
+background: grey ;
+height: 2px;
+}
+.progressbar::after{
+content: "";
+position: absolute;
+left: 1rem;
+top: 15px;
+background: grey;
+width: 98%;
+height: 2px;
+transform: translateX(-1%);
+z-index: -10;
+}
+.steps1{
+background-color: var(--vt-c-default-white);
+border: 1px solid var(--vt-c-purple);
+border-radius: 50%;
+height:32px;
+width: 32px;
+}
+.step2-circle {
+background-color: var(--vt-c-default-white);
+border: 1px solid var(--vt-c-purple);
+border-radius: 50%;
+height:32px;
+width: 32px;
+}
+.inner-circle {
+position: relative;
+background: var(--vt-c-purple);
+border-radius: 50%;
+height:10px;
+width:10px;
+}
+.step3-circle {
+background-color: var(--vt-c-default-white);
+border: 1px solid var(--vt-c-light-gray);
+border-radius: 50%;
+height:32px;
+width: 32px;
+}
+.step3-inner-circle {
+position: relative;
+background: var(--vt-c-light-gray); 
+border-radius: 50%;
+height:10px;
+width:10px;
+}
+.steps3 {
+font-size: 35px;
+width:32px;
+height: 32px;
+border-radius: 50%;
+color: var(--vt-c-light-gray);
+border: var(--vt-c-purple);
+}
+.steps4 {
+font-size: 32px;
+width:32px;
+height: 32px;
+background: var(--vt-c-white);
+border:2px solid var(--vt-c-light-gray);
+border-radius: 50%;
+}
+.carousel-indicators li {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin: 0 5px;
+text-indent: -999px;
+border: 1px solid #ccc;
+border-radius: 10px;
+cursor: pointer;
+}
+.carousel-indicators .active {
+background-color: #333;
+}

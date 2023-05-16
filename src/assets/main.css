@@ -14,6 +14,8 @@
 @import 'css/activate-account.css';
 @import 'css/dashboard.css';
 @import 'css/search-bar.css';
+@import 'css/view-transaction.css';
+@import 'css/activate-step1.css';
 
 @font-face {
   font-family: Poppins-Semibold;
