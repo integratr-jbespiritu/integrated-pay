@@ -8,6 +8,7 @@ import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
 import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
+import DisbursementPage from '../views/DisbursementPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +57,11 @@ const router = createRouter({
       path: '/activate-StepII',
       name: 'ActivateStepII',
       component: ActivateStepII
+    },
+    {
+      path: '/DisbursementPage',
+      name: 'DisbursementPage',
+      component: DisbursementPage
     },
  ]
 })

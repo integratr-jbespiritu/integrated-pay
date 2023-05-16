@@ -74,7 +74,7 @@ export default {
       return {
          modules: [
             {
-               title: 'Services',
+               title: 'Services',   
                module_types: [
                   {
                      name: 'Transactions',
@@ -82,7 +82,7 @@ export default {
                   },
                   {
                      name: 'Disbursement',
-                     route: ''
+                     route: 'DisbursementPage'
                   },
 
                   {
