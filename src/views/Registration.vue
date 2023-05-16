@@ -1,5 +1,5 @@
 <template>
-<Header/>
+<Logoheadernpm/>
    <div class="registration-page justify-content-center align-items-center py-4">
     <div class="col-lg-5 p-5">
       <div class="image-fluid">
@@ -52,13 +52,13 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue';
+import Logoheader from '../components/Logoheader.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
   name: 'Registration',
   components: {
-    Header,
+    Logoheader,
     Footer
   },
   data() {
