@@ -5,7 +5,7 @@
     <div class="row gx-1 mx-5">
       <header class="header bg-light lh-1 p-3">
         <div class="col-12">
-          <a class="title-2 text-decoration-none text-dark mx-3" href="#">Payment Channels</a>
+          <a class="title-10 text-decoration-none text-dark mx-3" href="#">Payment Channels</a>
         </div>
       </header>
       <div class="gx-4 g-3 mb-5 ms-4" style="margin-left: 2rem;">
@@ -22,8 +22,8 @@
                 </div>
                 <div class="row mt-3">
                   <div class="col">
-                    <img src="src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
-                    <img src="src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
+                    <img src="/src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
+                    <img src="/src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
                     <img src="src/assets/images/GCash.svg" class="img-fluid me-3" alt="GCash" />
                     <img src="src/assets/images/PayMaya.svg" class="img-fluid me-3" alt="PayMaya" />
                     <img src="src/assets/images/ECPay.svg" class="img-fluid me-3" alt="ECPay" />
@@ -72,7 +72,7 @@
     name: "PaymentChannels",
     components: {
       Sidebar,
-      Header
+      Header,
     },
     data() {
       return {
@@ -82,19 +82,19 @@
             channel: 'Debit/Credit Cards',
             mode_of_payments: [
               {
-                logo: 'src/assets/images/Visa.svg',
+                logo: '/src/assets/images/Visa.svg',
                 name: 'Visa',
                 percentage: '2%',
                 is_accepted: true
               },
               {
-                logo: 'src/assets/images/MasterCard.svg',
+                logo: '/src/assets/images/MasterCard.svg',
                 name: 'MasterCard',
                 percentage: '2%',
                 is_accepted: true
               },
               {
-                logo: 'src/assets/images/Maestro.svg',
+                logo: '/src/assets/images/Maestro.svg',
                 name: 'Maestro',
                 percentage: '2%',
                 is_accepted: false
@@ -157,5 +157,35 @@
         ]
       };
     },
+    mounted(){
+      this.transformImageLinks()
+    },
+    methods: {
+       toDataURL(src, callback, outputFormat) {
+          var img = new Image();
+          img.crossOrigin = 'Anonymous';
+          img.onload = function() {
+            var canvas = document.createElement('CANVAS');
+            var ctx = canvas.getContext('2d');
+            var dataURL;
+            canvas.height = this.naturalHeight;
+            canvas.width = this.naturalWidth;
+            ctx.drawImage(this, 0, 0);
+            dataURL = canvas.toDataURL(outputFormat);
+            callback(dataURL);
+          };
+          img.src = src;
+          if (img.complete || img.complete === undefined) {
+            img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+            img.src = src;
+          }
+      },
+      transformImageLinks(){
+        
+        // this.toDataURL(this.payment_channels[0].mode_of_payments[0].logo, function(dataUrl) {
+        //   this.payment_channels[0].mode_of_payments[0].logo = dataUrl
+        // })
+      }
+    }
   };
 </script>

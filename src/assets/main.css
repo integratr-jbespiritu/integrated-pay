@@ -4,7 +4,7 @@
 @import 'css/logoheader.css';
 @import 'css/typography.css';
 @import 'css/input-colors-button.css';
-@import 'css/footer.css';
+ @import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
 @import 'css/consumer.css';
@@ -158,6 +158,10 @@
 .bg-purple {
   background: var(--vt-c-purple);
 }
+
+.bg-blue {
+  background-color: var(--vt-c-blue);
+}
 /* text primary colors */
 .text-purple {
   color: var(--vt-c-purple);
@@ -269,6 +273,27 @@
   margin-bottom: 0%;
 }
 
+.title-14 {
+  font-family: Inter-Semibold;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-15 {
+  font-family: Inter-Semibold;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-16 {
+  font-family: Inter-Semibold;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -298,7 +323,55 @@
   font-family: Inter-Regular;
 }
 
+.no-hover {
+  pointer-events: none;
+}
+
 .switch-blue {
   /* border: var(--vt-c-blue); */
   font-size: 24px;
+}
+
+.border-bottom-dashed {
+  color: var(--vt-c-default-white);
+  border-bottom: 1px dashed var(--vt-c-default-white);
+}
+
+thead, tbody, tfoot, tr, td, th {
+  height: 0;
+}
+
+.table-padding > :not(caption) > * > * {
+  padding-left: 0;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.status-pending {
+  border: 2px solid #F4B91D;
+  color: #F4B91D;
+}
+
+.status-pending:focus {
+  box-shadow: none;
+}
+
+.status-refunded {
+  border: 2px solid #F64771;
+  color: #F64771;
+}
+
+.status-refunded:focus {
+  box-shadow: none;
+}
+
+.status-paid {
+  border: 2px solid #27AE60;
+  color: #27AE60;
+}
+
+.status-paid:focus {
+  box-shadow: none;
 }

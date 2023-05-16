@@ -18,15 +18,15 @@
         </div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 fs-5">
-          <div class="row gx-0 g-0 px-5">
-            <div class="col-12 justify-content-start justify-content-md-end justify-content-lg-end flex-wrap d-flex">
+          <div class="row gx-0 g-0 px-4">
+            <div class="col-12 justify-content-start justify-content-md-end justify-content-lg-end flex-wrap d-flex px-3">
               <div class="mt-1 pe-3h">
                 <template v-for="account in social_media" :key="account">  
                   <a href="#"><i class="fab text-purple pe-3" :class="account.icon"></i></a>
                 </template>
               </div>
             </div>
-            <div class="col justify-content-start justify-content-md-end justify-content-lg-end d-flex">
+            <div class="col justify-content-start justify-content-md-end justify-content-lg-end d-flex px-2">
               <div class="fs-6 pe-3 mt-4 text-nowrap">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
             </div>
           </div>
@@ -37,7 +37,7 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "FooterPage",
 
   data() {
     return {

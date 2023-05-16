@@ -19,17 +19,21 @@
           <i class="isax isax-eye-slash password-toggle fs-4 me-2"></i>
           <label for="floatingPassword" class="title-8 text-gray">Password</label>
         </div>
-        <div class="d-flex justify-content-between align-items-center my-2">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="cbox" />
-            <label class="form-check-label title-8 mx-2" for="cbox">Remember Me</label>
+        <div class="row gx-0 g-0">
+          <div class="col-lg col-md col">
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="checkbox" value="" id="cbox" />
+                <label class="form-check-label title-8 mx-2" for="cbox">Remember Me</label>
+              </div>
           </div>
-          <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-1">Forgot password?</a>
+          <div class="col-lg col-md col justify-content-lg-end justify-content-md-start justify-content-end d-flex mt-1">
+              <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-1">Forgot password?</a>
+          </div>
         </div>
         <div class="text-center mt-4">
           <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>
           <div class="mt-4 mb-2">
-            <router-link :to="{name: 'loginconsumer'}" href="#" class="text-decoration-none style-1 text-purple title-7 fw-bold">Sign up</router-link>
+            <router-link :to="{name: 'AdminLogin'}" href="#" class="text-decoration-none style-1 text-purple title-7 fw-bold">Sign up</router-link>
           </div>
         </div>
       </div>
@@ -43,7 +47,7 @@
   import Footer from "../components/Footer.vue";
 
   export default {
-    name: "Login",
+    name: "AdminLogin",
     components: {
       Logoheader,
       Footer,
