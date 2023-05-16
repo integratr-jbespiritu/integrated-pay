@@ -269,14 +269,14 @@
 
 <script>
   import Sidebar from "../components/Sidebar.vue";
-  import Modal from "../components/Modal.vue";
+//   import Modal from "../components/Modal.vue";
   // import { Line } from "vue-chartjs";
 
   export default {
-    name: "DashBoard",
+    name: "Dashboard",
     components: {
       Sidebar,
-      Modal,
     },
   };
+
 </script>

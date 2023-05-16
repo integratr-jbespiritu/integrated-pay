@@ -14,7 +14,7 @@
     routes: [
       {
         path: '/',
-        name: 'AdminLogin',
+        name: 'login',
         component: Login
       },
       {

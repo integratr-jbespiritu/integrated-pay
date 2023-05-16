@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+  <Logoheader/>
     <div class="consumer-login-page justify-content-center align-items-center">
       <div class="col col-xl-5">
         <div class="image-fluid">
@@ -41,13 +41,13 @@
   </template>
   
   <script>
-  import Header from '../components/Header.vue';
+  import Logoheader from '../components/Logoheader.vue';
   import Footer from '../components/Footer.vue';
   
   export default {
       name: 'LoginConsumer',
       components: {
-      Header,
+      Logoheader,
       Footer
     },
     methods: {
