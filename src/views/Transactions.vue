@@ -72,7 +72,7 @@
       <td>PHP 10,000.00</td>
       <td>Over-the-counter</td>
       <td>Business Licensing Permit</td>
-      <td><button type="button" class="btn btn-outline-success py-0">Paid</button></td>
+      <td> <router-link :to="{name: 'Viewtransaction'}" class="btn btn-outline-success py-0">Paid</router-link></td>
       <td>01/01/2023 7:28 AM</td>
     </tr>
     <tr>

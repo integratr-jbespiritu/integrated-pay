@@ -1,0 +1,137 @@
+<template>
+    <Sidebar />
+    <Header/>
+    <main class="container d-flex col-md-9 col-lg-12" style="margin-left: 12rem;">
+        <div class="container ms-5 mt-3 pb-5">
+            <div class="row justify-content-center mb-3 mt-5 ">
+                <div class="col-8 text-center p-0 mb-2 ps-5">
+                    <div class="px-0 pb-0 mt-3 mb-3">
+                        <form id="form">
+                            <div class="progressbar">
+                                <a class="steps1" data-bs-toggle="tooltip" data-bs-placement="top"  data-bs-custom-class="tooltip"  data-bs-title="This top tooltip is themed via CSS variables.">
+                                    <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                                </a>
+                                <div class="step2-circle">
+                                    <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                                </div>
+                                <div class="step3-circle">
+                                    <div class="step3-inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                                </div>
+                                <div class="steps4"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Heading-->
+            <div class="container pe-5 pb-3 ms-4 bg-white">
+                <div class="py-2 text-center">
+                    <h1 class="inter-h1-black fw-bold py-2" style="font-size: 32px; color: var(--vt-c-purple);">
+                        Welcome to AmpliPay!</h1>
+                </div>
+                <!--Carousel-->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <!--First Slide-->
+                            <div class="container">
+                                <div class="row justify-content-between mt-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex mb-5 ms-0"></div>
+                                        <div class="col">
+                                            <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
+                                        </div>
+                                        <div class="col">
+                                            <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
+                                                involves confirming the identity and other pertinent details of a customer, client or user.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 pt-5">
+                                        <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
+                                            <img src="/src/assets/images/first.svg" class="d-block w-auto " style="object-fit:contain" alt="Image 1">
+                                            <div class="carousel-caption d-none d-md-block"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="1000">
+                            <!--Second Slide-->
+                            <div class="container">
+                                <div class="row justify-content-between mt-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex mb-5 ms-0"></div>
+                                        <div class="col">
+                                            <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
+                                        </div>
+                                        <div class="col">
+                                            <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
+                                                involves confirming the identity and other pertinent details of a customer, client or user.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 pt-5">
+                                        <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
+                                            <img src="/src/assets/images/second.svg" class="d-block w-auto" style="object-fit:contain" alt="Image 1">
+                                            <div class="carousel-caption d-none d-md-block"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="1000">
+                            <!--Second Slide-->
+                            <div class="container">
+                                <div class="row justify-content-between mt-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex mb-5 ms-0"></div>
+                                        <div class="col">
+                                            <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
+                                        </div>
+                                        <div class="col">
+                                            <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
+                                                involves confirming the identity and other pertinent details of a customer, client or user.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 pt-5">
+                                        <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
+                                            <img src="/src/assets/images/third.svg" class="d-block w-auto" style="object-fit:contain" alt="Image 1">
+                                            <div class="carousel-caption d-none d-md-block"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Button-->
+                <div class="mt-4 py-4 mb-4 me-3">
+                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#"> <span class="px-3 pe-4 text-purple">Back</span>
+                        <button type="button" class="click-hover-button">Continue</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+  </template>
+  
+  <script>
+    import Header from '../components/Header.vue';
+    import Sidebar from '../components/Sidebar.vue';
+  
+    export default {
+        name: "Login",
+        components: {
+            Header,
+            Sidebar
+        }
+  
+    };
+  </script>
