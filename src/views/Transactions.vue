@@ -285,19 +285,9 @@
     },
 
     methods: {
-      getStatus(data) {
-        if(data == 'Pending') {
-          return 'status-pending'
-        }
-        else if(data == 'Refunded') 
-        {
-          return 'status-refunded'
-        }
-        else if(data == 'Paid') 
-        {
-          return 'status-paid'
-        }
-      }
+      getStatus(data){
+  return `status-${data.toLowerCase()}`;
+}
     }
   };
 </script>
