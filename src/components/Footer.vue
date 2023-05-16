@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="col justify-content-start justify-content-md-end justify-content-lg-end d-flex">
-              <div class="fs-6 pe-1 mt-4 text-nowrap">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
+              <div class="fs-6 mt-4 text-nowrap">&copy; 2022 Integratr Corporation, All Rights Reserved</div>
             </div>
           </div>
         </div>
