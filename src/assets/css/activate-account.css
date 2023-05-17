@@ -37,7 +37,7 @@ hr::before {
     left: 1rem;
     top: 15px;
     background: var(--vt-c-silver);
-    width: 96%;
+    width: 95%;
     height:2px;
     transform: translateX(-1%);
     z-index: -10;
@@ -101,7 +101,7 @@ hr::before {
 
   /* step 2 style */
 .rectangle {  
-    width: 480px;
+    width: 350px;
     height: auto;
     border: 1px solid var(--vt-c-light-gray);
     align-items: center;
@@ -121,7 +121,9 @@ hr::before {
   color: var(--vt-c-light-black);
 }
 .activate-image {
-  width: 500px;
+  width: 400px;
+  height: 400px;
+  align-content: center;
 }
 
 .activate-button {
@@ -136,3 +138,7 @@ hr::before {
 .activate-button:hover{
  background-color: var(--vt-c-violet);
 }  
+
+.content {
+  margin-left: 12rem;
+}

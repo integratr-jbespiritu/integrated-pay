@@ -1,8 +1,10 @@
 <template>
   <header />
   <Sidebar />
-  <main class="container gx-2 g-0 d-flex" style="margin-left: 12rem;">
-    <div class="container ms-5 mt-3 pb-5">
+  <main class="container d-flex col-12">
+      <div class="d-flex flex-wrap pt-3 pb-2 px-2">
+        <div class="container gx-0 g-0" style="margin-left: 12rem;">
+
       <div class="container">
         <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
           <div class="col-9 text-center p-0 mb-2 ps-1 ms-5">
@@ -25,7 +27,7 @@
           </div>
         </div>
 
-        <div class="container p-3 bg-white pb-3 ms-4">
+        <div class="col-12 p-3 bg-white pb-3 ms-4">
           <div class="py-1 text-center">
             <h1 class="inter-h1-black fw-bold mb-3" style="font-size: 32px; color: var(--vt-c-black);">
               General Information
@@ -219,6 +221,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </main>
