@@ -1,6 +1,7 @@
 <template>
+  <!--New Changes-->
     <Sidebar/>
-    <Header />
+    <Header/>
     <div class="transactions container bg-light px-5 mt-2" style="margin-left: 11rem;">
         <div class="row mx-5">
             <header class="header bg-light lh-1 p-3 ms-1 px-1">
@@ -39,9 +40,9 @@
              <div class="col d-flex mx-4 px-5">
                 <div class="row">
                     <div class="col-md">
-                        <button type="button" class="click-hover-icon">
+                      <router-link :to="{name: 'RequestRefund'}" class="click-hover-icon">
                             <span class="position-absolute top-50 end-0 translate-middle-y me-3">Refund Request</span>
-                         </button>
+                      </router-link>
                     </div>
                     <div class="col-md"><button type="button" class="default-outline">Export</button></div>
                 </div>
@@ -51,8 +52,6 @@
          <div class="col mb-5 title-7">
                  <div class="mx-5 px-4">Total result <span class="badge-red bg-transparent">24</span></div>
             </div>
-  
-       
  <div class="container col-md-8 ms-5 col-lg-10 px-md-5">
       <div class="table-responsive">
        <table class="table table-sm" style="border:none;">

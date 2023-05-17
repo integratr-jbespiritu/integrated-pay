@@ -11,6 +11,7 @@ import ActivateStepII from  '../views/ActivateStepII.vue'
 import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
+import RequestRefund from '../views/RequestRefund.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +75,11 @@ const router = createRouter({
       path: '/view-transaction',
       name: 'Viewtransaction',
       component: Viewtransaction
+    },
+    {
+      path: '/request-refund',
+      name: 'RequestRefund',
+      component: RequestRefund
     },
  ]
 })
