@@ -1,8 +1,10 @@
 <template>
     <Sidebar />
     <Header/>
-    <main class="container d-flex col-md-9 col-lg-12" style="margin-left: 12rem;">
-        <div class="container ms-5 mt-3 pb-5">
+    <main class="container d-flex col-md-9 ms-sm-auto col-lg-10">
+      <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
+        <div class="container gx-0 g-0" style="margin-left: 12rem;">
+
             <div class="row justify-content-center mb-3 mt-5 ">
                 <div class="col-8 text-center p-0 mb-2 ps-5">
                     <div class="px-0 pb-0 mt-3 mb-3">
@@ -114,11 +116,12 @@
                 <!--Button-->
                 <div class="mt-4 py-4 mb-4 me-3">
                     <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#"> <span class="px-3 pe-4 text-purple">Back</span>
-                        <button type="button" class="click-hover-button">Continue</button>
+                        <router-link :to="{name: 'ActivateAccount'}"> <button type="button" class="activate-button">Continue</button> </router-link>
                     </a>
                 </div>
             </div>
         </div>
+    </div>
     </main>
   </template>
   

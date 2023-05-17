@@ -8,6 +8,7 @@ import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
 import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
+import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
 
@@ -46,7 +47,7 @@ const router = createRouter({
     },
     {
       path: '/activate-account',
-      name: 'Activate Account',
+      name: 'ActivateAccount',
       component: ActivateAccount
     },
     {
@@ -60,9 +61,14 @@ const router = createRouter({
       component: ActivateStep1
     },
     {
-      path: '/activate-StepII',
-      name: 'ActivateStepII',
+      path: '/activate-Step2',
+      name: 'ActivateStep2',
       component: ActivateStepII
+    },
+    {
+      path: '/DisbursementPage',
+      name: 'DisbursementPage',
+      component: DisbursementPage
     },
     {
       path: '/view-transaction',
