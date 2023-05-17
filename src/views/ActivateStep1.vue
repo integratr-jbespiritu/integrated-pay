@@ -121,7 +121,8 @@
                 <!--Button new changes-->
                 <div class="mt-4 py-4 mb-5 me-3">
                     <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"> <span class="px-3 pe-4 text-purple">Back</span>
-                        <button type="button" class="button-purple click-hover-button p-2"><span class="px-3 pe-4 text-white">Continue</span></button></a> 
+                        <router-link :to="{name: 'ActivateAccount'}"> <button type="button" class="activate-button">Continue</button> </router-link>
+                    </a>
                 </div>
             </div>
         </div>
