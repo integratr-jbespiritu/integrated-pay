@@ -46,7 +46,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input field lastname  -->
                   <div class="input-group mb-3 px-1">
@@ -56,7 +55,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input field email -->
                   <div class="input-group mb-3 px-1">
@@ -66,7 +64,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input mobile number -->
                   <div class="input-group mb-3 px-1">
@@ -76,7 +73,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input field date of birth -->
                   <div class="input-group mb-3 px-1">
@@ -86,7 +82,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input nationality -->
                   <div class="input-group mb-3 px-1">
@@ -132,7 +127,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- building name -->
                   <div class="input-group mb-3 px-1">
@@ -142,7 +136,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- street name -->
                   <div class="input-group mb-3 px-1">
@@ -152,7 +145,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- region -->
                   <div class="input-group mb-3 px-1">
@@ -164,7 +156,6 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- province -->
                   <div class="input-group mb-3 px-1">
@@ -176,7 +167,6 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- city / municipality -->
                   <div class="input-group mb-3 px-1">
@@ -188,7 +178,6 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- baranggay -->
                   <div class="input-group mb-3 px-1">
@@ -225,6 +214,7 @@
     </div>
   </main>
 </template>
+
 <script>
   import Header from "../components/Header.vue";
   import Sidebar from "../components/Sidebar.vue";
