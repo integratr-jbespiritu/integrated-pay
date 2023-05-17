@@ -11,16 +11,16 @@
             <div class="px-0 pb-0 mt-3 mb-3">
               <form id="form">
                 <div class="step2-progressbar">
-                  <div class="step1">
+                  <div class="activate-step1">
                     <span><img src="/src/assets/images/check.svg" alt="" /> </span>
                   </div>
-                  <a class="step2-circle" title="General Information" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <a class="activate-step2-circle" title="General Information" data-bs-toggle="tooltip" data-bs-placement="top">
                     <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
                   </a>
-                  <div class="step3-circle">
+                  <div class="activate-step3-circle">
                     <div class="step3-inner-circle position-absolute top-50 start-50 translate-middle"></div>
                   </div>
-                  <div class="step4"></div>
+                  <div class="activate-step4"></div>
                 </div>
               </form>
             </div>
