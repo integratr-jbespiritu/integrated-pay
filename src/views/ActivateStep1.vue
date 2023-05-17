@@ -1,4 +1,5 @@
 <template>
+    <!--New Changes-->
     <Sidebar />
     <Header/>
     <main class="container d-flex col-md-9 ms-sm-auto col-lg-10">
@@ -10,7 +11,7 @@
                     <div class="px-0 pb-0 mt-3 mb-3">
                         <form id="form">
                             <div class="progressbar">
-                                <a class="steps1" data-bs-toggle="tooltip" data-bs-placement="top"  data-bs-custom-class="tooltip"  data-bs-title="This top tooltip is themed via CSS variables.">
+                                <a class="step1" data-bs-toggle="tooltip" data-bs-placement="top"  data-bs-custom-class="tooltip"  data-bs-title="What is KYC?">
                                     <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
                                 </a>
                                 <div class="step2-circle">
@@ -48,6 +49,7 @@
                                         <div class="col">
                                             <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
                                         </div>
+                                         <!--New Changes-->
                                         <div class="col">
                                             <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
                                                 involves confirming the identity and other pertinent details of a customer, client or user.
@@ -56,8 +58,9 @@
                                     </div>
                                     <div class="mt-5 pt-5">
                                         <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
-                                            <img src="/src/assets/images/first.svg" class="d-block w-auto " style="object-fit:contain" alt="Image 1">
-                                            <div class="carousel-caption d-none d-md-block"></div>
+                                            <img src="/src/assets/images/first.svg" class="img img-fluid" style="object-fit:contain" alt="Image 1">
+                                            <div class="carousel-caption d-none d-md-block">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -69,18 +72,19 @@
                                 <div class="row justify-content-between mt-5">
                                     <div class="col-md-6">
                                         <div class="d-flex mb-5 ms-0"></div>
-                                        <div class="col">
+                                        <div class="col"> 
+                                             <!--New Changes-->
                                             <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
                                         </div>
                                         <div class="col">
-                                            <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
-                                                involves confirming the identity and other pertinent details of a customer, client or user.
+                                            <p class="inter-regular ms-3">KYC aims to avoid fraudulent activities, money laundering,
+                                                and other unlawful practices, while also adhering to legal and regulatory obligations.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="mt-5 pt-5">
                                         <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
-                                            <img src="/src/assets/images/second.svg" class="d-block w-auto" style="object-fit:contain" alt="Image 1">
+                                            <img src="/src/assets/images/second.svg" class="img img-fluid" style="object-fit:contain" alt="Image 1">
                                             <div class="carousel-caption d-none d-md-block"></div>
                                         </div>
                                     </div>
@@ -88,23 +92,24 @@
                             </div>
                         </div>
                         <div class="carousel-item " data-bs-interval="1000">
-                            <!--Second Slide-->
+                            <!--Third Slide-->
                             <div class="container">
+                                 <!--New Changes-->
                                 <div class="row justify-content-between mt-5">
                                     <div class="col-md-6">
                                         <div class="d-flex mb-5 ms-0"></div>
                                         <div class="col">
-                                            <h5 class="inter-subheading-bold text-center text-black mt-3 ">What is KYC?</h5>
+                                            <h5 class="inter-subheading-bold text-center text-black mt-3 ">Process of KYC</h5>
                                         </div>
                                         <div class="col">
-                                            <p class="inter-regular ms-3">"Know Your Customer" (KYC) is a procedure that
-                                                involves confirming the identity and other pertinent details of a customer, client or user.
+                                            <p class="inter-regular ms-3">The exact process of KYC may differ depending on the specific industry or government body invited. However, a typical KYC process may include the following steps:
                                             </p>
                                         </div>
                                     </div>
+                                     <!--New Changes-->
                                     <div class="mt-5 pt-5">
                                         <div class="col-md-6 position-absolute bottom-0 end-0 mt-4">
-                                            <img src="/src/assets/images/third.svg" class="d-block w-auto" style="object-fit:contain" alt="Image 1">
+                                            <img src="/src/assets/images/third.svg" class="img img-fluid" style="object-fit:contain" alt="Image 1">
                                             <div class="carousel-caption d-none d-md-block"></div>
                                         </div>
                                     </div>
@@ -113,28 +118,31 @@
                         </div>
                     </div>
                 </div>
-                <!--Button-->
-                <div class="mt-4 py-4 mb-4 me-3">
-                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#"> <span class="px-3 pe-4 text-purple">Back</span>
-                        <router-link :to="{name: 'ActivateAccount'}"> <button type="button" class="activate-button">Continue</button> </router-link>
-                    </a>
+                <!--Button new changes-->
+                <div class="mt-4 py-4 mb-5 me-3">
+                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"> <span class="px-3 pe-4 text-purple">Back</span>
+                        <button type="button" class="button-purple click-hover-button p-2"><span class="px-3 pe-4 text-white">Continue</span></button></a> 
                 </div>
             </div>
         </div>
     </div>
     </main>
   </template>
-  
-  <script>
-    import Header from '../components/Header.vue';
-    import Sidebar from '../components/Sidebar.vue';
-  
-    export default {
-        name: "Login",
-        components: {
-            Header,
-            Sidebar
-        }
-  
-    };
-  </script>
+
+ <!--New Changes-->
+<script>
+import Sidebar from '../components/Sidebar.vue';
+
+export default {
+name: "LoginPage",
+components: {
+  Sidebar
+} , mounted(){
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+tooltipTriggerList.map(function (tooltipTriggerEl) {
+return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+}
+};
+</script>
