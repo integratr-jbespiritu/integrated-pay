@@ -1,8 +1,9 @@
 <template>
   <header />
   <Sidebar />
-  <main class="container gx-2 g-0 d-flex" style="margin-left: 12rem;">
-    <div class="container ms-5 mt-3 pb-5">
+  <main class="container d-flex col-12">
+      <div class="d-flex flex-wrap pt-3 pb-2 px-2">
+        <div class="container gx-0 g-0" style="margin-left: 12rem;">
       <div class="container">
         <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
           <div class="col-9 text-center p-0 mb-2 ps-1 ms-5">
@@ -212,14 +213,15 @@
               <!-- button -->
               <div class="container py-2 mt-5">
                 <a class="position-absolute bottom-0 end-0 px-1 mb-2 text-decoration-none" href="#">
-                  <span class="px-3 text-purple">Back</span>
-                  <router-link :to="{name: 'ActivateStepII'}"> <button type="button" class="activate-button">Continue</button> </router-link>
+                  <router-link :to="{name: 'ActivateStep1'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
+                  <router-link :to="{name: 'ActivateStep2'}"> <button type="button" class="activate-button">Continue</button> </router-link>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
 </template>

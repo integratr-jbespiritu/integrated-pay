@@ -75,7 +75,7 @@
                 <!-- button -->
                 <div class="mt-4 py-4 mb-3 me-5">
                   <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#">
-                    <router-link :to="{name: 'Activate Account'}" class="text-decoration-none"><span class="px-3 pe-4 text-purple">Back</span></router-link>
+                    <router-link :to="{name: 'ActivateAccount'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
                     <button type="button" class="activate-button me-2">Continue</button>
                   </a>
                 </div>
