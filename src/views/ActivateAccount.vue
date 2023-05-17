@@ -9,7 +9,7 @@
           <div class="col-9 text-center p-0 mb-2 ps-1 ms-5">
             <div class="px-0 pb-0 mt-3 mb-3">
               <form id="form">
-                <div class="progressbar">
+                <div class="step2-progressbar">
                   <div class="step1">
                     <span><img src="/src/assets/images/check.svg" alt="" /> </span>
                   </div>

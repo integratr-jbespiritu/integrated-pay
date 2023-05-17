@@ -14,16 +14,16 @@ hr::before {
   position: absolute;
 }
 
-.progressbar {
+.step2-progressbar {
   display: flex;
   justify-content:space-between;
   position: relative;
 }
 
-.progressbar::before {
+.step2-progressbar::before {
   content: "";
   height: 2px;
-  width: 33%;
+  width: 34%;
   position: absolute;
   top:50%;
   transform: translateY(-50%);
@@ -31,7 +31,7 @@ hr::before {
   align-self: center;
  }  
   
-.progressbar::after{
+.step2-progressbar::after{
     content: "";
     position: absolute;
     left: 1rem;
@@ -101,7 +101,7 @@ hr::before {
 
   /* step 2 style */
 .rectangle {  
-    width: 480px;
+    width: 450px;
     height: auto;
     border: 1px solid var(--vt-c-light-gray);
     align-items: center;
