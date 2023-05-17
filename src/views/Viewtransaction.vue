@@ -84,7 +84,7 @@
                                             juandelacruz@gmail.com
                                         </div>
                                         <div class="col text-end">
-                                            <img src="/src/assets/images/Gcash.svg" alt="Image">
+                                            <img src="/src/assets/images/GCash.svg" alt="Image">
                                             Ending in 2095
                                         </div>
                                     </div>
