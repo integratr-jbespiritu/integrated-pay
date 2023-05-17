@@ -5,28 +5,13 @@ body {
 .input-height {
     height: 57px;
 }
-
-.input-city {
-    height: 56px;
+.input-height:hover {
+  border: 1px solid var(--vt-c-purple);
 }
 
 hr::before {
   width:100px;
   position: absolute;
-}
-
-.form-control:hover , .form-select:hover{
-   border: 1px solid var(--vt-c-purple);
-}
-
-.check {
-  display: inline-block;
-  transform: rotate(45deg);
-  height: 17px;
-  width: 8px;
-  border-bottom: var(--vt-c-default-white) solid;
-  border-right: var(--vt-c-default-white) solid;
-  border-top-left-radius: 2px;
 }
 
 .progressbar {
@@ -37,7 +22,7 @@ hr::before {
 
 .progressbar::before {
   content: "";
-  height: 4px;
+  height: 2px;
   width: 33%;
   position: absolute;
   top:50%;
@@ -46,7 +31,18 @@ hr::before {
   align-self: center;
  }  
   
-  .steps1 {
+.progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+  .step1 {
     font-size: 20px;
     font-weight: bolder;
     width: 32px;
@@ -57,7 +53,7 @@ hr::before {
 
   .step2-circle {
     background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple);
+    border: 2px solid var(--vt-c-purple);
     border-radius: 50%;
     height:32px;
     width: 32px;
@@ -72,7 +68,7 @@ hr::before {
 }
   .step3-circle {
     background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-light-gray);
+    border: 2px solid var(--vt-c-light-gray);
     border-radius: 50%;
     height:32px;
     width: 32px;
@@ -85,7 +81,7 @@ hr::before {
     height:10px;
     width:10px;
   }
-  .steps3 {
+  .step3 {
     font-size: 35px;
     width:32px;
     height: 32px;
@@ -94,7 +90,7 @@ hr::before {
     border: var(--vt-c-purple);
   }
 
-  .steps4 {
+  .step4 {
     font-size: 32px;
     width:32px;
     height: 32px;
@@ -105,13 +101,13 @@ hr::before {
 
   /* step 2 style */
 .rectangle {  
-    width: fit-content;
+    width: 480px;
     height: auto;
     border: 1px solid var(--vt-c-light-gray);
     align-items: center;
 }
 
-.rectangle:hover {
+.rectangle:hover{
   border-color: var(--vt-c-purple);
   color: var(--vt-c-purple);
 }
@@ -120,6 +116,23 @@ hr::before {
     font-size: 56px;
 }
 
-.activate-image {
-  width: 660px;
+.icon-activate {
+  font-size: 24px;
+  color: var(--vt-c-light-black);
 }
+.activate-image {
+  width: 500px;
+}
+
+.activate-button {
+  width: 109px;
+  height: 42px;
+  padding: 10px, 20px, 10px, 20px;;
+  color: var(--vt-c-default-white);
+  background: var(--vt-c-purple);
+  border: var(--vt-c-purple);
+}
+
+.activate-button:hover{
+ background-color: var(--vt-c-violet);
+}  
