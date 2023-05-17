@@ -69,7 +69,7 @@
 
                 <div class="col-md-6">
                   <div class="d-flex mt-4 mb-3">
-                    <img src="src/assets/images/Step2.svg" class="activate-image ms-2" />
+                    <img src="/src/assets/images/Step2.svg" class="activate-image ms-2" />
                   </div>
                 </div>
                 <!-- button -->
