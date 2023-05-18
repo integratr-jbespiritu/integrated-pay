@@ -55,7 +55,7 @@
                     <div class="col">
                       <div class="d-flex ms-0">
                         <div class="container d-flex">
-                          <div class="rectangle d-flex mt-4 mb-3 gx-0 ms-3">
+                          <div class="rectangle d-flex mt-4 mb-3 gx-0 ms-3" onclick="Myfunction">
                             <div class="icons isax isax-bank mx-3"></div>
                             <div class="container">
                               <div class="col">
@@ -84,7 +84,7 @@
               <div class="mt-4 py-4 mb-4 me-4">
                 <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#">
                   <router-link :to="{name: 'ActivateAccount'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
-                  <router-link :to="{name: 'ActivateAccount'}"> <button type="button" class="activate-button">Continue</button> </router-link>
+                  <router-link :to="{name: 'activate-businessinformation'}"> <button type="button" class="activate-button">Continue</button> </router-link>
                 </a>
               </div>
             </div>
@@ -110,6 +110,9 @@
       tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
       });
+
+      
     },
+    
   };
 </script>

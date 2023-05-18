@@ -12,6 +12,9 @@ import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
+import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
+import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -80,6 +83,16 @@ const router = createRouter({
       path: '/request-refund',
       name: 'RequestRefund',
       component: RequestRefund
+    },
+    {
+      path: '/activate-account-businessinformation',
+      name: 'activate-businessinformation',
+      component: ActivateBusinessInformation
+    },
+    {
+      path: '/activate-account-governmentunit',
+      name: 'activate-governmentunit',
+      component: ActivateGovernmentUnit
     },
  ]
 })

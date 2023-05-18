@@ -162,9 +162,18 @@
 .bg-purple {
   background: var(--vt-c-purple);
 }
+
+.bg-light-gray {
+  color: var(--vt-c-light-gray);
+}
+
+.bg-grayish {
+  background-color: var(--vt-c-light-gray);
+}
+
 /* text primary colors */
 .text-purple {
-  color: var(--vt-c-purple);
+  color: var(--vt-c-purple) !important;
 }
 
 .text-blue {
@@ -180,6 +189,10 @@
 
 .text-light-red {
   color: var(--vt-c-light-red);
+}
+
+.text-silver-gray {
+color: var(--vt-c-silver-gray);
 }
 /* heading/title format */
 .title-1 {
@@ -269,6 +282,13 @@
 .title-13 {
   font-family: Inter-Semibold;
   font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
+.title-14 {
+  font-family: Inter-Regular;
+  font-weight: 400;
   font-size: 12px;
   margin-bottom: 0%;
 }

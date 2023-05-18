@@ -4,15 +4,12 @@ body {
 
 .input-height {
     height: 57px;
+    border-radius: 0%;
 }
 .input-height:hover {
   border: 1px solid var(--vt-c-purple);
 }
 
-hr::before {
-  width:100px;
-  position: absolute;
-}
 
 .step2-progressbar {
   display: flex;
@@ -136,3 +133,39 @@ hr::before {
 .activate-button:hover{
  background-color: var(--vt-c-violet);
 }  
+
+.step3:hover {
+  border-color: var(--vt-c-purple);
+}
+
+/* step3 progressbar */
+
+.step3-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+
+.step3-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 65%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+  
+.step3-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+
