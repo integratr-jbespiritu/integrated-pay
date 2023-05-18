@@ -8,56 +8,70 @@ import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
 import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
+import MainLayout from '../components/MainLayout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  
   routes: [
     {
-      path: '/',
-      name: 'login',  
+      path: '/admin/login',
+      name: 'admin.login',
       component: Login
     },
     {
-      path: '/registration',
-      name: 'registration',
-      component: Registration
-    },
-    {
-      path: '/loginconsumer',
-      name: 'loginconsumer',
+      path: '/',
+      name: 'consumer.login',
       component: LoginConsumer
     },
     {
-      path: '/home',
-      name: 'home',
-      component: HomeView
-    },  
-    {
-      path: '/payments',
-      name: 'payments',
-      component: PaymentChannels
-    }, 
-    {
-      path: '/transactions',
-      name: 'transactions',
-      component: Transactions
+      path: '/consumer/registration',
+      name: 'consumer.registration',
+      component: Registration
     },
     {
-      path: '/activate-account',
-      name: 'Activate Account',
-      component: ActivateAccount
+      path: '/admin',
+      component: MainLayout,
+      children: [
+
+      ]
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Dashboard
-    },
-    {
-      path: '/activate-StepII',
-      name: 'ActivateStepII',
-      component: ActivateStepII
+      path: '/consumer',
+      component: MainLayout,
+      children: [
+        {
+          path: '/home',
+          name: 'home',
+          component: HomeView
+        }, 
+        {
+          path: '/activate-StepII',
+          name: 'consumer.activate-account.step2',
+          component: ActivateStepII
+        },
+        {
+          path: '/activate-account',
+          name: 'consumer.activate-account',
+          component: ActivateAccount
+        },
+        {
+          path: '/payments',
+          name: 'consumer.payments',
+          component: PaymentChannels
+        }, 
+        {
+          path: '/transactions',
+          name: 'consumer.transactions',
+          component: Transactions
+        },
+        {
+          path: '/dashboard',
+          name: 'consumer.dashboard',
+          component: Dashboard
+        },
+      ],
     },
  ]
 })
-
 export default router

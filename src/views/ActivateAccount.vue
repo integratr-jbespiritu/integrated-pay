@@ -1,6 +1,5 @@
 <template>
-  <Header/>
-  <Sidebar/>
+<MainLayout />
 <main class="container gx-2 g-0 d-flex" style="margin-left: 12rem;">
    <div class="container ms-5 mt-3 pb-5" >
         <div class="container">
@@ -223,20 +222,15 @@
 </template>
 <script>
 
-import Header from '../components/Header.vue';
-import Sidebar from '../components/Sidebar.vue';
-
-export default {
-  
-  name: "LoginPage",
+  export default {
+    name: "LoginPage",
    components: {
-      Header,
-      Sidebar
    } , mounted(){
+    
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
    }
 };
-</script>
+  </script>

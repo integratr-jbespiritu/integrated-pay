@@ -1,5 +1,4 @@
 <template> 
-<Header/>
 <main class="container d-flex col-md-9 ms-sm-auto col-lg-10"> <br> 
     <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
        <div class="content" style="margin-left:15rem;"> 
@@ -192,12 +191,9 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue';
 
 export default {
   name: "TheTypography",
-  components: {
-    Header
-}
+  
 };
 </script>

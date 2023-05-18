@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: "Logoheader",
+  name: "LogoHeader",
 };
 </script>

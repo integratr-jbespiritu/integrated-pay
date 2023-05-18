@@ -1,6 +1,5 @@
 <template>
-  <Header/>
-  <Sidebar/>
+<MainLayout />  
   <main class="container gx-2 g-0 d-flex" style="margin-left: 12rem;">
    <div class="container ms-5 mt-3 pb-5" >
         <div class="container">
@@ -74,7 +73,7 @@
                 <!-- button -->
             <div class="mt-4 py-4 mb-3 me-5">
                <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"  href="#"> 
-                <router-link :to="{name: 'Activate Account'}" class="text-decoration-none"><span class="px-3 pe-4 text-purple">Back</span></router-link>
+                <router-link :to="{name: 'consumer.activate-account'}" class="text-decoration-none"><span class="px-3 pe-4 text-purple">Back</span></router-link>
                 <button type="button" class="activate-button me-2">Continue</button> </a>
            </div> 
           </div>
@@ -85,13 +84,12 @@
   </div>
 </main> 
 </template>
-    <script>
-    import Sidebar from '../components/Sidebar.vue';
+
+<script>
 
   export default {
     name: "LoginPage",
    components: {
-      Sidebar
    } , mounted(){
     
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
