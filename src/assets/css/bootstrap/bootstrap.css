@@ -2205,10 +2205,7 @@ progress {
   color: #6c757d;
   opacity: 1;
 }
-.form-control1::placeholder {
-  color: blue  !important;
-  opacity: 1;
-}
+
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
   opacity: 1;
@@ -2686,7 +2683,7 @@ textarea.form-control-lg {
   width: 1%;
   min-width: 0;
   border-radius: 0rem;
-  color: var(--bs-gray);
+  color: #212529;
 }
 .input-group > .form-control:focus,
 .input-group > .form-select:focus {
@@ -3283,7 +3280,11 @@ textarea.form-control-lg {
   color: #6c757d;
   background-color: transparent;
 }
-
+.btn-outline-green {
+  color: #198754;
+  border-color: #198754;
+  border: 2px solid;
+}
 .btn-outline-success {
   color: #198754;
   border-color: #198754;
@@ -3358,7 +3359,11 @@ textarea.form-control-lg {
   color: #ffc107;
   background-color: transparent;
 }
-
+.btn-outline-red {
+  color: #dc3545;
+  border-color: #dc3545;
+  border: 2px solid;
+}
 .btn-outline-danger {
   color: #dc3545;
   border-color: #dc3545;

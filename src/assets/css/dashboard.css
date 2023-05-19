@@ -18,7 +18,7 @@
   }
 
   .duration-btn {
-    width: 30%;
+    width: 35%;
     height: 3rem;
   }
 
@@ -28,7 +28,8 @@
   }
 
   .export-btn {
-    width: 35%;
+    width: 45%;
+    border-color: aqua;
   }
 
   canvas {
@@ -37,3 +38,6 @@
     width: auto !important;
   }
   
+  .calendar-date:focus {
+    color: red;
+  }

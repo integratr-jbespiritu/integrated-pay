@@ -4,7 +4,7 @@
 @import 'css/logoheader.css';
 @import 'css/typography.css';
 @import 'css/input-colors-button.css';
-@import 'css/footer.css';
+ @import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
 @import 'css/consumer.css';
@@ -171,28 +171,33 @@
   background-color: var(--vt-c-light-gray);
 }
 
+.bg-blue {
+  background-color: var(--vt-c-blue);
+}
 /* text primary colors */
 .text-purple {
   color: var(--vt-c-purple) !important;
 }
-
+.text-light-grey {
+  color: var(--vt-c-light-grey) !important;
+}
+.text-space-gray {
+  color: var(--vt-c-space-gray) !important;
+}
 .text-blue {
   color: var(--vt-c-blue);
 }
-
 .text-white {
   color: var(--vt-c-white);
 }
 .text-gray {
   color: var(--vt-c-light-gray);
 }
-
 .text-light-red {
   color: var(--vt-c-light-red);
 }
-
 .text-silver-gray {
-color: var(--vt-c-silver-gray);
+color: var(--vt-c-silver-gray) !important;
 }
 /* heading/title format */
 .title-1 {
@@ -286,10 +291,31 @@ color: var(--vt-c-silver-gray);
   margin-bottom: 0%;
 }
 
-.title-14 {
+.title-15 {
   font-family: Inter-Regular;
   font-weight: 400;
   font-size: 12px;
+  margin-bottom: 0%;
+}
+
+.title-14 {
+  font-family: Inter-Semibold;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-16 {
+  font-family: Inter-Semibold;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-16 {
+  font-family: Inter-Semibold;
+  font-weight: 700;
+  font-size: 13px;
   margin-bottom: 0%;
 }
 
@@ -322,7 +348,56 @@ color: var(--vt-c-silver-gray);
   font-family: Inter-Regular;
 }
 
+.no-hover {
+  pointer-events: none;
+}
+
 .switch-blue {
   /* border: var(--vt-c-blue); */
   font-size: 24px;
 }
+
+.border-bottom-dashed {
+  color: var(--vt-c-default-white);
+  border-bottom: 1px dashed var(--vt-c-default-white);
+}
+
+thead, tbody, tfoot, tr, td, th {
+  height: 0;
+}
+
+.table-padding > :not(caption) > * > * {
+  padding-left: 0;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.status-pending {
+  border: 2px solid var(--vt-c-yellow);
+  color: var(--vt-c-yellow);
+}
+
+.status-pending:focus {
+  box-shadow: none;
+}
+
+.status-refunded {
+  border: 2px solid var(--vt-c-light-red);
+  color: var(--vt-c-light-red);
+}
+
+.status-refunded:focus {
+  box-shadow: none;
+}
+
+.status-paid {
+  border: 2px solid var(--vt-c-green);
+  color: var(--vt-c-green);
+}
+
+.status-paid:focus {
+  box-shadow: none;
+}
+
