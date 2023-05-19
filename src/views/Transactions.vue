@@ -46,8 +46,7 @@
                     </div>
                     <div class="col-md"><button type="button" class="default-outline">Export</button></div>
                 </div>
-            </div>
-            
+            </div>   
         </div>
          <div class="col mb-5 title-7">
                  <div class="mx-5 px-4">Total result <span class="badge-red bg-transparent">24</span></div>
@@ -113,7 +112,7 @@
 
 <script>
   import Sidebar from "../components/Sidebar.vue";
-  import Header from '../components/Header.vue';
+  import Header from "../components/Header.vue";
 
   export default {
     name: "DashBoard",

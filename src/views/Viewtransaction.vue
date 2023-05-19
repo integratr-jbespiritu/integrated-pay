@@ -1,6 +1,6 @@
 <template>
     <Sidebar />
-    <SearchBar/>
+    <Header/>
     <main class="container d-flex col-md-8 col-lg-11" style="margin-left: 11rem;">
         <div class="container ms-5 mt-3 pb-5">
             <h1 class="ms-5 fw-bold">Transaction Details</h1>
@@ -162,13 +162,13 @@
 </template>
 
 <script>
-    import SearchBar from '../components/SearchBar.vue';
+    import Header from '../components/Header.vue';
     import Sidebar from '../components/Sidebar.vue';
 
     export default {
         name: "Viewtransaction",
         components: {
-            SearchBar,
+            Header,
             Sidebar
         }
 

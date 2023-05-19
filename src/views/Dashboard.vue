@@ -8,7 +8,7 @@
         </div>
       </header>
       <div class="position-relative px-5">
-        <img class="img-fluid" src="src/assets/images/Row.svg" alt="background image">
+        <img class="img-fluid" src="/src/assets/images/Row.svg" alt="background image">
         <div class="overlay">
           <div class="container">
             <div class="row">
@@ -23,7 +23,7 @@
                 <p class="title-12 text-start ms-4 mt-1">Wednesday, Feb 23, 2023 3:40 PM PST</p>
               </div>
                <div class="col-md-6 col-lg-6 mt-3">
-                <img class="img-fluid" src="src/assets/images/Char 09.svg" alt="character image">
+                <img class="img-fluid" src="/src/assets/images/Char 09.svg" alt="character image">
               </div>
             </div>
           </div>

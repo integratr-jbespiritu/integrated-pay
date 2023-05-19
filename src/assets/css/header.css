@@ -1,26 +1,32 @@
 .header {
-  background-color: white;
-  height: 4rem;
-}
-.header-icons .icon-search{
-  height: 2rem;
-  color: var(--vt-c-white);
-  padding-top: 2rem;
-  padding-left: 35rem;
-  font-size: 25px;
-}
-.isax-notification5{
-  height: 1rem;
-  color: var(--vt-c-white);
-  padding-right: 1rem;
-  padding-top: 2rem;
-  font-size: 89px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: black
 }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-} 
+.logo {
+  margin-right: auto;
+  font-size: 25px;
+}
+.notification-button {
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  align-items: right;
+  margin-left: 16px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 8px;
+  border: none;
+}
+
+.fa-search,
+.fa-bell {
+  font-size: 18px;
 }

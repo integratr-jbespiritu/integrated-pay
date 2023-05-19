@@ -22,11 +22,11 @@
                 </div>
                 <div class="row mt-3">
                   <div class="col">
-                    <img src="src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
-                    <img src="src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
-                    <img src="src/assets/images/GCash.svg" class="img-fluid me-3" alt="GCash" />
-                    <img src="src/assets/images/PayMaya.svg" class="img-fluid me-3" alt="PayMaya" />
-                    <img src="src/assets/images/ECPay.svg" class="img-fluid me-3" alt="ECPay" />
+                    <img src="/src/assets/images/Visa.svg" class="img-fluid me-3" alt="Visa" />
+                    <img src="/src/assets/images/MasterCard.svg" class="img-fluid me-3" alt="MasterCard" />
+                    <img src="/src/assets/images/GCash.svg" class="img-fluid me-3" alt="GCash" />
+                    <img src="/src/assets/images/PayMaya.svg" class="img-fluid me-3" alt="PayMaya" />
+                    <img src="/src/assets/images/ECPay.svg" class="img-fluid me-3" alt="ECPay" />
                   </div>
                 </div>
               </div>

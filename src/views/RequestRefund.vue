@@ -1,14 +1,14 @@
 <template>
-    <Sidebar />
-    <Header />
-    <div class="refund container bg-light px-5 mt-0" style="margin-left: 11rem;">
+<Sidebar/>
+<Header/>
+<div class="refund container bg-light px-5 mt-0" style="margin-left: 11rem;">
         <div class="row mx-5">
             <header class="header bg-light lh-0 p-3 ms-1 px-1">
                 <div class="col-12">
-                    <a class="title-2 text-decoration-none text-dark mx-2">Request Refund</a>
+                    <a class="title-2 text-decoration-none text-dark mx-2">Refund</a>
                     <span class="position-absolute top-50 end-0 translate-middle-y mb-5">
                         <i class="icon-arrow isax isax-arrow-left-35 mx-3 mb-4  "></i>
-                        <span clhhass="color-black text-decoration-none text-dark mx-4 mb-5 ms-0">Back</span>
+                        <span class="color-black text-decoration-none text-dark mx-4 mb-5 ms-0">Back</span>
                     </span>
                 </div>
             </header>
@@ -37,160 +37,274 @@
         </div>
         <div class="border-bottom pt-4" style="width:105%;">
         </div>
-        <!--table heading-->
-        <div class="container-fluid col-lg-10 ms-4">
-            <div class="justify-content-between ">
-                <div class="table-responsive text-nowrap table-hover">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="table-heading1">Transaction No.</th>
-                                <th class="table-heading2">Amount</th>
-                                <th class="table-heading2">Offer</th>
-                                <th class="table-heading2">Issued by</th>
-                                <th class="table-heading2">Date Issued</th>
-                                <th class="table-heading2">Date Refunded</th>
-                                <th class="table-heading2">Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="table table-border">
-                                <td class="text-start py-4">2201010000112221</td>
-                                <td class="text-start py-4">PHP 10,000.00</td>
-                                <td class="text-start py-4">Full Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">02/01/2023 7:11 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-danger bg-transparent text-danger position-absolute top-50 start-50 translate-middle py-0 "><span class="table-badge-text-requested mx-0">Requested</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112222</td>
-                                <td class="text-start py-4">PHP 100.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-danger bg-transparent text-danger position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-requested">Requested</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112223</td>
-                                <td class="text-start py-4">PHP 10,000.00</td>
-                                <td class="text-start py-4">Full Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-warning bg-transparent text-warning position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-authorized">Authorized</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112224</td>
-                                <td class="text-start py-4">PHP 8,000.00</td>
-                                <td class="text-start py-4">Full Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-warning bg-transparent text-warning position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-authorized">Authorized</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112225</td>
-                                <td class="text-start py-4">PHP 5,000.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-success">Success</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112226</td>
-                                <td class="text-start py-4">PHP 10,000.00</td>
-                                <td class="text-start py-4">Full Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-success">Success</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112227</td>
-                                <td class="text-start py-4">PHP 1,000.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle py-0"><span class="table-badge-text-success">Success</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112228</td>
-                                <td class="text-start py-4">PHP 1,500.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle "><span class="table-badge-text-success position-absolute top-50 start-50 translate-middle">Success</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112229</td>
-                                <td class="text-start py-4">PHP 200.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle"><span class="table-badge-text-success position-absolute top-50 start-50 translate-middle">Success</span></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-start py-4">2201010000112230</td>
-                                <td class="text-start py-4">PHP 1,000.00</td>
-                                <td class="text-start py-4">Partial Refund</td>
-                                <td class="text-start py-4">Maria Clara</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td class="text-start py-4">01/01/2023 7:28 AM</td>
-                                <td>
-                                    <button type="button" class="btn btn-success bg-transparent text-success position-absolute top-50 start-50 translate-middle"><span class="table-badge-text-success position-absolute top-50 start-50 translate-middle">Success</span></button>
-                                </td>
-                            </tr>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </tbody>
-
-                    </table>
-                </div>
-            </div>
+  <div class=" ">
+     <div class="container">
+        <div class=" ">   
+              <div class="table-responsive" >
+                 <table class="table table-hover font-table-text" >
+                    <thead>
+                       <tr> 
+                          <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                           <th class="text-start px-20px  pb-10px padding-top-none">
+                             <div class="d-flex align-items-center">
+                                <span class="font-table-column me-10px">Column</span>
+                             </div>
+                           </th>
+                       </tr>
+                    </thead>
+                    <tbody class="">
+                       <!-- row1  -->
+                       <tr class="size-table-tabledata column ">
+                          <td class="text-start px-20px vertical-alignment-center font-table-text">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <tr class="size-table-tabledata column ">
+                          <td class="text-start px-20px vertical-alignment-center font-table-text">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <tr class="size-table-tabledata column ">
+                          <td class="text-start px-20px vertical-alignment-center font-table-text">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       
+                       <!-- row2  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row3  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row4  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row5  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row6  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row7  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row8  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row9  -->
+                       <tr class="size-table-tabledata">
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                          <td class="text-start px-20px vertical-alignment-center">Text</td>
+                       </tr>
+                       <!-- row10  -->
+                    </tbody>
+                 </table>
+                 <div class="mt-20px mb-20px">
+                    <span class=""></span>
+              <!-- table Footer Row9 Column -->
+              <div class="d-flex flex-row justify-content-between me-20px ms-20px font-table-pagination d-flex align-items-center row">
+                 <div class="d-flex flex-row d-flex align-items-center  d-inline-flex col">
+                    <!-- text  -->
+                    <p class="">Show</p>
+                    <!-- text  -->
+                    <!-- button  -->
+                 </div>
+                 <div class="col"></div>
+                 <!-- pagination  -->
+                 <div class=" col ">
+                    <div class="d-flex justify-content-end">
+                    <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
+                    <button class="button-pagination bg-none color-dimgray border-color-none me-20px">Previous</button>
+                    <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
+                    <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                    <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
+                    <button class="button-pagination bg-none color-indigo border-color-none ms-20px">Next</button>
+                    <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
+                    </div>
+                 </div>
+                 <!-- pagination  -->
+              </div>
+           </div>
+              </div>
+              <!-- table Body  -->
+           </div>
+           <!-- row1  -->        
         </div>
-    </div>
+     </div>
+  </div>
 </template>
-
-<script>
-    import Header from '../components/Header.vue';
-    import Sidebar from '../components/Sidebar.vue';
+  
+  <script>
+  import Header from '../components/Header.vue';
+  import Sidebar from '../components/Sidebar.vue';
 
     export default {
-        name: "RequestRefund",
-        components: {
-            Header,
-            Sidebar
-        }
+      name: "RequestRefund",
+      components: {
+        Header,
+        Sidebar
 
+       
+      },
+      data() {
+        return {
+          transactions: [
+            {
+              label: "Expected Amount",
+              value: "PHP 100,000.00",
+              transaction_count: "24",
+            },
+            {
+              label: "Total Amount of Completed Transactions",
+              value: "PHP 80,000.00",
+              transaction_count: "18",
+            },
+            {
+              label: "Total Amount of Refunded Transactions",
+              value: "PHP 20,000.00",
+              transaction_count: "6",
+            },
+          ],
+        transaction_records: [
+          {
+            transaction_no: '2201010000112221',
+            amount: 'PHP 10,000.00',
+            channel: 'Over-the-counter',
+            service_product: 'Business Licensing Permit',
+            status: 'Paid',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112222',
+            amount: 'PHP 100.00',
+            channel: 'GCash',
+            service_product: 'Community Tax Certificate',
+            status: 'Refunded',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112223',
+            amount: 'PHP 10,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Real Property Tax',
+            status: 'Pending',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112224',
+            amount: 'PHP 8,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Business Licensing Permit',
+            status: 'Paid',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112225',
+            amount: 'PHP 5,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Business Licensing Permit',
+            status: 'Refunded',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112226',
+            amount: 'PHP 100,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Business Licensing Permit',
+            status: 'Paid',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112227',
+            amount: 'PHP 1,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Real Property Tax',
+            status: 'Paid',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112228',
+            amount: 'PHP 1,500.00',
+            channel: 'Debit/Credit',
+            service_product: 'Community Tax Certificate',
+            status: 'Pending',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112229',
+            amount: 'PHP 200.00',
+            channel: 'Debit/Credit',
+            service_product: 'Local Civil Registry',
+            status: 'Refunded',
+            time_stamp: '01/01/2023 7:28 AM',
+          },
+          {
+            transaction_no: '2201010000112230',
+            amount: 'PHP1,000.00',
+            channel: 'Debit/Credit',
+            service_product: 'Building Permit',
+            status: 'Paid',
+            time_stamp: '01/01/2023 7:28 AM',
+          }
+        ]
+        };
+      },
+  
+      methods: {
+        getStatus(data){
+          return `status-${data.toLowerCase()}`;
+  }
+      }
     };
-</script>
+  </script>
