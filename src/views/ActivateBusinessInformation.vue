@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col">
             <div class="me-4 pb-4 bg-transparent">
-
+              <!-- progressbar -->
           <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
             <div class="col-9 text-center p-0 mb-2">
               <div class="px-0 pb-0 mt-3 mb-3">
@@ -24,7 +24,6 @@
                 </form>
               </div>
           </div>    
-
           <div class="container p-3 bg-white ">
             <div class="py-1 text-center">
               <h1 class="title-10 fw-bold mb-3">
@@ -33,7 +32,6 @@
               <div class="border-bottom mb-2"></div>
             </div>
             <p class="col-12 inter-body-semibold text-start text-dark ms-2 mb-1">Business Information</p>
-
             <div class="container row gx-0 g-0 pt-2">
               <div class="col-12">
                 <div class="row gx-2 g-0">
@@ -51,14 +49,12 @@
                       </form>
                     </div>
                   </div>
-
                   <div class="col-12 col-md-6 col-lg-6">
                       <!-- type of business-->
                       <div class="input-group mb-3 px-1">
                         <input class="form-control input-height" type="text" placeholder="Flower Snack Shop" aria-label="default input example">
                       </div>
                   </div>
-
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- input field date of birth -->
                     <div class="input-group mb-3 px-1">
@@ -68,7 +64,6 @@
                       </form>
                     </div>
                   </div>
-
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- business 6years -->
                     <div class="input-group mb-3 px-1">
@@ -80,7 +75,6 @@
                       </select>
                     </div>
                   </div>
-
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- Food and beverage -->
                     <div class="input-group mb-3 px-1">
@@ -92,7 +86,6 @@
                       </select>
                     </div>
                   </div>
-
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- business income -->
                     <div class="input-group mb-3 px-1">
@@ -105,12 +98,10 @@
                     </div>
                   </div>
                 </div>
-
                 <p class="col-12 inter-body-semibold text-start text-dark ms-2 mb-3">Bank Details</p>
                 <p class="col-12 title-13 text-dark ms-2 mb-3">
                   Note: Bank account should be under the name of the registered business or the name of the person to whom the DTI Certificate of Registration is issued to.
                 </p>
-
                 <div class="row gx-2 g-0">
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- bank details-->
@@ -136,12 +127,10 @@
                       </div>
                     </div>
                   </div>
-
                 <p class="col-12 inter-body-semibold text-start text-dark ms-2 mb-1">Submission of required identification documents</p>
                 <h6 class="col-12 title-13 text-danger ms-2 mb-3">
                   You have documents that are declined. Please re-submit the documents needed.
                 </h6>
-
                 <div class="row gx-2 g-0">
                   <!-- col-1 -->
                   <div class="col-12 col-md-6 col-lg-6">
@@ -153,14 +142,12 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- col 2 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
                       <button type="button" class="btn btn-outline-green py-0 mt-3 ">Approved</button>
                     </div>
                   </div>
-
                   <!-- col 3 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -171,14 +158,12 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- col 4 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-5">
                       <button type="button" class="btn btn-outline-green py-0">Approved</button>
                     </div>
                   </div>
-
                   <!-- col 5 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -189,14 +174,12 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- col 6 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-5">
                       <button type="button" class="btn btn-outline-green py-0">Approved</button>
                     </div>
                   </div>
-
                   <!-- col 7 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -207,14 +190,12 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- col 8 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-5">
                       <button type="button" class="btn btn-outline-red py-0">Declined</button>
                     </div>
                   </div>
-
                   <!-- col 9 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -225,7 +206,6 @@
                       </div>
                     </div>
                   </div>
-
                   <!-- col 10 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-5">
@@ -233,7 +213,6 @@
                     </div>
                   </div>
                 </div>
-
                 <!-- button -->
                 <div class="container py-2 mt-5">
                   <a class="position-absolute bottom-0 end-0 px-1 mb-2 text-decoration-none" href="#">
@@ -254,7 +233,6 @@
 
 <script>
   export default {
-
     mounted() {
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
       tooltipTriggerList.map(function (tooltipTriggerEl) {

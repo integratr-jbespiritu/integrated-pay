@@ -2711,15 +2711,6 @@ textarea.form-control-lg {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
-.input-group-xl > .form-control,
-.input-group-xl > .form-select,
-.input-group-xl > .input-group-text,
-.input-group-xl > .btn {
-  padding: 0.9rem 1rem;
-  font-size: 1rem;
-  border-radius: 0rem;
-}
-
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
@@ -3280,11 +3271,6 @@ textarea.form-control-lg {
   color: #6c757d;
   background-color: transparent;
 }
-.btn-outline-green {
-  color: #198754;
-  border-color: #198754;
-  border: 2px solid;
-}
 .btn-outline-success {
   color: #198754;
   border-color: #198754;
@@ -3358,11 +3344,6 @@ textarea.form-control-lg {
 .btn-outline-warning:disabled, .btn-outline-warning.disabled {
   color: #ffc107;
   background-color: transparent;
-}
-.btn-outline-red {
-  color: #dc3545;
-  border-color: #dc3545;
-  border: 2px solid;
 }
 .btn-outline-danger {
   color: #dc3545;

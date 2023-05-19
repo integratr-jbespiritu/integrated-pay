@@ -401,3 +401,23 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
+.input-group-xl > .form-control,
+.input-group-xl > .form-select,
+.input-group-xl > .input-group-text,
+.input-group-xl > .btn {
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 0rem;
+}
+
+.btn-outline-green {
+  color: #198754;
+  border-color: #198754;
+  border: 2px solid;
+}
+
+.btn-outline-red {
+  color: #dc3545;
+  border-color: #dc3545;
+  border: 2px solid;
+}

@@ -173,19 +173,6 @@
           }
       },
       transformImageLinks(){
-        const imageLinks = [
-          '/src/assets/images/visa.svg',
-          '/src/assets/images/mastercard.svg',
-          '/src/assets/images/maestro.svg',
-          'src/assets/images/amex.svg',
-          '/src/assets/images/gcash.svg',
-          '/src/assets/images/paymaya.svg',
-          '/src/assets/images/grabpay.svg',
-          '/src/assets/images/ecpay.svg',
-          '/src/assets/images/bayadcenter.svg',
-          '/src/assets/images/cebuana.svg',
-        ];
-
       this.payment_channels.forEach((payment_channel) => {
         payment_channel.mode_of_payments.forEach(mode_of_payment => {
             this.toDataURL(mode_of_payment.logo, function callbackURL(dataUrl){

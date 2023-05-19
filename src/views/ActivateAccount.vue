@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col">
             <div class="me-4 pb-4 bg-transparent">
-
+                  <!-- progressbar -->
              <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
               <div class="col-9 text-center p-0 mb-2">
               <div class="px-0 pb-0 mt-3 mb-3">
@@ -24,15 +24,12 @@
                 </form>
               </div>
             </div>
-              
-        
     <div class="container p-3 bg-white pb-3">
       <div class="py-1 text-center">
            <h1 class="inter-h1-black fw-bold mb-3" style="font-size: 32px; color: var(--vt-c-black);">
             General Information</h1>
           <div class="border-bottom mb-2"></div>
      </div>
-
           <div class="container row gx-0 g-0 pt-2">
             <div class="col-12">
               <div class="row gx-2 g-0">
@@ -102,7 +99,6 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input city of birth -->
                   <div class="input-group mb-3 px-1">
@@ -214,13 +210,10 @@
       </div>
       </div>
       </div>
- 
 </template>
 
 <script>
-
   export default {
-
     mounted() {
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
       tooltipTriggerList.map(function (tooltipTriggerEl) {
