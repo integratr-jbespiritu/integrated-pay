@@ -8,7 +8,7 @@
     </header>
     <div class="col w-50">
    <div class="cover-image">
-    <img src="/src/assets/images/row.svg" alt="Cover Image">
+    <img src="/src/assets/images/row.svg" class="img img-fluid" alt="Cover Image">
     </div>
     <div class="overlay d-flex">
       <div class="row align-items-start p-5 text-white">
@@ -17,7 +17,7 @@
         <p class="title-12 text-start mt-1">Wednesday, Feb 23, 2023 3:40 PM PST</p>
       </div>
       <div class="row align-items-end border">
-        <img src="/src/assets/images/character.svg" class="mb-4" alt="Overlay Image">
+        <img src="/src/assets/images/character.svg" class="img img-fluid mb-4" alt="Overlay Image">
       </div>
     </div>
   </div>

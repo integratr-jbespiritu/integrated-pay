@@ -42,15 +42,12 @@ export default {
 .modal-large-2 {
     display: block !important;
 }
-
 .modal-dialog-2 {
     overflow-y: initial !important
 }
-
 .modal-body-2 {
     overflow-y: auto;
 }
-
 .modal-mask-2 {
     position: fixed;
     z-index: 9998;
@@ -63,7 +60,6 @@ export default {
     transition: opacity 0.3s ease;
     overflow-y: hidden !important;
 }
-
 .modal-header-2 {
     border: 0px;
     border-bottom: 1px;
@@ -81,29 +77,24 @@ export default {
         margin: 1.75rem auto;
     }
 }
-
 @media (min-width: 922px) {
     .modal-dialog-2 {
         max-width: 800px;
         margin: 1.75rem auto;
     }
 }
-
 @media (min-width: 1100px) {
     .modal-dialog-2 {
         max-width: 1000px;
         margin: 1.75rem auto;
     }
 }
-
 @media (min-width: 1400px) {
     .modal-dialog-2 {
         max-width: 1300px;
         margin: 1.75rem auto;
     }
-
 }
-
 @media (min-width: 1600px) {
     .modal-dialog-2 {
         max-width: 1500px;

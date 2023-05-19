@@ -4,7 +4,7 @@
          <div class="sidebar-header">
             <div class="row gx-0 g-0 pad-bottom-10p">
                <div class="col-12 justify-content-center d-flex pt-1">
-                  <img src="/src/assets/images/logo_white.svg">
+                  <img src="/src/assets/images/logo_white.svg" class="img img-fluid">
                </div>
                <div class="col-12 justify-content-center d-flex pb-2">
                   <img src="/src/assets/images/avatar.svg" class="h-100">
@@ -36,7 +36,7 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer.activate-account'}">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer.activate-account.step1'}">
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
                         </router-link>
@@ -74,7 +74,7 @@ export default {
       return {
          modules: [
             {
-               title: 'Services',
+               title: 'Services',   
                module_types: [
                   {
                      name: 'Transactions',
@@ -82,7 +82,7 @@ export default {
                   },
                   {
                      name: 'Disbursement',
-                     route: ''
+                     route: 'DisbursementPage'
                   },
 
                   {

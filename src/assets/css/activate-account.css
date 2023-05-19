@@ -4,26 +4,23 @@ body {
 
 .input-height {
     height: 57px;
+    border-radius: 0%;
 }
 .input-height:hover {
   border: 1px solid var(--vt-c-purple);
 }
 
-hr::before {
-  width:100px;
-  position: absolute;
-}
 
-.progressbar {
+.step2-progressbar {
   display: flex;
   justify-content:space-between;
   position: relative;
 }
 
-.progressbar::before {
+.step2-progressbar::before {
   content: "";
   height: 2px;
-  width: 33%;
+  width: 34%;
   position: absolute;
   top:50%;
   transform: translateY(-50%);
@@ -31,18 +28,19 @@ hr::before {
   align-self: center;
  }  
   
-.progressbar::after{
+.step2-progressbar::after{
     content: "";
     position: absolute;
     left: 1rem;
     top: 15px;
     background: var(--vt-c-silver);
-    width: 96%;
+    width: 96% ;
     height:2px;
     transform: translateX(-1%);
     z-index: -10;
+
 }
-  .step1 {
+  .activate-step1 {
     font-size: 20px;
     font-weight: bolder;
     width: 32px;
@@ -51,7 +49,7 @@ hr::before {
     border-radius: 50%;
   }
 
-  .step2-circle {
+  .activate-step2-circle {
     background-color: var(--vt-c-default-white);
     border: 2px solid var(--vt-c-purple);
     border-radius: 50%;
@@ -66,7 +64,7 @@ hr::before {
     height:10px;
     width:10px;
 }
-  .step3-circle {
+  .activate-step3-circle {
     background-color: var(--vt-c-default-white);
     border: 2px solid var(--vt-c-light-gray);
     border-radius: 50%;
@@ -74,23 +72,16 @@ hr::before {
     width: 32px;
   }
 
-  .step3-inner-circle {
+  .activate-step3-inner-circle {
   position: relative;
     background: var(--vt-c-light-gray); 
     border-radius: 50%;
     height:10px;
     width:10px;
   }
-  .step3 {
-    font-size: 35px;
-    width:32px;
-    height: 32px;
-    border-radius: 50%;
-    color: var(--vt-c-light-gray);
-    border: var(--vt-c-purple);
-  }
 
-  .step4 {
+
+  .activate-step4 {
     font-size: 32px;
     width:32px;
     height: 32px;
@@ -100,15 +91,14 @@ hr::before {
   }
 
   /* step 2 style */
-.rectangle {  
-    width: 480px;
-    height: auto;
-    border: 1px solid var(--vt-c-light-gray);
-    align-items: center;
+
+.rectangle {
+  width:fit-content;
+  border-color: var(--vt-c-light-gray) !important;
 }
 
-.rectangle:hover{
-  border-color: var(--vt-c-purple);
+.rectangle:hover , .container-content{
+  border-color: var(--vt-c-purple) !important;
   color: var(--vt-c-purple);
 }
 
@@ -120,8 +110,9 @@ hr::before {
   font-size: 24px;
   color: var(--vt-c-light-black);
 }
+
 .activate-image {
-  width: 500px;
+  width: 550px;
 }
 
 .activate-button {
@@ -136,3 +127,39 @@ hr::before {
 .activate-button:hover{
  background-color: var(--vt-c-violet);
 }  
+
+.step3:hover {
+  border-color: var(--vt-c-purple);
+}
+
+/* step3 progressbar */
+
+.step3-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+
+.step3-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 65%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+  
+.step3-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+

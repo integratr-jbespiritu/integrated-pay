@@ -174,7 +174,6 @@
           }
       },
       transformImageLinks(){
-
       this.payment_channels.forEach((payment_channel) => {
         payment_channel.mode_of_payments.forEach(mode_of_payment => {
             this.toDataURL(mode_of_payment.logo, function callbackURL(dataUrl){

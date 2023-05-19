@@ -9,6 +9,13 @@ import ActivateAccount from '../views/ActivateAccount.vue'
 import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
 import MainLayout from '../components/MainLayout.vue'
+import DisbursementPage from '../views/DisbursementPage.vue'
+import Viewtransaction from '../views/Viewtransaction.vue'
+import ActivateStep1 from '../views/ActivateStep1.vue'
+import RequestRefund from '../views/RequestRefund.vue'
+import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
+import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +53,11 @@ const router = createRouter({
           component: HomeView
         }, 
         {
+          path: '/activate-account-step1',
+          name: 'consumer.activate-account.step1',
+          component: ActivateStep1
+        },
+        {
           path: '/activate-StepII',
           name: 'consumer.activate-account.step2',
           component: ActivateStepII
@@ -69,6 +81,31 @@ const router = createRouter({
           path: '/dashboard',
           name: 'consumer.dashboard',
           component: Dashboard
+        },
+        {
+          path: '/DisbursementPage',
+          name: 'DisbursementPage',
+          component: DisbursementPage
+        },
+        {
+          path: '/view-transaction',
+          name: 'Viewtransaction',
+          component: Viewtransaction
+        },
+        {
+          path: '/request-refund',
+          name: 'RequestRefund',
+          component: RequestRefund
+        },
+        {
+          path: '/activate-account-businessinformation',
+          name: 'consumer.activate-step3-businessinformation',
+          component: ActivateBusinessInformation
+        },
+        {
+          path: '/activate-account-governmentunit',
+          name: 'consumer.activate-step3-governmentunit',
+          component: ActivateGovernmentUnit
         },
       ],
     },
