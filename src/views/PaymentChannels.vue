@@ -45,6 +45,7 @@
                       </div>
                       <div class="col-4">
                       <div class="pt-2 mt-2">
+                        <!-- <input type="switch-checkbox" id="switch" /><label for="switch">\  </label> -->
                           <input type="checkbox" class="toggle" :id="'switch'+i+j" v-model="payment_method.is_accepted">
                           <label class="title-8" :for="'switch'+i+j">{{ payment_method.is_accepted==true?'Accepted Payment Method':'Set as Accepted Payment Method' }}</label>
                       </div>
