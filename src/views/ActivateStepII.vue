@@ -33,9 +33,9 @@
               <div class="border-bottom mb-2"></div>
         </div>
         
-           <div class="container">
-        <div class="row gy-5">   
-          <div class="col-12 col-md-12 col-lg-6">
+        <div class="container">
+            <div class="row gy-5">   
+              <div class="col-12 col-md-12 col-lg-6">
                    <div class="container p-3 d-flex">
                     <div class="rectangle border d-flex">
                           <div class="icons isax isax-shop4 mt-5 ms-4"></div>
@@ -65,17 +65,18 @@
                         </div>
                       </div>
                       </div>
-          <div class="col-12 col-md-12 col-lg-6">
-            <div class="p-3">
-              <div class="container d-flex">
-                      <div class="d-flex mt-3 mb-3">
-                        <img src="/src/assets/images/character.svg" class="activate-image img img-fluid" />
+                          
+                    <div class="col-12 col-md-12 col-lg-6">
+                      <div class="p-3">
+                        <div class="container d-flex">
+                            <div class="d-flex mt-3 mb-3">
+                                <img src="/src/assets/images/character.svg" class="activate-image img img-fluid" />
+                            </div>
+                        </div>
                       </div>
                     </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                  </div>
+                </div>
               <!--Button-->
               <div class="mt-4 py-4 mb-4 me-3">
                 <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#">
@@ -90,7 +91,6 @@
     </div>
    </div>
   </div>
-
 </template>
 <script>
 
