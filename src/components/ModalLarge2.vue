@@ -98,5 +98,6 @@ export default {
         max-width: 1500px;
         margin: 1.75rem auto;
     }
+
 }
 </style>

@@ -40,7 +40,7 @@
                         <div class="col-12 col-md-6 col-lg-6">
                           <!-- input type of business -->
                           <div class="input-group mb-3 px-1">
-                            <select class="input-height form-select text-silver-gray" aria-label="Default select example" id="floatingInputValue">
+                            <select class="input-height form-select1 text-silver-gray" aria-label="Default select example" id="floatingInputValue">
                               <option selected>Type of Government Unit (LGU, Trusted Charities/NGO, Government Body)</option>
                               <option value=""></option>
                               <option value=""></option>
@@ -83,7 +83,7 @@
                         <div class="col-12 col-md-6 col-lg-6">
                           <!-- gov period -->
                           <div class="input-group mb-3 px-1">
-                            <select class="input-height form-select text-silver-gray" aria-label="Default select example" id="floatingInputValue">
+                            <select class="input-height form-select1 text-silver-gray" aria-label="Default select example" id="floatingInputValue">
                               <option selected>How long have you been in a government unit?</option>
                               <option value=""></option>
                               <option value=""></option>
@@ -95,7 +95,7 @@
                         <div class="col-12 col-md-6 col-lg-6">
                           <!-- nature of work -->
                           <div class="input-group mb-3 px-1">
-                            <select class="input-height form-select text-silver-gray" aria-label="Default select example" id="floatingInputValue">
+                            <select class="input-height form-select1 text-silver-gray" aria-label="Default select example" id="floatingInputValue">
                               <option selected>Nature of work</option>
                               <option value=""></option>
                               <option value=""></option>
@@ -114,7 +114,7 @@
                         <div class="col-12 col-md-6 col-lg-6">
                           <!-- select bank -->
                           <div class="input-group mb-3 px-1">
-                            <select class="input-height form-select text-silver-gray" aria-label="Default select example" id="floatingInputValue">
+                            <select class="input-height form-select1 text-silver-gray" aria-label="Default select example" id="floatingInputValue">
                               <option selected>Select Bank</option>
                               <option value=""></option>
                               <option value=""></option>

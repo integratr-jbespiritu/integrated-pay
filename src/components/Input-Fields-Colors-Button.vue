@@ -99,7 +99,7 @@
                 <!-- default duration -->
                 <div class="default-duration input-group mb-3">
                   <span class="span-icon input-group-text rounded-0"><i class="isax isax-clock"></i></span>
-                  <select class="input-sm form-select" aria-label="Default select example">
+                  <select class="input-sm form-select1 text-silver-gray" aria-label="Default select example">
                     <option selected>Default Duration</option>
                     <option value=""></option>
                     <option value=""></option>
@@ -110,7 +110,7 @@
                 <!-- selected duration -->
                 <div class="input-group mb-3">
                   <span class="span-purple-border input-group-text rounded-0"><i class="isax isax-clock"></i></span>
-                  <select class="input-purple-border form-select" aria-label="Default select example">
+                  <select class="input-purple-border form-select1 text-silver-gray" aria-label="Default select example">
                     <option selected>Selected Duration</option>
                     <option value="1"></option>
                     <option value="2"></option>

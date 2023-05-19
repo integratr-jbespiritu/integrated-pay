@@ -39,7 +39,7 @@
                     <!-- input type of business -->
                     <div class="input-group mb-3 px-1">
                       <form class="form-floating">
-                        <select class="input-height form-select" aria-label="Default select example" id="floatingInputValue">
+                        <select class="input-height form-select1" aria-label="Default select example" id="floatingInputValue">
                           <option selected>Sole Proprietorship</option>
                           <option value=""></option>
                           <option value=""></option>
@@ -67,7 +67,7 @@
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- business 6years -->
                     <div class="input-group mb-3 px-1">
-                      <select class="input-height form-select text-dark" aria-label="Default select example">
+                      <select class="input-height form-select1 text-dark" aria-label="Default select example">
                         <option selected>6 Years</option>
                         <option value=""></option>
                         <option value=""></option>
@@ -78,7 +78,7 @@
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- Food and beverage -->
                     <div class="input-group mb-3 px-1">
-                      <select class="input-height form-select text-dark" aria-label="Default select example">
+                      <select class="input-height form-select1 text-dark" aria-label="Default select example">
                         <option selected>Food and Beverage</option>
                         <option value=""></option>
                         <option value=""></option>
@@ -89,7 +89,7 @@
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- business income -->
                     <div class="input-group mb-3 px-1">
-                      <select class="input-height form-select text-dark" aria-label="Default select example">
+                      <select class="input-height form-select1 text-dark" aria-label="Default select example">
                         <option selected>Business income</option>
                         <option value=""></option>
                         <option value=""></option>
@@ -106,7 +106,7 @@
                   <div class="col-12 col-md-6 col-lg-6">
                     <!-- bank details-->
                     <div class="input-group mb-3 px-1">
-                      <select class="input-height form-select text-dark" aria-label="Default select example">
+                      <select class="input-height form-select1 text-dark" aria-label="Default select example">
                         <option selected>BDO</option>
                         <option value=""></option>
                         <option value=""></option>

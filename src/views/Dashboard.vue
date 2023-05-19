@@ -59,7 +59,7 @@
     <div class="row">
       <div class="col-md-4 duration-btn input-group mb-3 mt-3">
         <span class="icon-span input-group-text rounded-start"><i class="isax isax-clock"></i></span>
-        <select class="form-select title-8 rounded-end" aria-label="Default select example">
+        <select class="form-select1 title-8 rounded-end" aria-label="Default select example">
           <option v-for="duration in durations" :key="duration" :value="duration.value">{{ duration.name }}</option>
         </select>
       </div>

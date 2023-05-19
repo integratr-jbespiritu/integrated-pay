@@ -91,7 +91,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input country of birth -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Country of Birth</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -102,7 +102,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input city of birth -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>City of Birth</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -143,7 +143,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- region -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Region</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -154,7 +154,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- province -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Province</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -165,7 +165,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- city / municipality -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>City or Municipality</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -176,7 +176,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- barangay -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select text-silver-gray" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Barangay</option>
                       <option value=""></option>
                       <option value=""></option>
