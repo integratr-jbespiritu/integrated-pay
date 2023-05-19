@@ -21,9 +21,9 @@
                   <div class="col">
                     <img src="/src/assets/images/visa.svg" class="img-fluid me-3" alt="Visa" />
                     <img src="/src/assets/images/mastercard.svg" class="img-fluid me-3" alt="MasterCard" />
-                    <img src="src/assets/images/gcash.svg" class="img-fluid me-3" alt="GCash" />
-                    <img src="src/assets/images/paymaya.svg" class="img-fluid me-3" alt="PayMaya" />
-                    <img src="src/assets/images/ecpay.svg" class="img-fluid me-3" alt="ECPay" />
+                    <img src="/src/assets/images/gcash.svg" class="img-fluid me-3" alt="GCash" />
+                    <img src="/src/assets/images/paymaya.svg" class="img-fluid me-3" alt="PayMaya" />
+                    <img src="/src/assets/images/ecpay.svg" class="img-fluid me-3" alt="ECPay" />
                   </div>
                 </div>
               </div>

@@ -1,9 +1,10 @@
 <template>
-<div class="row me-0 ms-2">
-  <div class="mb-5">
+    <div class="row me-0 ms-2">
+        <div class="col-12">
+      <div class="mb-5">
         <div class="row">
           <div class="col">
-            <div class="me-4 pb-4 bg-transparent">
+            <div class="p-3 me-5 pb-4 bg-transparent">
                   <!-- progressbar -->
              <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
               <div class="col-9 text-center p-0 mb-2">
@@ -205,6 +206,7 @@
           </div>
         </div>
         </div>
+      </div>
       </div>
       </div>
       </div>
