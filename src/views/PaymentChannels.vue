@@ -21,9 +21,9 @@
                   <div class="col">
                     <img src="/src/assets/images/visa.svg" class="img-fluid me-3" alt="Visa" />
                     <img src="/src/assets/images/mastercard.svg" class="img-fluid me-3" alt="MasterCard" />
-                    <img src="src/assets/images/gcash.svg" class="img-fluid me-3" alt="GCash" />
-                    <img src="src/assets/images/paymaya.svg" class="img-fluid me-3" alt="PayMaya" />
-                    <img src="src/assets/images/ecpay.svg" class="img-fluid me-3" alt="ECPay" />
+                    <img src="/src/assets/images/gcash.svg" class="img-fluid me-3" alt="GCash" />
+                    <img src="/src/assets/images/paymaya.svg" class="img-fluid me-3" alt="PayMaya" />
+                    <img src="/src/assets/images/ecpay.svg" class="img-fluid me-3" alt="ECPay" />
                   </div>
                 </div>
               </div>
@@ -174,18 +174,6 @@
           }
       },
       transformImageLinks(){
-        const imageLinks = [
-          '/src/assets/images/visa.svg',
-          '/src/assets/images/mastercard.svg',
-          '/src/assets/images/maestro.svg',
-          'src/assets/images/amex.svg',
-          '/src/assets/images/gcash.svg',
-          '/src/assets/images/paymaya.svg',
-          '/src/assets/images/grabpay.svg',
-          '/src/assets/images/ecpay.svg',
-          '/src/assets/images/bayadcenter.svg',
-          '/src/assets/images/cebuana.svg',
-        ];
 
       this.payment_channels.forEach((payment_channel) => {
         payment_channel.mode_of_payments.forEach(mode_of_payment => {

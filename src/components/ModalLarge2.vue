@@ -40,143 +40,74 @@ export default {
 
 <style>
 .modal-large-2 {
-
     display: block !important;
-
 }
 
 .modal-dialog-2 {
-
     overflow-y: initial !important
 }
 
 .modal-body-2 {
-
     overflow-y: auto;
-
 }
 
 .modal-mask-2 {
-
     position: fixed;
-
     z-index: 9998;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
     height: 100%;
-
     background-color: rgba(0, 0, 0, 0.5);
-
     display: table;
-
     transition: opacity 0.3s ease;
-
     overflow-y: hidden !important;
-
 }
-
-
-
 
 .modal-header-2 {
-
     border: 0px;
-
     border-bottom: 1px;
-
     border-color: #F4F4F4;
-
     border-style: solid;
-
 }
-
-
-
 
 .modal-footer-2 {
-
     border: none;
-
 }
-
-
-
-
 
 @media (min-width: 500px) {
-
     .modal-dialog-2 {
-
         max-width: 490px;
-
         margin: 1.75rem auto;
-
     }
-
 }
-
-
-
 
 @media (min-width: 922px) {
-
     .modal-dialog-2 {
-
         max-width: 800px;
-
         margin: 1.75rem auto;
-
     }
-
 }
-
-
-
 
 @media (min-width: 1100px) {
-
     .modal-dialog-2 {
-
         max-width: 1000px;
-
         margin: 1.75rem auto;
-
     }
-
 }
-
-
-
 
 @media (min-width: 1400px) {
-
     .modal-dialog-2 {
-
         max-width: 1300px;
-
         margin: 1.75rem auto;
-
     }
 
 }
 
-
-
-
 @media (min-width: 1600px) {
-
     .modal-dialog-2 {
-
         max-width: 1500px;
-
         margin: 1.75rem auto;
-
     }
-
 }
 </style>

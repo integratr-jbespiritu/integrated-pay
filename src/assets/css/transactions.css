@@ -23,20 +23,15 @@
     border: 1px solid var(--vt-c-light-gray);
 }
 
-*{
-	box-sizing: border-box;
-}
-
 .table td,.table th {
   padding: 12px 15px;
 }
 
 .table tr:hover {
 	border:1px solid blueviolet;
-  }
+    background-color: #fff;
+}
+
 .table td:hover {
     font-weight: 700;
-}
-.table tr:hover {
-	background-color: #fff;
 }
