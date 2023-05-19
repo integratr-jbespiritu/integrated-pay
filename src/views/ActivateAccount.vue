@@ -1,39 +1,35 @@
 <template>
-  <header />
-  <Sidebar />
-  <main class="container d-flex col-12">
-      <div class="d-flex flex-wrap pt-3 pb-2 px-2">
-        <div class="container gx-0 g-0" style="margin-left: 12rem;">
-      <div class="container">
-        <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
-          <div class="col-9 text-center p-0 mb-2 ps-1 ms-5">
-            <div class="px-0 pb-0 mt-3 mb-3">
-              <form id="form">
-                <div class="step2-progressbar">
-                  <div class="activate-step1">
-                    <span><img src="/src/assets/images/check.svg" alt="" /> </span>
+<div class="row me-0 ms-2">
+  <div class="mb-5">
+        <div class="row">
+          <div class="col">
+            <div class="me-4 pb-4 bg-transparent">
+                  <!-- progressbar -->
+             <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
+              <div class="col-9 text-center p-0 mb-2">
+              <div class="px-0 pb-0 mt-3 mb-3">
+                <form id="form">
+                  <div class="step2-progressbar">
+                    <div class="activate-step1">
+                      <span><img src="/src/assets/images/check.svg" alt="" /> </span>
+                    </div>
+                    <a class="activate-step2-circle" title="General Information" data-bs-toggle="tooltip" data-bs-placement="top">
+                      <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                    </a>
+                    <div class="activate-step3-circle">
+                      <div class="step3-inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                    </div>
+                    <div class="activate-step4"></div>
                   </div>
-                  <a class="activate-step2-circle" title="General Information" data-bs-toggle="tooltip" data-bs-placement="top">
-                    <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
-                  </a>
-                  <div class="activate-step3-circle">
-                    <div class="step3-inner-circle position-absolute top-50 start-50 translate-middle"></div>
-                  </div>
-                  <div class="activate-step4"></div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="container p-3 bg-white pb-3 ms-4">
-          <div class="py-1 text-center">
-            <h1 class="inter-h1-black fw-bold mb-3" style="font-size: 32px; color: var(--vt-c-black);">
-              General Information
-            </h1>
-            <div class="border-bottom mb-2"></div>
-          </div>
-
+    <div class="container p-3 bg-white pb-3">
+      <div class="py-1 text-center">
+           <h1 class="inter-h1-black fw-bold mb-3" style="font-size: 32px; color: var(--vt-c-black);">
+            General Information</h1>
+          <div class="border-bottom mb-2"></div>
+     </div>
           <div class="container row gx-0 g-0 pt-2">
             <div class="col-12">
               <div class="row gx-2 g-0">
@@ -95,7 +91,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input country of birth -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Country of Birth</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -103,11 +99,10 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- input city of birth -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>City of Birth</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -148,7 +143,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- region -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Region</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -159,7 +154,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- province -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Province</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -170,7 +165,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                   <!-- city / municipality -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>City or Municipality</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -179,9 +174,9 @@
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                  <!-- baranggay -->
+                  <!-- barangay -->
                   <div class="input-group mb-3 px-1">
-                    <select class="input-height form-select" aria-label="Default select example">
+                    <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
                       <option selected>Barangay</option>
                       <option value=""></option>
                       <option value=""></option>
@@ -202,29 +197,23 @@
               <!-- button -->
               <div class="container py-2 mt-5">
                 <a class="position-absolute bottom-0 end-0 px-1 mb-2 text-decoration-none" href="#">
-                  <router-link :to="{name: 'ActivateStep1'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
-                  <router-link :to="{name: 'ActivateStep2'}"> <button type="button" class="activate-button">Continue</button> </router-link>
+                  <router-link :to="{name: 'consumer.activate-account.step1'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
+                  <router-link :to="{name: 'consumer.activate-account.step2'}"> <button type="button" class="activate-button">Continue</button> </router-link>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        </div>
       </div>
-    </div>
-    </div>
-  </main>
+      </div>
+      </div>
+      </div>
+      </div>
 </template>
 
 <script>
-  import Header from "../components/Header.vue";
-  import Sidebar from "../components/Sidebar.vue";
-
   export default {
-    name: "LoginPage",
-    components: {
-      Header,
-      Sidebar,
-    },
     mounted() {
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
       tooltipTriggerList.map(function (tooltipTriggerEl) {

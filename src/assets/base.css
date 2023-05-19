@@ -23,7 +23,7 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
   --vt-c-gray: #44435F; 
-  --vt-c-light-gray: #CCCCCC;
+  --vt-c-light-gray: #CCCCCC ;
   --vt-c-purple: #7755D6;    
   --vt-c-blue: #7DA7F1;  
   --vt-c-black: #000000;
@@ -42,11 +42,13 @@
   --vt-c-seafoam-green: #61CB8E;
   --vt-c-light-blue: #D8F4FE;
   --vt-c-dim-gray: #AAAAAA;
-  --vt-c-light-gray: #999999;
+  --vt-c-light-grey: #999999;
   --vt-c-dark-blue: #407BE2;
   --vt-c-silver:#ACACAC;
   --vt-c-light-black: #4F4F4F;
-  
+  --vt-c-silver-gray: #6c757d;
+  --vt-c-space-gray: #212529;
+
 
   
 }
