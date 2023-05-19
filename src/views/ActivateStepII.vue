@@ -35,10 +35,10 @@
         
            <div class="container">
         <div class="row gy-5">   
-               <div class="col-6 col-md-6 col-lg-6">
+          <div class="col-12 col-md-12 col-lg-6">
                    <div class="container p-3 d-flex">
                     <div class="rectangle border d-flex">
-                          <div class="icons isax isax-shop4 mt-5 ms-3"></div>
+                          <div class="icons isax isax-shop4 mt-5 ms-4"></div>
                           <div class="container">
                             <div class="col text-wrap">
                               <h5 class="title-6 text-start mt-3">Business</h5>
@@ -49,37 +49,35 @@
                           </div>
                          </div>
                         </div>
-                         <div class="col mt-0">
+                        <div class="col">
                           <div class="p-3 container d-flex">
                             <div class="rectangle border d-flex">
-                            <div class="icons isax isax-bank mt-5 ms-3"></div>
+                            <div class="icons isax isax-bank mt-5 ms-4"></div>
                             <div class="container">
-                              <div class="col text-wrap">
-                                <h5 class="title-6 text-start mt-3">Government Unit</h5>
+                              <div class="col">
+                                <h5 class="title-6 text-start mt-3 text-break">Government Unit</h5>
                               </div>
                               <div class="col mt-2">
-                                <p class="inter-regular me-3 text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="inter-regular me-2 text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                       </div>
-            
           <div class="col-12 col-md-12 col-lg-6">
             <div class="p-3">
               <div class="container d-flex">
-                      <div class="d-flex mt-4 mb-3">
-                        <img src="src/assets/images/character.svg" class="activate-image img img-fluid" />
+                      <div class="d-flex mt-3 mb-3">
+                        <img src="/src/assets/images/character.svg" class="activate-image img img-fluid" />
                       </div>
                     </div>
             </div>
           </div>
         </div>
       </div>
-
               <!--Button-->
-              <div class="mt-4 py-4 mb-4 me-4">
+              <div class="mt-4 py-4 mb-4 me-3">
                 <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none" href="#">
                   <router-link :to="{name: 'consumer.activate-account'}" class="text-decoration-none"><span class="px-3 text-purple">Back</span></router-link>
                   <router-link :to="{name: 'consumer.activate-step3-businessinformation'}"> <button type="button" class="activate-button">Continue</button> </router-link>

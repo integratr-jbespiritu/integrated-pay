@@ -133,9 +133,9 @@
                 </h6>
                 <div class="row gx-2 g-0">
                   <!-- col-1 -->
-                  <div class="col-12 col-md-6 col-lg-6">
+                  <div class="col-12 col-md-6">
                     <div class="container">
-                      <p class="title-15">Upload file of your valid ID (for Individual, Sole Proprietorship, Partnership, Corporation)</p>
+                      <p class="title-15 col-12">Upload file of your valid ID (for Individual, Sole Proprietorship, Partnership, Corporation)</p>
                       <div class="input-group input-group-xl">
                         <span class="input-group-text bg-grayish text-white" id="inputGroup-sizing-lg">Choose File</span>
                         <input type="text" class="form-control text-grayish" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="valid_ID.jpeg">
@@ -144,10 +144,10 @@
                   </div>
                   <!-- col 2 -->
                   <div class="col-12 col-md-6 col-lg-6">
-                    <div class="container mt-3">
-                      <button type="button" class="btn btn-outline-green py-0 mt-3 ">Approved</button>
-                    </div>
-                  </div>
+                      <div class="container mt-3">
+                         <button type="button" class="button-outline-green py-0 px-3 mt-3 bg-transparent">Approved</button>
+                      </div>
+                   </div>
                   <!-- col 3 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -160,10 +160,10 @@
                   </div>
                   <!-- col 4 -->
                   <div class="col-12 col-md-6 col-lg-6">
-                    <div class="container mt-5">
-                      <button type="button" class="btn btn-outline-green py-0">Approved</button>
-                    </div>
-                  </div>
+                      <div class="container mt-5">
+                         <button type="button" class="button-outline-green py-0 px-3 bg-transparent">Approved</button>
+                      </div>
+                   </div>
                   <!-- col 5 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -176,10 +176,10 @@
                   </div>
                   <!-- col 6 -->
                   <div class="col-12 col-md-6 col-lg-6">
-                    <div class="container mt-5">
-                      <button type="button" class="btn btn-outline-green py-0">Approved</button>
-                    </div>
-                  </div>
+                      <div class="container mt-5">
+                         <button type="button" class="button-outline-green py-0 px-3 bg-transparent">Approved</button>
+                      </div>
+                   </div>
                   <!-- col 7 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -192,10 +192,10 @@
                   </div>
                   <!-- col 8 -->
                   <div class="col-12 col-md-6 col-lg-6">
-                    <div class="container mt-5">
-                      <button type="button" class="btn btn-outline-red py-0">Declined</button>
-                    </div>
-                  </div>
+                      <div class="container mt-5">
+                         <button type="button" class="button-outline-red py-0 px-3 bg-transparent">Declined</button>
+                      </div>
+                   </div>
                   <!-- col 9 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-3">
@@ -208,10 +208,10 @@
                   </div>
                   <!-- col 10 -->
                   <div class="col-12 col-md-6 col-lg-6">
-                    <div class="container mt-5">
-                      <button type="button" class="btn btn-outline-red py-0">Declined</button>
-                    </div>
-                  </div>
+                      <div class="container mt-5">
+                         <button type="button" class="button-outline-green  py-0 px-3 bg-transparent">Declined</button>
+                      </div>
+                   </div>
                 </div>
                 <!-- button -->
                 <div class="container py-2 mt-5">
