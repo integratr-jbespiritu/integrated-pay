@@ -7,7 +7,7 @@
     </header>
     <div class="col d-flex">
       <div class="ms-0">
-        <img class="img" src="/src/assets/images/row.svg" alt="background image" style="width: 99%;" />
+        <img class="img" src="/src/assets/images/row.svg" alt="background image" style="width: 99%;"/>
       </div>
       <div class="overlay">
         <div class="container">

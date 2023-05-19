@@ -1,8 +1,9 @@
 <template>
-    <main class="container d-flex col-md-9 ms-sm-auto col-lg-10">
-      <br />
-      <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
-        <div class="container gx-0 g-0" style="margin-left: 15rem;">
+<div class="row me-0 ms-2">
+  <div class="mb-5">
+        <div class="row">
+          <div class="col">
+     
           <h1 class="inter px-3">Colors</h1>
           <div class="d-flex flex-row">
             <!-- color1  -->
@@ -263,6 +264,7 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>
+    </div>
   </template>
   

@@ -229,7 +229,7 @@
                   <!-- col 10 -->
                   <div class="col-12 col-md-6 col-lg-6">
                     <div class="container mt-5">
-                      <button type="button" class="btn btn-outline-red   py-0">Declined</button>
+                      <button type="button" class="btn btn-outline-red py-0">Declined</button>
                     </div>
                   </div>
                 </div>
