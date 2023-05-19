@@ -1,11 +1,12 @@
 <template> 
-<Header/>
-<main class="container d-flex col-md-9 ms-sm-auto col-lg-10"> <br> 
-    <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
-       <div class="content" style="margin-left:15rem;"> 
+<div class="row me-0 ms-2">
+  <div class="mb-5">
+        <div class="row">
+          <div class="col">
+            <div class="me-4 pb-4 bg-transparent">
+              <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
             <p class="inter">Poppins</p>
             <p class="gotham fs-14px fw-400 pt-20px" style="color: var(--vt-c-dark-gray);">HEADING 1 / 32PX / 2EM </p>
-
  <!-- <! Heading 1  --> 
      <div class="container">
           <div class="row"> <hr>
@@ -186,18 +187,18 @@
         </div>
      </div>
     </div> 
+    </div>
    </div>
   </div>
- </main>
+</div>
+</div>
+</div>
 </template>
 
 <script>
-import Header from '../components/Header.vue';
 
 export default {
   name: "TheTypography",
-  components: {
-    Header
-}
+  
 };
 </script>

@@ -88,17 +88,6 @@
                           <td class="text-start px-20px vertical-alignment-center">Text</td>
                           <td class="text-start px-20px vertical-alignment-center">Text</td>
                        </tr>
-                       <tr class="size-table-tabledata column ">
-                          <td class="text-start px-20px vertical-alignment-center font-table-text">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                       </tr>
-                       <tr class="size-table-tabledata column ">
-                          <td class="text-start px-20px vertical-alignment-center font-table-text">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                       </tr>
-                       
                        <!-- row2  -->
                        <tr class="size-table-tabledata">
                           <td class="text-start px-20px vertical-alignment-center">Text</td>
@@ -135,19 +124,6 @@
                           <td class="text-start px-20px vertical-alignment-center">Text</td>
                           <td class="text-start px-20px vertical-alignment-center">Text</td>
                        </tr>
-                       <!-- row8  -->
-                       <tr class="size-table-tabledata">
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                       </tr>
-                       <!-- row9  -->
-                       <tr class="size-table-tabledata">
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                          <td class="text-start px-20px vertical-alignment-center">Text</td>
-                       </tr>
-                       <!-- row10  -->
                     </tbody>
                  </table>
                  <div class="mt-20px mb-20px">

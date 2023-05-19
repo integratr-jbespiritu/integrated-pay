@@ -8,85 +8,108 @@ import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
 import Dashboard from '../views/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
+import MainLayout from '../components/MainLayout.vue'
 import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 import Modal from '../views/Modal.vue'
+import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
+import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  
   routes: [
     {
-      path: '/',
-      name: 'login',  
+      path: '/admin/login',
+      name: 'admin.login',
       component: Login
     },
     {
-      path: '/registration',
-      name: 'registration',
-      component: Registration
-    },
-    {
-      path: '/loginconsumer',
-      name: 'loginconsumer',
+      path: '/',
+      name: 'consumer.login',
       component: LoginConsumer
     },
     {
-      path: '/home',
-      name: 'home',
-      component: HomeView
-    },  
-    {
-      path: '/payments',
-      name: 'payments',
-      component: PaymentChannels
-    }, 
-    {
-      path: '/transactions',
-      name: 'transactions',
-      component: Transactions
+      path: '/consumer/registration',
+      name: 'consumer.registration',
+      component: Registration
     },
     {
-      path: '/activate-account',
-      name: 'ActivateAccount',
-      component: ActivateAccount
+      path: '/admin',
+      component: MainLayout,
+      children: [
+
+      ]
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Dashboard
-    },
-    {
-      path: '/activate-step1',
-      name: 'ActivateStep1',
-      component: ActivateStep1
-    },
-    {
-      path: '/activate-Step2',
-      name: 'ActivateStep2',
-      component: ActivateStepII
-    },
-    {
-      path: '/DisbursementPage',
-      name: 'DisbursementPage',
-      component: DisbursementPage
-    },
-    {
-      path: '/view-transaction',
-      name: 'Viewtransaction',
-      component: Viewtransaction
-    },
-    {
-      path: '/request-refund',
-      name: 'RequestRefund',
-      component: RequestRefund
-    },
-    {
-      path: '/modal',
-      name: 'Modal',
-      component: Modal
+      path: '/consumer',
+      component: MainLayout,
+      children: [
+        {
+          path: '/home',
+          name: 'home',
+          component: HomeView
+        }, 
+        {
+          path: '/activate-account-step1',
+          name: 'consumer.activate-account.step1',
+          component: ActivateStep1
+        },
+        {
+          path: '/activate-StepII',
+          name: 'consumer.activate-account.step2',
+          component: ActivateStepII
+        },
+        {
+          path: '/activate-account',
+          name: 'consumer.activate-account',
+          component: ActivateAccount
+        },
+        {
+          path: '/payments',
+          name: 'consumer.payments',
+          component: PaymentChannels
+        }, 
+        {
+          path: '/transactions',
+          name: 'consumer.transactions',
+          component: Transactions
+        },
+        {
+          path: '/dashboard',
+          name: 'consumer.dashboard',
+          component: Dashboard
+        },
+        {
+          path: '/DisbursementPage',
+          name: 'DisbursementPage',
+          component: DisbursementPage
+        },
+        {
+          path: '/view-transaction',
+          name: 'Viewtransaction',
+          component: Viewtransaction
+        },
+        {
+          path: '/request-refund',
+          name: 'RequestRefund',
+          component: RequestRefund
+        },
+        {
+          path: '/activate-account-businessinformation',
+          name: 'consumer.activate-step3-businessinformation',
+          component: ActivateBusinessInformation
+        },
+        {
+          path: '/activate-account-governmentunit',
+          name: 'consumer.activate-step3-governmentunit',
+          component: ActivateGovernmentUnit
+        },
+      ],
     },
  ]
 })
-
 export default router

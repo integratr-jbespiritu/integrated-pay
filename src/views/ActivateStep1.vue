@@ -1,7 +1,4 @@
 <template>
-    <!--New Changes-->
-    <Sidebar />
-    <Header/>
     <main class="container d-flex col-md-9 ms-sm-auto col-lg-10">
       <div class="d-flex justify-content-between flex-wrap pt-3 pb-2 px-2">
         <div class="container gx-0 g-0" style="margin-left: 12rem;">
@@ -119,9 +116,10 @@
                     </div>
                 </div>
                 <!--Button new changes-->
-                <div class="mt-4 py-4 m-5 me-3">
-                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none mt-5"> <span class="px-3 pe-4 text-purple">Back</span>
-                        <button type="button" class="button-purple click-hover-button mt-5 p-2"><span class="px-3 pe-4 text-white">Continue</span></button></a> 
+                <div class="mt-4 py-4 mb-5 me-3">
+                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"> <span class="px-3 pe-4 text-purple">Back</span>
+                        <router-link :to="{name: 'consumer.activate-account'}"> <button type="button" class="activate-button">Continue</button> </router-link>
+                    </a>
                 </div>
             </div>
         </div>
@@ -131,13 +129,9 @@
 
  <!--New Changes-->
 <script>
-import Sidebar from '../components/Sidebar.vue';
 
 export default {
-name: "LoginPage",
-components: {
-  Sidebar
-} , mounted(){
+ mounted(){
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 tooltipTriggerList.map(function (tooltipTriggerEl) {
