@@ -84,7 +84,8 @@
       <td>PHP 100.00</td>
       <td>GCash</td>
       <td>Community Tax Certificate</td>
-      <td><button type="button" class="btn btn-outline-danger py-0">Refunded</button></td>
+      <td>
+        <router-link :to="{name: 'Modal'}" class="btn btn-outline-danger py-0">Refunded</router-link></td>
       <td>01/01/2023 7:28 AM</td>
     </tr>
     <tr>
@@ -112,13 +113,13 @@
 
 <script>
   import Sidebar from "../components/Sidebar.vue";
-  import Logoheader from '../components/Logoheader.vue';
+  import Header from '../components/Header.vue';
 
   export default {
     name: "DashBoard",
     components: {
       Sidebar,
-      Logoheader,
+      Header,
     },
     data() {
       return {

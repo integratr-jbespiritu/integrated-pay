@@ -1,21 +1,29 @@
 <template>
     <div class="header">
-        <div class="search-box input-group flex-nowrap position-absolute top-50 start-0 translate-middle-y" style="width: 28rem; padding-left: 18rem; height: 2rem;">
-            <span class="input-group-text" id="addon-wrapping">
-                <i class="icon-search isax isax-search-status-1 position-absolute top-50 translate-middle"></i>
-            </span>
-            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping">
-        </div>
-        <div class="header-icons">
-            <i class="isax isax-notification5 icon-notification5 position-absolute bottom-0 end-0 ms-1 m-1"></i>
-        </div>
+      <div class="logo fs-3"></div>
+      <div class="search-icon" @click="toggleSearchBar">
+        <i class="isax isax-search-status-1 fs-4 text-white"></i>
+      </div>
+      <div v-if="showSearchBar" class="search-bar">
+        <input type="text" placeholder="Search"/>
+      </div>
+      <div class="notification-button">
+        <i class="isax isax-notification5 fs-4"></i>
+      </div>
     </div>
-
-</template>
-
-
-<script>
-    export default {
-        name: "SearchBar",
-    };
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        showSearchBar: false,
+      };
+    },
+    methods: {
+      toggleSearchBar() {
+        this.showSearchBar = !this.showSearchBar;
+      },
+    },
+  };
 </script>

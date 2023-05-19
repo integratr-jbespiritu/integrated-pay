@@ -17,6 +17,7 @@
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
 @import 'css/request-refund.css';
+@import 'css/modal.css';
 
 @font-face {
   font-family: Poppins-Semibold;

@@ -1,0 +1,27 @@
+.icon-x{
+    background-color: var(--vt-c-purple);
+    border-radius: 45rem;
+    font-size: 2rem;
+}
+.isax-add{
+    background-color: var(--vt-c-purple);
+    color: var(--vt-c-default-white);
+}
+.btn-link{
+    color: var(--vt-c-purple);
+    padding-left: 3rem;
+}
+.btn-process{
+    width: var( --c-s-150px);
+    height: var(  --c-s-44px);
+    border-radius: var( --c-s-4px);
+    background-color: var(--vt-c-purple);
+    border-color: var(--vt-c-purple);
+    color: var( --vt-c-default-white);
+}
+.label-cancel{
+    color: var(--vt-c-purple);
+}
+.color-purple{
+    color: var(--vt-c-purple);
+}

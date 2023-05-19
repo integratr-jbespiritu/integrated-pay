@@ -27,7 +27,7 @@
                 </div>
             </div>
             <!--Heading-->
-            <div class="container pe-5 pb-3 ms-4 bg-white">
+            <div class="container-carousel ms-0 bg-white">
                 <div class="py-2 text-center">
                     <h1 class="inter-h1-black fw-bold py-2" style="font-size: 32px; color: var(--vt-c-purple);">
                         Welcome to AmpliPay!</h1>
@@ -119,9 +119,9 @@
                     </div>
                 </div>
                 <!--Button new changes-->
-                <div class="mt-4 py-4 mb-5 me-3">
-                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none"> <span class="px-3 pe-4 text-purple">Back</span>
-                        <button type="button" class="button-purple click-hover-button p-2"><span class="px-3 pe-4 text-white">Continue</span></button></a> 
+                <div class="mt-4 py-4 m-5 me-3">
+                    <a class="position-absolute bottom-0 end-0 px-0 text-decoration-none mt-5"> <span class="px-3 pe-4 text-purple">Back</span>
+                        <button type="button" class="button-purple click-hover-button mt-5 p-2"><span class="px-3 pe-4 text-white">Continue</span></button></a> 
                 </div>
             </div>
         </div>

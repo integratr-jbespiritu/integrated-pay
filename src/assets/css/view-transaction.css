@@ -1,22 +1,20 @@
 .container-payment{
 border: 1px solid;
-width: 74rem;
 height: 22.5625rem;
 gap: 10px;
 }
 .container-refund{
 border: 1px solid;
-width: 74rem;
-height: 15rem;
+height: 14rem;
 }
 .btn-download{
 border-color: var(--vt-c-purple);
 color: var(--vt-c-purple);
+padding-right: 5rem;
 }
 .btn-print{
 border-color:var(--vt-c-blue);
 color:var(--vt-c-blue);
-width:4rem;
 }
 hr.dotted{
 border-top:3pxdotted#bbb;
@@ -24,10 +22,12 @@ border-top:3pxdotted#bbb;
 .btn-paid{
 color:var(--vt-c-green);
 border-color:var(--vt-c-green);
+border: 2px solid;
 }
-.btn-requested{
-color:var(--vt-c-red);
+.button-red{
+color: var(--vt-c-red);
 border-color:var(--vt-c-red);
+border: 2px solid;
 }
 .isax-printer{
 color:var(--vt-c-purple);
@@ -45,15 +45,28 @@ padding-left: 5rem;
 }
 .border-total {
 border: 1px solid;
-margin-left: 25rem;
+margin-left: 26rem;
 border-style: dashed;
-}
-.icon-arrow{
-padding-right: 4rem;
 }
 img{
 height: 1rem;
 }
 .color-purple{
 color: var(--vt-c-purple);
+font-size: 12px;
+}
+.col-size{
+font-size: 10px;
+}
+.col-font-size{
+font-size: 12px;
+}
+col.text{
+    font-size: 15px;
+}
+.col-4{
+    font-size: 12px;
+}
+.font-size-col{
+    font-size: 19px;
 }

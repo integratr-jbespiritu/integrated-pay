@@ -7,11 +7,12 @@
                 <div class="col-12">
                     <a class="title-2 text-decoration-none text-dark mx-2">Request Refund</a>
                     <span class="position-absolute top-50 end-0 translate-middle-y mb-5">
-                        <i class="icon-arrow isax isax-arrow-left-35 mx-3 mb-4  "></i><span class="color-black text-decoration-none text-dark mx-4 position-absolute top-50 end-0 translate-middle-y mb-5 ms-0">Back</span>
+                        <i class="icon-arrow isax isax-arrow-left-35 mx-3 mb-4  "></i>
+                        <span clhhass="color-black text-decoration-none text-dark mx-4 mb-5 ms-0">Back</span>
                     </span>
                 </div>
             </header>
-            <div class="gx-4 g-3 mb-0 ms-2" style="margin-left: 2rem;">
+            <div class="gx-4 g-3 mb-0 ms-2" style="margin-left: 3rem;">
             </div>
             <div class="search input-group px-4 ">
                 <span class="input-group-text bg-light rounded-0 p-2" id="basic-addon1"><i class="isax isax-search-status-1 fs-4"></i></span>
@@ -37,7 +38,7 @@
         <div class="border-bottom pt-4" style="width:105%;">
         </div>
         <!--table heading-->
-        <div class="container-fluid px-md-4 col-lg-12 ms-5">
+        <div class="container-fluid col-lg-10 ms-4">
             <div class="justify-content-between ">
                 <div class="table-responsive text-nowrap table-hover">
                     <table class="table">

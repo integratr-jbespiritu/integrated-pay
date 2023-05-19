@@ -98,3 +98,10 @@ background-color: #333;
 .text-purple{
     color: var(--vt-c-white);
 }
+.col-fonts{
+    color: black;
+}
+.container-carousel{
+    width: 1150px;
+    padding: 5px;
+}
