@@ -15,6 +15,8 @@ import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
+import AdminPaymentChannels from '../views/admin/AdminPaymentChannels.vue'
 import Modal from '../views/Modal.vue'
 import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
 
@@ -38,13 +40,24 @@ const router = createRouter({
       name: 'consumer.registration',
       component: Registration
     },
+    // Admin side here >>
     {
       path: '/admin',
-      component: MainLayout,
+      component: MainLayoutAdmin,
       children: [
-
+        {
+          path: '/home',
+          name: 'home',
+          component: HomeView
+        }, 
+        {
+          path: '/admin.payment-channels',
+          name: 'admin.payment-channels',
+          component: AdminPaymentChannels
+        }, 
       ]
     },
+    // Consumer side here >>
     {
       path: '/consumer',
       component: MainLayout,

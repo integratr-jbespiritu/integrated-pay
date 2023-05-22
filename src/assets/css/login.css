@@ -37,7 +37,7 @@
     height: 600px;
     left: 0px;
     top: 0px;
-    background: url('src/assets/images/Img.svg');
+    background: url('/src/assets/images/login-image.svg');
 }
 
 .login-form [type="checkbox"] {

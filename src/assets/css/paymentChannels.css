@@ -1,45 +1,43 @@
-.payments input[type="checkbox"].toggle {
-  display: none;
+.form-switch-btn {
+  padding-left: 2.5em;
 }
 
-.payments input[type="checkbox"].toggle+label {
-  position: relative;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.payments input[type="checkbox"].toggle+label::before {
-  content: "";
-  height: 24px;
-  width: 48px;
-  background-color: var(--vt-c-white);
+.form-switch-btn .form-check-input {
+  width: 2em;
+  margin-left: -2.5em;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb(49%, 65.5%, 94.5%)'/%3e%3c/svg%3e");
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
+  border-color: var(--vt-c-blue);
   border: 2px solid var(--vt-c-blue);
-  border-radius: 1rem;
-  margin-right: 1rem;
-  transition: 300ms ease-in-out;
 }
 
-.payments input[type="checkbox"].toggle+label::after {
-  content: "";
-  position: absolute;
-  left: 0.3em;
-  height: 1rem;
-  width: 1rem;
+@media (prefers-reduced-motion: reduce) {
+  .form-switch-btn .form-check-input {
+    transition: none;
+    background-color: var(--vt-c-blue);
+  }
+}
+
+.form-switch-btn .form-check-input:focus {
   background-color: var(--vt-c-blue);
-  border-radius: 1rem;
-  margin-right: 1rem;
-  transition: 300ms ease-in-out;
+  color: var(--vt-c-blue);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
 }
 
-.payments input[type="checkbox"].toggle:checked+label::after {
-  transform: translateX(1.5rem);
-  background-color: var(--vt-c-white);
-}
-
-.payments input[type="checkbox"].toggle:checked+label::before {
+.form-switch-btn .form-check-input:checked {
+  border-color: var(--vt-c-blue);
   background-color: var(--vt-c-blue);
-  border: 2px solid var(--vt-c-blue);
-  border-radius: 1rem;
-  margin-right: 1rem;
+  color: var(--vt-c-blue);
+  background-position: right center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.input-border {
+  border: 1px solid var(--vt-c-light-gray);
+}
+
+.input-border:hover {
+  border-color: var(--vt-c-seafoam-green) !important;
 }

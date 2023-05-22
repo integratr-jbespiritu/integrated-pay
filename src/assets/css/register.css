@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background: url('src/assets/images/Register.svg');
+    background: url('/src/assets/images/register.svg');
     background-size: cover;
     background-position: center center;
 }

@@ -18,6 +18,8 @@
 @import 'css/request-refund.css';
 @import 'css/modal.css';
 @import 'css/access-management-list-and-details.css';
+@import 'css/adminsidebar.css';
+@import 'css/adminPaymentChannels.css';
 
 @font-face {
   font-family: Poppins-Semibold;
@@ -371,7 +373,15 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 13px;
   margin-bottom: 0%;
 }
+
 .title-18 {
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
+.title-19 {
   font-family: Inter-Regular;
   font-weight: 700;
   font-size: 13px;
@@ -431,7 +441,7 @@ thead, tbody, tfoot, tr, td, th {
 .accordion-body {
   padding: 0;
 }
-
+/* statuses */
 .status-pending {
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
