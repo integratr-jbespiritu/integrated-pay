@@ -3,7 +3,7 @@
          <div class="w-auto">
             <Sidebar />
         </div>
-        <div class="w-auto ">
+        <div class="w-100">
             <HeaderComponent />
             <main class="w-auto">
                 <RouterView />
