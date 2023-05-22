@@ -4,7 +4,7 @@ body {
 
 .input-height {
     height: 57px;
-    border-radius: 0%;
+    border-radius: 0% !important; 
 }
 .input-height:hover {
   border: 1px solid var(--vt-c-purple);
@@ -79,7 +79,6 @@ body {
     height:10px;
     width:10px;
   }
-
 
   .activate-step4 {
     font-size: 32px;
