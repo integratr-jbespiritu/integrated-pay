@@ -1,46 +1,21 @@
-tr:hover {border-color: var(--vt-c-purple); background-color: var(--vt-c-default-white);}
-.table-heading1{
-    color: var(--vt-c-purple); 
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    padding: 5rem;
-}
-.table-heading2{
-    color: var(--vt-c-purple); 
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-}
-.text-start{
-   font-size: 1rem;
+.table-heading2:hover {
+    background-color: initial;
 }
 .table .table-hover{
     width: 89rem;
-    
     border-color: var(--vt-c-purple);
     background-color: var(--vt-c-default-white);  
 }
-.btn{
-    border-radius: 0;
-    width: 7rem;
-    height: 29px; 
-}
-.table-badge-text-requested{
-    width: 7rem;
-    height: 29px; 
-}
-.table-badge-text-success{
 
+.table-badge-text-requested{
+    text-align: center;
 }
-tr:hover {
-   color: var(--vt-c-purple);
+td:hover {
+   color: var(--vt-c-black);
   }
 .default-outline-refund{
     color: var(--vt-c-purple);
     border-color: var(--vt-c-purple);
-    width: 10rem;
-    height: 2rem;
 }
 .default-outline-export{
     border-color: var(--vt-c-blue);
@@ -55,3 +30,31 @@ tr:hover {
     font-weight: bold;
     padding-bottom: 0.2rem;
 }
+
+td {
+    white-space: nowrap;
+}
+.btn-danger{
+   width: 100px; 
+   border: 2px solid;
+}
+.btn-warning{
+   width: 100px;
+   border: 2px solid;
+}
+.btn-success{
+   width: 100px;
+   border: 2px solid;
+}
+.table .size-table-data:hover {
+  border: 1px solid var(--vt-c-purple);
+  color: black;
+}
+tr.size-table-data:hover td {
+    font-weight: bold;
+}
+.table .table-rows:hover {
+    background-color: initial;
+}
+
+ 

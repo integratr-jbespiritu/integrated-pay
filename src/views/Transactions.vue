@@ -38,7 +38,7 @@
           <div class="col-md ms-3">
             <div class="col-md">
               <button type="button" class="button-hover-icon-purple">
-                <span class="position-absolute refund-request top-50 end-0 translate-middle-y me-4">Refund Request</span>
+                <router-link :to="{name: 'consumer.request-refund'}" class="position-absolute refund-request top-50 end-0 translate-middle-y me-4 text-decoration-none text-purple">Refund Request</router-link>
               </button>
             </div>
           </div>
@@ -102,8 +102,10 @@
                                     <div class="col">
                                       <div class="title-11 text-blue">PHP 10,000.00</div>
                                     </div>
-                                    <div class="col-auto my-auto justify-content-end d-flex">
-                                      <p class="title-5 text-blue">Refund</p>
+                                    <div class="col-auto my-auto justify-content-end d-flex"> 
+                                      <router-link :to="{name: 'consumer.modal'}">
+                                      <p class="title-5 text-blue text-decoration-none">Refund</p>
+                                      </router-link>
                                     </div>
                                   </div>
                                 </div>

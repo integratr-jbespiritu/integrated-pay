@@ -1,5 +1,9 @@
 <template>
-    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
        <div class="modal-dialog" role="document">
            <div class="modal-content rounded-4 shadow" style="width: 42rem;">
                 <div class="modal-header p-4 pb-4 border-bottom-0"> 
@@ -12,7 +16,7 @@
                <div class="modal-body p-5 pt-0">
                    <form class="">
                        <div class="form-floating mb-3">
-                           <select class="form-select mt-3" id="floatingselect" aria-label="Floating label select">
+                           <select class="form-select mt-3 rounded-0" id="floatingselect" aria-label="Floating label select">
                                <option selected>[Partial Admin]</option>
                            </select>
                            <label for="floatingSelect" class="mt-3 color-purple">Offer</label>
@@ -23,43 +27,54 @@
                            </select>
                            <label for="floatingSelect" class="mt-3 color-purple">Bank</label>
                        </div>
-                       <div class="form-floating mb-3">
-                           <select class="form-select mt-3" id="floatingselect mt-5" aria-label="Floating label select">
-                               <option selected>Juan Dela Cruz</option>
-                           </select>
-                           <label for="floatingSelect" class="mt-3 color-purple">Card Name</label>
-                           <div class="form-floating mb-3">
-                           <select class="form-select mt-3" id="floatingselect mt-5" aria-label="Floating label select">
-                               <option selected>123456789012</option>
-                           </select>
-                           <label for="floatingSelect" class="mt-3 color-purple">Account Number</label>
-                       </div>
-                       <div class="form-floating mb-3">
-                           <select class="form-select mt-3" id="floatingselect mt-5" aria-label="Floating label select">
-                               <option selected>PHP 10,000.00</option>
-                           </select>
-                           <label for="floatingSelect" class="mt-3 color-purple">Amount</label>
-                       </div>
-                       <div class="form-floating mb-3">
-                           <select class="form-select mt-3" id="floatingselect mt-5" aria-label="Floating label select">        
-                               <option selected>Double Payment</option>
-                           </select>
-                           <label for="floatingSelect" class="mt-3 color-purple">Reason</label>
-                       </div>
-                       <div>
-                           <label class="label-cancel pt-2 m-1 mx-5 px-5">Cancel</label>
-                           <button class="btn-process m-3 mx-5">Process Refund</button>
-                       </div>
-                       </div>
-                   </form>
+                       <div class="input-group mb-3 px-1">
+                    <form class="form-floating">
+                      <input type="text" class="input-height form-control" id="floatingInputValue" placeholder="name@example.com" value="123456789012" />
+                      <label for="floatingInputValue">Account Number</label>
+                    </form>
+                  </div>
+                  <div class="input-group mb-3 px-1">
+                    <form class="form-floating">
+                      <input type="text" class="input-height form-control" id="floatingInputValue" placeholder="name@example.com" value="PHP 10,000.00" />
+                      <label for="floatingInputValue">Amount</label>
+                    </form>
+                  </div>
+                  <div class="input-group mb-3 px-1">
+                    <form class="form-floating">
+                      <input type="text" class="input-height form-control" id="floatingInputValue" placeholder="name@example.com" value="Double Payment" />
+                      <label for="floatingInputValue">Reason</label>
+                    </form>
+                  </div>
+                  <div class="input-group mb-3 px-1">
+                    <form class="form-floating">
+                      <input type="text" class="input-height form-control" id="floatingInputValue" placeholder="name@example.com" value="Juan" />
+                      <label for="floatingInputValue">First Name</label>
+                    </form>
+                  </div>
+                    </form>
+                    <div class="container py-2 mt-5">
+                        <div class="row gx-0 g-0 justify-content-center d-flex">
+                <a class="position-absolute bottom-0 end-0 px-1 mb-2 text-decoration-none" href="#"><span class="px-3 text-purple">Back</span>
+                <button type="button" class="activate-button">Continue</button> 
+                </a>
+              </div>
+              </div>
+             </div>
+              
+            </div>
                </div>
            </div>
        </div>
-    </div> 
 </template>
 
 <script>
-export default {
-  name: "Modal",
-};
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 </script>

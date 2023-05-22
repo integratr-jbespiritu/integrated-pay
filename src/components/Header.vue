@@ -1,16 +1,25 @@
 <template>
-  <div class="header">
-    <div class="logo fs-3"></div>
-    <div class="search-icon" @click="toggleSearchBar">
-      <i class="isax isax-search-status-1 fs-4 text-white"></i>
+    <div class="row gx-0 g-0 header">
+      <div class="col">
+        <div class="row gx-0 g-0">
+          <div class="col-auto my-auto">
+            <div class="search-icon" @click="toggleSearchBar">
+              <i class="isax isax-search-status-1 fs-4 text-white"></i>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div v-if="showSearchBar" class="search-bar">
+              <input type="text" placeholder="Search"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col justify-content-end d-flex">
+        <div class="notification-button">
+          <i class="isax isax-notification5 fs-4"></i>
+        </div>
+      </div>
     </div>
-    <div v-if="showSearchBar" class="search-bar">
-      <input type="text" placeholder="Search"/>
-    </div>
-    <div class="notification-button">
-      <i class="isax isax-notification5 fs-4"></i>
-    </div>
-  </div>
 </template>
 
 <script>

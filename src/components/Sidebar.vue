@@ -100,9 +100,14 @@ export default {
                title: 'Settings',
                module_types: [
                   {
+                     name: 'Access Management',
+                     route: 'consumer.access-management-list-and-details'
+                  },
+                  {
                      name: 'Disbursement Account',
                      route: ''
                   },
+                 
                   
                ]
             }

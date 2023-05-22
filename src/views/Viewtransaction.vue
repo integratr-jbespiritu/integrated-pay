@@ -1,176 +1,166 @@
 <template>
-    <Sidebar />
-    <Header/>
-    <main class="container d-flex col-md-8 col-lg-11" style="margin-left: 11rem;">
-        <div class="container ms-5 mt-3 pb-5">
-            <h1 class="ms-5 fw-bold">Transaction Details</h1>
-            <i class="icon-arrow isax isax-arrow-left-35 position-absolute top-0 start-100 translate-middle ms-0 pe-5 mb-2"></i>
-            <div class="mt-2 position-absolute top-0 start-100 translate-middle">
-                <p>Back</p>
-            </div> 
-            <div class="col d-flex mx-4 px-5">
-                <div class="row position-absolute top-0 end-0 ">
-                    <div class="col-md mb-3">
-                        <div class="color-button d-grid gap-2 d-md-flex justify-content-md-end position-absolute top-50 end-0 translate-middle-y mx-md-0">
-                            <span><i class="icon-search isax isax-printer position-absolute top-50 translate-middle ms-2"></i>
-                                <button class="btn btn-download me-md-1 py-0 px-4" type="button">Download</button></span>
-                            <span><i class="icon-print isax isax-printer position-absolute top-50 translate-middle ms-3"></i>
-                                <button class="btn btn-print me-md-0 py-0" type="button">Print</button></span>
-                        </div>
-                    </div>
-                    <div class="container-payment ms-4 px-md-1 pb-2 mt-3 bg-white col-lg-12 ">
-                        <div class="container-fluid ">
-                            <div class="row justify-content-around">
-                                <div class="col align-self-start py-3 fw-bold">
-                                    Payment Details
-                                </div>
-                                <div class="col-2 py-3 position-absolute top-0 end-0" style="color: var(--vt-c-blue); padding-left: 8.4rem;">
-                                    Refund
-                                </div>
-                                <div class="border-top"></div>
-                                <div class="row justify-content-between">
-                                    <div class="col-4">
-                                        <div class="button-green mt-3"></div>
-                                        <button class="btn btn-paid me-md-2 py-0" type="button">Paid</button>
-                                    </div>
-                                    <div class="col-4 text-end pe-0">
-                                        TOTAL AMOUNT
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">Transaction No.</div>
-                                        <div class="font-size-col col-md-4 offset-md-4 text-end fw-bold">PHP 10,000.00</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm">2201010000112221</div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-md-4 pe-2 offset-md-4 position-absolute top-50 end-0 translate-middle-y p-5 text-end">
-                                            <p>Jan. 01, 2023 at 7:28:00 AM PST</p>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center mt-4">
-                                        <div class="col">
-                                            PAYMENT DETAILS
-                                        </div>
-                                        <div class="col" style="margin-right: 20rem">
-                                            AMOUNT
-                                        </div>
-                                        <div class="col m-2 pe-1 position-absolute top-50 end-0 translate-middle-y p-5 text-end">
-                                            9,950.00
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-end">
-                                        <div class="col-md-3 offset-md-3 text-end">CONVENIENT FEE</div>
-                                        <div class="col-md-3 offset-md-3 text-end">50.00</div>
-                                    </div>
-                                    <div class="border-total col-md border-bottom"></div>
-                                    <div>
-                                        <div class="row align-items-end">
-                                            <div class="col-md-3 offset-md-3 text-end pe-4">TOTAL AMOUNT</div>
-                                            <div class="col-md-3 offset-md-3 text-end">50.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="border-top col-md-15 mt-3"></div>
-                                    <div class="row align-items-center m-4">
-                                        <div class="col">
-                                            PAYMENT SENT BY
-                                        </div>
-                                        <div class="col">
-                                            Juan Dela Cruz
-                                        </div>
-                                        <div class="col">
-                                            juandelacruz@gmail.com
-                                        </div>
-                                        <div class="col text-end pe-0 me-0">
-                                            <img src="/src/assets/images/Gcash.svg" alt="Image">
-                                            Ending in 2095
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-refund ms-2 px-md-2 ms-4 mt-3 bg-white">
-                        <div class="container-fluid ">
-                            <div class="row justify-content-around">
-                                <div class="col align-self-start py-3 fw-bold">
-                                    Payment Details
-                                </div>
-                                <div class="col-2 py-3" style="color: var(--vt-c-blue); padding-left: 9rem;">
-                                    Refund
-                                </div>
-                                <div class="border-top"></div>
-                                <div class="mt-2">
-                                    <button class="btn button-red me-md-2 py-0" type="button">Requested</button>
-                                </div>
-                                <div class="container">
-                                    <div class="container text-center">
-                                        <div class="row justify-content-end mx-5 ">
-                                            <div class="col-font-size col-4">
-                                                REFUND ID: <br>R12345678
-                                            </div>
-                                            <div class="col-font-size col-4 text-center">
-                                                REQUESTED BY:<br>Maria Clara
-                                            </div>
-                                            <div class="col-font-size col-4 text-end ">
-                                                REQUESTED BY: <br>Juan Dela Cruz<br>******1200
-                                            </div>
-                                        </div>
-                                        <div class="border-top col-md-15 mb-3"></div>
-                                        <div class="row justify-content-start">
-                                            <div class="col-size col-4  text-start" style="font-size: 13px;">
-                                                DATE REQUESTED:
-                                            </div>
-                                            <div class="col-date col-4 text-start" style="font-size: 13px;">
-                                                DATE ISSUED:
-                                            </div>
-                                            <div class="col-date col-4 text-start" style="font-size: 13px;">
-                                                DATE AUTHORIZED:
-                                            </div>
-                                            <div class="col-date col-4 text-end position-absolute bottom-0 end-0 pe-3" style="font-size: 13px;">
-                                                DATE REFUNDED
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-start">
-                                            <div class="col-4 text-start" style="font-size: 11px;">
-                                                Jan 25,2023 at 12:39 PM ST
-                                            </div>
-                                            <div class="col-4 text-start" style="font-size: 13px;">
-                                                Jan 25,2023 at 12:39 PM ST
-                                            </div>
-                                            <div class="col-4 text-start">
-                                                -
-                                                <div class="col color-purple" style="font-size: 13px;">
-                                                    Resend Authorization
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-start position-absolute bottom-0 end-0 pe-3">
-                                                -
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="pad-x-10p ms-1 pad-end-20p">
+      <div class="row gx-0 g-0">
+        <div class="col">
+          <h1 class="fw-bold title-10 pad-top-20p text-nowrap">Transaction Details</h1>
         </div>
-    </main>
-</template>
-
-<script>
-    import Header from '../components/Header.vue';
-    import Sidebar from '../components/Sidebar.vue';
-
-    export default {
-        name: "Viewtransaction",
-        components: {
-            Header,
-            Sidebar
-        }
-
-    };
-</script>
+        <div class="col my-auto justify-content-end d-flex pad-top-20p">
+          <div class="row gx-0 g-0">
+            <div class="col-auto pt-1">
+              <i class="icon-arrow isax isax-arrow-left-35"></i>
+            </div>
+            <div class="col-auto my-auto title-7">
+              <span>Back</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-0 g-0">
+        <div class="col justify-content-end d-flex">
+          <span><i class="isax isax-printer position-absolute top-50 translate-middle ms-3"></i></span>
+          <button class="btn btn-download py-0 title-5 margin-x-10p" type="button">Download</button>
+          <span><i class="icon-print isax isax-printer position-absolute top-50 translate-middle ms-4"></i></span>
+          <button class="btn btn-print py-0 title-5" type="button">Print</button>
+        </div>
+      </div>
+      <div class="container-payment bg-white mt-3">
+        <div class="container-fluid">
+          <div class="row justify-content-around">
+            <div class="col align-self-start py-3 fw-bold pad-x-20p title-6">
+              Payment Details
+            </div>
+            <div class="col-2 py-3 justify-content-end d-flex title-7 pad-x-20p title-7 color-blue">
+              Refund
+            </div>
+          </div>
+          <div class="border-color col-md border-top pad-x-40p"></div>
+          <div class="row gx-0 g-0 pad-y-10p">
+            <div class="col pad-x-10p">
+              <button type="button" class="btn button-green height title-17 py-0">Paid</button>
+            </div>
+            <div class="col justify-content-end d-flex pad-x-20p title-15">
+              TOTAL AMOUNT
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col pad-x-10p title-8">
+              Transaction No.
+            </div>
+            <div class="col justify-content-end d-flex pad-x-10p col-auto my-auto title-11">
+              PHP 10,000.00
+            </div>
+          </div>
+          <div class="row gx-0 g-0">
+            <div class="col pad-x-10p title-7">
+              2201010000112221
+            </div>
+            <div class="col justify-content-end d-flex pad-x-10p title-12">
+              Jan. 01, 2023 at 7:28:00 AM PST
+            </div>
+          </div>
+          <div class="row justify-content-between title-12 pt-2">
+            <div class="col-4 pad-x-20p">
+              PAYMENT DETAILS
+            </div>
+            <div class="col-4 justify-content-start d-flex title-12">
+              AMOUNT
+            </div>
+            <div class="col-4 justify-content-end d-flex pad-x-20p title-12">
+              99500
+            </div>
+          </div>
+          <div class="row justify-content-between title-12">
+            <div class="col-4"></div>
+            <div class="col-4 justify-content-start d-flex title-12">
+              CONVENIENT FEE
+            </div>
+            <div class="col-4 justify-content-end d-flex pad-x-20p title-12">
+              50.00
+            </div>
+          </div>
+          <div class="border-total col-md border-bottom mt-3"></div>
+          <div class="row justify-content-between title-12">
+            <div class="col-4"></div>
+            <div class="col-4 justify-content-start d-flex title-12 mt-3">
+              TOTAL AMOUNT
+            </div>
+            <div class="col-4 justify-content-end d-flex pad-x-20p title-12 mt-2">
+              50.00
+            </div>
+          </div>
+          <div class="border-bottom pt-3"></div>
+          <div class="row gx-0 g-0 pad-y-20p mt-4">
+            <div class="col pad-x-10p title-12">
+              PAYMENT SENT BY
+            </div>
+            <div class="col title-8">
+              Juan Dela Cruz
+            </div>
+            <div class="col title-8">
+              juandelacruz@gmail.com
+            </div>
+            <div class="col justify-content-end d-flex pad-x-10p title-8">
+              <span><img src="/src/assets/images/Gcash.svg" alt="Image" /></span>
+              Ending in 2095
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-refund bg-white mt-3">
+        <div class="container-fluid">
+          <div class="row justify-content-around">
+            <div class="col align-self-start py-3 fw-bold pad-x-20p title-6">
+              Refund Details
+            </div>
+            <div class="col-2 py-3 justify-content-end d-flex title-7 pad-x-20p title-7 color-blue">
+              Refund
+            </div>
+          </div>
+          <div class="border-top"></div>
+          <div class="row gx-0 g-0 pad-y-20p">
+            <div class="col pad-x-10p">
+              <button type="button" class="btn button-red height title-17 py-0">Requested</button>
+            </div>
+            <div class="col justify-content-center d-flex pad-x-10p title-12">
+              REFUND ID: <br />
+              R12345678
+            </div>
+            <div class="col justify-content-center d-flex pad-x-10p title-12">
+              REQUESTED BY: <br />
+              R12345678
+            </div>
+  
+            <div class="col justify-content-end d-flex pad-x-10p title-12">
+              ACCOUNT DETAILS: <br />
+              R12345678
+            </div>
+          </div>
+          <div class="border-top col-md-15 mt-3"></div>
+          <div class="row gx-0 g-0 pad-y-20p">
+            <div class="col justify-content-start d-flex title-12">
+              DATE REQUESTED: <br />
+              Jan 25, 2023 at 12:39 PM PST
+            </div>
+            <div class="col justify-content-center d-flex title-12">
+              DATE ISSUED: <br />
+              Jan 25, 2023 at 12:39 PM PST
+            </div>
+            <div class="col justify-content-start mx-3 d-flex title-12">
+              DATE AUTHORIZED: <br />
+              -
+            </div>
+            <div class="col title-12">
+              DATE REFUNDED: <br />
+              -
+            </div>
+          </div>
+        </div>
+        <div class="row gx-0 g-0">
+          <div class="col justify-content-center d-flex title-7 ms-5 mx-0 color-purple margin-right-20p">
+            Resend Authorization
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  

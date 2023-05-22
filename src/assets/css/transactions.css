@@ -27,7 +27,7 @@
 	box-sizing: border-box;
 }
 
-.table td,.table th {
+/* .table td,.table th {
   padding: 12px 15px;
 }
 
@@ -39,4 +39,4 @@
 }
 .table tr:hover {
 	background-color: #fff;
-}
+} */

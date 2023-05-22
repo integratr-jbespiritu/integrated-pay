@@ -13,9 +13,10 @@ import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
-import Modal from '../views/Modal.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+import Modal from '../views/Modal.vue'
+import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
 
 
 const router = createRouter({
@@ -90,12 +91,12 @@ const router = createRouter({
         },
         {
           path: '/view-transaction',
-          name: 'Viewtransaction',
+          name: 'consumer.view-transaction',
           component: Viewtransaction
         },
         {
           path: '/request-refund',
-          name: 'RequestRefund',
+          name: 'consumer.request-refund',
           component: RequestRefund
         },
         {
@@ -107,6 +108,16 @@ const router = createRouter({
           path: '/activate-account-governmentunit',
           name: 'consumer.activate-step3-governmentunit',
           component: ActivateGovernmentUnit
+        },
+        {
+          path: '/modal',
+          name: 'consumer.modal',
+          component: Modal
+        },
+        {
+          path: '/access-management-list-and-details',
+          name: 'consumer.access-management-list-and-details',
+          component: AccessManagementListandDetails
         },
       ],
     },
