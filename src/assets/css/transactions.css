@@ -23,15 +23,19 @@
     border: 1px solid var(--vt-c-light-gray);
 }
 
-.table td,.table th {
-  padding: 12px 15px;
+.table .size-table-data:hover {
+    border: 1px solid var(--vt-c-purple);
+    color: black;
 }
 
-.table tr:hover {
-	border:1px solid blueviolet;
-    background-color: #fff;
+tr.size-table-data:hover td {
+    font-weight: bold;
 }
 
-.table td:hover {
-    font-weight: 700;
+.table .table-rows:hover {
+    background-color: initial;
+}
+
+.size-table-data {
+white-space: nowrap;    
 }

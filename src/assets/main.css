@@ -17,6 +17,8 @@
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
 @import 'css/request-refund.css';
+@import 'css/adminsidebar.css';
+@import 'css/adminPaymentChannels.css';
 
 @font-face {
   font-family: Poppins-Semibold;
@@ -322,6 +324,13 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
+.title-17 {
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -376,7 +385,7 @@ thead, tbody, tfoot, tr, td, th {
 .accordion-body {
   padding: 0;
 }
-
+/* statuses */
 .status-pending {
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);

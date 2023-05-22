@@ -11,7 +11,7 @@
                </div>
                <div class="col-12 mb-2">
                   <div class="account">
-                     <a href="#">Juan Dela Cruz</a> 
+                     <a href="home">Juan Dela Cruz</a> 
                   </div>
                </div>
             </div>

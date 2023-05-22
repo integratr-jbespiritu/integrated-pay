@@ -1,48 +1,43 @@
-/* input[type=switch-checkbox] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
+.form-switch-btn {
+  padding-left: 2.5em;
 }
 
-label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 200px;
-  height: 100px;
-  background: grey;
-  display: block;
-  border-radius: 100px;
-  position: relative;
+.form-switch-btn .form-check-input {
+  width: 2em;
+  margin-left: -2.5em;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb(49%, 65.5%, 94.5%)'/%3e%3c/svg%3e");
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
+  border-color: var(--vt-c-blue);
+  border: 2px solid var(--vt-c-blue);
 }
 
-label:after {
-  content: '';
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 90px;
-  height: 90px;
-  background: #fff;
-  border-radius: 90px;
-  transition: 0.3s;
+@media (prefers-reduced-motion: reduce) {
+  .form-switch-btn .form-check-input {
+    transition: none;
+    background-color: var(--vt-c-blue);
+  }
 }
 
-input:switch-checkbox+label {
-  background: #bada55;
+.form-switch-btn .form-check-input:focus {
+  background-color: var(--vt-c-blue);
+  color: var(--vt-c-blue);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
 }
 
-input:switch-checkbox+label:after {
-  left: calc(100% - 5px);
-  transform: translateX(-100%);
+.form-switch-btn .form-check-input:checked {
+  border-color: var(--vt-c-blue);
+  background-color: var(--vt-c-blue);
+  color: var(--vt-c-blue);
+  background-position: right center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
-label:active:after {
-  width: 130px;
+.input-border {
+  border: 1px solid var(--vt-c-light-gray);
 }
 
-switch-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
+.input-border:hover {
+  border-color: var(--vt-c-seafoam-green) !important;
+}

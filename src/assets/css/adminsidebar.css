@@ -1,0 +1,63 @@
+.ad-sidebar {
+    width: 265px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--vt-c-purple);
+    color: var(--vt-c-default-white);
+    z-index: 1;
+}
+
+.ad-sidebar .ad-sidebar-header {
+    width: 265px;
+}
+
+.ad-sidebar-header {
+    background-color: var(--vt-c-blue);
+    width: 248px;
+}
+
+.ad-sidebar .account a, p {
+    right: .1rem;
+}
+
+.ad-sidebar .account p {
+    right: .2rem;
+}
+
+.ad-sidebar .dashboard i {
+    font-size: 24px;
+    right: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.ad-sidebar li {
+    line-height: 2.3rem;
+}
+
+.ad-sidebar .nav li:hover {
+    background-color: var(--vt-c-black);
+    margin: 0%;
+}
+
+.ad-sidebar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.ad-sidebar .nav-link i {
+    font-size: 24px;
+    margin-left: 0.4rem;
+}
+
+.ad-sidebar .sub-menu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    top: 1rem;
+    left: 1rem;
+}
