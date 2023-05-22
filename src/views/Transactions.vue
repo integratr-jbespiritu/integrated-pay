@@ -46,7 +46,7 @@
                </div>
                 <div class="col-12 col-md-4 d-flex">
                   <button type="button" class="button-hover-icon-purple mt-1">
-                          <span class="refund-request title-5 translate-middle-y text-nowrap mx-3">
+                          <span class="refund-request title-5 translate-middle-y text-nowrap mx-2">
                             Refund Request
                           </span>
                   </button>
@@ -101,16 +101,16 @@
                 <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
                   <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true"
                     :aria-controls="`collapse${index}`" class="size-table-data column title-8" id="demo" onclick="myFunction()">
-                    <td class="font-table-text">{{
+                    <td class="font-table-text py-3">{{
                       transaction_record.transaction_no }}</td>
-                    <td class="font-table-text">{{ transaction_record.amount }}</td>
-                    <td class="font-table-text">{{ transaction_record.channel }}</td>
-                    <td class="font-table-text">{{ transaction_record.service_product }}</td>
-                    <td class="font-table-text">
+                    <td class="font-table-text py-3">{{ transaction_record.amount }}</td>
+                    <td class="font-table-text py-3">{{ transaction_record.channel }}</td>
+                    <td class="font-table-text py-3">{{ transaction_record.service_product }}</td>
+                    <td class="font-table-text py-3">
                       <div class="py-0 px-2 rounded-0 title-16 w-100 text-center" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
-                    <td class="font-table-text">{{ transaction_record.time_stamp }}</td>
+                    <td class="font-table-text py-3">{{ transaction_record.time_stamp }}</td>
                   </tr>
                   <tr>
                     <td colspan="6">
@@ -152,7 +152,7 @@
                                   <div class="col-12 pt-3">
                                     <div class="row gx-0 g-0">
                                       <div class="col">
-                                        <p class="title-12">Amount</p>
+                                        <p class="title-12 text-uppercase">Amount</p>
                                       </div>
                                       <div class="col-auto">
                                         <p class="title-12">9,975.00</p>
@@ -162,7 +162,7 @@
                                   <div class="col-12">
                                     <div class="row gx-0 g-0">
                                       <div class="col">
-                                        <p class="title-12">Convenience Fee</p>
+                                        <p class="title-12 text-uppercase">Convenience Fee</p>
                                       </div>
                                       <div class="col-auto">
                                         <p class="title-12">25.0</p>
