@@ -67,7 +67,7 @@
             </thead>
             <tbody>
               <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
-                <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true" :aria-controls="`collapse${index}`" class="title-8">
+                <tr data-bs-toggle="collapse" @click="focusItem(index)" :class="selected==index?'table-hover':''" :data-bs-target="`#collapse${index}`" aria-expanded="true" :aria-controls="`collapse${index}`" class="title-8">
                   <td scope="row">
                     {{ transaction_record.transaction_no }}
                   </td>
@@ -182,6 +182,7 @@
     components: {},
     data() {
       return {
+        selected: -1,
         transactions: [
           {
             label: "Expected Amount",
@@ -288,6 +289,10 @@
       getStatus(data) {
         return `status-${data.toLowerCase()}`;
       },
+      focusItem(index){
+        this.selected = index
+      }
+      
     },
   };
 </script>

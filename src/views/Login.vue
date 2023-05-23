@@ -26,7 +26,7 @@
           <a href="#!" class="forgot-pass text-decoration-none style-1 text-purple title-7 fw-bold mt-1">Forgot password?</a>
         </div>
         <div class="text-center mt-4">
-          <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>
+          <router-link :to="{name: '/admin/home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>
           <div class="mt-4 mb-2">
             <router-link :to="{name: 'consumer.login'}" href="#" class="text-decoration-none style-1 text-purple title-7 fw-bold">Sign up</router-link>
           </div>

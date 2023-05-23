@@ -15,6 +15,8 @@ import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+import ActivateStep4 from '../views/ActivateStep4.vue'
+import AdminKYCList from '../views/AdminKYCList.vue'
 
 
 const router = createRouter({
@@ -40,7 +42,11 @@ const router = createRouter({
       path: '/admin',
       component: MainLayout,
       children: [
-
+        {
+          path: '/admin/home',
+          name: 'admin.kyc.list',
+          component: AdminKYCList
+        }, 
       ]
     },
     {
@@ -66,6 +72,11 @@ const router = createRouter({
           path: '/activate-account',
           name: 'consumer.activate-account',
           component: ActivateAccount
+        },
+        {
+          path: '/activate-account-step4',
+          name: 'consumer.activate-account-step4',
+          component: ActivateStep4
         },
         {
           path: '/payments',
