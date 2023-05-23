@@ -19,6 +19,8 @@ import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
 import AdminPaymentChannels from '../views/admin/AdminPaymentChannels.vue'
 import Modal from '../views/Modal.vue'
 import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
+import ActivateStep4 from '../views/ActivateStep4.vue'
+import AdminKYCList from '../views/AdminKYCList.vue'
 
 
 const router = createRouter({
@@ -46,15 +48,15 @@ const router = createRouter({
       component: MainLayoutAdmin,
       children: [
         {
-          path: '/home',
-          name: 'home',
-          component: HomeView
+          path: '/admin/home',
+          name: 'admin.kyc.list',
+          component: AdminKYCList
         }, 
         {
-          path: '/admin.payment-channels',
-          name: 'admin.payment-channels',
+          path: '/admin/payment-channel',
+          name: 'admin.payment.channel',
           component: AdminPaymentChannels
-        }, 
+        },
       ]
     },
     // Consumer side here >>
@@ -81,6 +83,11 @@ const router = createRouter({
           path: '/activate-account',
           name: 'consumer.activate-account',
           component: ActivateAccount
+        },
+        {
+          path: '/activate-account-step4',
+          name: 'consumer.activate-account-step4',
+          component: ActivateStep4
         },
         {
           path: '/payments',

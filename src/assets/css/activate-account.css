@@ -128,6 +128,7 @@ body {
 }  
 
 .step3:hover {
+
   border-color: var(--vt-c-purple);
 }
 
@@ -162,3 +163,37 @@ body {
     z-index: -10;
 }
 
+/* step4 progressbar */
+
+.step4-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.step4-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+.step4-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+
+.signature-box {
+  width: 1050px;
+  height: 194px;
+  border-color: var(--vt-c-purple) !important;
+}
