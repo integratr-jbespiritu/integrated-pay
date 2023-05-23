@@ -1,15 +1,15 @@
 <template>
   <div class="gx-0 g-0">
-    <div class="container me-4">
+    <div class="container pe-4">
         <div class="bor-style-solid m-auto">
           <header class="header bg-light lh-1">
-            <div class="col-12 ms-2">
+            <div class="col-12">
               <a class="title-10 text-decoration-none text-dark" href="#">Transactions</a>
             </div>
           </header>
           <div class="align-items-center">
-            <div class="gx-0 g-0 mb-5 ms-1">
-              <div class="row mt-2 ms-2">
+            <div class="gx-0 g-0 mb-5">
+              <div class="row mt-2 ms-1">
                 <template v-for="transaction, index in transactions" :key="transaction">
                   <div class="col-auto me-5 pe-4 align-self-start" :class="index != 2 ? 'border-end' : ''">
                     <div class="title-8 me-3">
@@ -25,43 +25,41 @@
                 </template>
               </div>
             </div>
-            <div class="row gx-0 g-0 ms-4 me-5">
-               <div class="col-12 col-md-4">
-                <div class="search input-group mt-2 w-75">
-                    <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                      <i class="isax isax-search-status-1 fs-4"></i>
-                      </span>
-                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                      aria-describedby="basic-addon1" />
-                  </div>
-                  </div>
-                 <div class="col-12 col-md-4">
-                  <div class="input-group mb-2 mt-2">
-                      <span class="span-btn-default input-group-text rounded-0">
-                        <i class="icon isax isax-filter-search"></i>
-                      </span>
-                      <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
-                        aria-describedby="basic-addon2">Filter</button>
-                    </div>
-               </div>
-                <div class="col-12 col-md-4 d-flex">
-                  <button type="button" class="button-hover-icon-purple mt-1">
-                          <span class="refund-request title-5 translate-middle-y text-nowrap mx-2">
-                            Refund Request
-                          </span>
-                  </button>
-                  <div>
-                  <button type="button" class="button-default-outline title-5 pe-2 mx-4 mt-1">Export</button>
-                  </div>
+           <div class="row gx-0 g-0 ms-3 me-5">
+              <div class="col-12 col-md-3">
+                <div class="search input-group mt-2 w-100 pe-3">
+                  <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                    <i class="isax isax-search-status-1 fs-4"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="basic-addon1" />
                 </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="input-group mb-2 mt-2">
+                  <span class="span-btn-default input-group-text rounded-0">
+                    <i class="icon isax isax-filter-search"></i>
+                  </span>
+                  <button type="button" class="filter-btn bg-white pe-2 px-2" aria-label="Selected-Field"
+                    aria-describedby="basic-addon2">Filter</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 d-flex align-items-end justify-content-end pe-4 mb-2 mt-2">
+                <button type="button" class="button-hover-icon-purple py-0 h-100">
+                  <span class="refund-request title-5 translate-middle-y text-nowrap mx-2">
+                    Refund Request
+                  </span>
+                </button>
+                <button type="button" class="button-default-outline title-5 pe-2 mx-4 h-100">Export</button>
+              </div>
             </div>
             </div>
-          <div class="ms-4">
-            <div class="border-bottom mb-3 mt-2">
-              <p class="mb-4 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
+          <div class="ms-3">
+            <div class="border-bottom mb-2 mt-3">
+              <p class="mb-3 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
             </div>
           </div>
-          <div class="table-responsive ms-4">
+          <div class="table-responsive ms-4 mt-2">
             <table class="table">
               <thead>
                 <tr class="table-rows text-purple title-13">
@@ -107,7 +105,7 @@
                     <td class="font-table-text py-3">{{ transaction_record.channel }}</td>
                     <td class="font-table-text py-3">{{ transaction_record.service_product }}</td>
                     <td class="font-table-text py-3">
-                      <div class="py-0 px-2 rounded-0 title-16 w-100 text-center" :class="getStatus(transaction_record.status)">{{
+                      <div class="py-0 px-2 rounded-0 title-19 w-100 text-center" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
                     <td class="font-table-text py-3">{{ transaction_record.time_stamp }}</td>
@@ -173,8 +171,8 @@
                               </div>
                               <div class="col">
                                 <div class="row gx-0 g-0">
-                                  <div class="col-12 justify-content-center d-flex title-16">
-                                    <div class="status-paid w-25 title-16 py-0 px-2 rounded-0 text-center">Paid</div>
+                                  <div class="col-12 justify-content-center d-flex title-19">
+                                    <div class="status-paid w-25 title-19 py-0 px-2 rounded-0 text-center">Paid</div>
                                   </div>
                                   <div class="col-12 justify-content-center d-flex">
                                     <div class="title-8 pt-1">01/01/2023 7:28 AM</div>
@@ -196,18 +194,26 @@
                 </template>
               </tbody>
             </table>
-          <!-- pagination  -->  
           </div>
-            <div class="col d-flex justify-content-end align-items-end me-4">
-              <div class="row pagination">
-                <div class="col-md"><i class="arrow isax isax-arrow-left-2"></i></div>
-                    <div class="col-md"><p class="text-previous">Previous</p></div>
-                    <div class="col-md"><p class="text-one ms-2">1</p></div>
-                    <div class="col-md"><p class="text-disabled ms-2">2</p></div>
-                    <div class="col-md"><p class="text-next ms-2">Next</p></div>
-                    <div class="col-md"><i class="arrow-right isax isax-arrow-right-3"></i></div>
-                </div>
-             </div>
+           <!-- pagination  -->
+             <nav aria-label="Page navigation" class="ms-4">
+              <ul class="pagination justify-content-end pe-5">
+                <li class="page-item disabled mt-2">
+                    <i class="arrow isax isax-arrow-left-2"></i>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link bg-light border-0" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link bg-light border-0 text-purple" href="#">1</a></li>
+                <li class="page-item disabled"><a class="page-link bg-light border-0" href="#">2</a></li>
+                <li class="page-item">
+                  <a class="page-link bg-light border-0 text-purple" href="#">Next</a>
+                </li>
+                <li class="page-item mt-2">
+                      <i class="arrow isax isax-arrow-right-3 text-purple"></i>
+                </li>
+              </ul>
+            </nav>
           <!-- pagination  -->
         </div>
     </div>
