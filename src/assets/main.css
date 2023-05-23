@@ -13,10 +13,13 @@
 @import 'css/transactions.css';
 @import 'css/activate-account.css';
 @import 'css/dashboard.css';
-@import 'css/search-bar.css';
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
 @import 'css/request-refund.css';
+@import 'css/modal.css';
+@import 'css/access-management-list-and-details.css';
+@import 'css/adminsidebar.css';
+@import 'css/adminPaymentChannels.css';
 @import url('css/adminKYC.css');
 @font-face {
   font-family: Poppins-Semibold;
@@ -99,12 +102,31 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+.pad-y-20p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .pad-x-10p {
   padding-right: 10px;
   padding-left: 10px;
 }
 
+.pad-x-20p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.pad-end-20p {
+  padding-right: 20px;
+}
+
+.pad-top-20p {
+  padding-top: 20px;
+}
+
+.pad-top-40p {
+  padding-top: 40px;
+}
 .pad-x-40p {
   padding-right: 40px;
   padding-left: 40px;
@@ -114,12 +136,42 @@
   padding-bottom: 10px;
 }
 
+.pad-bottom-20p {
+  padding-bottom: 20px;
+}
+
+.margin-10p{
+  margin: 10px;
+}
+
+.margin-right-20p {
+  margin-right: 20px;
+}
+
+.margin-x-10p{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.margin-x-20p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.margin-x-5p{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .height-lg {
   height: 300px;
 }
 
 .height-md {
   height: 250px;
+}
+.height {
+  height: 23px;
 }
 
 .height-sm {
@@ -321,13 +373,20 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 13px;
   margin-bottom: 0%;
 }
+
 .title-18 {
-  font-family: Inter-Regular;
+  font-family: Poppins-Regular;
   font-weight: 400;
   font-size: 12px;
   margin-bottom: 0%;
 }
 
+.title-19 {
+  font-family: Inter-Regular;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -382,7 +441,7 @@ thead, tbody, tfoot, tr, td, th {
 .accordion-body {
   padding: 0;
 }
-
+/* statuses */
 .status-pending {
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
@@ -444,6 +503,7 @@ thead, tbody, tfoot, tr, td, th {
   border: 2px solid;
   font-weight: 700;
   font-size: 13px;
+
 }
 
 .button-outline-red {
@@ -556,13 +616,13 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .mb-c-1 {
-  margin-bottom: 0.80rem !important;
+  margin-bottom: 0.94rem !important;
 }
 
 .me-c-1 {
-padding: 0.18rem !important;
+  margin-right: 0rem !important;
 }
 
 .ms-c-1 {
-  margin-left: 0.25rem !important;
+  margin-left: 0.10rem !important;
 }

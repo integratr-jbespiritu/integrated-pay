@@ -150,7 +150,7 @@
                 
                   <!-- col 2 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1">
+                      <div class="me-c-1 gx-0">
                          <button type="button" class="button-outline-green px-3 bg-transparent mt-3">Approved</button>
                        </div>
                   </div> 
@@ -166,7 +166,7 @@
                   </div>
                   <!-- col 4 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1">
+                      <div class="me-c-1 gx-0">
                          <button type="button" class="button-outline-green py-0 px-3 bg-transparent mt-3">Approved</button>
                       </div>
                    </div>
@@ -182,7 +182,7 @@
                   </div>
                   <!-- col 6 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1">
+                      <div class="me-c-1 gx-0">
                          <button type="button" class="button-outline-green py-0 px-3 bg-transparent mt-3">Approved</button>
                       </div>
                    </div>
@@ -200,7 +200,7 @@
                   </div>
                   <!-- col 8 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1">
+                      <div class="me-c-1 gx-0">
                          <button type="button" class="button-outline-red px-3 bg-transparent mt-3">Declined</button>
                        </div>
                   </div> 
@@ -211,13 +211,13 @@
                       <div class="input-group input-group-xl">
                         <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
                         <input type="text" class="step3 form-control text-purple" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="ByLaws.pdf"/>
-                        <span><img src="/src/assets/images/Union.svg" class="password-toggle me-1"/></span>
+                        <span><img src="/src/assets/images/Union.svg" class="password-toggle-1 me-1"/></span>
                       </div>
                     </div>
                   </div>
                   <!-- col 10 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1">
+                      <div class="me-c-1 gx-0">
                          <button type="button" class="button-outline-green py-0 px-3 bg-transparent mt-3 ">Declined</button>
                       </div>
                    </div>

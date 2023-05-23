@@ -4,14 +4,14 @@
          <div class="sidebar-header">
             <div class="row gx-0 g-0 pad-bottom-10p">
                <div class="col-12 justify-content-center d-flex pt-1">
-                  <img src="/src\assets/images/Logo_White.svg" class="img img-fluid">
+                  <img src="/src/assets/images/logo_white.svg" class="img img-fluid">
                </div>
                <div class="col-12 justify-content-center d-flex pb-2">
                   <img src="/src/assets/images/avatar.svg" class="h-100">
                </div>
                <div class="col-12 mb-2">
                   <div class="account">
-                     <a href="#">Juan Dela Cruz</a> 
+                     <a href="home">Juan Dela Cruz</a> 
                   </div>
                </div>
             </div>
@@ -100,9 +100,14 @@ export default {
                title: 'Settings',
                module_types: [
                   {
+                     name: 'Access Management',
+                     route: 'consumer.access-management-list-and-details'
+                  },
+                  {
                      name: 'Disbursement Account',
                      route: ''
                   },
+                 
                   
                ]
             }

@@ -1,36 +1,40 @@
 .container-payment{
 border: 1px solid;
-width: 74rem;
-height: 22.5625rem;
-gap: 10px;
+height: 26rem;
 }
 .container-refund{
 border: 1px solid;
-width: 74rem;
-height: 15rem;
+height: 17rem;
 }
 .btn-download{
-border-color: var(--vt-c-purple);
+border-color:0 var(--vt-c-purple);
 color: var(--vt-c-purple);
 }
 .btn-print{
 border-color:var(--vt-c-blue);
 color:var(--vt-c-blue);
-width:4rem;
+width: 100px;
+
+}
+.button-green {
+    color: var(--vt-c-green);
+    border-color: var(--vt-c-green);
+    height: 10rem;
+    border: 2px solid;
 }
 hr.dotted{
 border-top:3pxdotted#bbb;
 }
-.btn-paid{
-color:var(--vt-c-green);
-border-color:var(--vt-c-green);
-}
-.btn-requested{
-color:var(--vt-c-red);
+.button-red{
+color: var(--vt-c-red);
 border-color:var(--vt-c-red);
+border: 2px solid;
 }
 .isax-printer{
 color:var(--vt-c-purple);
+width: 4px;
+height: 10px;
+left: 1px;
 }
 .icon-print{
 color:var(--vt-c-blue);
@@ -38,22 +42,20 @@ color:var(--vt-c-blue);
 .col-md-4{
 font-size: 1rem;
 }
-.horizontal-dashed {
-border-top: 1px dotted grey;
-width: 44rem;
-padding-left: 5rem;
-}
+
 .border-total {
 border: 1px solid;
-margin-left: 25rem;
+margin-left: 24rem;
 border-style: dashed;
-}
-.icon-arrow{
-padding-right: 4rem;
 }
 img{
 height: 1rem;
 }
-.color-purple{
-color: var(--vt-c-purple);
+.color-blue{
+color: var(--vt-c-blue);
 }
+.icon-arrow {
+    padding: 15px;
+}
+
+

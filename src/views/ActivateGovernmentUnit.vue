@@ -138,9 +138,9 @@
                     </div>
 
                     <p class="col-md-6 inter-body-semibold text-start text-dark ms-2 mb-1">Submission of required identification documents</p>
-                    <h6 class="col-md-6 title-13 text-danger ms-2 mb-3">
+                    <p class="col-md-6 title-13 text-danger mb-3 ms-2 gx-0">
                       You have documents that are declined. Please re-submit the documents needed.
-                    </h6>
+                    </p>
 
                     <div class="container row gx-0 g-0 pt-2">
                       <div class="col-12">
@@ -158,7 +158,7 @@
                           </div>
                           <!-- col-2 -->
                           <div class="col-sm-2 mb-c-1 my-auto">
-                            <div class="me-c-1">
+                            <div class="me-c-1 gx-0">
                               <button type="button" class="button-outline-red px-3 bg-transparent mt-3">Declined</button>
                             </div>
                           </div>
@@ -174,7 +174,7 @@
                           </div>
                           <!-- col-4 -->
                           <div class="col-sm-2 mb-c-1 my-auto">
-                            <div class="me-c-1">
+                            <div class="me-c-1 gx-0">
                               <button type="button" class="button-outline-red px-3 bg-transparent mt-3">Declined</button>
                             </div>
                           </div>
@@ -190,7 +190,7 @@
                           </div>
                           <!-- col-6 -->
                           <div class="col-sm-2 mb-c-1 my-auto">
-                            <div class="me-c-1">
+                            <div class="me-c-1 gx-0">
                               <button type="button" class="button-outline-green px-3 bg-transparent mt-3">Approved</button>
                             </div>
                           </div>

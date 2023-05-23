@@ -15,6 +15,10 @@ import ActivateStep1 from '../views/ActivateStep1.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
+import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
+import AdminPaymentChannels from '../views/admin/AdminPaymentChannels.vue'
+import Modal from '../views/Modal.vue'
+import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
 import AdminKYCList from '../views/AdminKYCList.vue'
 
@@ -38,17 +42,24 @@ const router = createRouter({
       name: 'consumer.registration',
       component: Registration
     },
+    // Admin side here >>
     {
       path: '/admin',
-      component: MainLayout,
+      component: MainLayoutAdmin,
       children: [
         {
           path: '/admin/home',
           name: 'admin.kyc.list',
           component: AdminKYCList
         }, 
+        {
+          path: '/admin/payment-channel',
+          name: 'admin.payment.channel',
+          component: AdminPaymentChannels
+        },
       ]
     },
+    // Consumer side here >>
     {
       path: '/consumer',
       component: MainLayout,
@@ -100,12 +111,12 @@ const router = createRouter({
         },
         {
           path: '/view-transaction',
-          name: 'Viewtransaction',
+          name: 'consumer.view-transaction',
           component: Viewtransaction
         },
         {
           path: '/request-refund',
-          name: 'RequestRefund',
+          name: 'consumer.request-refund',
           component: RequestRefund
         },
         {
@@ -117,6 +128,16 @@ const router = createRouter({
           path: '/activate-account-governmentunit',
           name: 'consumer.activate-step3-governmentunit',
           component: ActivateGovernmentUnit
+        },
+        {
+          path: '/modal',
+          name: 'consumer.modal',
+          component: Modal
+        },
+        {
+          path: '/access-management-list-and-details',
+          name: 'consumer.access-management-list-and-details',
+          component: AccessManagementListandDetails
         },
       ],
     },

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 91vh;
-    background: url('src/assets/images/Login background.svg');
+    background: url('/src/assets/images/login-background.svg');
     background-size: cover;
     background-position: center center;
 }
