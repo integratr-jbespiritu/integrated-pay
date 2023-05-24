@@ -48,7 +48,10 @@
           <p class="col-12 inter-body-semibold text-start text-dark px-3 mt-4">Digital Signature</p>
           <p class="title-8 px-3">Sign on the given space below. It must only be within the given space and should not exceed the frame</p>
  
-          <div class="col-12 border h-100 w-100"></div>
+          <div class="col-12 border h-100 w-100">
+            <!-- Signature -->
+              
+          </div>
  
           <!-- button -->
           <div class="container py-2 mt-5">

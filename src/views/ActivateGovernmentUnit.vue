@@ -148,7 +148,7 @@
                           <!-- col 1 -->
                           <div class="col-12 col-md-6">
                             <div class="ms-c-1">
-                              <p class="title-18">Upload file of your valid ID.</p>
+                              <p class="title-18 ms-1">Upload file of your valid ID.</p>
                               <div class="input-group input-group-xl">
                                 <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
                                 <input type="text" class="step3 form-control text-purple" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="Valid_ID.jpeg" />
@@ -165,7 +165,7 @@
                           <!-- col-3 -->
                           <div class="col-12 col-md-6">
                             <div class="ms-c-1">
-                              <p class="title-18">Upload file of your valid ID.</p>
+                              <p class="title-18 ms-1">Upload file of your valid ID.</p>
                               <div class="input-group input-group-xl">
                                 <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
                                 <input type="text" class="step3 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="Upload a file (maximum file size of 2 mb)" />
@@ -181,7 +181,7 @@
                           <!-- col-5 -->
                           <div class="col-12 col-md-6">
                             <div class="ms-c-1">
-                              <p class="title-18">Upload file of your valid ID.</p>
+                              <p class="title-18 ms-1">Upload file of your valid ID.</p>
                               <div class="input-group input-group-xl">
                                 <span class="input-group-text bg-grayish text-white" id="inputGroup-sizing-lg">Choose File</span>
                                 <input type="text" class="form-control ng-purple" placeholder="SEC.pdf" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />

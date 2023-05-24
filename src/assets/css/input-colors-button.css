@@ -114,12 +114,28 @@ border-color: var(--vt-c-purple);
 
 .password-toggle-1 {
   position:absolute;
-  top: 54%;
+  top: 50%;
   right: 10px;
   transform: translateY(-50%);
   cursor: pointer;
+  background-image: ;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
 
+.container:hover .overlay {
+  opacity: 1;
+}
 
  /* buttons */   
  .button-default {

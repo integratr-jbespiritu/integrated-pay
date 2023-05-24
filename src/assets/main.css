@@ -470,14 +470,15 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .assess {
-  width: 95px;
+  width: 96px;
   height: 40px;
   padding: 10px, 20px, 10px, 20px;
   color: var(--vt-c-white);
   background: var(--vt-c-lavender);  
   border: var(--vt-c-purple);
-  line-height: 40px;
   border-radius: 0.25rem;
+  text-align: center;
+  line-height: 39px !important;
 }
 .input-group-xl {
   position: relative;
@@ -488,6 +489,7 @@ thead, tbody, tfoot, tr, td, th {
   border-radius: 0rem;
   border: none;
 }
+
 .input-group-xl > .form-control,
 .input-group-xl > .form-select,
 .input-group-xl > .input-group-text,
@@ -624,5 +626,21 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .ms-c-1 {
-  margin-left: 0.10rem !important;
+  margin-left: 0rem !important;
+}
+
+.lh-xl {
+  line-height: 2.25 !important;
+}
+.pe-6 {
+  padding-right: 3.25rem !important;
+}
+.pe-7 {
+  padding-right: 3.50rem !important;
+}
+.pe-8 {
+  padding-right: 4rem !important;
+}
+.pe-9 {
+  padding-right: 6rem !important;
 }
