@@ -80,11 +80,15 @@ export default {
 
                         {
                             name: 'Payment Channels',
-                            route: 'admin.payment-channels'
+                            route: 'admin.payment.channels'
                         },
                         {
                             name: 'KYC',
-                            route: ''
+                            route: 'admin.kyc.list'
+                        },
+                        {
+                            name: 'KycList',
+                            route: 'admin.kyc.list-sample'
                         },
                         {
                             name: 'Service 4',
