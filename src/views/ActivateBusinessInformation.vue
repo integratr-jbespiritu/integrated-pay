@@ -211,7 +211,8 @@
                       <div class="input-group input-group-xl">
                         <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
                         <input type="text" class="step3 form-control text-purple" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="ByLaws.pdf"/>
-                        <span><img src="/src/assets/images/Union.svg" class="password-toggle-1 me-1"/></span>
+                        <!-- <span><img src="/src/assets/images/Union.svg" class="password-toggle-1 me-1"/></span> -->
+                      <span><i class="fa-solid fa-xmark"></i></span>
                       </div>
                     </div>
                   </div>
