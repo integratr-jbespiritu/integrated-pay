@@ -1,10 +1,9 @@
 <template>
-  <div class="row me-0 bg-transparent">
+  <div class="row me-0">
    <div class="col-12">
     <div class="col">
      <div class="p-3">
-      <a class="title-10 text-decoration-none text-dark m-1" href="#">KYC-sample</a>
- 
+      <a class="title-10 text-decoration-none text-dark m-1" href="#">KYC</a>
       <div class="align-items-center">
        <div class="row gx-2 g-0 ms-0">
         <div class="col-12 col-md-4">
@@ -35,7 +34,7 @@
             <span>Email Address</span>
            </div>
           </th>
-          <th class="table-heading" width="20%">
+          <th class="table-heading" width="18%">
            <div class="d-flex align-items-center">
             <span>Account Name</span>
            </div>
@@ -64,7 +63,7 @@
         </thead>
         <tbody>
          <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
-          <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true" :aria-controls="`collapse${index}`" class="size-table-data column title-8">
+          <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true" :aria-controls="`collapse${index}`" class="size-table-data title-8">
            <td class="py-4">{{ transaction_record.emailaddress }}</td>
            <td class="py-4">{{ transaction_record.accountname }}</td>
            <td class="py-4">{{ transaction_record.typeofAccount }}</td>
@@ -105,6 +104,7 @@
    </div>
   </div>
  </template>
+
  <script>
   export default {
    data() {
