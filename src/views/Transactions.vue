@@ -1,5 +1,4 @@
 <template>
-  <div class=" ">
     <div class="container">
       <div class="">
         <div class="bor-style-solid m-auto">
@@ -26,44 +25,47 @@
                 </template>
               </div>
             </div>
+           
+            </div>
+
             <div class="row gx-2 g-0 ms-3">
-               <div class="col-12 col-md-4">
-                <div class="search input-group mt-2 w-100">
-                    <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                      <i class="isax isax-search-status-1 fs-4"></i>
-                      </span>
-                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                      aria-describedby="basic-addon1" />
-                  </div>
-                  </div>
                  <div class="col-12 col-md-4">
-                  <div class="input-group mb-2 mt-2">
-                      <span class="span-btn-default input-group-text rounded-0">
-                        <i class="icon isax isax-filter-search"></i>
-                      </span>
-                      <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
-                        aria-describedby="basic-addon2">Filter</button>
+                  <div class="search input-group mt-2 w-100">
+                      <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                        <i class="isax isax-search-status-1 fs-4"></i>
+                        </span>
+                      <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                        aria-describedby="basic-addon1" />
                     </div>
-               </div>
-                <div class="col-12 col-md-4 d-flex">
-                  <button type="button" class="button-hover-icon-purple mt-1">
-                          <span class="refund-request translate-middle-y text-nowrap mx-3">
-                            Refund Request
-                          </span>
-                  </button>
-                  <div>
-                  <button type="button" class="button-default-outline pe-2 mx-5 mt-1">Export</button>
+                    </div>
+                   <div class="col-12 col-md-4">
+                    <div class="input-group mb-2 mt-2">
+                        <span class="span-btn-default input-group-text rounded-0">
+                          <i class="icon isax isax-filter-search"></i>
+                        </span>
+                        <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
+                          aria-describedby="basic-addon2">Filter</button>
+                      </div>
+                 </div>
+                  <div class="col-12 col-md-4 d-flex">
+                    <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
+                            <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+                              Refund Request
+                            </span>
+                    </button>
+                    <div>
+                    <button type="button" class="title-5 button-default-outline pe-2 mx-5 mt-1 bg-transparent">Export</button>
+                    </div>
                   </div>
-                </div>
-            </div>
-            </div>
+              </div>
+              </div>
           <div class="ms-0">
             <div class="border-bottom mb-3 mt-2">
               <p class="mb-4 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
             </div>
           </div>
-          <div class="table-responsive table-borderless bg-light">
-            <table class="table font-table-text table-borderless">
+          <div class="table-responsive ms-4 mt-2 me-5">
+            <table class="table ">
               <thead>
                 <tr class="text-purple title-13">
                   <th class="text-start px-20px pb-10px padding-top-none">
@@ -101,17 +103,17 @@
               <tbody>
                 <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
                   <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true"
-                    :aria-controls="`collapse${index}`" class="size-table-tabledata column title-8" id="demo" onclick="myFunction()">
-                    <td class="text-start px-20px vertical-alignment-center font-table-text">{{
+                    :aria-controls="`collapse${index}`" class="size-table-data column title-8">
+                    <td class="font-table-text py-3">{{
                       transaction_record.transaction_no }}</td>
-                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.amount }}</td>
-                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.channel }}</td>
-                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.service_product }}</td>
-                    <td class="text-start px-20px vertical-alignment-center">
-                      <div class="py-0 px-2 rounded-0 title-20 w-100 text-center" :class="getStatus(transaction_record.status)">{{
+                    <td class="font-table-text py-3">{{ transaction_record.amount }}</td>
+                    <td class="font-table-text py-3">{{ transaction_record.channel }}</td>
+                    <td class="font-table-text py-3">{{ transaction_record.service_product }}</td>
+                    <td class="font-table-text py-3">
+                      <div class="py-0 my-auto rounded-0 title-19 text-center px-3" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.time_stamp }}</td>
+                    <td class="font-table-text py-3 text-start ">{{ transaction_record.time_stamp }}</td>
                   </tr>
                   <tr>
                     <td colspan="6">
@@ -163,8 +165,8 @@
                                   <div class="col-12">
                                     <div class="row gx-0 g-0">
                                       <div class="col">
-                                        <p class="title-12">Convenience Fee</p>
-                                      </div>
+                                        <p class="title-12 text-uppercase">Convenience Fee</p>
+                                      </div> 
                                       <div class="col-auto">
                                         <p class="title-12">25.0</p>
                                       </div>
@@ -197,43 +199,60 @@
                 </template>
               </tbody>
             </table>
-            <!-- pagination  -->
-            <div class="col-6 border text-end px-5">
-              <div class="d-flex">
-                <div class="col-md">
-                  <i class="arrow isax isax-arrow-left-2"></i>
-                </div>
-                <div class="col-md">
-                  <p class="text-previous">Previous</p>
-                </div>
-                <div class="col-md">
-                  <p class="text-one ms-2">1</p>
-                </div>
-                <div class="col-md">
-                  <p class="text-disabled ms-2">2</p>
-                </div>
-                <div class="col-md">
-                  <p class="text-next ms-2">Next</p>
-                </div>
-                <div class="col-md">
-                  <i class="arrow-right isax isax-arrow-right-3"></i>
-                </div>
-              </div>
-            </div>
-            <!-- pagination  -->
           </div>
+           <!-- pagination  -->
+             <nav aria-label="Page navigation" class="ms-4">
+              <ul class="pagination justify-content-end pe-5 me-3">
+                <li class="page-item disabled mt-2">
+                    <i class="arrow isax isax-arrow-left-2"></i>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link bg-light border-0" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link bg-light border-0 text-purple" href="#">1</a></li>
+                <li class="page-item disabled"><a class="page-link bg-light border-0" href="#">2</a></li>
+                <li class="page-item">
+                  <a class="page-link bg-light border-0 text-purple" href="#">Next</a>
+                </li>
+                <li class="page-item mt-2">
+                      <i class="arrow isax isax-arrow-right-3 text-purple"></i>
+                </li>
+              </ul>
+            </nav>
+          <!-- pagination  -->
         </div>
       </div>
-    </div>
-  </div>
+   
+    <Teleport to="body">
+      <ModalLarge :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
+        <template #header>
+          test
+        </template>
+        <template #body>
+          <div class="row gx-0 g-0">
+            Test
+          </div>
+        </template>
+        <template #footer>
+          <div class="row gx-0 g-0 mb-1 justify-content-end pad-top-20p">
+            Test
+          </div>
+        </template>
+      </ModalLarge>
+    </Teleport>
 </template>
 
 <script>
+import ModalLarge from "../components/ModalLarge2.vue"
+
 export default {
   name: "DashBoard",
-  components: {},
+  components: {
+    ModalLarge
+  },
   data() {
     return {
+      refund_request_modal: false,
       transactions: [
         {
           label: "Expected Amount",
@@ -339,9 +358,6 @@ export default {
   methods: {
     getStatus(data) {
       return `status-${data.toLowerCase()}`;
-    },
-     myFunction() {
-      document.getElementById("demo").style.color = "red";
     },
   },
 };

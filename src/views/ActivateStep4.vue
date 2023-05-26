@@ -71,7 +71,7 @@
  </template>
  
  <script>
-  import SignaturePad from 'signature_pad';
+  // import SignaturePad from 'signature_pad';
   export default {
     mounted() {
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));

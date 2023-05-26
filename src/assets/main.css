@@ -17,7 +17,6 @@
 @import 'css/activate-step1.css';
 @import 'css/request-refund.css';
 @import 'css/modal.css';
-@import 'css/access-management-list-and-details.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
 @import url('css/adminKYC.css');
@@ -387,6 +386,28 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 13px;
   margin-bottom: 0%;
 }
+
+.title-20 {
+  font-family: Inter-Semibold;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.title-21 {
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-22 {
+  font-family: Poppins-Light;
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }

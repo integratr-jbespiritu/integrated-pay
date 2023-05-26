@@ -21,7 +21,7 @@
                     <li>
                         <div class="row gx-0 g-0 pe-4">
                             <div class="col text-nowrap title-3">
-                                <router-link class="text-sm-center nav-link text-light" :to="{ name: 'consumer.dashboard' }">
+                                <router-link class="text-sm-center nav-link text-light" :to="{ name: '' }">
                                     <i class="icon isax isax-category5 me-2"></i>
                                     Dashboard
                                 </router-link>
@@ -67,15 +67,15 @@ export default {
                     module_types: [
                         {
                             name: 'Reports',
-                            route: 'consumer.transactions'
+                            route: ''
                         },
                         {
                             name: 'Transactions',
-                            route: 'consumer.transactions'
+                            route: ''
                         },
                         {
                             name: 'Disbursement',
-                            route: 'DisbursementPage'
+                            route: ''
                         },
 
                         {

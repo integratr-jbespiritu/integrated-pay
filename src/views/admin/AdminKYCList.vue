@@ -188,7 +188,9 @@
     getStatus(data) {
      return `status-${data.toLowerCase()}`;
     },
-   },
-  };
- </script>
- 
+     myFunction() {
+      document.getElementById("demo").style.color = "red";
+    },
+  },
+};
+</script>

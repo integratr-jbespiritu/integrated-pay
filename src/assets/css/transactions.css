@@ -15,21 +15,13 @@
     cursor: pointer;
 }
 
-.refund-request {
-    border-color: var(--vt-c-purple);
-}
-
 .filter-btn  {
     border: 1px solid var(--vt-c-light-gray);
 }
 
-.table .size-table-data:hover {
-    border: 1px solid var(--vt-c-purple);
-    color: black;
-}
-
 tr.size-table-data:hover td {
     font-weight: bold;
+    background-color: var(--vt-c-default-white);
 }
 
 .table .table-rows:hover {
@@ -38,4 +30,9 @@ tr.size-table-data:hover td {
 
 .size-table-data {
 white-space: nowrap;    
+}
+
+.border-purple {
+    border-color: var(--vt-c-purple) !important;
+    color: var(--vt-c-purple) !important;
 }

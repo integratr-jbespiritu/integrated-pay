@@ -12,12 +12,15 @@
                         <div class="gx-0 g-0 mb-3">
                             <div class="row mt-2">
                                 <template v-for="transaction, index in transactions" :key="transaction">
-                                    <div class="col-auto align-self-start me-5" :class="index != 2 ? 'border-end' : ''">
-                                        <div class="title-8">
+                                    <div class="col-auto align-self-start me-5 mb-4" :class="index != 3 ? 'border-end' : ''">
+                                        <div class="title-8 me-4">
                                             {{ transaction.label }}
                                         </div>
-                                        <div class="col-auto title-11 text-blue me-5">
+                                        <div class="col-auto title-11 text-blue me-4">
                                             {{ transaction.value }}
+                                        </div>
+                                        <div class="col-auto title-7 me-4" style="white-space: pre-line;">
+                                            {{ transaction.values }}
                                         </div>
                                     </div>
                                 </template>
@@ -25,23 +28,23 @@
                         </div>
                         <div class="row gx-2 g-0">
                             <div class="col-12 col-md-4">
-                                <div class="search input-group w-100">
-                                    <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                                        <i class="isax isax-search-status-1 fs-4"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                                        aria-describedby="basic-addon1" />
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="input-group">
-                                    <span class="span-btn-default input-group-text rounded-0">
-                                        <i class="icon isax isax-filter-search"></i>
-                                    </span>
-                                    <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
-                                        aria-describedby="basic-addon2">Filter</button>
-                                </div>
-                            </div>
+                      <div class="search input-group mt-2 w-100">
+                          <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                            <i class="isax isax-search-status-1 fs-4"></i>
+                            </span>
+                          <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                            aria-describedby="basic-addon1" />
+                        </div>
+                        </div>
+                       <div class="col-12 col-md-4">
+                        <div class="input-group mb-2 mt-2">
+                            <span class="span-btn-default input-group-text rounded-0">
+                              <i class="icon isax isax-filter-search"></i>
+                            </span>
+                            <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
+                              aria-describedby="basic-addon2">Filter</button>
+                          </div>
+                     </div>
                         </div>
                         <div class="ms-1">
                             <div class="border-bottom mb-3 mt-3">
@@ -118,8 +121,8 @@ export default {
                     value: "1% + PHP 30.00",
                 },
                 {
-                    label: "Lowest Rate",
-                    value: "1% + PHP 30.00",
+                    label: "Lowest Rate: Payment Methods",
+                    values: "EC Pay\nBayad Center\nCebuana Lhuillier"
                 },
                 {
                     label: "Processing Fee",

@@ -19,9 +19,9 @@ import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
 import AdminPaymentChannels from '../views/admin/AdminPaymentChannels.vue'
 import Modal from '../views/Modal.vue'
 import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
-import ActivateStep4 from '../views/ActivateStep4.vue'
+import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
-
+import ActivateStep4 from '../views/ActivateStep4.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -138,6 +138,11 @@ const router = createRouter({
           path: '/access-management-list-and-details',
           name: 'consumer.access-management-list-and-details',
           component: AccessManagementListandDetails
+        },
+        {
+          path: '/payout-configuration',
+          name: 'consumer.payout-configuration',
+          component: PayoutConfiguration
         },
       ],
     },
