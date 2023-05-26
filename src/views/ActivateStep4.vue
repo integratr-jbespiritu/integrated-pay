@@ -89,7 +89,7 @@
     methods: {
       signature() {
         const canvas = this.$refs.canvas
-        canvas.width = window.outerWidth
+        canvas.width =600
         this.SignaturePad = new SignaturePad(canvas)
       } 
     }

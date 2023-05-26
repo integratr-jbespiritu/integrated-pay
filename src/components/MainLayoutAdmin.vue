@@ -1,15 +1,13 @@
 <template>
     <div class="d-flex flex-row">
-        <div class="w-auto">
+         <div class="w-auto">
             <AdminSidebar />
         </div>
-        <div class="d-flex">
-             <div class="w-auto">
-                <HeaderComponent />
-                <main class="w-auto">
-                    <RouterView />
-                </main>
-            </div>
+        <div class="w-100">
+            <HeaderComponent />
+            <main class="w-auto">
+                <RouterView />
+            </main>
         </div>
     </div>
 </template>
