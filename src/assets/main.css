@@ -125,6 +125,11 @@
 .pad-top-40p {
   padding-top: 40px;
 }
+
+.pad-top-60p {
+  padding-top: 60px;
+}
+
 .pad-x-40p {
   padding-right: 40px;
   padding-left: 40px;
@@ -144,6 +149,10 @@
 
 .margin-right-20p {
   margin-right: 20px;
+}
+
+.margin-left-10p {
+  margin-left: 10px;
 }
 
 .margin-x-10p{
@@ -375,6 +384,19 @@ color: var(--vt-c-silver-gray) !important;
   font-family: Inter-Regular;
   font-weight: 700;
   font-size: 13px;
+  margin-bottom: 0%;
+}
+.title-19 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.title-20 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 14px;
   margin-bottom: 0%;
 }
 .input-border-gray {

@@ -1,32 +1,37 @@
-.header {
+ .header {
   display: flex;
   align-items: center;
   padding: 16px;
   background-color: black;
-}
+} 
 
 .logo {
   margin-right: auto;
   font-size: 25px;
 }
 .notification-button {
-  cursor: pointer;
   color: #fff;
 }
 
 .search-bar {
-  display: flex;
-  align-items: right;
-  margin-left: 16px;
-}
-
-.search-bar input {
-  width: 200px;
-  padding: 8px;
+  border-color: transparent;
+  box-shadow: none;
   border: none;
 }
 
 .fa-search,
 .fa-bell {
   font-size: 18px;
+}
+
+.border-color-none{
+  border-color: transparent;
+}
+.border-color-none:focus{
+  border-color: transparent;
+  outline: none;
+}
+
+.container-header {
+  box-shadow: 0px 3px var(--vt-c-lavender);
 }
