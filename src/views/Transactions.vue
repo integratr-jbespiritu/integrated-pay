@@ -1,15 +1,15 @@
 <template>
-  <div class="gx-0 g-0">
-    <div class="container pe-4">
+    <div class="container">
+      <div class="">
         <div class="bor-style-solid m-auto">
-          <header class="header bg-light lh-1">
+          <header class="header bg-light lh-1 ms-2">
             <div class="col-12">
               <a class="title-10 text-decoration-none text-dark" href="#">Transactions</a>
             </div>
           </header>
           <div class="align-items-center">
-            <div class="gx-0 g-0 mb-5">
-              <div class="row mt-2 ms-1">
+            <div class="gx-0 g-0 mb-5 ms-1">
+              <div class="row mt-2 ms-2">
                 <template v-for="transaction, index in transactions" :key="transaction">
                   <div class="col-auto me-5 pe-4 align-self-start" :class="index != 2 ? 'border-end' : ''">
                     <div class="title-8 me-3">
@@ -25,72 +25,77 @@
                 </template>
               </div>
             </div>
-           <div class="row gx-0 g-0 ms-3 me-5">
-              <div class="col-12 col-md-3">
-                <div class="search input-group mt-2 w-100 pe-3">
-                  <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                    <i class="isax isax-search-status-1 fs-4"></i>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                    aria-describedby="basic-addon1" />
-                </div>
-              </div>
-              <div class="col-12 col-md-4">
-                <div class="input-group mb-2 mt-2">
-                  <span class="span-btn-default input-group-text rounded-0">
-                    <i class="icon isax isax-filter-search"></i>
-                  </span>
-                  <button type="button" class="filter-btn bg-white pe-2 px-2" aria-label="Selected-Field"
-                    aria-describedby="basic-addon2">Filter</button>
-                </div>
-              </div>
-              <div class="col-12 col-md-5 d-flex align-items-end justify-content-end pe-5 mb-2 mt-2">
-                <button type="button" class="bg-transparent py-0 h-100 border border-2 border-purple" @click="refund_request_modal = true">
-                  <span class="title-5 translate-middle-y text-nowrap mx-2">
-                    Refund Request
-                  </span>
-                </button>
-                <button type="button" class="button-default-outline title-5 pe-2 bg-transparent mx-4 h-100">Export</button>
-              </div>
+           
             </div>
-            </div>
-          <div class="ms-3">
-            <div class="border-bottom mb-2 mt-3">
-              <p class="mb-3 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
+
+            <div class="row gx-2 g-0 ms-3">
+                 <div class="col-12 col-md-4">
+                  <div class="search input-group mt-2 w-100">
+                      <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                        <i class="isax isax-search-status-1 fs-4"></i>
+                        </span>
+                      <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                        aria-describedby="basic-addon1" />
+                    </div>
+                    </div>
+                   <div class="col-12 col-md-4">
+                    <div class="input-group mb-2 mt-2">
+                        <span class="span-btn-default input-group-text rounded-0">
+                          <i class="icon isax isax-filter-search"></i>
+                        </span>
+                        <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
+                          aria-describedby="basic-addon2">Filter</button>
+                      </div>
+                 </div>
+                  <div class="col-12 col-md-4 d-flex">
+                    <button type="button" class="button-hover-icon-purple mt-1">
+                            <span class="refund-request translate-middle-y text-nowrap mx-3">
+                              Refund Request
+                            </span>
+                    </button>
+                    <div>
+                    <button type="button" class="button-default-outline pe-2 mx-5 mt-1">Export</button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+          <div class="ms-0">
+            <div class="border-bottom mb-3 mt-2">
+              <p class="mb-4 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
             </div>
           </div>
           <div class="table-responsive ms-4 mt-2 me-5">
             <table class="table ">
               <thead>
-                <tr class="table-rows text-purple title-13">
-                  <th class="table-heading">
+                <tr class="text-purple title-13">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Transaction No.</span>
+                      <span class="font-table-column me-10px">Transaction No.</span>
                     </div>
                   </th>
-                  <th class="table-heading">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Amount</span>
+                      <span class="font-table-column me-10px">Amount</span>
                     </div>
                   </th>
-                  <th class="table-heading">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Channel</span>
+                      <span class="font-table-column me-10px">Channel</span>
                     </div>
                   </th>
-                  <th class="table-heading">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Service/Product</span>
+                      <span class="font-table-column me-10px">Service/Product</span>
                     </div>
                   </th>
-                  <th class="table-heading">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Status</span>
+                      <span class="font-table-column me-10px">Status</span>
                     </div>
                   </th>
-                  <th class="table-heading">
+                  <th class="text-start px-20px pb-10px padding-top-none">
                     <div class="d-flex align-items-center">
-                      <span>Date</span>
+                      <span class="font-table-column me-10px">Date</span>
                     </div>
                   </th>
                 </tr>
@@ -108,7 +113,7 @@
                       <div class="py-0 my-auto rounded-0 title-19 text-center px-3" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
-                    <td class="font-table-text py-3">{{ transaction_record.time_stamp }}</td>
+                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.time_stamp }}</td>
                   </tr>
                   <tr>
                     <td colspan="6">
@@ -150,7 +155,7 @@
                                   <div class="col-12 pt-3">
                                     <div class="row gx-0 g-0">
                                       <div class="col">
-                                        <p class="title-12 text-uppercase">Amount</p>
+                                        <p class="title-12">Amount</p>
                                       </div>
                                       <div class="col-auto">
                                         <p class="title-12">9,975.00</p>
@@ -171,8 +176,8 @@
                               </div>
                               <div class="col">
                                 <div class="row gx-0 g-0">
-                                  <div class="col-12 justify-content-center d-flex title-19">
-                                    <div class="status-paid w-25 title-19 py-0 px-2 rounded-0 text-center">Paid</div>
+                                  <div class="col-12 justify-content-center d-flex title-16">
+                                    <div class="status-paid w-25 title-16 py-0 px-2 rounded-0 text-center">Paid</div>
                                   </div>
                                   <div class="col-12 justify-content-center d-flex">
                                     <div class="title-8 pt-1">01/01/2023 7:28 AM</div>
@@ -216,8 +221,8 @@
             </nav>
           <!-- pagination  -->
         </div>
-    </div>
-  </div>
+      </div>
+   
     <Teleport to="body">
       <ModalLarge :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
         <template #header>

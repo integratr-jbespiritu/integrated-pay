@@ -20,7 +20,7 @@
 @import 'css/access-management-list-and-details.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
-
+@import url('css/adminKYC.css');
 @font-face {
   font-family: Poppins-Semibold;
   src: url('../assets/font_styles/Poppins-SemiBold.ttf') format(truetype);
@@ -473,7 +473,7 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
-.status-refunded {
+.status-refunded , .status-declined{
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
 }
@@ -482,7 +482,7 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
-.status-paid {
+.status-paid , .status-approved{
   border: 2px solid var(--vt-c-green);
   color: var(--vt-c-green);
 }
@@ -491,11 +491,32 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
+.assess {
+  width: 96px;
+  height: 40px;
+  padding: 10px, 20px, 10px, 20px;
+  color: var(--vt-c-white);
+  background: var(--vt-c-lavender);  
+  border: var(--vt-c-purple);
+  border-radius: 0.25rem;
+  text-align: center;
+  line-height: 39px !important;
+}
+.input-group-xl {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100;
+  border-radius: 0rem;
+  border: none;
+}
+
 .input-group-xl > .form-control,
 .input-group-xl > .form-select,
 .input-group-xl > .input-group-text,
 .input-group-xl > .btn {
-  padding: 0.9rem 1rem;
+  padding: 0.9rem 0.8rem;
   font-size: 1rem;
   border-radius: 0rem;
 }
@@ -504,12 +525,17 @@ thead, tbody, tfoot, tr, td, th {
   color: #198754;
   border-color: #198754;
   border: 2px solid;
+  font-weight: 700;
+  font-size: 13px;
+
 }
 
 .button-outline-red {
   color: #dc3545;
   border-color: #dc3545;
   border: 2px solid;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .form-select1 {
@@ -574,7 +600,69 @@ thead, tbody, tfoot, tr, td, th {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-  /* .col-7-modified {
-    flex: 0 0 auto;
-    width: 53%;
-  } */
+
+.form-control-1 {
+  display: block;
+  width: 10% !important;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group > .form-control-1 {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  border-radius: 0rem;
+}
+
+.c-mb-10px{
+  margin-bottom: var(--c-s-10px);
+}
+
+.c-mb-20px {
+  margin-bottom: var(-c-s-20px) !important;
+}
+
+.c-mb-50px {
+  margin-bottom: var(--c-s-50px) !important;
+}
+
+.mb-c-1 {
+  margin-bottom: 0.94rem !important;
+}
+
+.me-c-1 {
+  margin-right: 0rem !important;
+}
+
+.ms-c-1 {
+  margin-left: 0rem !important;
+}
+
+.lh-xl {
+  line-height: 2.25 !important;
+}
+.pe-6 {
+  padding-right: 3.25rem !important;
+}
+.pe-7 {
+  padding-right: 3.50rem !important;
+}
+.pe-8 {
+  padding-right: 4rem !important;
+}
+.pe-9 {
+  padding-right: 6rem !important;
+}

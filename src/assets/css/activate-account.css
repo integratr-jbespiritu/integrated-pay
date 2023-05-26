@@ -9,8 +9,6 @@ body {
 .input-height:hover {
   border: 1px solid var(--vt-c-purple);
 }
-
-
 .step2-progressbar {
   display: flex;
   justify-content:space-between;
@@ -131,6 +129,7 @@ body {
   border-color: var(--vt-c-purple);
 }
 
+
 /* step3 progressbar */
 
 .step3-progressbar {
@@ -162,3 +161,35 @@ body {
     z-index: -10;
 }
 
+/* step4 progressbar */
+
+.step4-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.step4-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+.step4-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+
+.canvas{
+  height: 280px !important;
+}

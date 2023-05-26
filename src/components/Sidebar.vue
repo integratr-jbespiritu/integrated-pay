@@ -8,7 +8,7 @@
                </div>
                <div class="col-12 justify-content-center d-flex pb-2">
                   <img src="/src/assets/images/avatar.svg" class="h-100">
-               </div>
+                </div>
                <div class="col-12 mb-2">
                   <div class="account">
                      <a href="home">Juan Dela Cruz</a> 

@@ -21,6 +21,8 @@ import Modal from '../views/Modal.vue'
 import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
 import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
+import ActivateStep4 from '../views/ActivateStep4.vue'
+import KycList from '../views/admin/KycList.vue'
 
 
 const router = createRouter({
@@ -48,14 +50,19 @@ const router = createRouter({
       component: MainLayoutAdmin,
       children: [
         {
-          path: '/admin/payment-channels',
-          name: 'admin.payment-channels',
-          component: AdminPaymentChannels
-        }, 
-        {
           path: '/admin/kyc',
           name: 'admin.kyc.list',
           component: AdminKYCList
+        }, 
+        {
+          path: '/admin/payment-channels',
+          name: 'admin.payment.channels',
+          component: AdminPaymentChannels
+        },
+        {
+          path: '/admin/kyc-list-sample',
+          name: 'admin.kyc.list-sample',
+          component: KycList
         },
       ]
     },
@@ -83,6 +90,11 @@ const router = createRouter({
           path: '/activate-account',
           name: 'consumer.activate-account',
           component: ActivateAccount
+        },
+        {
+          path: '/activate-account-step4',
+          name: 'consumer.activate-account-step4',
+          component: ActivateStep4
         },
         {
           path: '/payments',
