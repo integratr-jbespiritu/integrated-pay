@@ -5,7 +5,7 @@
         </div>
         <div class="w-100">
             <HeaderComponent />
-            <main class="w-auto">
+            <main class="w-100">
                 <RouterView />
             </main>
         </div>

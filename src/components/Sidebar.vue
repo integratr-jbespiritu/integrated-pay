@@ -105,7 +105,7 @@ export default {
                   },
                   {
                      name: 'Disbursement Account',
-                     route: ''
+                     route: 'consumer.payout-configuration'
                   },
                  
                   

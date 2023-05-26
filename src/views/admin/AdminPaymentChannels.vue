@@ -17,7 +17,7 @@
                                             {{ transaction.label }}
                                         </div>
                                         <div class="col-auto title-11 text-blue me-5">
-                                            {{ transaction.value }}
+                                            {{ transaction.value.replace(/,/g, '\n') }}
                                         </div>
                                     </div>
                                 </template>
@@ -118,8 +118,8 @@ export default {
                     value: "1% + PHP 30.00",
                 },
                 {
-                    label: "Lowest Rate",
-                    value: "1% + PHP 30.00",
+                    label: "Lowest Rate: Payment Methods",
+                    value: "EC Pay, Bayad Center,Cebuana Lhuillier",
                 },
                 {
                     label: "Processing Fee",
