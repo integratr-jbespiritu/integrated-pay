@@ -22,8 +22,6 @@ import AccessManagementListandDetails from '../views/AccessManagementListandDeta
 import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
-import KycList from '../views/admin/KycList.vue'
-
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,11 +56,6 @@ const router = createRouter({
           path: '/admin/payment-channels',
           name: 'admin.payment.channels',
           component: AdminPaymentChannels
-        },
-        {
-          path: '/admin/kyc-list-sample',
-          name: 'admin.kyc.list-sample',
-          component: KycList
         },
       ]
     },

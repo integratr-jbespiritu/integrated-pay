@@ -81,18 +81,18 @@
       
       this.signature();
     },
-    // data() {
-    //   return {
-    //     signaturePad: []
-    //   }
-    // },
-    // methods: {
-    //   signature() {
-    //     const canvas = this.$refs.canvas
-    //     canvas.width = window.outerWidth
-    //     this.SignaturePad = new SignaturePad(canvas)
-    //   } 
-    // }
+    data() {
+      return {
+        signaturePad: []
+      }
+    },
+    methods: {
+      signature() {
+        const canvas = this.$refs.canvas
+        canvas.width =600
+        this.SignaturePad = new SignaturePad(canvas)
+      } 
+    }
   };
  </script>
  

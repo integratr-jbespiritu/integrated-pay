@@ -87,10 +87,6 @@ export default {
                             route: 'admin.kyc.list'
                         },
                         {
-                            name: 'KycList',
-                            route: 'admin.kyc.list-sample'
-                        },
-                        {
                             name: 'Service 4',
                             route: ''
                         },
