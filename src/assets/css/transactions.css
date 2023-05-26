@@ -19,13 +19,9 @@
     border: 1px solid var(--vt-c-light-gray);
 }
 
-.table .size-table-data:hover {
-    border: 1px solid var(--vt-c-purple);
-    color: black;
-}
-
 tr.size-table-data:hover td {
     font-weight: bold;
+    background-color: var(--vt-c-default-white);
 }
 
 .table .table-rows:hover {

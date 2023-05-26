@@ -48,13 +48,13 @@
                       </div>
                  </div>
                   <div class="col-12 col-md-4 d-flex">
-                    <button type="button" class="button-hover-icon-purple mt-1">
-                            <span class="refund-request translate-middle-y text-nowrap mx-3">
+                    <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
+                            <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
                               Refund Request
                             </span>
                     </button>
                     <div>
-                    <button type="button" class="button-default-outline pe-2 mx-5 mt-1">Export</button>
+                    <button type="button" class="title-5 button-default-outline pe-2 mx-5 mt-1 bg-transparent">Export</button>
                     </div>
                   </div>
               </div>
@@ -113,7 +113,7 @@
                       <div class="py-0 my-auto rounded-0 title-19 text-center px-3" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center">{{ transaction_record.time_stamp }}</td>
+                    <td class="font-table-text py-3 text-start ">{{ transaction_record.time_stamp }}</td>
                   </tr>
                   <tr>
                     <td colspan="6">
