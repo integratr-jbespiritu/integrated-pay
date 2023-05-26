@@ -44,13 +44,13 @@
                     aria-describedby="basic-addon2">Filter</button>
                 </div>
               </div>
-              <div class="col-12 col-md-5 d-flex align-items-end justify-content-end pe-4 mb-2 mt-2">
-                <button type="button" class="button-hover-icon-purple py-0 h-100">
-                  <span class="refund-request title-5 translate-middle-y text-nowrap mx-2">
+              <div class="col-12 col-md-5 d-flex align-items-end justify-content-end pe-5 mb-2 mt-2">
+                <button type="button" class="bg-transparent py-0 h-100 border border-2 border-purple" @click="refund_request_modal = true">
+                  <span class="title-5 translate-middle-y text-nowrap mx-2">
                     Refund Request
                   </span>
                 </button>
-                <button type="button" class="button-default-outline title-5 pe-2 mx-4 h-100">Export</button>
+                <button type="button" class="button-default-outline title-5 pe-2 bg-transparent mx-4 h-100">Export</button>
               </div>
             </div>
             </div>
@@ -59,8 +59,8 @@
               <p class="mb-3 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
             </div>
           </div>
-          <div class="table-responsive ms-4 mt-2">
-            <table class="table">
+          <div class="table-responsive ms-4 mt-2 me-5">
+            <table class="table ">
               <thead>
                 <tr class="table-rows text-purple title-13">
                   <th class="table-heading">
@@ -98,14 +98,14 @@
               <tbody>
                 <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
                   <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true"
-                    :aria-controls="`collapse${index}`" class="size-table-data column title-8" id="demo" onclick="myFunction()">
+                    :aria-controls="`collapse${index}`" class="size-table-data column title-8">
                     <td class="font-table-text py-3">{{
                       transaction_record.transaction_no }}</td>
                     <td class="font-table-text py-3">{{ transaction_record.amount }}</td>
                     <td class="font-table-text py-3">{{ transaction_record.channel }}</td>
                     <td class="font-table-text py-3">{{ transaction_record.service_product }}</td>
                     <td class="font-table-text py-3">
-                      <div class="py-0 px-2 rounded-0 title-19 w-100 text-center" :class="getStatus(transaction_record.status)">{{
+                      <div class="py-0 my-auto rounded-0 title-19 text-center px-3" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
                     <td class="font-table-text py-3">{{ transaction_record.time_stamp }}</td>
@@ -161,7 +161,7 @@
                                     <div class="row gx-0 g-0">
                                       <div class="col">
                                         <p class="title-12 text-uppercase">Convenience Fee</p>
-                                      </div>
+                                      </div> 
                                       <div class="col-auto">
                                         <p class="title-12">25.0</p>
                                       </div>
@@ -197,7 +197,7 @@
           </div>
            <!-- pagination  -->
              <nav aria-label="Page navigation" class="ms-4">
-              <ul class="pagination justify-content-end pe-5">
+              <ul class="pagination justify-content-end pe-5 me-3">
                 <li class="page-item disabled mt-2">
                     <i class="arrow isax isax-arrow-left-2"></i>
                 </li>
@@ -218,14 +218,36 @@
         </div>
     </div>
   </div>
+    <Teleport to="body">
+      <ModalLarge :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
+        <template #header>
+          test
+        </template>
+        <template #body>
+          <div class="row gx-0 g-0">
+            Test
+          </div>
+        </template>
+        <template #footer>
+          <div class="row gx-0 g-0 mb-1 justify-content-end pad-top-20p">
+            Test
+          </div>
+        </template>
+      </ModalLarge>
+    </Teleport>
 </template>
 
 <script>
+import ModalLarge from "../components/ModalLarge2.vue"
+
 export default {
   name: "DashBoard",
-  components: {},
+  components: {
+    ModalLarge
+  },
   data() {
     return {
+      refund_request_modal: false,
       transactions: [
         {
           label: "Expected Amount",
@@ -331,9 +353,6 @@ export default {
   methods: {
     getStatus(data) {
       return `status-${data.toLowerCase()}`;
-    },
-     myFunction() {
-      document.getElementById("demo").style.color = "red";
     },
   },
 };

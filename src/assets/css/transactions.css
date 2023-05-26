@@ -15,10 +15,6 @@
     cursor: pointer;
 }
 
-.refund-request {
-    border-color: var(--vt-c-purple);
-}
-
 .filter-btn  {
     border: 1px solid var(--vt-c-light-gray);
 }
@@ -38,4 +34,9 @@ tr.size-table-data:hover td {
 
 .size-table-data {
 white-space: nowrap;    
+}
+
+.border-purple {
+    border-color: var(--vt-c-purple) !important;
+    color: var(--vt-c-purple) !important;
 }
