@@ -125,9 +125,10 @@ body {
  background-color: var(--vt-c-violet);
 }  
 
-.step3:hover {
+.step3:hover, .icon-hover:hover {
   border-color: var(--vt-c-purple);
 }
+
 
 
 /* step3 progressbar */
@@ -162,7 +163,6 @@ body {
 }
 
 /* step4 progressbar */
-
 .step4-progressbar {
   display: flex;
   justify-content:space-between;
@@ -171,7 +171,7 @@ body {
 .step4-progressbar::before {
   content: "";
   height: 2px;
-  width: 100%;
+  width: 99%;
   position: absolute;
   top:50%;
   transform: translateY(-50%);
@@ -193,3 +193,4 @@ body {
 .canvas{
   height: 280px !important;
 }
+

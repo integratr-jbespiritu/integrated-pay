@@ -4,7 +4,7 @@
       <div class="mb-5">
         <div class="row">
           <div class="col">
-            <div class="p-3 me-5 pb-4 bg-transparent">
+            <div class="p-3 me-5 pb-4">
                   <!-- progressbar -->
              <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
               <div class="col-9 text-center p-0 mb-2">
