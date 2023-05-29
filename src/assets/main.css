@@ -17,7 +17,6 @@
 @import 'css/activate-step1.css';
 @import 'css/request-refund.css';
 @import 'css/modal.css';
-@import 'css/access-management-list-and-details.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
 @import url('css/adminKYC.css');
@@ -470,7 +469,7 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .assess {
-  width: 96px;
+  width: 95px;
   height: 40px;
   padding: 10px, 20px, 10px, 20px;
   color: var(--vt-c-white);
@@ -611,7 +610,7 @@ thead, tbody, tfoot, tr, td, th {
 
 .c-mb-20px {
   margin-bottom: var(-c-s-20px) !important;
-}
+} 
 
 .c-mb-50px {
   margin-bottom: var(--c-s-50px) !important;
@@ -626,7 +625,7 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .ms-c-1 {
-  margin-left: 0rem !important;
+  margin-left: 0.10rem !important;
 }
 
 .lh-xl {
@@ -644,3 +643,4 @@ thead, tbody, tfoot, tr, td, th {
 .pe-9 {
   padding-right: 5.50rem !important;
 }
+

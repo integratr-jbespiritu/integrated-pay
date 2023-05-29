@@ -5,7 +5,7 @@
           <div class="col">
             <div class="me-4 pb-4 bg-transparent">
               <!-- progressbar -->
-          <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
+          <!-- <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
             <div class="col-9 text-center p-0 mb-2">
               <div class="px-0 pb-0 mt-3 mb-3">
                 <form id="form">
@@ -23,7 +23,26 @@
                   </div>
                 </form>
               </div>
-          </div>    
+          </div>     -->
+          <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
+                    <div class="col-9 text-center p-0 mb-2">
+                       <div class="px-0 pb-0 mt-3 mb-3">
+                          <form id="form">
+                             <div class="step2-progressbar">
+                                <div class="activate-step1">
+                                   <span><img src="/src/assets/images/check.svg" alt="" /> </span>
+                                </div>
+                                <div class="activate-step1">
+                                  <span><img src="/src/assets/images/check.svg" alt="" /> </span>
+                                </div>
+                                <a class="activate-step2-circle" title="Business Information" data-bs-toggle="tooltip" data-bs-placement="top">
+                                  <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
+                                </a>
+                                <div class="activate-step4"></div>
+                             </div>
+                          </form>
+                       </div>
+                    </div>
           <div class="container p-3 bg-white ">
             <div class="py-1 text-center">
               <h1 class="title-10 fw-bold mb-3">
@@ -150,7 +169,7 @@
                 
                   <!-- col 2 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1 gx-0">
+                      <div class="ms-c-1">
                          <button type="button" class="button-outline-green px-3 bg-transparent mt-3">Approved</button>
                        </div>
                   </div> 
@@ -166,7 +185,7 @@
                   </div>
                   <!-- col 4 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1 gx-0">
+                      <div class="ms-c-1 gx-0">
                          <button type="button" class="button-outline-green py-0 px-3 bg-transparent mt-3">Approved</button>
                       </div>
                    </div>
@@ -182,7 +201,7 @@
                   </div>
                   <!-- col 6 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1 gx-0">
+                      <div class="ms-c-1 gx-0">
                          <button type="button" class="button-outline-green py-0 px-3 bg-transparent mt-3">Approved</button>
                       </div>
                    </div>
@@ -200,7 +219,7 @@
                   </div>
                   <!-- col 8 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1 gx-0">
+                      <div class="ms-c-1 gx-0">
                          <button type="button" class="button-outline-red py-0 px-3 bg-transparent mt-3">Declined</button>
                       </div>
                    </div>
@@ -210,14 +229,14 @@
                       <p class="title-18 ms-1">Upload file of your By Laws (for Corporation)</p>
                       <div class="input-group input-group-xl">
                         <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
-                        <input type="text" class="step3 form-control text-purple" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="ByLaws.pdf"/>
+                        <input type="text" class=" step3 form-control text-purple" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="ByLaws.pdf"/>
                         <i class="isax isax-add password-toggle-1 icon-hover"></i>
                       </div>
                     </div>
                   </div>
                   <!-- col 10 -->
                   <div class="col-sm-2 mb-c-1 my-auto">
-                      <div class="me-c-1 gx-0">
+                      <div class="ms-c-1 gx-0">
                          <button type="button" class="button-outline-red py-0 px-3 bg-transparent mt-3 ">Declined</button>
                       </div>
                    </div>

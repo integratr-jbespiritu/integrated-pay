@@ -125,14 +125,15 @@ body {
  background-color: var(--vt-c-violet);
 }  
 
-.step3:hover, .icon-hover:hover {
+.step3:hover{
   border-color: var(--vt-c-purple);
 }
 
-
+.form-control > .icon-hover:hover {
+  border: var(--vt-c-purple) !important;
+}
 
 /* step3 progressbar */
-
 .step3-progressbar {
   display: flex;
   justify-content:space-between;
