@@ -1,9 +1,9 @@
-.container{
+/* .container{
     border: 1px solid;
     width: 70rem;
     height: 20rem;
     padding-top: 1rem;
-}
+} */
 .col{
     color: var(--vt-c-blue);
     justify-content: space-between;
@@ -21,7 +21,6 @@
     border: 1px solid;
     width: 70rem;
     height: 15rem;
-    line-height: 1rem;
 }
 .col .border-top{
     padding-top: 2rem;
