@@ -33,8 +33,9 @@ td {
   border: 1px solid var(--vt-c-purple);
   color: black;
 }
-tr.size-table-data:hover td {
-  font-weight: bold;
+.size-table-data.size-table-data:hover .font-table-text {
+    font-weight: bold;
+    background-color: var(--vt-c-default-white);
 }
 .table .table-rows:hover {
     background-color: initial;

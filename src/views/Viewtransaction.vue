@@ -24,163 +24,68 @@
       <div class="container bg-white border px-0 mt-3">
          <div class="row gx-5">
             <div class="col">
-               <div class="p-3 text-start title-6 ms-2">Payment Details</div>
+               <div class="p-3 text-start title-6 ms-3">Payment Details</div>
             </div>
             <div class="col">
                <div class="p-3 text-end text-blue">Refund</div>
             </div>
          </div>
       </div>
-      <div class="container bg-white px-1">
-         <div class="row gx-5">
-            <div class="col mt-3">
-               <div class="p-1 ms-3">
-                  <span class="status-paid w-100">Paid</span>
-               </div>
-            </div>
-            <div class="col">
-               <div class="p-1 text-end me-4">Total Amount</div>
-            </div>
-         </div>
-      </div>
-      <div class="container bg-white px-1">
-         <div class="row gx-5">
-            <div class="col">
-               <div class="ms-3">Transaction No.</div>
-            </div>
-            <div class="col">
-               <div class="p-0 text-end title-11 me-3">PHP 10,000.00</div>
-            </div>
-         </div>
-      </div>
-      <div class="container bg-white px-1">
-         <div class="row gx-5">
-            <div class="col">
-               <div class="ms-3 title-5">2201010000112221</div>
-            </div>
-            <div class="col">
-               <div class="text-end me-3 title-12">Jan 01, 2023 at 7:28:00 AM PST</div>
-            </div>
-         </div>
-      </div>
-      <div class="container bg-white px-1 title-12">
-         <div class="row gx-5">
-            <div class="col">
-               <div class="ms-3">PAYMENT DETAILS</div>
-            </div>
-            <div class="col">
-               <div class="ms-4">AMOUNT</div>
-            </div>
-            <div class="col">
-               <div class="text-end me-3">9,950.00</div>
-            </div>
-         </div>
-         <div class="row gx-5">
-            <div class="col">
-               <div class="mx-4 text-end">CONVENIENCE FEE</div>
-            </div>
-            <div class="col">
-               <div class="text-end me-3">50.00</div>
-            </div>
-         </div>
-         <div class="border-top mt-3"></div>
-         <div class="row gx-5 title-12">
-            <div class="col">
-               <div class="mx-5 text-end mt-3 mb-3">TOTAL AMOUNT</div>
-            </div>
-            <div class="col">
-               <div class="text-end me-3">10,000.00</div>
-            </div>
-         </div>
-         <div class="border-bottom"></div>
-         <div class="row gx-5 mt-4 pb-4">
-            <div class="col">
-               <div class="ms-3">Payment sent BY</div>
-            </div>
-            <div class="col">
-               <div class="ms-5 text-center">Juan Dela Cruz</div>
-            </div>
-            <div class="col">
-               <div class="ms-1 text-end">juandelacruz@gmailc.om</div>
-            </div>
-            <div class="col">
-               <div class="text-end me-3">
-                  <img src="/src/assets/images/logogcash.svg" class="Image 1" />
-                  <span>Ending in</span> <span class="title-5">2095</span>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container bg-white border px-0 mt-3">
-         <div class="row gx-5">
-            <div class="col">
-               <div class="p-3 text-start title-6 ms-2">Refund Details</div>
-            </div>
-            <div class="col">
-               <div class="p-3 text-end text-blue">Refund</div>
-            </div>
-         </div>
-         <div class="container bg-white border px-0">
-            <div class="row gx-5">
-               <div class="col">
-                  <div class="p-3 text-start title-12 ms-2">
-                     <span class="status-requested w-100">Requested</span>
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="p-3 text-end title-12 ms-2">
-                     REFUND ID: <br />
-                     R12345678
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="p-3 text-end title-12 ms-2">
-                     REQUESTED BY: <br />
-                     Maria Clara
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="p-3 text-end title-12">
-                     ACCOUNT DETAILS: <br />
-                     Juan Dela Cruz <br />
-                     ******1200
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row align-items-center title-12">
-               <div class="col ms-2">
-                  DATE REQUESTED:
-               </div>
-               <div class="col text-center mx-5">
-                  DATE ISSUED:
-               </div>
-               <div class="col text-center">
-                  DATE AUTHORIZED:
-               </div>
-               <div class="col text-center">
-                  DATE REFUNDED:
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row align-items-center title-12">
-               <div class="col ms-2">
-                  Jan 01, 2023 at 7:28:00 AM PST
-               </div>
-               <div class="col text-end ms-4">
-                  Jan 01, 2023 at 7:28:00 AM PST
-               </div>
-               <div class="col text-center">
-                  - <br />
-                  <p class="text-purple">Resend Authorization</p>
-               </div>
-               <div class="col text-center">
-                  -
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+      <div class="container bg-white">
+      <div class="row justify-content-between">
+    <div class="col-4 text-start ms-4 mt-3">
+      <span class="status-paid px-5">Paid</span><br>
+      <span class="">Transaction No.</span><br>
+      <span class="">2201010000112221</span>
+    </div>
+    <div class="col-4 text-end">
+      <p class="title-12">TOTAL AMOUNT</p>
+      <p class="title-6">PHP 10,000.00</p>
+      <p class="title-12">Jan 01, 2023 at 7:28:00 AM PST </p>
+    </div>
+    <div class="container">
+  <div class="row align-items-center title-12 mt-3">
+    <div class="col text-start ms-4">
+      PAYMENT DETAILS
+    </div>
+    <div class="col">
+      AMOUNT
+    </div>
+    <div class="col text-end">
+      9,950.00
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row align-items-center title-12">
+    <div class="col text-start ms-4">
+      
+    </div>
+    <div class="col">
+      CONVENIENCE FEE
+    </div>
+    <div class="col text-end">
+      50.00
+    </div>
+  </div>
+  <div class="border-top"></div>
+</div>
+<div class="container">
+  <div class="row align-items-center title-12">
+    <div class="col text-start ms-4">
+      
+    </div>
+    <div class="col">
+      TOTAL AMOUNT
+    </div>
+    <div class="col text-end">
+      10,000.00
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+        
+      
+</div>
 </template>

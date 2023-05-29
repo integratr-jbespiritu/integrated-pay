@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-            <div class="row gx-0 g-0">
+            <div class="row gx-0 g-0 mt-3">
               <div class="col-12 col-md-3">
                 <div class="search input-group mt-2 w-100 pe-3">
                   <span class="input-group-text bg-white rounded-0" id="basic-addon1">

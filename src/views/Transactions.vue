@@ -49,9 +49,11 @@
                  </div>
                   <div class="col-12 col-md-4 d-flex">
                     <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
-                            <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+                      <router-link :to="{name: 'consumer.request-refund'}" class="text-decoration-none text-purple">
+                            <span class="title-5 refund-request translate-middle-y text-nowrap mx-2 text-decoration-none"> 
                               Refund Request
                             </span>
+                          </router-link>
                     </button>
                     <div>
                     <button type="button" class="title-5 button-default-outline pe-2 mx-5 mt-1 bg-transparent">Export</button>
