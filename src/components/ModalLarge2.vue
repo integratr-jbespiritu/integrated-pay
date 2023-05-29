@@ -66,9 +66,11 @@ export default {
     border-color: #F4F4F4;
     border-style: solid;
 }
+
 .modal-footer-2 {
     border: none;
 }
+
 @media (min-width: 500px) {
     .modal-dialog-2 {
         max-width: 490px;
@@ -98,6 +100,5 @@ export default {
         max-width: 1500px;
         margin: 1.75rem auto;
     }
-
 }
 </style>

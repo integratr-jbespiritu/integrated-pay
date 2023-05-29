@@ -8,17 +8,17 @@
       <div class="mb-5">
         <div class="row">
           <div class="col">
-            <div class="p-3 me-5 pb-4 bg-white">
+            <div class="p-2 me-3  bg-white">
               <div class="title-4 mx-2">
                 Payment Options
               </div>
-              <p class="mx-2 me-5">Choose the appropriate payment methods can boost customer satisfaction and sales, while minimizing the chance of fraud and disputes. These are some of the common payment options you can offer to your clients:</p>
+              <p class="mx-3 me-5">Choose the appropriate payment methods can boost customer satisfaction and sales, while minimizing the chance of fraud and disputes. These are some of the common payment options you can offer to your clients:</p>
               <div class="paymentMethods mx-2">
                 <div class="title-4">
                   Accepted Payment Methods
                 </div>
-                <div class="row mt-3">
-                  <div class="col">
+                <div class="row gx-5 mt-3">
+                  <div class="col-12">
                     <img src="/src/assets/images/visa.svg" class="img-fluid me-3" alt="Visa" />
                     <img src="/src/assets/images/mastercard.svg" class="img-fluid me-3" alt="MasterCard" />
                     <img src="/src/assets/images/gcash.svg" class="img-fluid me-3" alt="GCash" />
@@ -27,31 +27,35 @@
                   </div>
                 </div>
               </div>
-              <div class="creditCards mx-2">
+              <div class="table-responsive text-nowrap">
+                <div class="pe-5 ms-2 mb-2 d-flex flex-column justify-content-between" style="min-width: 1000px;">
                 <template v-for="payment_channel,j in payment_channels" :key="payment_channel">
-                  <div class="title-5 text-uppercase mt-4">
+                  <div class="title-5 text-uppercase mt-4 ms-0 row">
                     {{ payment_channel.channel}}
                   </div>
                   <template v-for="payment_method,i in payment_channel.mode_of_payments" :key="payment_method">
-                     <div class="input-border row gx-4 g-0 border mt-4 py-2 ms-0 group1">
-                      <div class="col order-first mt-3">
-                        <img :src="payment_method.logo" class="img-fluid" />
+                     <div class="input-border row gx-0 g-0 mt-4 py-2 pe-5">
+                      <div class="col mb-2 mt-3 mx-4">
+                        <img :src="payment_method.logo" class="img-fluid"/>
                       </div>
-                      <div class="col mt-3 mb-2 title-6">
+                      <div class="col-2 mt-3 mb-2 title-6 ps-5"> 
                         {{ payment_method.name}}
                       </div>
-                      <div class="col mt-3 mb-2 title-7">
+                      <div class="col-2 mt-3 mb-2 title-7 ps-5 ms-5">
                         {{ payment_method.percentage}}
                       </div>
-                      <div class="col-4">
-                      <div class="pt-2 mt-2">
-                          <input type="checkbox" class="toggle" :id="'switch'+i+j" v-model="payment_method.is_accepted">
-                          <label class="title-8" :for="'switch'+i+j">{{ payment_method.is_accepted==true?'Accepted Payment Method':'Set as Accepted Payment Method' }}</label>
-                      </div>
-                      </div>
+                     <div class="col-4 d-flex ms-2 ps-3 me-5 ps-md-1 ms-md-1 ps-lg-5 ms-lg-0">
+                      <div class="pt-2 mt-2 form-check form-switch-btn px-5 mx-5">
+                       <input class="form-check-input fs-5" type="checkbox" :id="'switch' + i + j" v-model="payment_method.is_accepted">
+                       <label class="form-check-label title-8 mt-1 d-flex" :for="'switch' + i + j">
+                         {{ payment_method.is_accepted ? 'Accepted Payment Method' : 'Set as Accepted Payment Method' }}
+                       </label>
+                     </div>
+                   </div>
                     </div>
                   </template> 
                 </template>
+                </div>
               </div>
             </div>
           </div>

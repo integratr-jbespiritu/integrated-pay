@@ -112,6 +112,19 @@ border-color: var(--vt-c-purple);
   cursor: pointer;
 }
 
+.password-toggle-1 {
+  position:absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  /* transform: rotate(45de); */
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
 
  /* buttons */   
  .button-default {

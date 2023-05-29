@@ -1,11 +1,11 @@
 <template>
     <div class="d-flex flex-row">
          <div class="w-auto">
-            <Sidebar />
+            <AdminSidebar />
         </div>
         <div class="w-100">
             <HeaderComponent />
-            <main class="w-100">
+            <main class="w-auto">
                 <RouterView />
             </main>
         </div>
@@ -14,19 +14,18 @@
 
 <script>
 import HeaderComponent from '../components/Header.vue';
-import Sidebar from '../components/Sidebar.vue';
+import AdminSidebar from '../components/AdminSidebar.vue';
 
 export default {
     name: "LoginPage",
     components: {
         HeaderComponent,
-        Sidebar
+        AdminSidebar,
     }
 };
 </script>
 
 <style>
-
 @media (min-width: 576px) {
     .main-layout-size-sm {
         margin-left: 1rem !important;

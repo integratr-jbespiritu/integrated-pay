@@ -4,7 +4,7 @@
       <div class="mb-5">
         <div class="row">
           <div class="col">
-            <div class="p-3 me-5 pb-4 bg-transparent">
+            <div class="p-3 me-5 pb-4">
                   <!-- progressbar -->
              <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
               <div class="col-9 text-center p-0 mb-2">
@@ -34,7 +34,7 @@
           <div class="container row gx-0 g-0 pt-2">
             <div class="col-12">
               <div class="row gx-2 g-0">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input first name -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -43,7 +43,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input field lastname  -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -52,7 +52,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input field email -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -61,7 +61,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input mobile number -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -70,7 +70,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input field date of birth -->
                   <div class="input-group mb-3 px-1">
                     <form style="width: 100%;">
@@ -79,7 +79,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input nationality -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -89,7 +89,7 @@
                   </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input country of birth -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -100,7 +100,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- input city of birth -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -114,7 +114,7 @@
               </div>
               <p class="col-12 inter-body-semibold text-start text-dark ms-2 mb-3">Current Address</p>
               <div class="row gx-2 g-0">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- housing address -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -123,7 +123,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- building name -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -132,7 +132,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- street name -->
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
@@ -141,7 +141,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- region -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -152,7 +152,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- province -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -163,7 +163,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- city / municipality -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -174,7 +174,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <!-- barangay -->
                   <div class="input-group mb-3 px-1">
                     <select class="input-height form-select1 text-silver-gray" aria-label="Default select example">
@@ -186,7 +186,7 @@
                   </div>
                 </div>
                 <!-- Zipcode -->
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-12 col-lg-6">
                   <div class="input-group mb-3 px-1">
                     <form class="form-floating">
                       <input type="email" class="input-height form-control" id="floatingInputValue" placeholder="Zipcode" />

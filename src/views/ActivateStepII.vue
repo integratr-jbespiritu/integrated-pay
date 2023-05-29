@@ -35,8 +35,8 @@
 
                        <div class="container">
                           <div class="row gy-5">
-                             <div class="col-12 col-md-12 col-lg-6">
-                                <div class="container p-3 d-flex">
+                            <div class="col-12 col-md-12 col-lg-6">
+                              <div class="container p-3 d-flex">
                                    <div class="rectangle border d-flex">
                                       <div class="icons isax isax-shop4 mt-5 ms-4"></div>
                                       <div class="container">
@@ -100,5 +100,19 @@
            return new bootstrap.Tooltip(tooltipTriggerEl);
         });
      },
+     data(){
+      return {
+        transactions: [
+          {
+            label: 'Business',
+            description: 'Test'
+          },
+          {
+            label: 'Govenment Unit',
+            description: 'Test'
+          }
+        ]
+      }
+     }
   };
 </script>
