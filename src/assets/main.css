@@ -128,6 +128,11 @@
 .pad-top-40p {
   padding-top: 40px;
 }
+
+.pad-top-60p {
+  padding-top: 60px;
+}
+
 .pad-x-40p {
   padding-right: 40px;
   padding-left: 40px;
@@ -147,6 +152,10 @@
 
 .margin-right-20p {
   margin-right: 20px;
+}
+
+.margin-left-10p {
+  margin-left: 10px;
 }
 
 .margin-x-10p{
