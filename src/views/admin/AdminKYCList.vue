@@ -1,10 +1,9 @@
 <template>
-  <div class="row me-0 bg-transparent">
+  <div class="row me-0">
    <div class="col-12">
     <div class="col">
      <div class="p-3">
-      <a class="title-10 text-decoration-none text-dark m-1" href="#">KYC-sample</a>
- 
+      <a class="title-10 text-decoration-none text-dark m-1" href="#">KYC</a>
       <div class="align-items-center">
        <div class="row gx-2 g-0 ms-0">
         <div class="col-12 col-md-4">
@@ -26,7 +25,7 @@
        </div>
       </div>
       <div class="border-bottom mt-3"></div>
-      <div class="table-responsive mt-3 ms-3">
+      <div class="table-responsive mt-3 ms-3" width="100%">
        <table class="table">
         <thead>
          <tr class="table-rows text-purple title-13">
@@ -35,7 +34,7 @@
             <span>Email Address</span>
            </div>
           </th>
-          <th class="table-heading" width="20%">
+          <th class="table-heading" width="18%">
            <div class="d-flex align-items-center">
             <span>Account Name</span>
            </div>
@@ -64,7 +63,7 @@
         </thead>
         <tbody>
          <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
-          <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true" :aria-controls="`collapse${index}`" class="size-table-data column title-8">
+          <tr class="size-table-data title-8 border-color-white transaction-table-hover">
            <td class="py-4">{{ transaction_record.emailaddress }}</td>
            <td class="py-4">{{ transaction_record.accountname }}</td>
            <td class="py-4">{{ transaction_record.typeofAccount }}</td>
@@ -73,16 +72,19 @@
            </td>
            <td class="py-4">{{ transaction_record.time_stamp }}</td>
            <td class="py-3">
-            <div class="assess">Assess</div>
+            <div> <router-link :to="{name: 'consumer.activate-account.step2'}"> <button type="button" class="assess">Assess</button>
+           </router-link>
+            </div>
            </td>
           </tr>
+          <span class="mt-1"></span>
          </template>
         </tbody>
        </table>
       </div>
       <!-- pagination  -->
       <nav aria-label="Page navigation">
-       <ul class="pagination justify-content-end me-4 px-2">
+       <ul class="pagination justify-content-end me-1 px-2">
         <li class="page-item disabled mt-2">
          <i class="arrow isax isax-arrow-left-2"></i>
         </li>
@@ -105,6 +107,7 @@
    </div>
   </div>
  </template>
+
  <script>
   export default {
    data() {

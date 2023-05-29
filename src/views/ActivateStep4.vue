@@ -71,7 +71,7 @@
  </template>
  
  <script>
-  // import SignaturePad from 'signature_pad';
+  import SignaturePad from 'signature_pad';
   export default {
     mounted() {
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
@@ -89,7 +89,7 @@
     methods: {
       signature() {
         const canvas = this.$refs.canvas
-        canvas.width =600
+        canvas.width = 600
         this.SignaturePad = new SignaturePad(canvas)
       } 
     }
