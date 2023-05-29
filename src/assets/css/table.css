@@ -1,4 +1,4 @@
-.table-heading1{
+/* .table-heading1{
     color: var(--vt-c-purple); 
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -12,7 +12,8 @@
     border: 2px solid;
     border-color: var(--vt-c-purple);
     background-color: var(--vt-c-default-white);  
-}
+} */
+
 .btn{
     border-radius: 0;
     width: 110px;
