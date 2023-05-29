@@ -2,7 +2,7 @@
    <div class="pad-x-10p ms-1 pad-end-20p">
     <div class="row gx-0 g-0">
       <div class="col">
-        <h1 class="fw-bold title-10 pad-top-20p text-nowrap">Transaction Details</h1>
+        <h1 class="fw-bold title-10 pad-top-20p text-nowrap">Refund Requests</h1>
       </div>
       <div class="col my-auto justify-content-end d-flex pad-top-20p  ">
         <div class="row gx-0 g-0">

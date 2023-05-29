@@ -6,11 +6,9 @@
     border-color: var(--vt-c-purple);
     background-color: var(--vt-c-default-white);  
 }
-
 .table-badge-text-requested{
     text-align: center;
 }
-
 .default-outline-refund{
     color: var(--vt-c-purple);
     border-color: var(--vt-c-purple);
@@ -28,22 +26,16 @@
     font-weight: bold;
     padding-bottom: 0.2rem;
 }
-
 td {
     white-space: nowrap;
 }
 .table .size-table-data:hover {
   border: 1px solid var(--vt-c-purple);
   color: black;
-  
 }
-
 tr.size-table-data:hover td {
-
-    font-weight: bold;
-
+  font-weight: bold;
 }
-
 .table .table-rows:hover {
     background-color: initial;
 }
@@ -62,12 +54,10 @@ tr.size-table-data:hover td {
     border: 2px solid;
     color: var(--vt-c-green);
 }
-
 .border-purple {
     border-color: var(--vt-c-purple) !important;
     color: var(--vt-c-purple) !important;
 }
-
 .text-requested :hover{
     background-color: initial;
     
