@@ -12,12 +12,15 @@
                         <div class="gx-0 g-0 mb-3">
                             <div class="row mt-2">
                                 <template v-for="transaction, index in transactions" :key="transaction">
-                                    <div class="col-auto align-self-start me-5" :class="index != 2 ? 'border-end' : ''">
-                                        <div class="title-8">
+                                    <div class="col-auto align-self-start me-5" :class="index != 3 ? 'border-end' : ''">
+                                        <div class="title-8 me-4">
                                             {{ transaction.label }}
                                         </div>
-                                        <div class="col-auto title-11 text-blue me-5">
+                                        <div class="col-auto title-11 text-blue me-4">
                                             {{ transaction.value }}
+                                        </div>
+                                        <div class="col-auto title-7 me-5" style="white-space: pre-line;">
+                                            {{ transaction.values }}
                                         </div>
                                     </div>
                                 </template>
@@ -63,14 +66,14 @@
                                 Status
                             </div>
                         </div>
-                        <div class="creditCards mx-2">
+                        <div class="table-responsive text-nowrap">
                             <template v-for="payment_channel, j in payment_channels" :key="payment_channel">
-                                <div class="title-5 text-uppercase mt-4">
-                                    {{ payment_channel.channel }}
-                                </div>
+                                    <div class="title-5 text-uppercase mt-4">
+                                        {{ payment_channel.channel }}
+                                    </div>
                                 <template v-for="payment_method, i in payment_channel.mode_of_payments"
                                     :key="payment_method">
-                                    <div class="input-border-rows row gx-4 g-0 mt-4 py-2 ms-0">
+                                    <div class="input-border-rows row gx-0 g-0 mt-4 py-2 ms-0">
                                         <div class="col order-first mt-3">
                                             <img :src="payment_method.logo" class="img-fluid" />
                                         </div>
@@ -118,8 +121,8 @@ export default {
                     value: "1% + PHP 30.00",
                 },
                 {
-                    label: "Lowest Rate",
-                    value: "1% + PHP 30.00",
+                    label: "Lowest Rate: Payment Methods",
+                    values: "EC Pay\nBayad Center\nCebuana Lhuillier"
                 },
                 {
                     label: "Processing Fee",

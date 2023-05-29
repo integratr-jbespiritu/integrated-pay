@@ -30,7 +30,6 @@
     font-weight: bold;
     padding-bottom: 0.2rem;
 }
-
 td {
     white-space: nowrap;
 }
@@ -53,8 +52,32 @@ td {
 } */
 
 tr.size-table-data:hover td {
-    font-weight: bold;
+  font-weight: bold;
 }
 .table .table-rows:hover {
     background-color: initial;
 }
+.status-requested {
+    border-color: var(--vt-c-light-red);
+    border: 2px solid;
+    color: var(--vt-c-light-red);
+}
+.status-authorized {
+    border-color: var(--vt-c-yellow);
+    border: 2px solid;
+    color: var(--vt-c-yellow);
+}
+.status-success {
+    border-color: var(--vt-c-green);
+    border: 2px solid;
+    color: var(--vt-c-green);
+}
+.border-purple {
+    border-color: var(--vt-c-purple) !important;
+    color: var(--vt-c-purple) !important;
+}
+.text-requested :hover{
+    background-color: initial;
+    
+}
+ 

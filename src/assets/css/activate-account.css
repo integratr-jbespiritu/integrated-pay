@@ -127,8 +127,13 @@ body {
 
 .step3:hover{
   border-color: var(--vt-c-purple);
+  color: var(--vt-c-purple);
 }
 
+.step3:hover + span > svg > path{
+  fill: var(--vt-c-purple);
+  fill-opacity: 1;
+}
 .form-control > .icon-hover:hover {
   border: var(--vt-c-purple) !important;
 }

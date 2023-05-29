@@ -14,43 +14,38 @@
 } */
 
 .activate-btn {
-    background-color: var(--vt-c-blue);
-    width: 110%;
-  }
+  background-color: var(--vt-c-blue);
+  width: 110%;
+}
 
-  .duration-btn {
-    width: 35%;
-    height: 3rem;
-  }
+.duration-btn {
+  width: 35%;
+  height: 3rem;
+}
 
-  .date-range {
-    width: 30%;
-    height: 3rem;
-  }
+.date-range {
+  width: 30%;
+  height: 3rem;
+}
 
-  .export-btn {
-    width: 45%;
-    border-color: var(--vt-c-blue);
-  }
+.export-btn {
+  width: 45%;
+  border-color: var(--vt-c-blue);
+}
 
-  canvas {
-    max-width: 100%;
-    height: auto !important;
-    width: auto !important;
-  }
+canvas {
+  max-width: 100%;
+  height: auto !important;
+  width: auto !important;
+}
   
-  .calendar-date:focus {
-    color: red;
-  }
-
-.custom-tooltip {
-  position: relative;
-  display: inline-block;
+.calendar-date:focus {
+  color: red;
 }
 
 .custom-tooltip .tooltip-text {
   visibility: hidden;
-  width: 200px;
+  width: 170px;
   background-color: #fff;
   color: var(--vt-c-purple);
   border: 1px solid #ccc;
@@ -58,9 +53,8 @@
   border-color: var(--vt-c-purple);
   position: absolute;
   z-index: 1;
-  top: 110%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: -300%;
+  left: 100%;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -68,4 +62,6 @@
 .custom-tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+  text-align: center;
+  justify-content: center;
 }
