@@ -3,10 +3,10 @@ import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
 import Registration from '../views/Registration.vue'
 import LoginConsumer from '../views/LoginConsumer.vue'
-import PaymentChannels from '../views/PaymentChannels.vue'
+import PaymentChannels from '../views/consumer/PaymentChannels.vue'
 import Transactions from '../views/Transactions.vue'
 import ActivateAccount from '../views/ActivateAccount.vue'
-import Dashboard from '../views/Dashboard.vue'
+import Dashboard from '../views/consumer/Dashboard.vue'
 import ActivateStepII from  '../views/ActivateStepII.vue'
 import MainLayout from '../components/MainLayout.vue'
 import DisbursementPage from '../views/DisbursementPage.vue'
@@ -22,6 +22,7 @@ import AccessManagementListandDetails from '../views/AccessManagementListandDeta
 import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
+import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +57,11 @@ const router = createRouter({
           path: '/admin/payment-channels',
           name: 'admin.payment.channels',
           component: AdminPaymentChannels
+        },
+        {
+          path: '/admin/assess-business-kyc',
+          name: 'admin.assess.business.kyc',
+          component: AssessBusinessKYC
         },
       ]
     },
