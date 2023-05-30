@@ -19,7 +19,7 @@
     border: 1px solid var(--vt-c-light-gray);
 }
 
-.transaction-table-hover:hover{
+/* .transaction-table-hover:hover{
     font-weight: bold;
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
@@ -28,17 +28,18 @@
 
 .table .size-table-data:hover {
     border: solid 1px var(--vt-c-purple);
+    font-weight: bold !important;
 }
 
 .size-table-data {
     border: solid 1px;
 }
 
-/* tr.size-table-data:hover td {
+tr.size-table-data:hover {
     font-weight: bold;
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
-} */
+}
 
 .table .table-rows:hover {
     background-color: initial;
@@ -51,7 +52,7 @@
 .table .table-hover:hover {
     border: 1px solid var(--vt-c-purple) !important;
     color: black;
-}
+} */
 
 .border-color-white{
     border: solid 1px;

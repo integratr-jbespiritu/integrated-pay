@@ -34,7 +34,7 @@
                 </div>
               </div>
               <div class="col-9 col-md-5 d-flex align-items-end justify-content-end mb-2 mt-2 ">
-                <button type="button" class=" py-0 h-100 border border-2 border-purple bg-transparent px-5 ">
+                <button type="button" class="py-0 h-100 border border-2 border-purple bg-transparent px-5 ">
                   <span class="title-5 translate-middle-y text-nowrap ">
                     Refund Request
                   </span>
@@ -90,21 +90,22 @@
                 </tr>
               </thead>
               <tbody>
-                <template v-for="(transaction_record,) in transaction_records" :key="transaction_record">
-                  <tr  class="size-table-data column title-8">
-                    <td class="font-table-text py-3">
+                <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
+                  <tr  class="size-table-data title-8 border-color-white transaction-table-hover">
+                    <td class="py-3">
                      {{ transaction_record.transaction_no }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.amount_refunded }}</td>
-                    <td class="font-table-text py-3">
+                    <td class="py-3">{{ transaction_record.amount_refunded }}</td>
+                    <td class="py-3">
                       <router-link :to="{name: 'consumer.view-transaction'}" class="text-decoration-none text-dark">{{ transaction_record.offer }}</router-link></td>
-                    <td class="font-table-text py-3">{{ transaction_record.issued_by }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.date_refunded }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.date_issued }}</td>
-                    <td class="font-table-text py-3">
+                    <td class="py-3">{{ transaction_record.issued_by }}</td>
+                    <td class="py-3">{{ transaction_record.date_refunded }}</td>
+                    <td class="py-3">{{ transaction_record.date_issued }}</td>
+                    <td class="py-3">
                       <div class="py-0 my-auto px-2 rounded-0 title-17 w-100 text-center" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
                     </tr>
+                    <span class="mt-1"></span>
                 </template>
               </tbody>
             </table>
