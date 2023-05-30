@@ -419,6 +419,20 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
+.title-23 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.title-27 {
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0%;
+}
+
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }

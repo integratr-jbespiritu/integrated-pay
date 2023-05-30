@@ -42,7 +42,7 @@
                                     }}</span> {{ payout_method.expiration_date }}</p>
                                     <div class="form-check form-switch-btn mx-3 my-3">
                                         <input class="form-check-input fs-4" style="bottom: 5px;" type="checkbox"
-                                            :id="'switch' + k + j" v-model="payout_method.is_accepted" />
+                                            :id="'switch' + k + j" @change="update_payout_modal = $event.target.checked" v-model="payout_method.is_accepted" />
                                         <label class="form-check-label title-8" :for="'switch' + k + j">
                                             {{ payout_method.is_accepted ? 'Activated Payout Channel' : 'Set as a Payout Channel' }}
                                         </label>
@@ -68,39 +68,70 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </template>
                     </div>
                 </template>
             </div>
-            
         </div>
     </div>
-       <Teleport to="body">
-          <ModalLarge :show="update_payout_modal" @close="update_payout_modal = false" class="w-100">
-            <template #header>
-              <div class="row gx-0 g-0 ps-3 border-bottom border-2">
-                <p class="title-10">Configure Payout Details</p>
-                <p class="title-8 py-2">Configure your payment methods and receive them in the form of payouts.</p>
-              </div>
-            </template>
-            <template #body>
-              <div class="row gx-0 g-0">
-                Upload the logo
-                <div class="input-group input-group-xl">
-                    <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
-                    <input type="text" class="step3 form-control" placeholder="Upload a file (maximum file size of 2 mb)" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+    <Teleport to="body">
+        <ModalLarge :show="update_payout_modal" @close="update_payout_modal = false" class="w-100">
+        <template #header>
+            <div class="row gx-0 g-0 ps-3 lh-1">
+            <p class="title-10 lh-1">Configure Payout Details</p>
+            <p class="title-8">Configure your payment methods and receive them in the form of payouts.</p>
+            </div>
+        </template>
+        <template #body>
+            <div class="row gx-0 g-0">
+                <div class="col title-23 pb-2">
+                    Upload the logo
                 </div>
-              </div>
-            </template>
-            <template #footer>
-              <div class="row gx-0 g-0 mb-1 justify-content-end pad-top-20p">
-                Test
-              </div>
-            </template>
-          </ModalLarge>
-        </Teleport>
+                <div class="input-group input-group-xl mb-3">
+                    <span class="input-group-text bg-purple text-white" id="inputGroup-sizing-lg">Choose File</span>
+                    <input type="text" class="step3 form-control" placeholder="Upload a file" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select step3 rounded-0" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Debit/Credit Card</option>
+                        <option value="1">Debit/Credit Card</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelect" class="text-purple">Payout Method</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select step3 rounded-0" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Unionbank</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelect" class="">Payout Channel</label>
+                </div>
+                <form class="form-floating mb-3">
+                    <input type="email" class="form-control step3" id="floatingInputValue" placeholder="123456789012" value="123456789012">
+                    <label for="floatingInputValue">Account Number</label>
+                </form>
+                <form class="form-floating mb-3">
+                        <input type="email" class="form-control step3" id="floatingInputValue" placeholder="LGU of Lorem Ipsum" value="LGU of Lorem Ipsum">
+                        <label for="floatingInputValue">Account Name</label>
+                </form>
+                <form class="form-floating mb-3">
+                        <input type="email" class="form-control step3" id="floatingInputValue" value="Payment must be completed within 30 minutes.">
+                        <label for="floatingInputValue">Payment Instructions</label>
+                </form>
+            </div>
+        </template>
+        <template #footer>
+            <div class="row">
+                <div class="col border mx-5">
+                    test
+                </div>
+            </div>  
+        </template>
+        </ModalLarge>
+    </Teleport>
 </template>
 
 <script>
