@@ -29,14 +29,14 @@
              <div class="text-center mt-5 pt-8">
             <router-link :to="{name: 'home'}" class="button-1 text-light text-decoration-none title-8" style="">Login</router-link>
             <div class="mt-4 mb-1">
-                <router-link :to="{name: 'registration'}" href="#" class="text-decoration-none style-2 text-purple title-7 fw-bold">Sign up</router-link>
+                <router-link :to="{name: 'consumer.registration'}" href="#" class="text-decoration-none style-2 text-purple title-7 fw-bold">Sign up</router-link>
             </div>
          </div> 
           </div>
          </div>
-     </div>
-  </div>
-</div>
+        </div>
+      </div>
+    </div>
   <Footer/>
 </template>
 

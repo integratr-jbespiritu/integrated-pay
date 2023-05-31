@@ -1,0 +1,60 @@
+.container-payment{
+border: 1px solid;
+height: 26rem;
+
+}
+.container-refund{
+border: 1px solid;
+height: 19rem;
+
+}
+.btn-download{
+border-color:0 var(--vt-c-purple);
+color: var(--vt-c-purple);
+}
+.btn-print{
+border-color:var(--vt-c-blue);
+color:var(--vt-c-blue);
+
+
+}
+.status-paid {
+    border-color: var(--vt-c-green);
+    color: var(--vt-c-green);
+}
+hr.dotted{
+border-top:3pxdotted#bbb;
+}
+.button-red{
+color: var(--vt-c-red);
+border-color:var(--vt-c-red);
+border: 2px solid;
+}
+.isax-printer{
+color:var(--vt-c-purple);
+width: 24px;
+height: 24px;
+padding-top: 2px;
+}
+.icon-print{
+color:var(--vt-c-blue);
+}
+.col-md-4{
+font-size: 1rem;
+}
+
+.border-total {
+border: 1px solid;
+border-style: dashed;
+}
+img{
+height: 1rem;
+}
+.color-blue{
+color: var(--vt-c-blue);
+}
+.icon-arrow {
+    padding: 15px;
+}
+
+

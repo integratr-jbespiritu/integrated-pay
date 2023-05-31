@@ -1,5 +1,5 @@
 <template>
-<Logoheadernpm/>
+<Logoheader/>
    <div class="registration-page justify-content-center align-items-center py-4">
     <div class="col-lg-5 p-5">
       <div class="image-fluid">

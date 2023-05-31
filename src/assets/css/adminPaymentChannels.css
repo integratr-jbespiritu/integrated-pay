@@ -1,0 +1,12 @@
+.input-border-rows {
+    border: 1px solid var(--vt-c-light-gray);
+}
+
+.input-border-rows:hover {
+    border-color: var(--vt-c-blue) !important;
+    background-color: var(--vt-c-default-white);
+}
+
+.search .form-control {
+    box-shadow: none;
+}

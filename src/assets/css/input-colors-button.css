@@ -89,7 +89,7 @@ border-color: var(--vt-c-purple);
 }
 
 .input-purple-border {
-  border-color: var(--vt-c-purple);
+  border-color: var(--vt-c-purple) !important;
   background-color: var(--vt-c-default-white);
 }
 
@@ -112,6 +112,9 @@ border-color: var(--vt-c-purple);
   cursor: pointer;
 }
 
+.container:hover .overlay {
+  opacity: 1;
+}
 
  /* buttons */   
  .button-default {

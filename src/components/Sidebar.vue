@@ -1,17 +1,17 @@
 <template>
-   <div class="row gx-0 g-0">
-      <div class="sidebar">
+   <div class="h-100">
+      <div class="sidebar" style="position: sticky !important;">
          <div class="sidebar-header">
             <div class="row gx-0 g-0 pad-bottom-10p">
                <div class="col-12 justify-content-center d-flex pt-1">
-                  <img src="src\assets\images\Logo_White.svg">
+                  <img src="/src/assets/images/logo_white.svg" class="img img-fluid">
                </div>
                <div class="col-12 justify-content-center d-flex pb-2">
-                  <img src="src\assets\images\avatar.svg" class="h-100">
-               </div>
+                  <img src="/src/assets/images/avatar.svg" class="h-100">
+                </div>
                <div class="col-12 mb-2">
                   <div class="account">
-                     <a href="#">Juan Dela Cruz</a> 
+                     <a href="home">Juan Dela Cruz</a> 
                   </div>
                </div>
             </div>
@@ -21,7 +21,7 @@
                <li>
                   <div class="row gx-0 g-0 pe-4">
                      <div class="col text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'dashboard'}">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer.dashboard'}">
                            <i class="icon isax isax-category5 me-2"></i>
                            Dashboard
                         </router-link>
@@ -36,7 +36,7 @@
                <li>
                   <div class="row gx-0 g-0 pe-3">
                      <div class="col-9 text-nowrap">
-                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'Activate Account'}">
+                        <router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer.activate-account.step1'}">
                            <i class="icon isax isax-user-tick me-2"></i>
                            Activate Account
                         </router-link>
@@ -61,7 +61,7 @@
             </template>
             <nav class="nav flex-column">
                <li><a class="text-sm-center nav-link text-light" href="#"><i class="isax isax-user-tick me-2"></i>Account</a></li>
-               <li><router-link class="text-sm-center nav-link text-light" :to="{name: 'login'}"><i class="isax isax-logout5 me-2"></i>Logout</router-link></li>
+               <li><router-link class="text-sm-center nav-link text-light" :to="{name: 'consumer.login'}"><i class="isax isax-logout5 me-2"></i>Logout</router-link></li>
             </nav>
          </div>
       </div>
@@ -78,7 +78,7 @@ export default {
                module_types: [
                   {
                      name: 'Transactions',
-                     route: 'transactions'
+                     route: 'consumer.transactions'
                   },
                   {
                      name: 'Disbursement',
@@ -87,7 +87,7 @@ export default {
 
                   {
                      name: 'Payment Channels',
-                     route: 'payments'
+                     route: 'consumer.payments'
                   },
 
                   {
@@ -100,9 +100,14 @@ export default {
                title: 'Settings',
                module_types: [
                   {
-                     name: 'Disbursement Account',
-                     route: ''
+                     name: 'Access Management',
+                     route: 'consumer.access-management-list-and-details'
                   },
+                  {
+                     name: 'Disbursement Account',
+                     route: 'consumer.payout-configuration'
+                  },
+                 
                   
                ]
             }
