@@ -34,7 +34,7 @@
                 </div>
               </div>
               <div class="col-9 col-md-5 d-flex align-items-end justify-content-end mb-2 mt-2 ">
-                <button type="button" class="py-0 h-100 border border-2 border-purple bg-transparent px-5 ">
+                <button type="button" class="py-0 h-100 border-purple bg-transparent px-5 ">
                   <span class="title-5 translate-middle-y text-nowrap ">
                     Refund Request
                   </span>
@@ -130,9 +130,7 @@
               </ul>
             </nav>
           <!-- pagination  -->
-          
         </div>
-  
 </template>
 
 <script>
