@@ -481,6 +481,10 @@ color: var(--vt-c-silver-gray) !important;
   color: var(--vt-c-default-white);
   border-bottom: 1px dashed var(--vt-c-default-white);
 }
+.border-bottom-dashed-dark {
+  color: var(--vt-c-black);
+  border-bottom: 1px dashed var(--vt-c-black);
+}
 
 thead, tbody, tfoot, tr, td, th {
   height: 0;

@@ -186,7 +186,7 @@
                               <div class="col-3 text-dark title-12 my-auto">PAYMENT DETAILS</div>
                               <div class="col-2 text-dark title-12 my-auto text-wrap">GROSS AMOUNT</div>
                               <div class="col-5 ms-5 text-dark title-8 my-auto"></div>
-                              <div class="col-2 text-dark title-12 d-flex justify-content-center border">
+                              <div class="col-2 text-dark title-12 d-flex justify-content-center">
                                 <div class="text-dark title-12 my-auto ms-5">100,000.00</div>
                               </div>
                             </div>
@@ -196,7 +196,7 @@
                         <div class="col">
                           <div class="row gx-0 g-0">
                             <div class="col-12 d-flex">
-                              <div class="col-3 text-dark title-12 my-auto"></div>
+                                <div class="col-3 text-dark title-12 my-auto"></div>
                               <div class="col-2 text-dark title-12 my-auto text-wrap">CONVENIENCE FEE</div>
                               <div class="col-4 ms-5 text-dark title-8 my-auto"></div>
                               <div class="col-3 text-dark title-12 d-flex justify-content-sm-end">
@@ -205,7 +205,24 @@
                             </div>
                           </div>
                           <div class="w-100"></div>
-                          <div class="col-8 border-bottom mt-3 border border-dark"></div>
+                          <!-- <div class="col-8 border-bottom mt-3 border border-dark"></div> -->
+                            <div class="row align-items-start">
+                              <div class="col-3">
+                              </div>
+                              <div class="col-9 border-bottom-dashed-dark mt-3"> </div>
+                              </div>
+                              <div class="w-100 mt-3"></div>
+
+                              <div class="row gx-0 g-0">
+                            <div class="col-12 d-flex">
+                                <div class="col-3 text-dark title-12 my-auto"></div>
+                              <div class="col-2 text-dark title-12 my-auto text-wrap">NET AMOUNT</div>
+                              <div class="col-4 ms-5 text-dark title-8 my-auto"></div>
+                              <div class="col-3 text-dark title-12 d-flex justify-content-sm-end">
+                                <div class="col-4 text-dark title-12 my-auto">95,000.00</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
