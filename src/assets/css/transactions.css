@@ -23,22 +23,18 @@
     font-weight: bold;
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
-
 }
 
 .table .size-table-data:hover {
     border: solid 1px var(--vt-c-purple);
+    background-color: var(--vt-c-default-white);
 }
 
 .size-table-data {
-    border: solid 1px;
-}
+    border: solid 1px transparent;
+    border-bottom: 1px transparent;
 
-/* tr.size-table-data:hover td {
-    font-weight: bold;
-    background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple) !important;
-} */
+}
 
 .table .table-rows:hover {
     background-color: initial;

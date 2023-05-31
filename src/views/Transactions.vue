@@ -25,7 +25,6 @@
                 </template>
               </div>
             </div>
-           
             </div>
 
             <div class="row gx-2 g-0 ms-3">
@@ -48,11 +47,12 @@
                       </div>
                  </div>
                   <div class="col-12 col-md-4 d-flex">
+                    <router-link :to="{name: 'consumer.request-refund'}" class="text-decoration-none">
                     <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
                             <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
                               Refund Request
                             </span>
-                    </button>
+                    </button> </router-link>
                     <div>
                     <button type="button" class="title-5 button-default-outline pe-2 mx-5 mt-1 bg-transparent">Export</button>
                     </div>

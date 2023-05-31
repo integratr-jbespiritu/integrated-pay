@@ -4,26 +4,7 @@
         <div class="row">
           <div class="col">
             <div class="me-4 pb-4 bg-transparent">
-              <!-- progressbar -->
-          <!-- <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
-            <div class="col-9 text-center p-0 mb-2">
-              <div class="px-0 pb-0 mt-3 mb-3">
-                <form id="form">
-                  <div class="step3-progressbar">
-                    <div class="activate-step1">
-                      <span><img src="/src/assets/images/check.svg" alt="" /> </span>
-                    </div>
-                    <div class="activate-step1">
-                      <span><img src="/src/assets/images/check.svg" alt="" /> </span>
-                    </div>
-                    <a class="activate-step2-circle" title="Business Information" data-bs-toggle="tooltip" data-bs-placement="top">
-                      <div class="inner-circle position-absolute top-50 start-50 translate-middle"></div>
-                    </a>
-                    <div class="activate-step4"></div>
-                  </div>
-                </form>
-              </div>
-          </div>     -->
+  
           <div class="row gx-0 g-0 justify-content-center mb-3 mt-5">
                     <div class="col-9 text-center p-0 mb-2">
                        <div class="px-0 pb-0 mt-3 mb-3">

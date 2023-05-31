@@ -14,41 +14,43 @@
           </div>
         </div>
       </div>
-            <div class="row gx-0 g-0">
-              <div class="col-12 col-md-3">
-                <div class="search input-group mt-2 w-100 pe-3">
-                  <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                    <i class="isax isax-search-status-1 fs-4"></i>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                    aria-describedby="basic-addon1" />
-                </div>
-              </div>
-              <div class="col-12 col-md-4">
-                <div class="input-group mb-2 mt-2">
-                  <span class="span-btn-default input-group-text rounded-0">
-                    <i class="icon isax isax-filter-search"></i>
-                  </span>
-                  <button type="button" class="filter-btn bg-white pe-2 px-2" aria-label="Selected-Field"
-                    aria-describedby="basic-addon2">Filter</button>
-                </div>
-              </div>
-              <div class="col-9 col-md-5 d-flex align-items-end justify-content-end mb-2 mt-2 ">
-                <button type="button" class=" py-0 h-100 border border-2 border-purple bg-transparent px-5 ">
-                  <span class="title-5 translate-middle-y text-nowrap ">
-                    Refund Request
-                  </span>
-                </button>
-                <button type="button" class="button-default-outline title-5 pe-2 bg-transparent mx-4 h-100 me-3">Export</button>
-              </div>
-              </div> 
+          <div class="row gx-0 g-0 ms-3">
+            <div class="col-12 col-md-4">
+             <div class="search input-group mt-3 w-100">
+                <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                <i class="isax isax-search-status-1 fs-4"></i>
+            </span>
+            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
             </div>
+            </div>
+        <div class="col-12 col-md-4">
+        <div class="input-group mb-2 mt-3">
+        <span class="span-btn-default input-group-text rounded-0 ms-3">
+        <i class="icon isax isax-filter-search"></i>
+        </span>
+        <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
+        </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 col-sm-2 d-flex mt-2">
+        <button type="button" class="button-hover-icon-purple bg-transparent">
+        <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+        Refund Request
+        </span>
+        </button>
+        <div>
+
+        <button type="button" class="title-5 button-default-outline pe-2 mx-5  bg-transparent">Export</button>
+          </div>
+        </div>
+
+      </div>
           <div class="ms-1">
             <div class="border-bottom mb-2 mt-3">
               <p class="mb-3 ms-1">Total result <span class="badge-red bg-transparent title-7 align-items-end ">24</span></p>
             </div>
           </div>
-          <div class="table-responsive ms-3 mt-2 me-3 ">
+          <div class="table-responsive mt-2 me-3 ">
             <table class="table">
               <thead>
                 <tr class="table-rows text-purple title-13">
@@ -92,15 +94,15 @@
               <tbody>
                 <template v-for="(transaction_record,) in transaction_records" :key="transaction_record">
                   <tr  class="size-table-data column title-8">
-                    <td class="font-table-text py-3">
+                    <td class="py-3">
                      {{ transaction_record.transaction_no }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.amount_refunded }}</td>
-                    <td class="font-table-text py-3">
+                    <td class="py-3">{{ transaction_record.amount_refunded }}</td>
+                    <td class="py-3">
                       <router-link :to="{name: 'consumer.view-transaction'}" class="text-decoration-none text-dark">{{ transaction_record.offer }}</router-link></td>
-                    <td class="font-table-text py-3">{{ transaction_record.issued_by }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.date_refunded }}</td>
-                    <td class="font-table-text py-3">{{ transaction_record.date_issued }}</td>
-                    <td class="font-table-text py-3">
+                    <td class="py-3">{{ transaction_record.issued_by }}</td>
+                    <td class="py-3">{{ transaction_record.date_refunded }}</td>
+                    <td class="py-3">{{ transaction_record.date_issued }}</td>
+                    <td class="py-3">
                       <div class="py-0 my-auto px-2 rounded-0 title-17 w-100 text-center" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
@@ -108,6 +110,7 @@
                 </template>
               </tbody>
             </table>
+          </div>
           </div>
            <!-- pagination  -->
              <nav aria-label="Page navigation" class="ms-3">

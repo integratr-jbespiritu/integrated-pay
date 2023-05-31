@@ -139,7 +139,7 @@
                       </div>
                     </div>
 
-                    <p class="col ninter-body-semibold text-start text-dark ms-1 mb-1">Submission of required identification documents</p>
+                    <p class="col inter-body-semibold text-start text-dark ms-1 mb-1">Submission of required identification documents</p>
                     <p class="col-md-6 title-13 text-danger mb-3 ms-1 gx-0">
                       You have documents that are declined. Please re-submit the documents needed.
                     </p>
