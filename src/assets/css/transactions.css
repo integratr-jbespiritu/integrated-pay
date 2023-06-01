@@ -35,24 +35,22 @@
 
 }
 .transaction-table-hover:hover{
-    font-weight: bold;
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
 }
 
-.table .size-table-data:hover {
-    border: solid 1px var(--vt-c-purple);
+.table .size-table-data:hover{
+    border: 1px solid var(--vt-c-purple) !important;
+}
+
+.table  .size-table-data:hover > td  {
     font-weight: bold !important;
+    background-color: var(--vt-c-default-white);
 }
 
 .size-table-data {
-    border: solid 1px;
-}
-
-tr.size-table-data:hover {
-    font-weight: bold;
-    background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple) !important;
+    border: solid 1px transparent;
+    border-bottom: 1px transparent;
 }
 
 .table .table-rows:hover {

@@ -22,7 +22,7 @@ position: absolute;
 left: 1rem;
 top: 15px;
 background: grey;
-width: 98%;
+width: 95%;
 height: 2px;
 transform: translateX(-1%);
 z-index: -10;
@@ -101,7 +101,37 @@ background-color: #333;
 .col-fonts{
     color: black;
 }
-.container-carousel{
+/* .container-carousel{
     width: 1150px;
     padding: 5px;
+} */
+
+.image-3 {
+    width: 600px;
+    height: 460px;
+}
+.image-2 {
+    width: 600px;
+    height: 456px;
+}
+.image-1 {
+    width: 600px;
+    height: 454px;
+}
+
+  @media (prefers-reduced-motion: reduce) {
+    .custom-carousel-indicators [data-bs-target] {
+      transition: none;
+    }
+  }
+ 
+  .carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--vt-c-purple) !important;
+  }
+
+ @media (max-width: 576px) {
+  .image-3 {
+    display: none;
+  }
 }

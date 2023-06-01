@@ -15,11 +15,9 @@
 @import 'css/dashboard.css';
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
-@import 'css/request-refund.css';
 @import 'css/modal.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
-@import url('css/adminKYC.css');
 @import 'css/payout_configuration.css';
 
 
@@ -444,6 +442,27 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
+.title-24{
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0%;
+}
+
+
+.title-25{
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-26{
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
 .title-23 {
   font-family: Inter-Regular;
   font-weight: 400;
@@ -500,6 +519,10 @@ color: var(--vt-c-silver-gray) !important;
   color: var(--vt-c-default-white);
   border-bottom: 1px dashed var(--vt-c-default-white);
 }
+.border-bottom-dashed-dark {
+  color: var(--vt-c-black);
+  border-bottom: 1px dashed var(--vt-c-black);
+}
 
 thead, tbody, tfoot, tr, td, th {
   height: 0;
@@ -513,7 +536,7 @@ thead, tbody, tfoot, tr, td, th {
   padding: 0;
 }
 /* statuses */
-.status-pending {
+.status-pending{
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
 }
@@ -522,9 +545,21 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
-.status-refunded , .status-declined{
+.status-refunded , .status-declined {
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
+}
+.status-requested {
+  border: 2px solid var(--vt-c-light-red);
+  color: var(--vt-c-light-red);
+}
+.status-authorized {
+  border: 2px solid var(--vt-c-yellow);
+  color: var(--vt-c-yellow);
+}
+.status-success{
+  border: 2px solid var(--vt-c-green) !important;
+  color: var(--vt-c-green);
 }
 
 .status-refunded:focus {
@@ -532,7 +567,7 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .status-paid , .status-approved{
-  border: 2px solid var(--vt-c-green);
+  border: 2px solid var(--vt-c-green) !important;
   color: var(--vt-c-green);
 }
 
@@ -540,6 +575,15 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
+.status-completed {
+  border:2px solid var(--vt-c-green) ;
+  color: var(--vt-c-green);
+}
+
+.status-In-transit {
+  border: 2px solid var(--vt-c-yellow);
+  color: var(--vt-c-yellow);
+}
 .assess {
   width: 95px;
   height: 40px;
@@ -716,3 +760,6 @@ thead, tbody, tfoot, tr, td, th {
   padding-right: 5.50rem !important;
 }
 
+.integratr-logo {
+  width: 50px !important;
+}
