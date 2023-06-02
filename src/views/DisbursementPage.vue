@@ -44,7 +44,7 @@
               <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
             </div>
           </div>
-          <div class="col-12 col-md-4 d-flex">
+          <div class="col-12 col-md-4 d-flex justify-content-end">
             <router-link :to="{name: 'consumer.request-refund'}" class="text-decoration-none">
               <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
                 <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
@@ -53,7 +53,7 @@
               </button>
             </router-link>
             <div>
-              <button type="button" class="title-5 button-default-outline pe-2 mx-5 mt-1 bg-transparent">Export</button>
+              <button type="button" class="title-5 button-default-outline mx-5 mt-1 bg-transparent">Export</button>
             </div>
           </div>
         </div>
@@ -156,7 +156,10 @@
                           </div>
                         </div>
                         <!-- third column -->
-                        <div class="border-bottom mt-3"></div>
+                        <table class="table table-borderless">
+                          <td>kasbjkab</td>
+                        </table>
+                        <!-- <div class="border-bottom mt-3"></div>
                         <div class="col">
                           <div class="row gx-0 g-0">
                             <div class="col-12 d-flex mt-3">
@@ -204,8 +207,8 @@
                               </div>
                             </div>
                           </div>
-                          <div class="w-100"></div>
-                          <!-- <div class="col-8 border-bottom mt-3 border border-dark"></div> -->
+                          <div class="w-100"></div> 
+                          <div class="col-8 border-bottom mt-3 border border-dark"></div>
                             <div class="row align-items-start">
                               <div class="col-3">
                               </div>
@@ -223,7 +226,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -233,6 +236,7 @@
           </tbody>
         </table>
       </div>
+
       <!-- pagination  -->
       <nav aria-label="Page navigation" class="ms-4">
         <ul class="pagination justify-content-end pe-5 me-3">
@@ -311,7 +315,7 @@
             grossAmount: "PHP 100,000.00",
             netAmount: "PHP 95,000.00",
             disbursementRelease: "01/01/2023 7:28AM",
-            status: "In Transit",
+            status: "Pending",
           },
           {
             amount: "PHP 100.00",
@@ -405,3 +409,4 @@
     },
   };
 </script>
+ 

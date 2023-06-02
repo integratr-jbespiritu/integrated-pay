@@ -25,12 +25,12 @@
        </div>
       </div>
       <div class="border-bottom mt-3"></div>
-      <div class="table-responsive mt-3 ms-3" width="100%">
+      <div class="table-responsive mt-3" width="100%">
        <table class="table">
         <thead>
          <tr class="table-rows text-purple title-13">
-          <th class="table-heading" width="15%">
-           <div class="d-flex align-items-center">
+          <th class="table-heading" width="16%">
+           <div class="d-flex align-items-center ps-2">
             <span>Email Address</span>
            </div>
           </th>
@@ -64,19 +64,20 @@
         <tbody>
          <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
           <tr class="size-table-data title-8 border-color-white transaction-table-hover">
-           <td class="py-4">{{ transaction_record.emailaddress }}</td>
+           <td class="py-4 ps-4">{{ transaction_record.emailaddress }}</td>
            <td class="py-4">{{ transaction_record.accountname }}</td>
            <td class="py-4">{{ transaction_record.typeofAccount }}</td>
            <td class="py-4">
-            <div class="py-0 my-auto rounded-0 title-19 text-center px-3" :class="getStatus(transaction_record.status)">{{ transaction_record.status }}</div>
+            <div class="py-0 my-auto rounded-0 title-19 text-center " :class="getStatus(transaction_record.status)">{{ transaction_record.status }}</div>
            </td>
            <td class="py-4">{{ transaction_record.time_stamp }}</td>
-           <td class="py-3">
-            <div> <router-link :to="{name: 'consumer.activate-account.step2'}"> <button type="button" class="assess">Assess</button>
-           </router-link>
+           <td class="py-3 pe-3">
+            <div>
+              <button type="button" class="assess">Assess
+               </button>
             </div>
            </td>
-          </tr>
+          </tr> 
           <span class="mt-1"></span>
          </template>
         </tbody>
@@ -112,7 +113,10 @@
   export default {
    data() {
     return {
-     transaction_records: [
+      // typeofAccount: true, // or false based on your logic
+      // routeA: '/consumer.activate-account.step2',
+      // routeB: '/consumer.activate-account-step4',
+      transaction_records: [
       {
        emailaddress: "juandelacruz@gmail.com",
        accountname: "Jayden Dela Cruz",
@@ -190,9 +194,6 @@
    methods: {
     getStatus(data) {
      return `status-${data.toLowerCase()}`;
-    },
-     myFunction() {
-      document.getElementById("demo").style.color = "red";
     },
   },
 };

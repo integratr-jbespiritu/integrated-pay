@@ -128,8 +128,9 @@
                       </div>
                     </div>
                   </div>
-                <p class="col-md-6 inter-body-semibold text-start text-dark ms-1 mb-1">Submission of required identification documents</p>
-                <h6 class="col-md-6 title-13 text-danger ms-1 mb-3">
+                  
+                <p class="col-12 inter-body-semibold text-start text-dark ms-1 mb-1">Submission of required identification documents</p>
+                <h6 class="col-12 title-13 text-danger ms-1 mb-3">
                   You have documents that are declined. Please re-submit the documents needed.
                 </h6>
 
