@@ -1,18 +1,6 @@
-/* .table-heading2:hover {
-    background-color: initial;
-}
-.table .table-hover{
-    width: 89rem;
-    border-color: var(--vt-c-purple);
-    background-color: var(--vt-c-default-white);  
-} */
-
 .table-badge-text-requested{
     text-align: center;
 }
-/* td:hover {
-   color: var(--vt-c-black);
-  } */
 .default-outline-refund{
     color: var(--vt-c-purple);
     border-color: var(--vt-c-purple);
@@ -24,11 +12,6 @@
 .icon-arrow{
     font-size: 1rem;
     height: 1rem;
-}
-.color-black{
-    font-size: 1rem;
-    font-weight: bold;
-    padding-bottom: 0.2rem;
 }
 td {
     white-space: nowrap;
@@ -45,17 +28,6 @@ td {
 .btn-success{
    width: 100px;
    border: 2px solid;
-}
-
- /* .table .size-table-data:hover {
-  border: 1px solid var(--vt-c-purple) !important
-} */
-
-tr.size-table-data:hover td {
-  font-weight: bold;
-}
-.table .table-rows:hover {
-    background-color: initial;
 }
 .status-requested {
     border-color: var(--vt-c-light-red);
@@ -76,8 +48,12 @@ tr.size-table-data:hover td {
     border-color: var(--vt-c-purple) !important;
     color: var(--vt-c-purple) !important;
 }
-.text-requested :hover{
-    background-color: initial;
-    
+tr.size-table-data:hover td {
+    font-weight: bold;
+    background-color: var(--vt-c-default-white);
+    border: 1px solid var(--vt-c-purple);
 }
- 
+.table .table-rows:hover {
+    background-color: initial;
+    font-weight: bold;
+}

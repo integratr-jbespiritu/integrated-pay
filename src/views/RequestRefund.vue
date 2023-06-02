@@ -107,6 +107,7 @@
                         transaction_record.status }}</div>
                     </td>
                     </tr>
+                    <span class="mt-1"></span>
                 </template>
               </tbody>
             </table>
@@ -132,9 +133,7 @@
               </ul>
             </nav>
           <!-- pagination  -->
-          
         </div>
-  
 </template>
 
 <script>
