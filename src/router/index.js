@@ -17,12 +17,13 @@ import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.v
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
 import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
 import AdminPaymentChannels from '../views/admin/AdminPaymentChannels.vue'
-import Modal from '../views/Modal.vue'
 import AccessManagementListandDetails from '../views/AccessManagementListandDetails.vue'
 import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
 import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
+import Developer from '../views/consumer/Developer.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +64,7 @@ const router = createRouter({
           name: 'admin.assess.business.kyc',
           component: AssessBusinessKYC
         },
+        
       ]
     },
     // Consumer side here >>
@@ -136,11 +138,6 @@ const router = createRouter({
           component: ActivateGovernmentUnit
         },
         {
-          path: '/modal',
-          name: 'consumer.modal',
-          component: Modal
-        },
-        {
           path: '/access-management-list-and-details',
           name: 'consumer.access-management-list-and-details',
           component: AccessManagementListandDetails
@@ -150,6 +147,12 @@ const router = createRouter({
           name: 'consumer.payout-configuration',
           component: PayoutConfiguration
         },
+        {
+          path: '/developer',
+          name: 'consumer.developer',
+          component: Developer
+        },
+       
       ],
     },
  ]

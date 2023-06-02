@@ -22,6 +22,7 @@
 @import url('css/adminKYC.css');
 @import 'css/payout_configuration.css';
 
+
 @font-face {
   font-family: Poppins-Semibold;
   src: url('../assets/font_styles/Poppins-SemiBold.ttf') format(truetype);
@@ -125,6 +126,10 @@
   padding-top: 20px;
 }
 
+.pad-top-10p {
+  padding-top: 10px;
+}
+
 .pad-top-40p {
   padding-top: 40px;
 }
@@ -133,9 +138,21 @@
   padding-top: 60px;
 }
 
+.pad-x-20p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.pad-y-20p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .pad-x-40p {
   padding-right: 40px;
   padding-left: 40px;
+}
+.pad-y-40p {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .pad-bottom-10p {
@@ -150,6 +167,9 @@
   margin: 10px;
 }
 
+.margin-top-20p{
+  margin-top: 20px;
+}
 .margin-right-20p {
   margin-right: 20px;
 }
@@ -171,6 +191,11 @@
 .margin-x-5p{
   margin-right: 5px;
   margin-left: 5px;
+}
+
+.margin-y-20p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .height-lg {

@@ -61,7 +61,7 @@
                      <td class="font-table-text py-3">
                         {{ transaction_record.email_address }}
                      </td>
-                     <td class="font-table-text py-3 text-blue">{{ transaction_record.role }}</td>
+                     <td class="font-table-text py-3">{{ transaction_record.role }}</td>
                      <td class="font-table-text py-3 justify-content-end d-flex">
                         {{ transaction_record.date_updated }}
                      </td>

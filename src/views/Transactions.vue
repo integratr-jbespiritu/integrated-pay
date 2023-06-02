@@ -224,141 +224,186 @@
   </div>
 
   <Teleport to="body">
-    <ModalLarge :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
-      <template #header>
-        test
-      </template>
-      <template #body>
-        <div class="row gx-0 g-0">
-          Test
-        </div>
-      </template>
-      <template #footer>
-        <div class="row gx-0 g-0 mb-1 justify-content-end pad-top-20p">
-          Test
-        </div>
-      </template>
-    </ModalLarge>
+     <ModalSmall :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
+        <template #header>
+           <div class="container pad-x-10p">
+              <div class="row gx-0 g-0">
+                 <div class="col">
+                    <div class="title-10 ms-2" style="line-height: 25px;">
+                       Issue Refund
+                    </div>
+                    <div class="col text-nowrap ms-2">Provide necessary information for the refund request.</div>
+                 </div>
+                 <div class="col d-flex justify-content-end">
+                    <button @click="refund_request_modal =false" class="icon-purple isax isax-close-circle5"></button>
+                 </div>
+              </div>
+           </div>
+        </template>
+        <template #body>
+           <div class="row gx-0 g-0">
+              <form class="form-group modal-form">
+                 <div class="form-floating modal-floating ">
+                    <select class="form-select modal-select rounded-0 title-21 shadow-none" id="floatingselect" aria-label="Floating label select">
+                       <option selected>[Partial Admin]</option>
+                    </select>
+                    <label for="floatingSelect" class="modal-hover title-23">Offer</label>
+                 </div>
+                 <div class="form-floating modal-floating mb-3">
+                    <select class="form-select modal-select mt-3 rounded-0 title-21 shadow-none" id="floatingselect mt-5" aria-label="Floating label select">
+                       <option selected>BPI</option>
+                    </select>
+                    <label for="floatingSelect" class="mt-3 title-23">Bank</label>
+                 </div>
+                 <div class="input-group  mb-3">
+                    <form class="form-floating modal-floating ">
+                       <input type="text" class="input-height form-control title-21 shadow-none" id="floatingInputValue" placeholder="name@example.com" value="123456789012" />
+                       <label for="floatingInputValue" class="title-23">Account Number</label>
+                    </form>
+                 </div>
+                 <div class="input-group  mb-3">
+                    <form class="form-floating modal-floating">
+                       <input type="text" class="input-height form-control title-21 shadow-none" id="floatingInputValue" placeholder="name@example.com" value="PHP 10,000.00" />
+                       <label for="floatingInputValue" class="title-23 ">Amount</label>
+                    </form>
+                 </div>
+                 <div class="input-group ">
+                    <form class="form-floating modal-floating">
+                       <input type="text" class="input-height form-control title-21 shadow-none" style="height: 100px; padding-bottom: 50px;" id="floatingInputValue" placeholder="name@example.com" value="Double Payment" />
+                       <label for="floatingInputValue " class="title-23 ">Reason</label>
+                    </form>
+                 </div>
+              </form>
+           </div>
+        </template>
+        <template #footer>
+           <div class="row d-flex justify-content-center me-3">
+              <button class="button-default bg-purple bg-transparent text-purple title-21">Cancel</button>
+              <button class="button-x color-white text-nowrap button-process rounded title-21">Process Refund</button>
+           </div>
+        </template>
+     </ModalSmall>
+
   </Teleport>
 </template>
 
 <script>
-import ModalLarge from "../components/ModalLarge2.vue"
+  import ModalSmall from "../components/ModalSmall.vue";
 
-export default {
-  name: "DashBoard",
-  components: {
-    ModalLarge
-  },
-  data() {
-    return {
-      refund_request_modal: false,
-      transactions: [
-        {
-          label: "Expected Amount",
-          value: "PHP 100,000.00",
-          transaction_count: "24",
-        },
-        {
-          label: "Total Amount of Completed Transactions",
-          value: "PHP 80,000.00",
-          transaction_count: "18",
-        },
-        {
-          label: "Total Amount of Refunded Transactions",
-          value: "PHP 20,000.00",
-          transaction_count: "6",
-        },
-      ],
-      transaction_records: [
-        {
-          transaction_no: "2201010000112221",
-          amount: "PHP 10,000.00",
-          channel: "Over-the-counter",
-          service_product: "Business Licensing Permit",
-          status: "Paid",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112222",
-          amount: "PHP 100.00",
-          channel: "GCash",
-          service_product: "Community Tax Certificate",
-          status: "Refunded",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112223",
-          amount: "PHP 10,000.00",
-          channel: "Debit/Credit",
-          service_product: "Real Property Tax",
-          status: "Pending",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112224",
-          amount: "PHP 8,000.00",
-          channel: "Debit/Credit",
-          service_product: "Business Licensing Permit",
-          status: "Paid",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112225",
-          amount: "PHP 5,000.00",
-          channel: "Debit/Credit",
-          service_product: "Business Licensing Permit",
-          status: "Refunded",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112226",
-          amount: "PHP 100,000.00",
-          channel: "Debit/Credit",
-          service_product: "Business Licensing Permit",
-          status: "Paid",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112227",
-          amount: "PHP 1,000.00",
-          channel: "Debit/Credit",
-          service_product: "Real Property Tax",
-          status: "Paid",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112228",
-          amount: "PHP 1,500.00",
-          channel: "Debit/Credit",
-          service_product: "Community Tax Certificate",
-          status: "Pending",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112229",
-          amount: "PHP 200.00",
-          channel: "Debit/Credit",
-          service_product: "Local Civil Registry",
-          status: "Refunded",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-        {
-          transaction_no: "2201010000112230",
-          amount: "PHP1,000.00",
-          channel: "Debit/Credit",
-          service_product: "Building Permit",
-          status: "Paid",
-          time_stamp: "01/01/2023 7:28 AM",
-        },
-      ],
-    };
-  },
+  export default {
+     name: "DashBoard",
+     components: {
+        ModalSmall,
+     },
+     data() {
+        return {
+           refund_request_modal: false,
+           transactions: [
+              {
+                 label: "Expected Amount",
+                 value: "PHP 100,000.00",
+                 transaction_count: "24",
+              },
+              {
+                 label: "Total Amount of Completed Transactions",
+                 value: "PHP 80,000.00",
+                 transaction_count: "18",
+              },
+              {
+                 label: "Total Amount of Refunded Transactions",
+                 value: "PHP 20,000.00",
+                 transaction_count: "6",
+              },
+           ],
+           transaction_records: [
+              {
+                 transaction_no: "2201010000112221",
+                 amount: "PHP 10,000.00",
+                 channel: "Over-the-counter",
+                 service_product: "Business Licensing Permit",
+                 status: "Paid",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112222",
+                 amount: "PHP 100.00",
+                 channel: "GCash",
+                 service_product: "Community Tax Certificate",
+                 status: "Refunded",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112223",
+                 amount: "PHP 10,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Real Property Tax",
+                 status: "Pending",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112224",
+                 amount: "PHP 8,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Business Licensing Permit",
+                 status: "Paid",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112225",
+                 amount: "PHP 5,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Business Licensing Permit",
+                 status: "Refunded",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112226",
+                 amount: "PHP 100,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Business Licensing Permit",
+                 status: "Paid",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112227",
+                 amount: "PHP 1,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Real Property Tax",
+                 status: "Paid",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112228",
+                 amount: "PHP 1,500.00",
+                 channel: "Debit/Credit",
+                 service_product: "Community Tax Certificate",
+                 status: "Pending",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112229",
+                 amount: "PHP 200.00",
+                 channel: "Debit/Credit",
+                 service_product: "Local Civil Registry",
+                 status: "Refunded",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+              {
+                 transaction_no: "2201010000112230",
+                 amount: "PHP1,000.00",
+                 channel: "Debit/Credit",
+                 service_product: "Building Permit",
+                 status: "Paid",
+                 time_stamp: "01/01/2023 7:28 AM",
+              },
+           ],
+        };
+     },
 
-  methods: {
-    getStatus(data) {
-      return `status-${data.toLowerCase()}`;
-    },
-  },
-};
+     methods: {
+        getStatus(data) {
+           return `status-${data.toLowerCase()}`;
+        },
+     },
+  };
 </script>
