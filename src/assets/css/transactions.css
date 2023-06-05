@@ -24,6 +24,21 @@
     background-color: var(--vt-c-default-white);
 }
 
+.button-x {
+    width: 150px;
+    height: 44px;
+    /* padding: 10px, 20px, 10px, 20px; */
+    color: var(--vt-c-white);
+    background: var(--vt-c-lavender);  
+    border: var(--vt-c-purple);
+ }
+
+.icon-purple {
+    color: var(--vt-c-purple);
+    background: transparent;  
+    border: var(--vt-c-purple);
+
+}
 .transaction-table-hover:hover{
     border: 1px solid var(--vt-c-purple) !important;
 }
@@ -32,7 +47,26 @@
     white-space: nowrap;
 }
 
+.table .table-hover:hover {
+    border: 1px solid var(--vt-c-purple) !important;
+    color: black;
+} 
+
 .border-color-white{
     border: solid 1px;
     border-color:  #f8f9fa !important;
+  }
+
+.modal-form .modal-floating .modal-select:hover {
+    border-color: var(--vt-c-lavender);
+}
+
+.modal-floating:hover {
+    color: var(--vt-c-lavender);
+}
+
+.icon-purple {
+    height: 33px;
+    font-size: 53px;
+    line-height: 25px;
 }

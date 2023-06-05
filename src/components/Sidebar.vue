@@ -92,7 +92,7 @@ export default {
 
                   {
                      name: 'Developers',
-                     route: ''
+                     route: 'consumer.developer'
                   }
                ]
             },
