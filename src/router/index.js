@@ -23,6 +23,7 @@ import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
 import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
+import GovernmentUnit from '../views/admin/GovernmentUnit.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +64,11 @@ const router = createRouter({
           name: 'admin.assess.business.kyc',
           component: AssessBusinessKYC
         },
+        {
+          path: '/admin/government-unit',
+          name: 'admin.government-unit',
+          component: GovernmentUnit
+        }, 
       ]
     },
     // Consumer side here >>

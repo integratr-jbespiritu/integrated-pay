@@ -62,7 +62,7 @@
          </tr>
         </thead>
         <tbody>
-         <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
+         <template v-for="(transaction_record, index) in transaction_records" :key="index">
           <tr class="size-table-data title-8 border-color-white transaction-table-hover">
            <td class="py-4">{{ transaction_record.emailaddress }}</td>
            <td class="py-4">{{ transaction_record.accountname }}</td>
@@ -72,7 +72,7 @@
            </td>
            <td class="py-4">{{ transaction_record.time_stamp }}</td>
            <td class="py-3">
-            <div> <router-link :to="{name: 'consumer.activate-account.step2'}"> <button type="button" class="assess">Assess</button>
+            <div> <router-link :to="{name: 'admin.government-unit'}"> <button type="button" class="assess">Assess</button>
            </router-link>
             </div>
            </td>
@@ -186,13 +186,21 @@
      ],
     };
    },
- 
+  //  computed: {
+  //    getRoute() {
+  //      if (this.account.typeofAccount === "Business") {
+  //        return { name: "admin.assess.business.kyc" }; 
+  //      } else if (this.account.typeofAccount === "Government Unit") {
+  //        return { name: "admin.government-unit" }; 
+  //      } else { 
+  //        return null; 
+  //      }
+  //    },
+  //  },
+   
    methods: {
     getStatus(data) {
      return `status-${data.toLowerCase()}`;
-    },
-     myFunction() {
-      document.getElementById("demo").style.color = "red";
     },
   },
 };

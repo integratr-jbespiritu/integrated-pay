@@ -47,8 +47,18 @@
                     </div>
                 </template>
                 <nav class="nav flex-column title-3">
-                    <li><a class="text-sm-center nav-link text-light" href="#"><i
-                                class="isax isax-setting5 me-2"></i>Settings</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-sm-center text-light" href="#" data-bs-toggle="collapse" data-bs-target="#settingsDropdown">
+                            <i class="isax isax-setting5 me-2"></i>Settings <span class="ps-5 ms-5 isax isax-arrow-down-1"></span>
+                        </a>
+                        <div class="collapse bg-dark" id="settingsDropdown">
+                            <ul class="nav collapsible-hover flex-column px-5 title-21">
+                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">User</a></div>
+                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">ACM</a></div>
+                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">ACL</a></div>
+                            </ul>
+                        </div>
+                     </li>
                     <li><router-link class="text-sm-center nav-link text-light" :to="{ name: 'admin.login' }"><i
                                 class="isax isax-logout5 me-2"></i>Logout</router-link></li>
                 </nav>
@@ -94,12 +104,10 @@ export default {
                             name: 'Service 5',
                             route: ''
                         },
-                        
                     ]
                 },
             ]
         }
-
     }
 }
 </script>

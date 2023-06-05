@@ -34,24 +34,24 @@
                     {{ payment_channel.channel}}
                   </div>
                   <template v-for="payment_method,i in payment_channel.mode_of_payments" :key="payment_method">
-                     <div class="input-border row gx-0 g-0 mt-4 py-2 pe-5" style="min-width: 104.5%;">
-                      <div class="col py-3 mx-4">
-                        <img :src="payment_method.logo" class="img-fluid"/>
+                     <div class="input-border row gx-0 g-0 mt-4 py-2 pe-5" style="min-width: 104.4%;">
+                        <div class="col py-3 mx-4">
+                          <img :src="payment_method.logo" class="img-fluid"/>
+                        </div>
+                        <div class="col-2 py-3 title-6 ps-5"> 
+                          {{ payment_method.name}}
+                        </div>
+                        <div class="col-2 mt-4 title-7 ps-5 ms-5" style="bottom: 4px;">
+                          {{ payment_method.percentage}}
+                        </div>
+                      <div class="col-4 d-flex ms-2 ps-3 me-5 ps-md-1 ms-md-1 ps-lg-5 ms-lg-0">
+                        <div class="pt-2 mt-2 form-check form-switch-btn px-5 mx-5">
+                        <input class="form-check-input fs-5" type="checkbox" :id="'switch' + i + j" v-model="payment_method.is_accepted">
+                        <label class="form-check-label title-8 mt-1 d-flex" :for="'switch' + i + j">
+                          {{ payment_method.is_accepted ? 'Accepted Payment Method' : 'Set as Accepted Payment Method' }}
+                        </label>
                       </div>
-                      <div class="col-2 py-3 title-6 ps-5"> 
-                        {{ payment_method.name}}
-                      </div>
-                      <div class="col-2 mt-4 title-7 ps-5 ms-5" style="bottom: 4px;">
-                        {{ payment_method.percentage}}
-                      </div>
-                     <div class="col-4 d-flex ms-2 ps-3 me-5 ps-md-1 ms-md-1 ps-lg-5 ms-lg-0">
-                      <div class="pt-2 mt-2 form-check form-switch-btn px-5 mx-5">
-                       <input class="form-check-input fs-5" type="checkbox" :id="'switch' + i + j" v-model="payment_method.is_accepted">
-                       <label class="form-check-label title-8 mt-1 d-flex" :for="'switch' + i + j">
-                         {{ payment_method.is_accepted ? 'Accepted Payment Method' : 'Set as Accepted Payment Method' }}
-                       </label>
-                     </div>
-                   </div>
+                    </div>
                     </div>
                   </template> 
                 </template>

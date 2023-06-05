@@ -15,12 +15,11 @@
 @import 'css/dashboard.css';
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
-@import 'css/request-refund.css';
 @import 'css/modal.css';
 @import 'css/adminsidebar.css';
-@import 'css/adminPaymentChannels.css';
 @import url('css/adminKYC.css');
 @import 'css/payout_configuration.css';
+@import 'css/assess_business_kyc.css';
 
 @font-face {
   font-family: Poppins-Semibold;
@@ -691,3 +690,25 @@ thead, tbody, tfoot, tr, td, th {
   padding-right: 5.50rem !important;
 }
 
+.floating-label-border:hover {
+  border-color: var(--vt-c-purple);
+}
+
+.floating-label-color:hover {
+  color: var(--vt-c-purple);
+}
+
+.modal-close-btn {
+  font-size: 100%;
+}
+
+.payments-table-hover:hover td{
+  font-weight: bold !important;
+  background-color: var(--vt-c-default-white);
+}
+ .payments-table-hover:hover label{
+  font-weight: bold !important;
+ }
+.payments-table-hover:hover {
+    border: 1px solid var(--vt-c-blue) !important;
+}

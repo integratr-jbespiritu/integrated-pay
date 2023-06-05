@@ -1,64 +1,58 @@
 <template>
   <div class="gx-0 g-0">
     <header class="header bg-light lh-1">
-      <div class="col-12">
+      <div class="col-12 mx-1">
         <a class="title-10 text-decoration-none text-dark">Transactions</a>
       </div>
     </header>
-    <div class="row gx-0 g-0 px-3">
-      <div class="align-items-center">
-        <div class="gx-0 g-0 mb-5 ms-1">
-          <div class="row mt-2">
-            <template v-for="transaction, index in transactions" :key="transaction">
-              <div class="col-auto me-5 pe-4 align-self-start" :class="index != 2 ? 'border-end' : ''">
-                <div class="title-8 me-3">
-                  {{ transaction.label }}
-                </div>
-                <div class="col-auto title-11 text-blue me-3">
-                  {{ transaction.value }}
-                </div>
-                <div class="col-auto title-12 text-uppercase mt-2 me-5">
-                  {{ transaction.transaction_count }} Transactions
-                </div>
-              </div>
-            </template> 
+    <div class="row gx-0 g-0 px-2">
+      <div class="row mt-2 d-flex justify-content-between pb-5">
+        <template v-for="transaction, index in transactions" :key="transaction">
+          <div class="col-auto align-self-start lh-sm" :class="index != 2 ? 'border-end' : ''">
+            <div class="col-auto title-8 pe-5 me-5  ">
+              {{ transaction.label }}
+            </div>
+            <div class="col-auto title-11 text-blue">
+              {{ transaction.value }}
+            </div>
+            <div class="col-auto title-12 text-uppercase mt-2 pb-">
+              {{ transaction.transaction_count }} Transactions
+            </div>
+          </div>
+        </template>
+      </div>
+      <div class="row gx-0 g-0">
+        <div class="col-12 col-md-4">
+           <div class="search input-group mt-3 w-100">
+            <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+             <i class="isax isax-search-status-1 fs-4"></i>
+            </span>
+            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
+           </div>
+          </div>
+          <div class="col-12 col-md-4">
+           <div class="input-group mb-2 mt-3">
+            <span class="span-btn-default input-group-text rounded-0">
+             <i class="icon isax isax-filter-search"></i>
+            </span>
+            <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
+           </div>
+          </div>
+        <div class="col-9 col-md-4 d-flex pt-2 d-flex justify-content-end">
+          <button type="button" class="button-hover-icon-purple bg-transparent">
+            <span class="title-5 refund-request translate-middle-y text-nowrap">
+              Refund Request
+            </span>
+          </button>
+          <div class="px-3">
+            <button type="button" class="title-5 button-default-outline pe-2 bg-transparent">Export</button>
           </div>
         </div>
       </div>
-      <div class="row gx-0 g-0">
-          <div class="col-12 col-md-4">
-              <div class="search input-group w-100 pe-4 pt-2">
-                <span class="input-group-text bg-white rounded-0 py-2" id="basic-addon1">
-                  <i class="isax isax-search-status-1 fs-4"></i>
-                </span>
-                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                  aria-describedby="basic-addon1" />
-              </div>
-            </div>
-            <div class="col-12 col-md-4 pe-5">
-              <div class="input-group mb-2 pt-2 pe-5">
-                <span class="span-btn-default input-group-text rounded-0 py-2">
-                  <i class="icon isax isax-filter-search"></i>
-                </span>
-                <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
-                  aria-describedby="basic-addon2">Filter</button>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 d-flex pt-2">
-              <button type="button" class="button-hover-icon-purple bg-transparent">
-                <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
-                  Refund Request
-                </span>
-              </button>
-              <div class="">
-                <button type="button" class="title-5 button-default-outline pe-2 mx-5 bg-transparent">Export</button>
-              </div>
-            </div>
-      </div>
     </div>
-    <div class="px-3">
+    <div class="mx-4">
       <div class="border-bottom mb-3 mt-2">
-        <p class="mb-4 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
+        <p class="mb-4">Total result <span class="badge-red bg-transparent title-7">24</span></p>
       </div>
     </div>
     <div class="table-responsive px-3">
@@ -101,26 +95,26 @@
           <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
             <tr data-bs-toggle="collapse" :data-bs-target="`#collapse${index}`" aria-expanded="true"
               :aria-controls="`collapse${index}`"
-              class="size-table-data column title-8 size-table-data title-8 border-color-white transaction-table-hover">
-              <td class="py-4 px-4">{{
-                transaction_record.transaction_no }}</td>
+              class="size-table-data column title-8 title-8 border-color-white transaction-table-hover">
+              <td class="py-4 px-4">{{ transaction_record.transaction_no }}</td>
               <td class="py-4">{{ transaction_record.amount }}</td>
               <td class="py-4">{{ transaction_record.channel }}</td>
               <td class="py-4">{{ transaction_record.service_product }}</td>
               <td class="py-4">
                 <div class="py-0 my-auto rounded-0 title-19 text-center me-5 px-1"
-                  :class="getStatus(transaction_record.status)">{{
-                    transaction_record.status }}</div>
+                  :class="getStatus(transaction_record.status)">{{ transaction_record.status }}</div>
               </td>
-              <td class="py-4 text-start ">{{ transaction_record.time_stamp }}</td>
+              <td class="py-4 text-start">{{ transaction_record.time_stamp }}</td>
             </tr>
             <span class="mt-1"></span>
+
+            <!-- Accordion Collapse -->
             <tr>
               <td colspan="6">
                 <div :id="`collapse${index}`" class="accordion-collapse collapse" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <div class="container card-body bg-black text-light w-auto">
+                    <div class="container card-body bg-black text-light w-auto" style="min-width: 100%;">
                       <div class="row gx-0 g-0">
                         <div class="col">
                           <div class="row gx-0 g-0">
@@ -142,7 +136,7 @@
                                   <div class="title-11 text-blue">PHP 10,000.00</div>
                                 </div>
                                 <div class="col-auto my-auto justify-content-end d-flex">
-                                  <p class="title-5 text-blue" @click="refund_request_modal=true">Refund</p>
+                                  <p class="title-5 text-blue" @click="refund_request_modal = true">Refund</p>
                                 </div>
                               </div>
                             </div>
@@ -152,7 +146,7 @@
                             <div class="col border-bottom-dashed">
                               &nbsp;
                             </div>
-                            <div class="col-12 pt-3"> 
+                            <div class="col-12 pt-3">
                               <div class="row gx-0 g-0">
                                 <div class="col">
                                   <p class="title-12">Amount</p>
@@ -177,8 +171,7 @@
                         <div class="col">
                           <div class="row gx-0 g-0">
                             <div class="col-12 justify-content-center d-flex title-16">
-                              <div class="status-paid w-25 title-17 py-0 px-2 rounded-0 text-center">Paid
-                              </div>
+                              <div class="status-paid w-25 title-17 py-0 px-2 rounded-0 text-center">Paid</div>
                             </div>
                             <div class="col-12 justify-content-center d-flex">
                               <div class="title-8 pt-1">01/01/2023 7:28 AM</div>
@@ -243,12 +236,12 @@
 </template>
 
 <script>
-import ModalLarge from "../components/ModalLarge2.vue"
+import ModalLarge from "../components/ModalLarge2.vue";
 
 export default {
   name: "DashBoard",
   components: {
-    ModalLarge
+    ModalLarge,
   },
   data() {
     return {

@@ -1,5 +1,5 @@
 <template>
-  <div class="row gx-0 g-0 header">
+  <div class="row gx-0 g-0 header" style="height: 65px;">
     <div class="col">
       <div class="row gx-0 g-0">
         <div class="col-auto my-auto" v-if="!showSearchBar">

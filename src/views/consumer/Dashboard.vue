@@ -5,7 +5,7 @@
     </div>
     <div class="row gx-0 g-0">
       <div class="col-12 position-relative pe-4 ps-3">
-        <img src="/src/assets/images/row.svg" alt="cover image" class="img-fluid" />
+        <img src="/src/assets/images/row.svg" alt="cover image" class="row-img"  style="width:auto; height: 200px"/>
         <div class="col position-absolute top-0 left-0 d-flex">
           <div class="justify-content-start align-items-start p-5 text-white">
             <p class="title-11">Hello, Juan!</p>
@@ -13,8 +13,8 @@
             <p class="title-12 text-start mt-1">Wednesday, Feb 23, 2023 3:40 PM PST</p>
           </div>
         </div>
-        <div class="position-absolute top-0 end-0 pe-5 me-5 mt-3 d-none d-md-block d-lg-block">
-          <img src="/src/assets/images/character.svg" class="img img-fluid" alt="Overlay Image" />
+        <div class="position-absolute top-0 end-0 pe-5 me-5 mt-3 d-none d-sm-none d-md-block">"
+          <img src="/src/assets/images/character.svg" class="img-fluid" alt="Overlay Image" />
         </div>
       </div>
     </div>
@@ -80,10 +80,10 @@
               <span class="title-6 mx-3">Net Revenue Income</span>
               <i class="isax isax-refresh text-purple fs-5 me-4" style="top: 5px;"></i>
             </div>
-            <div class="d-flex mx-5 pt-3">
+            <!-- <div class="d-flex mx-5 pt-3">
               <p class="title-8"><span class="badge rounded-pill bg-purple">&nbsp;</span> GCash</p>
               <p class="title-8 ms-3"><span class="badge rounded-pill bg-black">&nbsp;</span> BPI</p>
-            </div>
+            </div> -->
             <div class="row gx-0 g0">
               <div class="col mt-3 mx-5">
                 <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
@@ -115,11 +115,11 @@
                   <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
                 </div>
               </div>
-              <div class="d-flex justify-content-center mt-3">
+              <!-- <div class="d-flex justify-content-center mt-3">
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-purple mx-1">&nbsp;</span> GCash</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-black mx-1">&nbsp;</span> BPI</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-blue mx-1">&nbsp;</span> Maya</p>
-              </div>
+              </div> -->
               <div class="row gx-0 g-0 mb-3">
                 <div class="col mt-3 d-flex justify-content-center gap-4">
                   <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
@@ -257,6 +257,7 @@ export default {
       ],
     };
   },
+
   export_reports_modal: false,
   mounted() {
     const label = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
@@ -265,14 +266,14 @@ export default {
       labels: label,
       datasets: [
         {
-          label: "",
+          label: "Gcash",
           backgroundColor: "rgba(119, 85, 214)",
           borderColor: "rgba(119, 85, 214)",
           data: [195, 50, 110, 75, 100, 40, 45, 110, 85, 190, 150, 220],
           tension: 0.0,
         },
         {
-          label: "",
+          label: "BPI",
           backgroundColor: "rgba(0,0,0)",
           borderColor: "rgba(0,0,0)",
           data: [55, 85, 30, 45, 50, 100, 150, 120, 110, 105, 70, 250],
@@ -313,10 +314,17 @@ export default {
       type: "line",
       data: lineData,
       options: {
-        title: {
-          display: true,
-          text: " dnjsabdhj",
-          titleAlign: "left",
+        plugins: {
+          title: {
+            display: true,
+            text: "Total Revenue PHP 1,000,000.00 + 2% higher February 2023 ",
+            font: {
+              family: "Inter, sans-serif",
+              size: 20,
+              weight: "Bold",
+            },
+            color: "black",
+          },
         },
         scales: {
           x: {
@@ -330,7 +338,7 @@ export default {
             grid: {
               display: true,
               color: "rgba(220, 220, 220)",
-              lineWidth: 2,
+              lineWidth: 0,
             },
           },
         },
@@ -340,11 +348,18 @@ export default {
     const barConfig = {
       type: "bar",
       data: barData,
-      dislay: true,
       options: {
-        title: {
-          display: true,
-          text: "Chart JS Gridlines - Line Chart Example",
+        plugins: {
+          title: {
+            display: true,
+            text: "Total Revenue PHP 1,000,000.00 + 2% higher",
+            font: {
+              family: "Arial",
+              size: 18,
+              weight: "regular",
+              color: "green",
+            },
+          },
         },
         scales: {
           x: {
@@ -364,6 +379,7 @@ export default {
         },
       },
     };
+
 
     new Chart(document.getElementById("lineChart"), lineConfig);
     new Chart(document.getElementById("barChart"), barConfig);
