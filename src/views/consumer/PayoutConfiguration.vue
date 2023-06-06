@@ -7,7 +7,7 @@
             </div>
         </header>
         <div class="px-3 pe-5 pb-1">
-            <div class="row gx-0 g-0 border border-warning shadow-sm bg-body py-3">
+<div class="row gx-0 g-0 border border-warning shadow-sm bg-body py-3">
                 <div class="col-1 fs-3 text-center my-auto" style="width: 80px;">
                     <i class="isax isax-danger text-warning"></i>
                 </div>
@@ -59,7 +59,7 @@
                      <div class="row gx-0 g-0">
                         <template v-for="(payout_method, a) in payout_configuration.debit_payments" :key="a">
                             <div class="col-4 mb-4 mt-3">
-                                 <button type="button" class="btn btn-outline-blue text-blue rounded-0 pb-2" @click="update_payout_e_wallet_modal=true"><i class="isax isax-add fs-4" style="top: 3px"></i> {{ payout_method.debit }}</button>
+                                 <button type="button" class="btn btn-outline-blue text-blue rounded-0 pb-1" @click="update_payout_e_wallet_modal=true"><i class="isax isax-add fs-4" style="top: 3px"></i> {{ payout_method.debit }}</button>
                             </div>
                             <div class="col-12 break-line">
                                 <div class="row bg-light py-2"></div>  <br>

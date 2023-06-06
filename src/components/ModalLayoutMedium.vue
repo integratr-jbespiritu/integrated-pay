@@ -58,6 +58,7 @@ export default {
 .modal-dialog-1-md {
     position: relative;
     width: 672px;
+    min-width: 672px;
     margin: 0.5rem;
     pointer-events: none;
 }

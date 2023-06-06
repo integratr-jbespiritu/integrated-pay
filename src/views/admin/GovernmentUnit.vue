@@ -1,22 +1,22 @@
 <template>
     <div class="pad-x-10p ms-1 pad-end-20p">
         <div class="row gx-0 g-0">
-            <div class="col mt-3 mb-3 ms-1">
+            <div class="col mt-3 mb-2 ms-1">
                 <h1 class="title-10 text-decoration-none text-dark">KYC Assessment</h1>
             </div>
             <div class="col my-auto justify-content-end d-flex pad-top-20p">
                 <div class="row gx-0 g-0">
-                    <div class="col-auto pt-1">
+                    <div class="col-auto">
                         <i class="icon-arrow isax isax-arrow-left-35"></i>
                     </div>
-                    <div class="col-auto my-auto title-7 margin-x-10p">
+                    <div class="col-auto my-auto title-7 mb-3 margin-x-10p" style="top: .3px;">
                         <span>Back</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row gx-0 g-0 gap-3 p-1">
-            <div class="col bg-white border">
+            <div class="col bg-white border d-flex flex-column flex-start">
                 <div class="lead title-6 mx-3 mt-3">
                     General Information
                 </div>
@@ -156,9 +156,9 @@
         <div class="row gx-0 g-0 p-1 pt-3 py-3">
             <div class="title-7 mb-3">Submission of required identification documents</div>
             <div class="col d-flex justify-content-start">
-                <p class="text-nowrap">Upload file of your Valid ID</p>
+                <p class="text-nowrap me-3">Upload file of your Valid ID</p>
             </div>
-            <div class="col d-flex justify-content-end gap-3">
+            <div class="col d-flex align-items-end justify-content-start justify-content-md-end  gap-3">
                 <button type="button" class="btn bg-danger text-white">Decline</button>
                 <button type="button" class="btn bg-success text-white">Approve</button>
             </div>
@@ -168,7 +168,7 @@
             <div class="col">
                 <p class="text-nowrap">Upload file of your Certificate of Employment</p>
             </div>
-            <div class="col d-flex justify-content-end gap-3">
+            <div class="col d-flex align-items-end justify-content-start justify-content-md-end  gap-3">
                 <button type="button" class="btn bg-danger text-white">Decline</button>
                 <button type="button" class="btn bg-success text-white">Approve</button>
             </div>
@@ -178,7 +178,7 @@
             <div class="col">
                 <p class="text-nowrap">Upload file of your Certificate of Employment</p>
             </div>
-            <div class="col d-flex justify-content-end gap-3">
+            <div class="col d-flex align-items-end justify-content-start justify-content-md-end  gap-3">
                 <button type="button" class="btn bg-danger text-white">Decline</button>
                 <button type="button" class="btn bg-success text-white">Approve</button>
             </div>
