@@ -88,7 +88,7 @@ export default {
                         },
                         {
                             name: 'Service 4',
-                            route: ''
+                            route: 'admin.user.list.and.details'
                         },
                         {
                             name: 'Service 5',

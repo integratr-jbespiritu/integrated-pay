@@ -5,8 +5,8 @@
             <h1 class="fw-bold title-10 pad-top-20p text-nowrap">Users</h1>
          </div>
       </div>
-      <div class="row gx-0 g-0">
-         <div class="col-12 col-md-3">
+      <div class="row gx-0 g-0 pad-top-20p">
+         <div class="col-12 col-md-3 ">
             <div class="search input-group mt-2 w-100 pe-3">
                <span class="input-group-text bg-white rounded-0" id="basic-addon1">
                   <i class="isax isax-search-status-1 fs-4"></i>
@@ -14,7 +14,7 @@
                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
             </div>
          </div>
-         <div class="col-12 col-md-4">
+         <div class="col-3 col-md-4">
             <div class="input-group mb-2 mt-2">
                <span class="span-btn-default input-group-text rounded-0">
                   <i class="icon isax isax-filter-search"></i>
@@ -22,13 +22,13 @@
                <button type="button" class="filter-btn bg-white pe-2 px-2" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
             </div>
          </div>
-      </div>
-      <div class="col justify-content-end d-flex">
+         <div class="col-4 col-md-5 d-flex justify-content-end">
          <div class="row">
-            <div class="col-md margin-x-20p">
-               <button class="btn btn-user rounded-0 title-5 button-default-outline title-3 me-2"><i class="isax isax-add px-1 fs-0"></i>User</button>
+            <div class="mt-2 ">
+               <button type="button" class="title-5 button-outline-user pe-3 mx-0 bg-transparent text-blue "><i class="isax isax-add text-blue"></i>User</button>
             </div>
          </div>
+      </div>
       </div>
       <div class="ms-0">
          <div class="border-bottom mb-3 mt-2"></div>
@@ -48,7 +48,7 @@
                      </div>
                   </th>
                   <th class="table-heading">
-                     <div class="col-10 d-flex justify-content-end">
+                     <div class="d-flex justify-content-end me-5 pe-4">
                         <span>Date Updated</span>
                      </div>
                   </th>
@@ -61,10 +61,8 @@
                      <td class="font-table-text py-3">
                         {{ transaction_record.email_address }}
                      </td>
-                     <td class="font-table-text py-3">{{ transaction_record.role }}</td>
-                     <td class="font-table-text py-3 justify-content-end d-flex">
-                        {{ transaction_record.date_updated }}
-                     </td>
+                     <td class="font-table-blue py-3">{{ transaction_record.role }}</td>
+                     <td class="font-table-text text-end py-3 my-auto">{{ transaction_record.date_updated }}</td>
                   </tr>
                </template>
             </tbody>

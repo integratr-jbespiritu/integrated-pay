@@ -1,5 +1,4 @@
 <template>
-    <div class="container">
       <div class="">
         <div class="bor-style-solid m-auto">
           <header class="header bg-light lh-1 ms-2">
@@ -26,7 +25,6 @@
               </div>
             </div>
             </div>
-
             <div class="row gx-2 g-0 ms-3">
                  <div class="col-12 col-md-4">
                   <div class="search input-group mt-2 w-100">
@@ -61,7 +59,7 @@
               </div>
           <div class="ms-0">
             <div class="border-bottom mb-3 mt-2">
-              <p class="mb-4 ms-1">Total result <span class="badge-red bg-transparent title-7">24</span></p>
+              <p class="mb-4 ms-4">Total result <span class="badge-red bg-transparent title-7">24</span></p>
             </div>
           </div>
           <div class="table-responsive ms-4 mt-2 me-5">
@@ -221,8 +219,6 @@
             </nav>
           <!-- pagination  -->
         </div>
-      </div>
-   
     <Teleport to="body">
       <ModalSmall :show="refund_request_modal" @close="refund_request_modal = false" class="w-100">
         <template #header>
@@ -277,7 +273,7 @@
            </div>
         </template>
         <template #footer>
-           <div class="row d-flex justify-content-center me-3">
+           <div class="row d-flex justify-content-center me-4">
               <button class="button-default bg-purple bg-transparent text-purple title-21">Cancel</button>
               <button class="button-x color-white text-nowrap button-process rounded title-21">Process Refund</button>
            </div>
