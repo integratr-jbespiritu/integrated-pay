@@ -156,9 +156,6 @@
          getStatus(data) {
             return `status-${data.toLowerCase()}`;
          },
-         myFunction() {
-            document.getElementById("demo").style.color = "red";
-         },
       },
    };
 </script>

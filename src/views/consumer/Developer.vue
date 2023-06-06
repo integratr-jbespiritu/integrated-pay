@@ -18,7 +18,7 @@
             <div class=" title-6">Public Key</div>
             <div >
             <input :type="showPassword ? 'text' : 'password'" v-model="password" class="developer-input-box-password border">
-           <i class="fas mt-1" :class="showPassword ? 'fa-eye-slash' : 'fa-eye'" @click="togglePasswordVisibility"></i>
+           <i class="fas mt-1" :class="showPassword ? 'fa-eye-slash' : 'isax isax-eye3'" @click="togglePasswordVisibility"></i>
           </div>
           </div>
           

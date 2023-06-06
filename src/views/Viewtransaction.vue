@@ -82,7 +82,7 @@
                   <span class="ms-2">PAYMENT SENT BY</span>
                </div>
                <div class="col-6 col-md-3 mt-2 text-center ps-md-0">
-                  <span class="ms-5 ms-md-2">Juan Dela Cruz</span>
+                  <span class="ms-5 ms-md-4">Juan Dela Cruz</span>
                </div>
                <div class="col-6 col-md-3 mt-2 text-center ">
                   <span class="ms-0">juandelacruz@gmail.com</span>
@@ -112,7 +112,7 @@
                            </div>
                         </div>
                         <div class="col-6 col-md-3 title-12">
-                           <div class="row text-start text-md-center text-nowrap">
+                           <div class="row text-start text-md-center text-nowrap ">
                               <span>REQUESTED BY:</span>
                               <span class="title-8">Maria Clara</span>
                            </div>
