@@ -1,5 +1,5 @@
 <template>
-    <div class="row me-0 ms-2">
+    <div class="row me-0 ms-2"> 
         <div class="col-12">
       <div class="mb-5">
         <div class="row">

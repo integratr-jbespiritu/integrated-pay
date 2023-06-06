@@ -251,6 +251,11 @@
 .height-sm {
   height: 200px;
 }
+
+/* sm- small  md- medium lg- large xxl- xtra large 
+pt pb px- mt mb mx py mx px 
+
+*/
 /* width */
 .scrollable::-webkit-scrollbar {
   width: 10px;
@@ -483,6 +488,20 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
+.title-23 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.title-27 {
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0%;
+}
+
 .title-24{
   font-family: Inter-Regular;
   font-weight: 400;
@@ -504,6 +523,7 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 20px;
   margin-bottom: 0%;
 }
+=========
 .title-23 {
   font-family: Inter-Regular;
   font-weight: 400;
@@ -518,8 +538,7 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
-
-
+>>>>>>>>> Temporary merge branch 2
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -582,6 +601,7 @@ thead, tbody, tfoot, tr, td, th {
 .status-pending{
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
+  width: 120px;
 }
 
 .status-pending:focus {
@@ -612,6 +632,7 @@ thead, tbody, tfoot, tr, td, th {
 .status-paid , .status-approved{
   border: 2px solid var(--vt-c-green) !important;
   color: var(--vt-c-green);
+  width: 120px;
 }
 
 .status-paid:focus {
@@ -623,7 +644,7 @@ thead, tbody, tfoot, tr, td, th {
   color: var(--vt-c-green);
 }
 
-.status-In-transit {
+.status-Transit {
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
 }
@@ -643,9 +664,10 @@ thead, tbody, tfoot, tr, td, th {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 100;
+  width: 100%;
   border-radius: 0rem;
   border: none;
+  margin-left: 2px;
 }
 
 .input-group-xl > .form-control,
@@ -663,7 +685,7 @@ thead, tbody, tfoot, tr, td, th {
   border: 2px solid;
   font-weight: 700;
   font-size: 13px;
-
+  margin-left: 2px;
 }
 
 .button-outline-red {
@@ -672,6 +694,7 @@ thead, tbody, tfoot, tr, td, th {
   border: 2px solid;
   font-weight: 700;
   font-size: 13px;
+  margin-left: 2px;
 }
 
 .form-select1 {
@@ -758,7 +781,7 @@ thead, tbody, tfoot, tr, td, th {
 .input-group > .form-control-1 {
   position: relative;
   flex: 1 1 auto;
-  width: 1%;
+  width: 100%;
   min-width: 0;
   border-radius: 0rem;
 }
@@ -805,4 +828,9 @@ thead, tbody, tfoot, tr, td, th {
 
 .integratr-logo {
   width: 50px !important;
+}
+
+.container-carousel {
+  height: 500px;
+  width:fit-content;
 }
