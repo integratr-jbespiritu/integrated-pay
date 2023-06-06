@@ -19,6 +19,7 @@
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
 @import 'css/payout_configuration.css';
+@import 'css/developer.css';
 
 
 @font-face {
@@ -98,6 +99,16 @@
   font-weight: light;
 }
 
+.pad-20p{
+  padding:20px;
+}
+
+.pad-left-20p{
+  padding-left:20px;
+}
+.pad-right-20p{
+  padding-right:20px;
+}
 .pad-y-10p {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -140,6 +151,22 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+
+.pad-x-25p {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.pad-x-27p {
+  padding-right: 27px;
+  padding-left: 27px;
+}
+
+.pad-x-30p {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .pad-y-20p {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -168,12 +195,26 @@
 .margin-top-20p{
   margin-top: 20px;
 }
+.margin-bot-20p{
+  margin-bottom: 20px;
+}
 .margin-right-20p {
   margin-right: 20px;
 }
 
+.margin-left-20p {
+  margin-left: 20px;
+}
+
+.margin-left-100p {
+  margin-left: 100px;
+}
+
 .margin-left-10p {
   margin-left: 10px;
+}
+.margin-left-14p {
+  margin-left: 14px;
 }
 
 .margin-x-10p{
@@ -482,6 +523,22 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 20px;
   margin-bottom: 0%;
 }
+=========
+.title-23 {
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.title-27 {
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0%;
+}
+
+>>>>>>>>> Temporary merge branch 2
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -551,10 +608,21 @@ thead, tbody, tfoot, tr, td, th {
   box-shadow: none;
 }
 
-.status-refunded , .status-declined{
+.status-refunded , .status-declined {
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
-  width: 120px;
+}
+.status-requested {
+  border: 2px solid var(--vt-c-light-red);
+  color: var(--vt-c-light-red);
+}
+.status-authorized {
+  border: 2px solid var(--vt-c-yellow);
+  color: var(--vt-c-yellow);
+}
+.status-success{
+  border: 2px solid var(--vt-c-green) !important;
+  color: var(--vt-c-green);
 }
 
 .status-refunded:focus {
