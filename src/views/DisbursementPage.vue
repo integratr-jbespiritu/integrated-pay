@@ -26,7 +26,6 @@
             </div>
           </div>
         </div>
-
         <div class="row gx-2 g-0 ms-3">
           <div class="col-12 col-md-4">
             <div class="search input-group mt-2 w-100">
@@ -300,12 +299,12 @@
             transaction_count: "24",
           },
           {
-            label: "Total Amount of Completed Transactions",
+            label: "Disbursement Release Schedule",
             value: "PHP 80,000.00",
             transaction_count: "18",
           },
           {
-            label: "Total Amount of Refunded Transactions",
+            label: "Bank/E-Wallet Account",
             value: "PHP 20,000.00",
             transaction_count: "6",
           },

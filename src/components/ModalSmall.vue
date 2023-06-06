@@ -1,15 +1,14 @@
-
 <template>
     <Transition name="modal-sm">
         <div v-if="show">
-            <div :class="`modal modal-mask-2 modal-small-1 ${modalContainer}`">
+            <div :class="`modal modal-mask-2 modal-small-1  padding-none ${modalContainer}`">
                 <div :class="`modal-dialog modal-dialog-2 modal-dialog-centered modal-dialog-scrollable ${modalDialog}`">
                     <div :class="`modal-content pad-y-20p rounded-0 ${modalContent}`">
-                        <div :class="`modal-header modal-header-2 p-0 pad-x-20p pb-3 pt-1  ${modalHeader}`">
+                        <div :class="`modal-header modal-header-1 p-0  pb-3 pt-2 ${modalHeader}`">
                             <slot name="header">
                             </slot>
                         </div>
-                        <div :class="`modal-body modal-body-2 scrollpink pad-x-20p mb-0 pb-0 ${modalBody}`">
+                        <div :class="`modal-body py-2 ${modalBody}`">
                             <slot name="body">
                             </slot>
                         </div>

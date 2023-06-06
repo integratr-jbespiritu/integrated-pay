@@ -2,6 +2,29 @@
     width: 25%;
     height: 25%;
  }
+
+.search-bar {
+   width: 300px;
+   height: 44px;
+}
+
+.filter-bar {
+   width: 55px;
+   height: 44px;
+   border-color: silver;
+}
+
+.button-request {
+   width:160px;
+   height: 44px;
+   padding: 10px,20px,10px,20px;
+}
+
+.button-outline-export{
+   width: 92px; 
+   height: 44px;
+   padding: 10px,20px,10px,20px; 
+}
 .btn-default {
     border-color: gray;
 }
@@ -81,4 +104,24 @@ tr.size-table-data:hover {
 
 .refund-border-purple {
     border-color: 1px solid var(--vt-c-violet) !important;
+}
+.badge-template{
+    width: 81px !important;
+    height: 20px !important;
+}
+
+.font-table-blue:hover {
+   color: var(--vt-c-blue);
+}
+
+.button-outline-user {
+    border: 1px solid; 
+    border-color: var(--vt-c-blue); 
+    width: 90px; 
+    height: 38px;
+}
+
+.button-outline-user {
+    font-size: 24px; 
+    top: 3px;
 }

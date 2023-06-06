@@ -23,6 +23,7 @@ import ActivateStep4 from '../views/ActivateStep4.vue'
 import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
 import GovernmentUnit from '../views/admin/GovernmentUnit.vue'
 import Developer from '../views/consumer/Developer.vue'
+import UserListandDetails from '../views/admin/UserListandDetails.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 
 
@@ -70,6 +71,12 @@ const router = createRouter({
           name: 'admin.government-unit',
           component: GovernmentUnit
         }, 
+        {
+          path: '/admin/user-list-and-details',
+          name: 'admin.user.list.and.details',
+          component: UserListandDetails
+        },
+        
       ]
     },
     // Consumer side here >>
