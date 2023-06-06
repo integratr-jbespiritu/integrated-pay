@@ -15,7 +15,6 @@
 @import 'css/dashboard.css';
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
-@import 'css/request-refund.css';
 @import 'css/modal.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
@@ -211,6 +210,11 @@
 .height-sm {
   height: 200px;
 }
+
+/* sm- small  md- medium lg- large xxl- xtra large 
+pt pb px- mt mb mx py mx px 
+
+*/
 /* width */
 .scrollable::-webkit-scrollbar {
   width: 10px;

@@ -12,7 +12,6 @@ import MainLayout from '../components/MainLayout.vue'
 import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
-import RequestRefund from '../views/RequestRefund.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
 import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
@@ -121,11 +120,6 @@ const router = createRouter({
           path: '/view-transaction',
           name: 'consumer.view-transaction',
           component: Viewtransaction
-        },
-        {
-          path: '/request-refund',
-          name: 'consumer.request-refund',
-          component: RequestRefund
         },
         {
           path: '/activate-account-businessinformation',

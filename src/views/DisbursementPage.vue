@@ -133,9 +133,9 @@
                             </div>
                           </div>
                         </div>
-                        <div class="border-bottom mt-3"></div>
+                        <div class="border-bottom mt-3"></div> -->
                         <!-- 2nd column -->
-                        <div class="row gx-0 g-0">
+                        <!-- <div class="row gx-0 g-0">
                           <div class="col">
                             <div class="row gx-0 g-0 text-dark">
                               <div class="col-12">
@@ -154,11 +154,11 @@
                               <div class="col-12 justify-content-end d-flex text-dark title-12">Feb 01, 2023 at 7:28:00 AM PST</div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- third column -->
-                        <table class="table table-borderless">
+                        <!-- <table class="table table-borderless">
                           <td>kasbjkab</td>
-                        </table>
+                        </table> -->
                         <!-- <div class="border-bottom mt-3"></div>
                         <div class="col">
                           <div class="row gx-0 g-0">
@@ -236,9 +236,12 @@
           </tbody>
         </table>
       </div>
+    </div>
+  </div>
+  </template>
 
       <!-- pagination  -->
-      <nav aria-label="Page navigation" class="ms-4">
+      <!-- <nav aria-label="Page navigation" class="ms-4">
         <ul class="pagination justify-content-end pe-5 me-3">
           <li class="page-item disabled mt-2">
             <i class="arrow isax isax-arrow-left-2"></i>
@@ -255,9 +258,9 @@
             <i class="arrow isax isax-arrow-right-3 text-purple"></i>
           </li>
         </ul>
-      </nav>
+      </nav> -->
       <!-- pagination  -->
-    </div>
+    <!-- </div>
   </div>
 
   <Teleport to="body">
@@ -277,9 +280,9 @@
       </template>
     </ModalLarge>
   </Teleport>
-</template>
+</template> -->
 
-<script>
+<!-- <script>
   import ModalLarge from "../components/ModalLarge2.vue";
 
   export default {
@@ -408,5 +411,5 @@
       },
     },
   };
-</script>
+</script> -->
  

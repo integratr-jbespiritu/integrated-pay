@@ -30,7 +30,7 @@
         <thead>
          <tr class="table-rows text-purple title-13">
           <th class="table-heading" width="16%">
-           <div class="d-flex align-items-center ps-2">
+           <div class="d-flex align-items-center ps-3">
             <span>Email Address</span>
            </div>
           </th>
@@ -56,7 +56,7 @@
           </th>
           <th class="table-heading" width="5%">
            <div class="d-flex align-items-center">
-            <span>Assess</span>
+            <span></span>
            </div>
           </th>
          </tr>
@@ -73,7 +73,7 @@
            <td class="py-4">{{ transaction_record.time_stamp }}</td>
            <td class="py-3 pe-3">
             <div>
-              <button type="button" class="assess">Assess
+              <button @click="navigateRoute" class="assess">Assess
                </button>
             </div>
            </td>
@@ -113,9 +113,7 @@
   export default {
    data() {
     return {
-      // typeofAccount: true, // or false based on your logic
-      // routeA: '/consumer.activate-account.step2',
-      // routeB: '/consumer.activate-account-step4',
+      condition: false, 
       transaction_records: [
       {
        emailaddress: "juandelacruz@gmail.com",
@@ -192,6 +190,14 @@
    },
  
    methods: {
+    navigateRoute(){
+      if (this.condition){
+      this.$router.push({ name: 'consumer.activate-account' });
+      }
+      else {
+      this.$router.push({ name: 'consumer.dashboard' });
+      }
+    },
     getStatus(data) {
      return `status-${data.toLowerCase()}`;
     },
