@@ -12,7 +12,6 @@ import MainLayout from '../components/MainLayout.vue'
 import DisbursementPage from '../views/DisbursementPage.vue'
 import Viewtransaction from '../views/Viewtransaction.vue'
 import ActivateStep1 from '../views/ActivateStep1.vue'
-import RequestRefund from '../views/RequestRefund.vue'
 import ActivateBusinessInformation from  '../views/ActivateBusinessInformation.vue'
 import ActivateGovernmentUnit from '../views/ActivateGovernmentUnit.vue'
 import MainLayoutAdmin from '../components/MainLayoutAdmin.vue'
@@ -24,6 +23,7 @@ import ActivateStep4 from '../views/ActivateStep4.vue'
 import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
 import GovernmentUnit from '../views/admin/GovernmentUnit.vue'
 import Developer from '../views/consumer/Developer.vue'
+import RequestRefund from '../views/RequestRefund.vue'
 
 
 const router = createRouter({
@@ -128,11 +128,6 @@ const router = createRouter({
           component: Viewtransaction
         },
         {
-          path: '/request-refund',
-          name: 'consumer.request-refund',
-          component: RequestRefund
-        },
-        {
           path: '/activate-account-businessinformation',
           name: 'consumer.activate-step3-businessinformation',
           component: ActivateBusinessInformation
@@ -156,6 +151,11 @@ const router = createRouter({
           path: '/developer',
           name: 'consumer.developer',
           component: Developer
+        },
+        {
+          path: '/request-refund',
+          name: 'consumer.request-refund',
+          component: RequestRefund
         },
        
       ],

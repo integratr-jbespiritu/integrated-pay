@@ -15,15 +15,27 @@
               <div :class="{ 'col-auto': true, 'title-11': true, 'text-blue': true, '': true, 'lh-sm': true, '': true, 'pb-2': transaction.value }">
               {{ transaction.value }}
               </div>
-              <div :class="{ 'col-auto': true, 'text-blue': true, 'title-11': true, 'me-4': true, 'lh-sm': true, 'pe-3': true, 'pb-0': transaction.fees }" v-if="transaction.fees">
-              <span class="me-3">{{ transaction.fees }} <i class="isax isax-arrow-right-25 fs-5" style="top: .5px;"></i></span>
-              </div>
               <div class="col-auto title-12 text-uppercase lh-1" style="white-space: pre-line;">
               {{ transaction.transaction_count }} Transactions
               </div>
           </div>
         </template>
+
+        <!-- <template v-for="transaction, index in transactions" :key="transaction">
+          <div class="col-auto align-self-start lh-sm" :class="index != 2 ? 'border-end' : ''">
+            <div class="col-auto title-8 pe-5 me-5">
+              {{ transaction.label }}
+            </div>
+            <div class="col-auto title-11 text-blue">
+              {{ transaction.value }}
+            </div>
+            <div class="col-auto title-12 text-uppercase mt-2">
+              {{ transaction.transaction_count }} Transactions
+            </div>
+          </div>
+        </template> -->
       </div>
+
         <div class="row gx-0 g-0 mt-3">
               <div class="col-12 col-md-3 d-flex justify-content-start align-items-start px-3">
                 <div class="search input-group mt-2 w-100 pe-3">
