@@ -2,23 +2,18 @@
     width: 25%;
     height: 25%;
  }
-
 .btn-default {
     border-color: gray;
 }
-
 .badge-red {
     color: var(--vt-c-light-red);
 }
-
 .accordion-toggle {
     cursor: pointer;
 }
-
 .filter-btn  {
     border: 1px solid var(--vt-c-light-gray);
 }
-
 .button-x {
     width: 150px;
     height: 44px;
@@ -27,60 +22,41 @@
     background: var(--vt-c-lavender);  
     border: var(--vt-c-purple);
  }
-
 .icon-purple {
     color: var(--vt-c-purple);
     background: transparent;  
     border: var(--vt-c-purple);
 
 }
-.transaction-table-hover:hover{
+.transaction-table-hover:hover td{
     font-weight: bold;
     background-color: var(--vt-c-default-white);
-    border: 1px solid var(--vt-c-purple) !important;
 }
-
-.table .size-table-data:hover {
-    border: solid 1px var(--vt-c-purple);
-    font-weight: bold !important;
-}
-
 .size-table-data {
-    border: solid 1px;
+    border: solid 1px transparent;
+    border-bottom: 1px transparent;
 }
-
 tr.size-table-data:hover {
-    font-weight: bold;
+    font-weight: bold !important;
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
 }
-
 .table .table-rows:hover {
     background-color: initial;
 }
-
 .size-table-data, .table-hover {
     white-space: nowrap;
 }
-
-.table .table-hover:hover {
-    border: 1px solid var(--vt-c-purple) !important;
-    color: black;
-} 
-
 .border-color-white{
     border: solid 1px;
     border-color:  #f8f9fa !important;
   }
-
 .modal-form .modal-floating .modal-select:hover {
     border-color: var(--vt-c-lavender);
 }
-
 .modal-floating:hover {
     color: var(--vt-c-lavender);
 }
-
 .icon-purple {
     height: 33px;
     font-size: 53px;

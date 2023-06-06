@@ -15,11 +15,9 @@
 @import 'css/dashboard.css';
 @import 'css/view-transaction.css';
 @import 'css/activate-step1.css';
-@import 'css/request-refund.css';
 @import 'css/modal.css';
 @import 'css/adminsidebar.css';
 @import 'css/adminPaymentChannels.css';
-@import url('css/adminKYC.css');
 @import 'css/payout_configuration.css';
 
 
@@ -212,6 +210,11 @@
 .height-sm {
   height: 200px;
 }
+
+/* sm- small  md- medium lg- large xxl- xtra large 
+pt pb px- mt mb mx py mx px 
+
+*/
 /* width */
 .scrollable::-webkit-scrollbar {
   width: 10px;
@@ -458,6 +461,27 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
+.title-24{
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0%;
+}
+
+
+.title-25{
+  font-family: Inter-Bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.title-26{
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -500,6 +524,10 @@ color: var(--vt-c-silver-gray) !important;
   color: var(--vt-c-default-white);
   border-bottom: 1px dashed var(--vt-c-default-white);
 }
+.border-bottom-dashed-dark {
+  color: var(--vt-c-black);
+  border-bottom: 1px dashed var(--vt-c-black);
+}
 
 thead, tbody, tfoot, tr, td, th {
   height: 0;
@@ -513,9 +541,10 @@ thead, tbody, tfoot, tr, td, th {
   padding: 0;
 }
 /* statuses */
-.status-pending {
+.status-pending{
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
+  width: 120px;
 }
 
 .status-pending:focus {
@@ -525,6 +554,7 @@ thead, tbody, tfoot, tr, td, th {
 .status-refunded , .status-declined{
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
+  width: 120px;
 }
 
 .status-refunded:focus {
@@ -532,14 +562,24 @@ thead, tbody, tfoot, tr, td, th {
 }
 
 .status-paid , .status-approved{
-  border: 2px solid var(--vt-c-green);
+  border: 2px solid var(--vt-c-green) !important;
   color: var(--vt-c-green);
+  width: 120px;
 }
 
 .status-paid:focus {
   box-shadow: none;
 }
 
+.status-completed {
+  border:2px solid var(--vt-c-green) ;
+  color: var(--vt-c-green);
+}
+
+.status-Transit {
+  border: 2px solid var(--vt-c-yellow);
+  color: var(--vt-c-yellow);
+}
 .assess {
   width: 95px;
   height: 40px;
@@ -556,9 +596,10 @@ thead, tbody, tfoot, tr, td, th {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 100;
+  width: 100%;
   border-radius: 0rem;
   border: none;
+  margin-left: 2px;
 }
 
 .input-group-xl > .form-control,
@@ -576,7 +617,7 @@ thead, tbody, tfoot, tr, td, th {
   border: 2px solid;
   font-weight: 700;
   font-size: 13px;
-
+  margin-left: 2px;
 }
 
 .button-outline-red {
@@ -585,6 +626,7 @@ thead, tbody, tfoot, tr, td, th {
   border: 2px solid;
   font-weight: 700;
   font-size: 13px;
+  margin-left: 2px;
 }
 
 .form-select1 {
@@ -671,7 +713,7 @@ thead, tbody, tfoot, tr, td, th {
 .input-group > .form-control-1 {
   position: relative;
   flex: 1 1 auto;
-  width: 1%;
+  width: 100%;
   min-width: 0;
   border-radius: 0rem;
 }
@@ -716,3 +758,11 @@ thead, tbody, tfoot, tr, td, th {
   padding-right: 5.50rem !important;
 }
 
+.integratr-logo {
+  width: 50px !important;
+}
+
+.container-carousel {
+  height: 500px;
+  width:fit-content;
+}
