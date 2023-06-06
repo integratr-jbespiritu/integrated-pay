@@ -8,48 +8,50 @@
     <div class="row gx-0 g-0 px-2">
       <div class="row mt-2 d-flex justify-content-between pb-5">
         <template v-for="transaction, index in transactions" :key="transaction">
-          <div class="col-auto align-self-start lh-sm" :class="index != 2 ? 'border-end' : ''">
-            <div class="col-auto title-8 pe-5 me-5  ">
+          <div class="col-auto align-self-start pe-5" :class="index != 2 ? 'border-end' : ''">
+              <div class="title-8 me-4">
               {{ transaction.label }}
-            </div>
-            <div class="col-auto title-11 text-blue">
+              </div>
+              <div :class="{ 'col-auto': true, 'title-11': true, 'text-blue': true, '': true, 'lh-sm': true, '': true, 'pb-2': transaction.value }">
               {{ transaction.value }}
-            </div>
-            <div class="col-auto title-12 text-uppercase mt-2 pb-">
+              </div>
+              <div :class="{ 'col-auto': true, 'text-blue': true, 'title-11': true, 'me-4': true, 'lh-sm': true, 'pe-3': true, 'pb-0': transaction.fees }" v-if="transaction.fees">
+              <span class="me-3">{{ transaction.fees }} <i class="isax isax-arrow-right-25 fs-5" style="top: .5px;"></i></span>
+              </div>
+              <div class="col-auto title-12 text-uppercase lh-1" style="white-space: pre-line;">
               {{ transaction.transaction_count }} Transactions
-            </div>
+              </div>
           </div>
         </template>
       </div>
-      <div class="row gx-0 g-0">
-        <div class="col-12 col-md-4">
-           <div class="search input-group mt-3 w-100">
-            <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-             <i class="isax isax-search-status-1 fs-4"></i>
-            </span>
-            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
-           </div>
-          </div>
-          <div class="col-12 col-md-4">
-           <div class="input-group mb-2 mt-3">
-            <span class="span-btn-default input-group-text rounded-0">
-             <i class="icon isax isax-filter-search"></i>
-            </span>
-            <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
-           </div>
-          </div>
-        <div class="col-9 col-md-4 d-flex pt-2 d-flex justify-content-end">
-          <button type="button" class="button-hover-icon-purple bg-transparent">
-            <span class="title-5 refund-request translate-middle-y text-nowrap">
-              Refund Request
-            </span>
-          </button>
-          <div class="px-3">
-            <button type="button" class="title-5 button-default-outline pe-2 bg-transparent">Export</button>
-          </div>
-        </div>
-      </div>
+        <div class="row gx-0 g-0 mt-3">
+              <div class="col-12 col-md-3 d-flex justify-content-start align-items-start px-3">
+                <div class="search input-group mt-2 w-100 pe-3">
+                  <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                    <i class="isax isax-search-status-1 fs-4"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="basic-addon1" />
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="input-group mb-2 mt-2 ps-3 ps-md-0">
+                  <span class="span-btn-default input-group-text rounded-0">
+                    <i class="icon isax isax-filter-search"></i>
+                  </span>
+                  <button type="button" class="filter-btn bg-white pe-3 px-3 " aria-label="Selected-Field"
+                    aria-describedby="basic-addon2">Filter</button>
+                </div>
+              </div>
+              <div class="col-9 col-md-5 d-flex align-items-end justify-content-start justify-content-md-end mb-2 mt-2 px-3">
+                <router-link :to="{ name: 'consumer.request-refund' }">
+                  <button type="button" class="refund-border-purple btn title-5 bg-transparent rounded-0 text-purple border-2">Refund Request</button>
+                </router-link>
+                <button type="button" class="button-default-outline title-5 pe-2 bg-transparent mx-4 h-100 me-3">Export</button>
+              </div>
+              </div>
     </div>
+    
     <div class="mx-4">
       <div class="border-bottom mb-3 mt-2">
         <p class="mb-4">Total result <span class="badge-red bg-transparent title-7">24</span></p>
@@ -136,7 +138,7 @@
                                   <div class="title-11 text-blue">PHP 10,000.00</div>
                                 </div>
                                 <div class="col-auto my-auto justify-content-end d-flex">
-                                  <p class="title-5 text-blue" @click="refund_request_modal = true">Refund</p>
+                                  <button class="title-5 text-blue bg-transparent border-0" @click="refund_request_modal = true">Refund</button>
                                 </div>
                               </div>
                             </div>

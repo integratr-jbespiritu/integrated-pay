@@ -9,9 +9,11 @@
           <div class="col-auto pt-1 ">
             <i class="icon-arrow isax isax-arrow-left-35"></i>
           </div>
-          <div class="col-auto my-auto title-7 margin-x-10p">
-            <span>Back</span>
-          </div>
+            <div class="col-auto my-auto title-7 margin-x-10p">
+              <router-link class="nav-link text-decoration-none text-dark" :to="{ name: 'consumer.transactions' }">
+              <span>Back</span>
+              </router-link>
+            </div>
         </div>
       </div>
             <div class="row gx-0 g-0 mt-3">

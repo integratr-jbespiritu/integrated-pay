@@ -70,3 +70,17 @@
     font-size: 53px;
     line-height: 25px;
 }
+
+.refund-request {
+    width: 157px;
+    height: 44px;
+    padding: 10px, 20px, 10px, 20px;
+    color: var(--vt-c-violet);
+    border: 2px solid var(--vt-c-violet);
+    background: var(--vt-c-default-white);
+    border-color: var(--vt-c-violet);
+}
+
+.refund-border-purple {
+    border-color: 1px solid var(--vt-c-violet) !important;
+}

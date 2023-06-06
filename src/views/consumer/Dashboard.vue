@@ -3,18 +3,17 @@
     <div class="heading title-10 mx-3 my-2">
       Dashboard
     </div>
-    <div class="row gx-0 g-0">
-      <div class="col-12 position-relative pe-4 ps-3">
-        <img src="/src/assets/images/row.svg" alt="cover image" class="row-img"  style="width:auto; height: 200px"/>
-        <div class="col position-absolute top-0 left-0 d-flex">
+    <div class="row gx-0 g-0 margin-x-20p">
+      <div class=" pe-4 ps-3 dash-image d-flex justify-content-between ">
+        <div class="">
           <div class="justify-content-start align-items-start p-5 text-white">
             <p class="title-11">Hello, Juan!</p>
             <p class="title-8">Welcome back to AmpliPAY, we’ve missed you.</p>
             <p class="title-12 text-start mt-1">Wednesday, Feb 23, 2023 3:40 PM PST</p>
           </div>
         </div>
-        <div class="position-absolute top-0 end-0 pe-5 me-5 mt-3 d-none d-sm-none d-md-block">"
-          <img src="/src/assets/images/character.svg" class="img-fluid" alt="Overlay Image" />
+        <div class="">"
+          <img src="/src/assets/images/character.svg" class="img-fluid d-none d-sm-none d-xl-block" alt="Overlay Image" />
         </div>
       </div>
     </div>
@@ -22,18 +21,19 @@
       <div class="col pt-1 pb-1 me-2 ms-3 bg-white">
         <div class="col">
           <div class="tool-tip-top">
-          <a class="title-8 text-decoration-none text-dark custom-tooltip text-center mx-5">
-            Disbursement Release Schedule
-            <i class="isax isax-info-circle5 mx-1" data-bs-placement="top" data-toggle="tooltip"></i>
-            <span class="tooltip-text title-15">
-              Check the payout release schedule to know when you'll receive your funds.
-            </span>
-          </a>
-        </div>
-        <div class="calendar-date mx-5">
-          <a class="title-8 text-decoration-none text-blue title-11 no-hover"><i class="isax isax-calendar-1"></i> Monday,
-            February 01, 2023</a>
-        </div>
+            <a class="title-8 text-decoration-none text-dark custom-tooltip text-center mx-5">
+              Disbursement Release Schedule
+              <i class="isax isax-info-circle5 mx-1" data-bs-placement="top" data-toggle="tooltip"></i>
+              <span class="tooltip-text title-15">
+                Check the payout release schedule to know when you'll receive your funds.
+              </span>
+            </a>
+          </div>
+          <div class="calendar-date mx-5">
+            <a class="title-8 text-decoration-none text-blue title-11 no-hover"><i class="isax isax-calendar-1"></i>
+              Monday,
+              February 01, 2023</a>
+          </div>
         </div>
       </div>
       <div class="col pt-1 pb-1 bg-white ms-3 ms-md-0 ms-lg-0" style="margin-right: 40px;">
@@ -87,9 +87,9 @@
             <div class="row gx-0 g0">
               <div class="col mt-3 mx-5">
                 <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
-                      <i class="isax isax-arrow-up-34 text-blue"></i>
-                      <span class="text-blue">+ 2% higher</span>
-                </p>  
+                  <i class="isax isax-arrow-up-34 text-blue"></i>
+                  <span class="text-blue">+ 2% higher</span>
+                </p>
               </div>
               <div class="col-auto me-5">
                 <div class="d-flex">
@@ -105,140 +105,140 @@
     </div>
     <div class="row gx-0 g-0 mx-4 mb-4">
       <div class="col">
-          <div class="row gx-0 g-0">
-              <div class="col bg-white me-4">
-              <div class="row border-bottom mx-0">
-                <div class="col-6 justify-content-start d-flex">
-                  <p class="title-6 mx-3 mt-2 mb-2">Gross Revenue</p>
-                </div>
-                <div class="col-6 justify-content-end d-flex mt-3">
-                  <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
-                </div>
+        <div class="row gx-0 g-0">
+          <div class="col bg-white me-4">
+            <div class="row border-bottom mx-0">
+              <div class="col-6 justify-content-start d-flex">
+                <p class="title-6 mx-2 mt-2 mb-2">Gross Revenue</p>
               </div>
-              <!-- <div class="d-flex justify-content-center mt-3">
+              <div class="col-6 justify-content-end d-flex mt-3">
+                <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
+              </div>
+            </div>
+            <!-- <div class="d-flex justify-content-center mt-3">
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-purple mx-1">&nbsp;</span> GCash</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-black mx-1">&nbsp;</span> BPI</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-blue mx-1">&nbsp;</span> Maya</p>
               </div> -->
-              <div class="row gx-0 g-0 mb-3">
-                <div class="col mt-3 d-flex justify-content-center gap-4">
-                  <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
-                    <i class="isax isax-arrow-up-34 text-blue"></i>
-                    <span class="text-blue">+ 2% higher</span>
-                  </p>
+            <div class="row gx-0 g-0 mb-3 flex-box">
+              <div class="col mt-3 d-flex justify-content-center gap-4">
+                <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
+                  <i class="isax isax-arrow-up-34 text-blue"></i>
+                  <span class="text-blue">+ 2% higher</span>
+                </p>
 
-                  <div class="col-auto">
-                    <div class="d-flex mt-2">
-                      <p class="title-12">February 2023&nbsp;</p>
-                      <i class="isax isax-calendar-circle5 fs-4 text-blue mx-1" style="bottom: 4px;"></i>
-                    </div>
+                <div class="col-auto">
+                  <div class="d-flex mt-2">
+                    <p class="title-12">February 2023&nbsp;</p>
+                    <i class="isax isax-calendar-circle5 fs-4 text-blue mx-1" style="bottom: 4px;"></i>
                   </div>
                 </div>
               </div>
-              <canvas id="barChart" class="bg-white"></canvas>
             </div>
-            <div class="col bg-white overflow-hidden">
-              <div class="row gx-0 g-0 border-bottom">
-                <div class="col justify-content-start d-flex">
-                  <p class="title-6 mx-3 mt-2 mb-2">Channel Ranking</p>
-                </div>
-                <div class="col-6 justify-content-end d-flex mt-3">
-                  <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
-                </div>
+            <canvas id="barChart" class="bg-white"></canvas>
+          </div>
+          <div class="col bg-white overflow-hidden">
+            <div class="row gx-0 g-0 border-bottom">
+              <div class="col justify-content-start d-flex">
+                <p class="title-6 mx-3 mt-2 mb-2">Channel Ranking</p>
               </div>
-              <div class="col-12 mt-3 mx-4">
-                <div class="row">
-                  <div class="col-auto pb-4">
-                    <i class="isax isax-arrow-up-34 text-blue ms-1"></i>
-                    <p class="title-22 text-blue">+ 2%</p>
-                  </div>
-                  <div class="col-4">
-                    <div>
-                      <span><img src="/src/assets/images/gcashlogo.svg" alt="gcashlogo" class="img-fluid" />Gcash</span>
-                    </div>
-                  </div>
-                  <div class="col justify-content-end d-flex me-5">
-                    <div>
-                      PHP 1,000,000.00
-                    </div>
+              <div class="col-6 justify-content-end d-flex mt-3">
+                <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
+              </div>
+            </div>
+            <div class="col-12 mt-3 mx-4">
+              <div class="row">
+                <div class="col-auto pb-4">
+                  <i class="isax isax-arrow-up-34 text-blue ms-1"></i>
+                  <p class="title-22 text-blue">+ 2%</p>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <span><img src="/src/assets/images/gcashlogo.svg" alt="gcashlogo" class="img-fluid" />Gcash</span>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 mt-1 mx-4">
-                <div class="row">
-                  <div class="col-auto pb-4">
-                    <i class="isax isax-arrow-up-34 text-blue ms-1"></i>
-                    <p class="title-22 text-blue">+ 2%</p>
-                  </div>
-                  <div class="col-4">
-                    <div>
-                      <span><img src="/src/assets/images/bpi-logo.svg" alt="gcashlogo" class="img-fluid" />BPI</span>
-                    </div>
-                  </div>
-                  <div class="col justify-content-end d-flex me-5">
-                    <div>
-                      PHP 500,000.00
-                    </div>
+                <div class="col justify-content-end d-flex me-5">
+                  <div>
+                    PHP 1,000,000.00
                   </div>
                 </div>
               </div>
-              <div class="col-12 mt-1 mx-4">
-                <div class="row">
-                  <div class="col-auto pb-4">
-                    <i class="isax isax-arrow-down text-danger ms-1"></i>
-                    <p class="title-22 text-danger">+ 2%</p>
+            </div>
+            <div class="col-12 mt-1 mx-4">
+              <div class="row">
+                <div class="col-auto pb-4">
+                  <i class="isax isax-arrow-up-34 text-blue ms-1"></i>
+                  <p class="title-22 text-blue">+ 2%</p>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <span><img src="/src/assets/images/bpi-logo.svg" alt="gcashlogo" class="img-fluid" />BPI</span>
                   </div>
-                  <div class="col-4">
-                    <div>
-                      <span><img src="/src/assets/images/ub-logo.svg" alt="gcashlogo" class="img-fluid" />BPI</span>
-                    </div>
-                  </div>
-                  <div class="col justify-content-end d-flex me-5">
-                    <div>
-                      PHP 100,000.00
-                    </div>
+                </div>
+                <div class="col justify-content-end d-flex me-5">
+                  <div>
+                    PHP 500,000.00
                   </div>
                 </div>
               </div>
-              <div class="col-12 mt-1 mx-4">
-                <div class="row">
-                  <div class="col-auto pb-4">
-                    <i class="isax isax-arrow-down text-danger ms-1"></i>
-                    <p class="title-22 text-danger">+ 2%</p>
+            </div>
+            <div class="col-12 mt-1 mx-4">
+              <div class="row">
+                <div class="col-auto pb-4">
+                  <i class="isax isax-arrow-down text-danger ms-1"></i>
+                  <p class="title-22 text-danger">+ 2%</p>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <span><img src="/src/assets/images/ub-logo.svg" alt="gcashlogo" class="img-fluid" />BPI</span>
                   </div>
-                  <div class="col-4">
-                    <div>
-                      <span><img src="/src/assets/images/bdo-logo.svg" alt="gcashlogo" class="img-fluid" />BDO</span>
-                    </div>
-                  </div>
-                  <div class="col justify-content-end d-flex me-5">
-                    <div>
-                      PHP 100,000.00
-                    </div>
+                </div>
+                <div class="col justify-content-end d-flex me-5">
+                  <div>
+                    PHP 100,000.00
                   </div>
                 </div>
               </div>
-              <div class="col-12 mt-1 mx-4">
-                <div class="row">
-                  <div class="col-auto pb-4">
-                    <i class="isax isax-arrow-down text-danger ms-1"></i>
-                    <p class="title-22 text-danger">+ 2%</p>
+            </div>
+            <div class="col-12 mt-1 mx-4">
+              <div class="row">
+                <div class="col-auto pb-4">
+                  <i class="isax isax-arrow-down text-danger ms-1"></i>
+                  <p class="title-22 text-danger">+ 2%</p>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <span><img src="/src/assets/images/bdo-logo.svg" alt="gcashlogo" class="img-fluid" />BDO</span>
                   </div>
-                  <div class="col-4">
-                    <div>
-                      <span><img src="/src/assets/images/landbank-logo.svg" alt="gcashlogo"
-                          class="img-fluid" />Landbank</span>
-                    </div>
+                </div>
+                <div class="col justify-content-end d-flex me-5">
+                  <div>
+                    PHP 100,000.00
                   </div>
-                  <div class="col justify-content-end d-flex me-5">
-                    <div>
-                      PHP 100,000.00
-                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-1 mx-4">
+              <div class="row">
+                <div class="col-auto pb-4">
+                  <i class="isax isax-arrow-down text-danger ms-1"></i>
+                  <p class="title-22 text-danger">+ 2%</p>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <span><img src="/src/assets/images/landbank-logo.svg" alt="gcashlogo"
+                        class="img-fluid" />Landbank</span>
+                  </div>
+                </div>
+                <div class="col justify-content-end d-flex me-5">
+                  <div>
+                    PHP 100,000.00
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>

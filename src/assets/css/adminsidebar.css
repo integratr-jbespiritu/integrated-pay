@@ -65,3 +65,11 @@
 .text-gray-ad:hover {
     color: var(--vt-c-default-white);
 }
+
+.nav-link .isax-arrow-down-1 {
+    transition: transform 0.3s;
+}
+
+.nav-link.open .isax-arrow-down-1 {
+    transform: rotate(180deg);
+}

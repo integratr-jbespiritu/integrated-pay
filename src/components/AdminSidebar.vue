@@ -52,10 +52,10 @@
                             <i class="isax isax-setting5 me-2"></i>Settings <span class="ps-5 ms-5 isax isax-arrow-down-1"></span>
                         </a>
                         <div class="collapse bg-dark" id="settingsDropdown">
-                            <ul class="nav collapsible-hover flex-column px-5 title-21">
-                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">User</a></div>
-                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">ACM</a></div>
-                            <div><a class="nav-link text-decoration-none text-gray-ad" href="#">ACL</a></div>
+                            <ul class="nav collapsible-hover flex-column ms-5 title-21 py-2">
+                            <div><a class="text-decoration-none text-gray-ad" href="#">User</a></div>
+                            <div><a class="text-decoration-none text-gray-ad" href="#">ACM</a></div>
+                            <div><a class="text-decoration-none text-gray-ad" href="#">ACL</a></div>
                             </ul>
                         </div>
                      </li>
@@ -106,7 +106,10 @@ export default {
                         },
                     ]
                 },
-            ]
+            ], 
+            mounted() {
+                
+            }
         }
     }
 }
