@@ -141,9 +141,6 @@
 
 export default {
   name: "RequestRefund",
-  methods: {
-  
-  },
   data() {
     return {
       transaction_records: [
