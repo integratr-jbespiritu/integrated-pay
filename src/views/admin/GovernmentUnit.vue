@@ -10,7 +10,9 @@
                         <i class="icon-arrow isax isax-arrow-left-35"></i>
                     </div>
                     <div class="col-auto my-auto title-7 mb-3 margin-x-10p" style="top: .3px;">
-                        <span>Back</span>
+                        <router-link class="text-decoration-none text-dark" :to="{ name: 'admin.assess.business.kyc' }">
+                            <span>Back</span>
+                        </router-link>
                     </div>
                 </div>
             </div>
