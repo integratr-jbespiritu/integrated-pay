@@ -1,60 +1,60 @@
-.container-payment{
-border: 1px solid;
-height: 26rem;
-
-}
-.container-refund{
-border: 1px solid;
-height: 19rem;
-
-}
-.btn-download{
-border-color:0 var(--vt-c-purple);
+.border-color-violet {
+border-color:var(--vt-c-purple);
 color: var(--vt-c-purple);
 }
-.btn-print{
-border-color:var(--vt-c-blue);
-color:var(--vt-c-blue);
 
-
+.download-purple {
+    width: 90px;
+    height: 35px;
+    border-radius: 4px; 
+    line-height: 35px
 }
-.status-paid {
-    border-color: var(--vt-c-green);
+
+.print-blue {
+    width: 50px;
+    height: 30px; 
+    border-radius: 4px; 
+    line-height: 30px;
+    border-color: var(--vt-c-blue);
+    
+}
+
+.payment-border {
+    border:solid 1px; 
+    border-color: silver;
+}
+
+.status-green-paid {
+    line-height: 22px;
+    width: 116px; 
+    height: 24px; 
+    border: 2px solid; 
+    border-color: var(--vt-c-green); 
     color: var(--vt-c-green);
 }
-hr.dotted{
-border-top:3pxdotted#bbb;
-}
-.button-red{
-color: var(--vt-c-red);
-border-color:var(--vt-c-red);
-border: 2px solid;
-}
-.isax-printer{
-color:var(--vt-c-purple);
-width: 24px;
-height: 24px;
-padding-top: 2px;
-}
-.icon-print{
-color:var(--vt-c-blue);
-}
-.col-md-4{
-font-size: 1rem;
+
+.border-dot-page {
+    border-bottom: dashed 1px !important;
 }
 
-.border-total {
-border: 1px solid;
-border-style: dashed;
-}
-img{
-height: 1rem;
-}
-.color-blue{
-color: var(--vt-c-blue);
-}
-.icon-arrow {
-    padding: 15px;
+.second-page-refund {
+    border:solid 1px;
+    border-color: silver;
 }
 
+.status-red-requested {
+    width: 116px;
+    height: 24px; 
+    border: 2px solid;
+    border-color: red; 
+    color: var(--vt-c-red);
+}
 
+.icon-download-purple {
+font-size: 24px;
+margin-right: 10px;
+}
+
+/* .icon-print-blue {
+    line-height: 25px
+} */

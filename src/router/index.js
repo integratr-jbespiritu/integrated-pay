@@ -21,7 +21,10 @@ import PayoutConfiguration from '../views/consumer/PayoutConfiguration.vue'
 import AdminKYCList from '../views/admin/AdminKYCList.vue'
 import ActivateStep4 from '../views/ActivateStep4.vue'
 import AssessBusinessKYC from '../views/admin/AssessBusinessKYC.vue'
+import GovernmentUnit from '../views/admin/GovernmentUnit.vue'
 import Developer from '../views/consumer/Developer.vue'
+import UserListandDetails from '../views/admin/UserListandDetails.vue'
+import RequestRefund from '../views/RequestRefund.vue'
 
 
 const router = createRouter({
@@ -62,6 +65,16 @@ const router = createRouter({
           path: '/admin/assess-business-kyc',
           name: 'admin.assess.business.kyc',
           component: AssessBusinessKYC
+        },
+        {
+          path: '/admin/government-unit',
+          name: 'admin.government-unit',
+          component: GovernmentUnit
+        }, 
+        {
+          path: '/admin/user-list-and-details',
+          name: 'admin.user.list.and.details',
+          component: UserListandDetails
         },
         
       ]
@@ -146,7 +159,11 @@ const router = createRouter({
           name: 'consumer.developer',
           component: Developer
         },
-
+        {
+          path: '/request-refund',
+          name: 'consumer.request-refund',
+          component: RequestRefund
+        },
        
       ],
     },

@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100vh !important;
 }
 
 .overlay {
@@ -64,4 +64,24 @@ canvas {
   opacity: 1;
   text-align: center;
   justify-content: center;
+}
+/* Default width for larger screens */
+.row-image {
+  width: auto;
+}
+
+/* Custom width for small screens */
+@media (max-width: 576px) {
+  .row-image {
+    width: 100px;
+    /* Adjust the width value as per your requirements */
+  }
+}
+
+.dash-image {
+  background-image: url('/src/assets/images/row.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
 }

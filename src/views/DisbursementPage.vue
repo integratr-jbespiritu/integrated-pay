@@ -10,14 +10,14 @@
         <div class="gx-0 g-0 mb-5 ms-1">
           <div class="row mt-2">
             <template v-for="transaction, index in transactions" :key="transaction">
-              <div class="col-auto me-5 pe-4 align-self-start" :class="index != 2 ? 'border-end' : ''">
-                <div class="title-8 me-3">
+              <div class="col-4 align-self-start" :class="index != 2 ? 'border-end' : ''">
+                <div class="title-8 me-3 text-nowrap">
                   {{ transaction.label }}
                 </div>
-                <div class="col-auto title-11 text-blue me-3">
+                <div class="col-4 title-11 text-blue me-3 text-nowrap">
                   {{ transaction.value }}
                 </div>
-                <div class="col-auto title-12 text-uppercase mt-2 me-5">
+                <div class="col-4 title-12 text-uppercase mt-2 me-5 text-nowrap">
                   {{ transaction.transaction_count }} Transactions
                 </div>
               </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-12 col-md-4 d-flex pt-2">
               <button type="button" class="button-hover-icon-purple bg-transparent">
-                <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+                <span class="title-5 translate-middle-y text-nowrap mx-2">
                   Refund Request
                 </span>
               </button>
@@ -95,7 +95,7 @@
                   <span class="font-table-column me-10px">Status</span>
                 </div>
               </th>
-]            </tr>
+              </tr>
               <span class="mt-1"></span>
           </thead>
           <tbody>
@@ -111,85 +111,52 @@
                 </td>
               </tr>
               <td colspan="6">
-                <div :id="`collapse${index}`" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="container card-body bg-black text-light w-auto">
-                      <div class="row gx-0 g-0">
-                        <div class="col">
-                          <div class="row gx-0 g-0">
-                            <div class="col-12">
-                              <p class="title-8">Transaction No.</p>
-                              <p class="title-7 text-blue">2201010000112221</p>
-                            </div>
-                            <div class="col-12 mt-4">
-                              <img src="/src/assets/images/gcashlogo.svg" class="img-fluid" alt="Gcashlogo" />
-                              <p class="title-8">Ending in <span class="title-7">2095</span></p>
+                  <div :id="`collapse${index}`" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="container card-body bg-light text-dark w-auto border border-purple px-5" style="min-width: 100%;">
+                        <div class="row gx-0 g-0">
+                          <div class="col">
+                            <div class="row gx-0 g-0">
+                              <div class="col-12">
+                                <p class="title-6 text-dark">Payment Details</p>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="col">
-                          <div class="row gx-0 g-0">
-                            <div class="col-12">
-                              <div class="row gx-0 g-0">
-                                <div class="col">
-                                  <div class="title-11 text-blue">PHP 10,000.00</div>
-                                </div>
-                                <div class="col-auto my-auto justify-content-end d-flex">
-                                  <p class="title-5 text-blue" @click="refund_request_modal=true">Refund</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-12">
-                              <p class="title-8">[Product Name]</p>
-                            </div>
-                            <div class="col border-bottom-dashed">
-                              &nbsp;
-                            </div>
-                            <div class="col-12 pt-3"> 
-                              <div class="row gx-0 g-0">
-                                <div class="col">
-                                  <p class="title-12">Amount</p>
-                                </div>
-                                <div class="col-auto">
-                                  <p class="title-12">9,975.00</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-12">
-                              <div class="row gx-0 g-0">
-                                <div class="col">
-                                  <p class="title-12 text-uppercase">Convenience Fee</p>
-                                </div>
-                                <div class="col-auto">
-                                  <p class="title-12">25.0</p>
-                                </div>
+                          <div class="col">
+                            <div class="row gx-0 g-0">
+                              <div class="col-12 justify-content-end d-flex">
+                                <i class="icon isax isax-printer me-2"></i>
+                                <span><p class="title-8">Print</p></span>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col">
-                          <div class="row gx-0 g-0">
-                            <div class="col-12 justify-content-center d-flex title-16">
-                              <div class="status-paid w-25 title-17 py-0 px-2 rounded-0 text-center">Paid
+                        <div class="border-bottom mt-3"></div> 
+                        <!-- 2nd column -->
+                        <div class="row gx-0 g-0">
+                          <div class="col">
+                            <div class="row gx-0 g-0 text-dark">
+                              <div class="col-12">
+                                <div class="title-12 pt-1 mt-3">Transaction No.</div>
+                                <div class="title-8 pt-1 fw-bold">2201010000112221</div>
+                                <div class="status-pending w-25 text-center mt-2 title-17">In Transit</div>
                               </div>
                             </div>
-                            <div class="col-12 justify-content-center d-flex">
-                              <div class="title-8 pt-1">01/01/2023 7:28 AM</div>
-                            </div>
-                            <div class="col-12 pt-3 justify-content-center d-flex">
-                              <p class="title-14">Juan Dela Cruz</p>
-                            </div>
-                            <div class="col-12 justify-content-center d-flex">
-                              <p class="title-8">juandelacruz@gmail.com</p>
+                          </div>
+                          <div class="col">
+                            <div class="row gx-0 g-0">
+                              <div class="col-12 justify-content-end d-flex text-dark">
+                                <div class="title-12 pt-1">GROSS AMOUNT</div>
+                              </div>
+                              <div class="col-12 d-flex justify-content-end title-11 text-dark">PHP 100,000.00</div>
+                              <div class="col-12 justify-content-end d-flex text-dark title-12">Feb 01, 2023 at 7:28:00 AM PST</div>
                             </div>
                           </div>
-                        </div>
+                        </div> 
                       </div>
                     </div>
                   </div>
-                </div>
-              </td>
+                </td>
           </template>
         </tbody>
       </table>
@@ -298,12 +265,12 @@
             transaction_count: "24",
           },
           {
-            label: "Total Amount of Completed Transactions",
+            label: "Disbursement Release Schedule",
             value: "PHP 80,000.00",
             transaction_count: "18",
           },
           {
-            label: "Total Amount of Refunded Transactions",
+            label: "Bank/E-Wallet Account",
             value: "PHP 20,000.00",
             transaction_count: "6",
           },

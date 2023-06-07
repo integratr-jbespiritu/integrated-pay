@@ -34,7 +34,7 @@
 
         <div class="col-12 col-lg-4 col-md-6 col-sm-2 d-flex mt-2">
         <button type="button" class="button-hover-icon-purple bg-transparent">
-        <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+        <span class="title-5 translate-middle-y text-nowrap mx-2">
         Refund Request
         </span>
         </button>
@@ -93,7 +93,7 @@
               </thead>
               <tbody>
                 <template v-for="(transaction_record,) in transaction_records" :key="transaction_record">
-                  <tr  class="size-table-data column title-8">
+                  <tr  class="size-table-data column title-8 ">
                     <td class="py-3">
                      {{ transaction_record.transaction_no }}</td>
                     <td class="py-3">{{ transaction_record.amount_refunded }}</td>
@@ -103,7 +103,7 @@
                     <td class="py-3">{{ transaction_record.date_refunded }}</td>
                     <td class="py-3">{{ transaction_record.date_issued }}</td>
                     <td class="py-3">
-                      <div class="py-0 my-auto px-2 rounded-0 title-17 w-100 text-center" :class="getStatus(transaction_record.status)">{{
+                      <div class="py-0 my-auto rounded-0 title-17 w-100 text-center" :class="getStatus(transaction_record.status)">{{
                         transaction_record.status }}</div>
                     </td>
                     </tr>
