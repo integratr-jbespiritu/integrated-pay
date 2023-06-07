@@ -12,14 +12,14 @@
                </div>
             </button>
             </div>
-         <div class="d-flex justify-content-end margin-bot-20p " style="gap: 10px">
-            <button type="button" class="button-hover-icon-purple bg-transparent d-flex align-items-center ">
-                  <span><i class="icon isax isax-printer ms-3 mx-2" style="top:2px"></i></span>
-                  <span class="title-5 refund-request text-nowrap ms-0">Download </span>
+            <div class="d-flex justify-content-end margin-bot-20p" style="gap: 10px">
+            <button type="button" class="button-download-purple bg-transparent d-flex align-items-center shadow-none">
+                  <span><i class="icon isax isax-printer ms-2 pe-2" style="top:2px"></i></span>
+                  <span class="title-5 text-nowrap ms-0 me-2">Download </span>
             </button>
             <div>
                <button type="button" class="title-5 button-default-outline bg-transparent">
-                  <div class="align-items-end  d-flex">
+                  <div class="align-items-end d-flex mx-1">
                   <span><i class="icon isax isax-printer mx-1"></i></span>
                   <span class="title-5 text-nowrap py-1">Print</span>
                   </div>
