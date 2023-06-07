@@ -33,12 +33,12 @@
       <div class="ms-0">
          <div class="border-bottom mb-3 mt-2"></div>
       </div>
-      <div class="table-responsive ms-3 mt-2 me-3">
+      <div class="table-responsive mt-2">
          <table class="table">
             <thead>
                <tr class="table-rows text-purple title-13">
-                  <th class="table-heading">
-                     <div class="d-flex align-items-center ps-3">
+                  <th class="table-heading ">
+                     <div class="d-flex align-items-center px-3">
                         <span>Email Address</span>
                      </div>
                   </th>
@@ -58,7 +58,7 @@
             <tbody>
                <template v-for="(transaction_record,) in transaction_records" :key="transaction_record">
                   <tr class="size-table-data column title-8">
-                     <td class="font-table-text py-3 ps-4">
+                     <td class="font-table-text py-3 px-4">
                         {{ transaction_record.email_address }}
                      </td>
                      <td class="font-table-blue py-3">{{ transaction_record.role }}</td>

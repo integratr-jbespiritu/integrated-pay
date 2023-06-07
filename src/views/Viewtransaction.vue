@@ -12,18 +12,16 @@
                </div>
             </button>
             </div>
-         <div class="d-flex justify-content-end margin-bot-20p" style="gap: 10px">
-            <button type="button" class="button-hover-icon-purple bg-transparent">
-               <div class="align-items-start d-flex">
-                  <span class="mt-1"><i class="icon isax isax-printer ms-2 me-1"></i></span>
-                  <span class="title-5 text-nowrap mx-2 my-auto ">Download </span>
-               </div>
+            <div class="d-flex align-items-end justify-content-start justify-content-md-end margin-bot-20p" style="gap: 10px">
+            <button type="button" class="button-download-purple bg-transparent d-flex align-items-center shadow-none">
+                  <span><i class="icon isax isax-printer ms-2 pe-2" style="top:2px"></i></span>
+                  <span class="title-5 text-nowrap ms-0 me-2">Download </span>
             </button>
             <div>
-               <button type="button" class="title-5 button-default-outline bg-transparent">
-                  <div class="align-items-end d-flex mx-1">
+               <button type="button" class="title-5 print-blue bg-transparent border-blue shadow-none ">
+                  <div class="align-items-end d-flex mx-1 text-blue">
                   <span><i class="icon isax isax-printer mx-1"></i></span>
-                  <span class="title-5 text-nowrap py-1">Print</span>
+                  <span class="title-5 text-nowrap py-1 ">Print</span>
                   </div>
                </button>
                </div>
