@@ -146,6 +146,7 @@ const router = createRouter({
           name: 'consumer.developer',
           component: Developer
         },
+
        
       ],
     },
