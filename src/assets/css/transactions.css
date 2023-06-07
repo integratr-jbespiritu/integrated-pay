@@ -37,6 +37,12 @@
 .filter-btn  {
     border: 1px solid var(--vt-c-light-gray);
 }
+
+.transaction-table-hover:hover td {
+    font-weight: bold;
+    background-color: var(--vt-c-default-white);
+}
+
 .button-x {
     width: 150px;
     height: 44px;
@@ -95,6 +101,19 @@
     line-height: 25px;
 }
 
+.refund-request {
+    width: 157px;
+    height: 44px;
+    padding: 10px, 20px, 10px, 20px;
+    color: var(--vt-c-violet);
+    border: 2px solid var(--vt-c-violet);
+    background: var(--vt-c-default-white);
+    border-color: var(--vt-c-violet);
+}
+
+.refund-border-purple {
+    border-color: 1px solid var(--vt-c-violet) !important;
+}
 .badge-template{
     width: 81px !important;
     height: 20px !important;
