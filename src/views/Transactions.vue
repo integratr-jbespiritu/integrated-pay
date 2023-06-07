@@ -100,7 +100,7 @@
               <td class="py-4">{{ transaction_record.channel }}</td>
               <td class="py-4">{{ transaction_record.service_product }}</td>
               <td class="py-4">
-                <div class="py-0 my-auto rounded-0 title-19 text-center me-5 px-1"
+                <div class="py-0 my-auto rounded-0 title-19 text-center me-5 px-1 w-75"
                   :class="getStatus(transaction_record.status)">{{ transaction_record.status }}</div>
               </td>
               <td class="py-4 text-start">{{ transaction_record.time_stamp }}</td>

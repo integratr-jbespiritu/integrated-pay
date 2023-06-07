@@ -62,9 +62,15 @@
     background-color: var(--vt-c-default-white);
 }
 .size-table-data {
-    border: solid 1px transparent;
-    border-bottom: 1px transparent;
+    border: solid 2px transparent;
+    border-bottom: 2px transparent;
 }
+
+tr.size-table-data:hover {
+    background-color: var(--vt-c-default-white);
+    border: 1px solid var(--vt-c-purple) !important;
+}
+
 .size-table-data:hover {
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
@@ -77,7 +83,6 @@
 .size-table-data:hover td{
     font-weight: bold;
 }
-
 
 .table .table-rows:hover {
     background-color: initial;
