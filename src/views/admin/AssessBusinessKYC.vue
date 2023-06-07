@@ -80,9 +80,9 @@
     <div class="row gx-0 g-0 p-1 pt-3 py-3 ">
       <div class="title-7 mb-3">Submission of required identification documents</div>
        <div class="col">
-          <p style="">Upload file of your Valid ID</p>
+          <p style="text-nowrap">Upload file of your Valid ID</p>
         </div>
-        <div class="col d-flex justify-content-end gap-3">
+        <div class="col d-flex align-items-end justify-content-start justify-content-md-end gap-3">
           <button type="button" class="btn bg-danger text-white">Decline</button>
           <button type="button" class="btn bg-success text-white">Approve</button>
         </div>
@@ -90,9 +90,9 @@
           <img src="/src/assets/images/tin-id.svg" alt="TIN ID" class="img-fluid mb-3">
         </div>
         <div class="col">
-            <p style="">Upload file of your DTI Business Name Registration Certificate</p>
+            <p style="text-nowrap">Upload file of your DTI Business Name Registration Certificate</p>
           </div>
-          <div class="col d-flex justify-content-end gap-3">
+          <div class="col d-flex align-items-end justify-content-start justify-content-md-end gap-3">
             <button type="button" class="btn bg-danger text-white">Decline</button>
             <button type="button" class="btn bg-success text-white">Approve</button>
           </div>

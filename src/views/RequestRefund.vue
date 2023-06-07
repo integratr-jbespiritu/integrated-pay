@@ -10,7 +10,9 @@
                  <i class="icon-arrow isax isax-arrow-left-35"></i>
               </div>
               <div class="col-auto my-auto title-7 margin-x-10p">
-                 <span>Back</span>
+               <router-link class="text-decoration-none text-dark" :to="{ name: 'consumer.transactions' }">
+                  <span>Back</span>
+               </router-link>
               </div>
            </div>
         </div>
