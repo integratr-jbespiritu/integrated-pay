@@ -8,7 +8,7 @@
         <div class="row gx-5 margin-y-20p pad-x-20p">
           <div class="align-items-center d-flex justify-content-between">
             <div class="title-6 text-nowrap">Test API Keys</div>
-            <button type="button" class="title-5 button-default-outline-blue mt-1 bg-transparent text-nowrap ms-2">API Documentation</button>
+            <button type="button" class="title-5 button-blue mt-1 bg-transparent text-nowrap ms-2 border border-2">API Documentation</button>
           </div>
              
         </div>

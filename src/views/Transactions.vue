@@ -242,7 +242,7 @@
                     <div class="col text-nowrap ms-2">Provide necessary information for the refund request.</div>
                  </div>
                  <div class="col d-flex justify-content-end">
-                    <button @click="refund_request_modal =false" class="icon-purple isax isax-close-circle5"></button>
+                    <button @click="refund_request_modal =false" class="icon-purple isax isax-close-circle5 pe-0"></button>
                  </div>
               </div>
            </div>
@@ -276,7 +276,7 @@
                  </div>
                  <div class="input-group ">
                     <form class="form-floating modal-floating">
-                       <input type="text" class="input-height form-control title-21 shadow-none" style="height: 100px; padding-bottom: 50px;" id="floatingInputValue" placeholder="name@example.com" value="Double Payment" />
+                       <input type="text" class="input-height form-control title-21 shadow-none" id="floatingInputValue" placeholder="name@example.com" value="Double Payment" />
                        <label for="floatingInputValue " class="title-23 ">Reason</label>
                     </form>
                  </div>
@@ -284,9 +284,9 @@
            </div>
         </template>
         <template #footer>
-           <div class="row d-flex justify-content-center me-3">
-              <button class="button-default bg-purple bg-transparent text-purple title-21">Cancel</button>
-              <button class="button-x color-white text-nowrap button-process rounded title-21">Process Refund</button>
+           <div class="row d-flex justify-content-center me-1">
+              <button class="button-default bg-purple bg-transparent text-purple title-21 ps-1">Cancel</button>
+              <button class="button-x color-white text-nowrap button-process rounded title-21 mx-2">Process Refund</button>
            </div>
         </template>
      </ModalSmall>

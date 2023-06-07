@@ -66,7 +66,7 @@
             <div class="col-9 col-md-5 d-flex align-items-end justify-content-start justify-content-md-end mb-2 mt-2">
                <router-link :to="{ name: 'consumer.request-refund' }">
                   <button type="button"
-                     class="refund-border-purple btn title-5 bg-transparent rounded-0 text-purple border-2 button-icon-purple-request me-3">Refund
+                     class="refund-border-purple btn title-5 bg-transparent rounded-0 text-purple border-2 button-icon-purple-request me-3 text-nowrap">Refund
                   Request</button>
                </router-link>
                <button type="button" class="button-default-outline title-5 pe-2 bg-transparent h-10 me-2">Export</button>

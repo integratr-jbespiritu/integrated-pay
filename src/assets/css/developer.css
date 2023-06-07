@@ -1,8 +1,10 @@
-.button-default-outline-blue {
+.button-blue {
     width: 200px;
-    height: 30px;
-    border-color: var(--vt-c-blue);
+    height: 44px;
+    border-color: var(--vt-c-blue) !important;
     color: var(--vt-c-blue);
+    box-shadow: none !important;
+
 }
 
 

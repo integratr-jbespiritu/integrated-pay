@@ -12,7 +12,7 @@
                             <slot name="body">
                             </slot>
                         </div>
-                        <div :class="`modal- modal-footer-2 pad-x-20p pb-0 pad-top-20p ${modalFooter}`">
+                        <div :class="`modal- modal-footer-2 pad-x-20p pb-0 pt-2 ${modalFooter}`">
                             <slot name="footer">
                             </slot>
                         </div>
