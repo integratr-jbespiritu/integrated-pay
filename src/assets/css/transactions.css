@@ -65,11 +65,20 @@
     border: solid 1px transparent;
     border-bottom: 1px transparent;
 }
-tr.size-table-data:hover {
-    font-weight: bold !important;
+.size-table-data:hover {
     background-color: var(--vt-c-default-white);
     border: 1px solid var(--vt-c-purple) !important;
 }
+.size-table-data2:hover{
+    background-color: var(--vt-c-default-white);
+    border: 1px solid var(--vt-c-purple) !important;
+}
+
+.size-table-data:hover td{
+    font-weight: bold;
+}
+
+
 .table .table-rows:hover {
     background-color: initial;
 }
@@ -124,4 +133,10 @@ tr.size-table-data:hover {
 .button-outline-user {
     font-size: 24px; 
     top: 3px;
+}
+
+.button-icon-purple-request {
+    border: 1px solid;
+    box-shadow: none !important;
+    height: 44px;
 }

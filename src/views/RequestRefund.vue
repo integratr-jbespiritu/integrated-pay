@@ -141,7 +141,6 @@
 <script>
   export default {
     name: "RequestRefund",
-    
     data() {
       return {
         transaction_records: [
@@ -253,6 +252,7 @@
       getStatus(data) {
         return `status-${data.toLowerCase()}`;
       },
+   
     },
   };
 </script>
