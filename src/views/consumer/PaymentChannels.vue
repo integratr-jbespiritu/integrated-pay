@@ -28,9 +28,9 @@
                 </div>
               </div>
               <div class="table-responsive text-nowrap">
-                <div class="pe-5 mx-3 mb-2 d-flex flex-column justify-content-between" style="min-width: 1000px;">
+                <div class="pe-5 mx-3 mb-3 d-flex flex-column justify-content-between" style="min-width: 1000px;">
                 <template v-for="payment_channel,j in payment_channels" :key="payment_channel">
-                  <div class="title-5 text-uppercase mt-2">
+                  <div class="title-5 text-uppercase pt-3">
                     {{ payment_channel.channel}}
                   </div>
                   <template v-for="payment_method,i in payment_channel.mode_of_payments" :key="payment_method">

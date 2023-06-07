@@ -9,7 +9,7 @@
          <div class="col-12 col-md-3 ">
             <div class="search input-group mt-2 w-100 pe-3">
                <span class="input-group-text bg-white rounded-0" id="basic-addon1">
-                  <i class="isax isax-search-status-1 fs-4"></i>
+                  <i class="isax isax-search-status-1"></i>
                </span>
                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
             </div>
@@ -25,7 +25,7 @@
          <div class="col-4 col-md-5 d-flex justify-content-end">
          <div class="row">
             <div class="mt-2 ">
-               <button type="button" class="title-5 button-outline-user pe-3 mx-0 bg-transparent text-blue "><i class="isax isax-add text-blue"></i>User</button>
+               <button type="button" class="title-5 button-outline-user pe-3 mx-0 bg-transparent text-blue d-flex align-items-center ps-2"><i class="isax isax-add text-blue fs-3"></i>User</button>
             </div>
          </div>
       </div>
@@ -38,7 +38,7 @@
             <thead>
                <tr class="table-rows text-purple title-13">
                   <th class="table-heading">
-                     <div class="d-flex align-items-center">
+                     <div class="d-flex align-items-center ps-3">
                         <span>Email Address</span>
                      </div>
                   </th>
@@ -48,7 +48,7 @@
                      </div>
                   </th>
                   <th class="table-heading">
-                     <div class="d-flex justify-content-end me-5 pe-4">
+                     <div class="d-flex justify-content-end" style="margin-right: 90px;">
                         <span>Date Updated</span>
                      </div>
                   </th>
@@ -58,11 +58,11 @@
             <tbody>
                <template v-for="(transaction_record,) in transaction_records" :key="transaction_record">
                   <tr class="size-table-data column title-8">
-                     <td class="font-table-text py-3">
+                     <td class="font-table-text py-3 ps-4">
                         {{ transaction_record.email_address }}
                      </td>
                      <td class="font-table-blue py-3">{{ transaction_record.role }}</td>
-                     <td class="font-table-text text-end py-3 my-auto">{{ transaction_record.date_updated }}</td>
+                     <td class="font-table-text text-end py-3 my-auto pe-4">{{ transaction_record.date_updated }}</td>
                   </tr>
                </template>
             </tbody>

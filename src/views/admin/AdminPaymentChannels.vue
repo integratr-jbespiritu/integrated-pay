@@ -8,38 +8,38 @@
                             <template v-for="transaction, index in transactions" :key="transaction">
                                 <div class="col-auto align-self-start pe-5" :class="index != 3 ? 'border-end' : ''">
                                     <div class="title-8 me-4">
-                                    {{ transaction.label }}
+                                         {{ transaction.label }}
                                     </div>
                                     <div :class="{ 'col-auto': true, 'title-11': true, 'text-blue': true, '': true, 'lh-sm':true, '':true, 'pb-4': transaction.value }">
-                                    {{ transaction.value }}
+                                        {{ transaction.value }}
                                     </div>
                                     <div :class="{ 'col-auto': true, 'text-blue':true, 'title-11': true, 'me-4': true, 'lh-sm': true, 'pe-3': true, 'pb-4': transaction.fees }" v-if="transaction.fees">
-                                    <span class="me-3">{{ transaction.fees }} <i class="isax isax-arrow-right-25 fs-5" style="top: .5px;"></i></span>
+                                        <span class="me-3">{{ transaction.fees }} <i class="isax isax-arrow-right-25 fs-5" style="top: .5px;"></i></span>
                                     </div>
                                     <div class="col-auto title-7 me-5 lh-sm pb-1" style="white-space: pre-line;">
-                                    {{ transaction.values }}
+                                        {{ transaction.values }}
                                     </div>
                                 </div>
                             </template>
                         </div>
-                        <div class="row gx-2 g-0 ms-0 mt-3">
-                            <div class="col-12 col-md-4">
-                                <div class="search input-group mt-3 w-75">
-                                    <span class="input-group-text bg-white rounded-0 py-2" id="basic-addon1">
-                                        <i class="isax isax-search-status-1 fs-4"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                                        aria-describedby="basic-addon1"/>
-                                </div>
+                        <div class="row gx-0 g-0 mt-3">
+                            <div class="col-12 col-md-3 d-flex justify-content-start align-items-start">
+                            <div class="search input-group mt-2 w-100 pe-3">
+                                <span class="input-group-text bg-white rounded-0" id="basic-addon1">
+                                <i class="isax isax-search-status-1 fs-4"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                                aria-describedby="basic-addon1" />
                             </div>
-                            <div class="col-12 col-md-4"  style="right: 7%;">
-                                <div class="input-group mb-2 mt-3">
-                                    <span class="span-btn-default input-group-text rounded-0 py-2">
-                                        <i class="icon isax isax-filter-search"></i>
-                                    </span>
-                                    <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field"
-                                        aria-describedby="basic-addon2">Filter</button>
-                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                            <div class="input-group mb-2 mt-2 ps-md-0">
+                                <span class="span-btn-default input-group-text rounded-0">
+                                <i class="icon isax isax-filter-search"></i>
+                                </span>
+                                <button type="button" class="filter-btn bg-white pe-3 px-3" aria-label="Selected-Field"
+                                aria-describedby="basic-addon2">Filter</button>
+                            </div>
                             </div>
                         </div>
                     </div>

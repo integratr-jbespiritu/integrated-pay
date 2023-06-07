@@ -13,6 +13,7 @@
             <span>Back</span>
           </div>
         </div>
+
       </div>
           <div class="row gx-0 g-0 ms-3">
             <div class="col-12 col-md-4">
@@ -29,6 +30,18 @@
         <i class="icon isax isax-filter-search"></i>
         </span>
         <button type="button" class="filter-btn bg-white w-25" aria-label="Selected-Field" aria-describedby="basic-addon2">Filter</button>
+
+        <div class="col my-auto justify-content-end d-flex pad-top-20p  ">
+           <div class="row gx-0 g-0">
+              <div class="col-auto pt-1 ">
+                 <i class="icon-arrow isax isax-arrow-left-35"></i>
+              </div>
+              <div class="col-auto my-auto title-7 margin-x-10p">
+               <router-link class="text-decoration-none text-dark" :to="{ name: 'consumer.transactions' }">
+                  <span>Back</span>
+               </router-link>
+              </div>
+           </div>
         </div>
         </div>
 
@@ -137,118 +150,120 @@
 </template>
 
 <script>
-
-
-export default {
-  name: "RequestRefund",
-  data() {
-    return {
-      transaction_records: [
-        {
-          transaction_no: "2201010000112221",
-          amount_refunded: "PHP 10,000.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Requested",
-          
-        },
-        {
-          transaction_no: "2201010000112222",
-          amount_refunded: "PHP 100.00",
-          offer: "Partial Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Requested",
-          
-        },
-        {
-          transaction_no: "2201010000112223",
-          amount_refunded: "PHP 10,000.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Authorized",
-          
-        },
-        {
-          transaction_no: "2201010000112224",
-          amount_refunded: "PHP 8,000.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Authorized",
-        },
-        {
-          transaction_no: "2201010000112225",
-          amount_refunded: "PHP 5,000.00",
-          offer: "Partial Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-          
-        },
-        {
-          transaction_no: "2201010000112226",
-          amount_refunded: "PHP 10,000.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-          
-        },
-        {
-          transaction_no: "2201010000112227",
-          amount_refunded: "PHP 1,000.00",
-          offer: "Partial Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-          
-        },
-        {
-          transaction_no: "2201010000112228",
-          amount_refunded: "PHP 1,500.00",
-          offer: "Partial Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-          
-        },
-        {
-          transaction_no: "2201010000112229",
-          amount_refunded: "PHP 200.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-        },
-        {
-          transaction_no: "2201010000112220",
-          amount_refunded: "PHP 1,000.00",
-          offer: "Full Refund",
-          issued_by: "Maria Clara",
-          date_refunded: "01/01/2023 7:28 AM",
-          date_issued: "01/01/2023 7:28 AM",
-          status: "Success",
-        },
-      ],
-    };
-  },
-
-  methods: {
-    getStatus(data) {
-      return `status-${data.toLowerCase()}`;
+  export default {
+    name: "RequestRefund",
+    data() {
+      return {
+        transaction_records: [
+          {
+            transaction_no: "2201010000112221",
+            amount_refunded: "PHP 10,000.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Requested",
+            
+          },
+          {
+            transaction_no: "2201010000112222",
+            amount_refunded: "PHP 100.00",
+            offer: "Partial Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Requested",
+            
+          },
+          {
+            transaction_no: "2201010000112223",
+            amount_refunded: "PHP 10,000.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Authorized",
+            
+          },
+          {
+            transaction_no: "2201010000112224",
+            amount_refunded: "PHP 8,000.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Authorized",
+            
+          },
+          {
+            transaction_no: "2201010000112225",
+            amount_refunded: "PHP 5,000.00",
+            offer: "Partial Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+          {
+            transaction_no: "2201010000112226",
+            amount_refunded: "PHP 10,000.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+          {
+            transaction_no: "2201010000112227",
+            amount_refunded: "PHP 1,000.00",
+            offer: "Partial Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+          {
+            transaction_no: "2201010000112228",
+            amount_refunded: "PHP 1,500.00",
+            offer: "Partial Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+          {
+            transaction_no: "2201010000112229",
+            amount_refunded: "PHP 200.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+          {
+            transaction_no: "2201010000112220",
+            amount_refunded: "PHP 1,000.00",
+            offer: "Full Refund",
+            issued_by: "Maria Clara",
+            date_refunded: "01/01/2023 7:28 AM",
+            date_issued: "01/01/2023 7:28 AM",
+            status: "Success",
+            
+          },
+        ],
+      };
     },
-  },
-};
+  
+    methods: {
+      getStatus(data) {
+        return `status-${data.toLowerCase()}`;
+      },
+   
+    },
+  };
 </script>
