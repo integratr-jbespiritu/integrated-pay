@@ -182,7 +182,6 @@ export default {
           date_refunded: "01/01/2023 7:28 AM",
           date_issued: "01/01/2023 7:28 AM",
           status: "Authorized",
-          
         },
         {
           transaction_no: "2201010000112225",
