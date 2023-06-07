@@ -62,7 +62,7 @@
          </tr>
         </thead>
         <tbody>
-         <template v-for="(transaction_record, index) in transaction_records" :key="transaction_record">
+         <template v-for="(transaction_record, index) in transaction_records" :key="index">
           <tr class="size-table-data title-8 border-color-white transaction-table-hover">
            <td class="py-4 ps-4">{{ transaction_record.emailaddress }}</td>
            <td class="py-4">{{ transaction_record.accountname }}</td>
@@ -71,10 +71,9 @@
             <div class="py-0 my-auto rounded-0 title-19 text-center " :class="getStatus(transaction_record.status)">{{ transaction_record.status }}</div>
            </td>
            <td class="py-4">{{ transaction_record.time_stamp }}</td>
-           <td class="py-3 pe-3">
-            <div>
-              <button @click="navigateRoute" class="assess">Assess
-               </button>
+           <td class="py-3">
+            <div> <router-link :to="{name: 'admin.government-unit'}"> <button type="button" class="assess">Assess</button>
+           </router-link>
             </div>
            </td>
           </tr> 
@@ -188,7 +187,18 @@
      ],
     };
    },
- 
+  //  computed: {
+  //    getRoute() {
+  //      if (this.account.typeofAccount === "Business") {
+  //        return { name: "admin.assess.business.kyc" }; 
+  //      } else if (this.account.typeofAccount === "Government Unit") {
+  //        return { name: "admin.government-unit" }; 
+  //      } else { 
+  //        return null; 
+  //      }
+  //    },
+  //  },
+   
    methods: {
     navigateRoute(){
       if (this.condition){

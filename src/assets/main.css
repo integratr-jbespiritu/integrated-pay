@@ -4,7 +4,7 @@
 @import 'css/logoheader.css';
 @import 'css/typography.css';
 @import 'css/input-colors-button.css';
- @import 'css/footer.css';
+@import 'css/footer.css';
 @import 'css/sidebar.css';
 @import 'css/login.css';
 @import 'css/consumer.css';
@@ -17,8 +17,8 @@
 @import 'css/activate-step1.css';
 @import 'css/modal.css';
 @import 'css/adminsidebar.css';
-@import 'css/adminPaymentChannels.css';
 @import 'css/payout_configuration.css';
+@import 'css/assess_business_kyc.css';
 @import 'css/developer.css';
 
 
@@ -523,7 +523,7 @@ color: var(--vt-c-silver-gray) !important;
   font-size: 20px;
   margin-bottom: 0%;
 }
-=========
+
 .title-23 {
   font-family: Inter-Regular;
   font-weight: 400;
@@ -538,7 +538,6 @@ color: var(--vt-c-silver-gray) !important;
   margin-bottom: 0%;
 }
 
->>>>>>>>> Temporary merge branch 2
 .input-border-gray {
   border-color: var(--vt-c-light-gray);
 }
@@ -830,6 +829,16 @@ thead, tbody, tfoot, tr, td, th {
   width: 50px !important;
 }
 
+.payments-table-hover:hover td{
+  font-weight: bold !important;
+  background-color: var(--vt-c-default-white);
+}
+ .payments-table-hover:hover label{
+  font-weight: bold !important;
+ }
+.payments-table-hover:hover {
+    border: 1px solid var(--vt-c-blue) !important;
+}
 .container-carousel {
   height: 500px;
   width:fit-content;
