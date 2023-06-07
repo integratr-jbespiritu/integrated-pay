@@ -608,7 +608,7 @@ thead, tbody, tfoot, tr, td, th {
 .status-pending{
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
-  width: 120px;
+  width: 120px !important;
 }
 
 .status-pending:focus {
@@ -618,18 +618,22 @@ thead, tbody, tfoot, tr, td, th {
 .status-refunded , .status-declined {
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
+  width: 120px; 
 }
 .status-requested {
   border: 2px solid var(--vt-c-light-red);
   color: var(--vt-c-light-red);
+  width: 120px; 
 }
 .status-authorized {
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
+  width: 120px; 
 }
 .status-success{
   border: 2px solid var(--vt-c-green) !important;
   color: var(--vt-c-green);
+  width: 120px; 
 }
 
 .status-refunded:focus {
@@ -649,6 +653,7 @@ thead, tbody, tfoot, tr, td, th {
 .status-completed {
   border:2px solid var(--vt-c-green) ;
   color: var(--vt-c-green);
+  width: 120px;
 }
 
 .status-Transit {

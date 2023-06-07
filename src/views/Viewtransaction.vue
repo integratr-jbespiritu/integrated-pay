@@ -12,10 +12,12 @@
                </div>
             </button>
             </div>
-            <div class="d-flex justify-content-end margin-bot-20p" style="gap: 10px">
-            <button type="button" class="button-download-purple bg-transparent d-flex align-items-center shadow-none">
-                  <span><i class="icon isax isax-printer ms-2 pe-2" style="top:2px"></i></span>
-                  <span class="title-5 text-nowrap ms-0 me-2">Download </span>
+         <div class="d-flex justify-content-end margin-bot-20p" style="gap: 10px">
+            <button type="button" class="button-hover-icon-purple bg-transparent">
+               <div class="align-items-start d-flex">
+                  <span class="mt-1"><i class="icon isax isax-printer ms-2 me-1"></i></span>
+                  <span class="title-5 text-nowrap mx-2 my-auto ">Download </span>
+               </div>
             </button>
             <div>
                <button type="button" class="title-5 button-default-outline bg-transparent">
