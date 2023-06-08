@@ -48,7 +48,7 @@
                      </div>
                   </th>
                   <th class="table-heading">
-                     <div class="d-flex justify-content-end" style="margin-right: 90px;">
+                     <div class="d-flex justify-content-end text-nowrap" style="margin-right: 90px;">
                         <span>Date Updated</span>
                      </div>
                   </th>
@@ -64,6 +64,7 @@
                      <td class="font-table-blue py-3">{{ transaction_record.role }}</td>
                      <td class="font-table-text text-end py-3 my-auto pe-4">{{ transaction_record.date_updated }}</td>
                   </tr>
+                  <span class="mt-1"></span>
                </template>
             </tbody>
          </table>
