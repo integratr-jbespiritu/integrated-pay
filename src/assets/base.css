@@ -10,6 +10,8 @@
 
   --vt-c-indigo: #2c3e50;
 
+  --vt-c-bs-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
@@ -19,6 +21,41 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --vt-c-gray: #44435F; 
+  --vt-c-light-gray: #CCCCCC ;     
+  --vt-c-purple: #7755D6;    
+  --vt-c-blue: #7DA7F1;  
+  --vt-c-black: #000000;
+  --vt-c-light-black: #2B2B2B;
+  --vt-c-default-white: #FFFFFF;
+  --vt-c-white: #f9f9f9;
+  --vt-c-sky:#407BE2;
+  --vt-c-light-purple: #E9DBF9;
+  --vt-c-lavender: #7755D6;
+  --vt-c-violet:#5A32C7;
+  --vt-c-dark-gray :#AAAAAA;
+  --vt-c-light-green: #34AEA7;
+--vt-c-light-red: #F64771;
+  --vt-c-yellow: #F4B91D;
+  --vt-c-green: #27AE60;
+  --vt-c-seafoam-green: #61CB8E;
+  --vt-c-light-blue: #D8F4FE;
+  --vt-c-dim-gray: #AAAAAA;
+  --vt-c-light-grey: #999999;
+  --vt-c-dark-blue: #407BE2;
+  --vt-c-silver:#ACACAC;
+  --vt-c-light-black: #4F4F4F;
+  --vt-c-red: #ff0000;
+  --vt-c-red-orange: #DB524E;
+  --vt-c-silver-gray: #6c757d;
+  --vt-c-space-gray: #212529;
+
+  --c-s-10px:0.625rem;
+  --c-s-20px:1.25rem;
+  --c-s-50px:3rem;
+
+  
 }
 
 /* semantic color variables for this project */
@@ -35,7 +72,7 @@
 
   --section-gap: 160px;
 }
-
+  
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);

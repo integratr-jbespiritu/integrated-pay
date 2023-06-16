@@ -1,0 +1,62 @@
+.registration-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: url('/src/assets/images/register.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.registration-page .form-check-label {
+    top: .1rem;
+}
+
+.registration-page form .login-button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--vt-c-purple);
+    border: none;
+    border-radius: 0%;
+    align-items: center;
+    padding: 10px 20px;
+    width: 103px;
+    height: 44px;
+}
+.registration-page form .login-button:focus {
+    box-shadow: none;
+}
+
+.registration-page .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.registration-page .style-2:hover
+ {
+    color: var(--vt-c-purple);
+}
+
+.registration-page input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: var(--vt-c-default-white);
+    cursor: pointer;
+}
+  
+.registration-page input[type="checkbox"]:checked {
+    background-color: var(--vt-c-purple);
+}
+
+.registration-page input[type="checkbox"]:focus {
+    box-shadow: none;
+}
+
+.registration-page .reg-input {
+    box-shadow: none;
+}

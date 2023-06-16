@@ -1,0 +1,66 @@
+.consumer-login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 91vh;
+    background: url('/src/assets/images/login-background.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.consumer-login-page .form-check-label {
+    top: .1rem;
+}
+
+.consumer-login-page .col-md-8 form .login-button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--vt-c-purple);
+    border: none;
+    border-radius: 0%;
+    align-items: center;
+    padding: 10px 20px;
+    width: 103px;
+    height: 44px;
+}
+.consumer-login-page .col-md-8 form .login-button:focus {
+    box-shadow: none;
+}
+
+.consumer-login-page .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.consumer-login-page .style-2:hover
+ {
+    color: var(--vt-c-purple);
+}
+
+.consumer-login-page input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: var(--vt-c-default-white);
+    cursor: pointer;
+}
+  
+.consumer-login-page input[type="checkbox"]:checked {
+    background-color: var(--vt-c-purple);
+}
+
+.consumer-login-page input[type="checkbox"]:focus {
+    box-shadow: none;
+}
+
+.consumer-login-page input[type="email"]:focus {
+    box-shadow: none;
+}
+
+.consumer-login-page input[type="password"]:focus {
+    box-shadow: none;
+}

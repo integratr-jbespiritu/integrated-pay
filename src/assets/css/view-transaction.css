@@ -1,0 +1,60 @@
+.border-color-violet {
+border-color:var(--vt-c-purple);
+color: var(--vt-c-purple);
+}
+
+.download-purple {
+    width: 90px;
+    height: 35px;
+    border-radius: 4px; 
+    line-height: 35px
+}
+
+.print-blue {
+    width: 50px;
+    height: 30px; 
+    border-radius: 4px; 
+    line-height: 30px;
+    border-color: var(--vt-c-blue);
+    
+}
+
+.payment-border {
+    border:solid 1px; 
+    border-color: silver;
+}
+
+.status-green-paid {
+    line-height: 22px;
+    width: 116px; 
+    height: 24px; 
+    border: 2px solid; 
+    border-color: var(--vt-c-green); 
+    color: var(--vt-c-green);
+}
+
+.border-dot-page {
+    border-bottom: dashed 1px !important;
+}
+
+.second-page-refund {
+    border:solid 1px;
+    border-color: silver;
+}
+
+.status-red-requested {
+    width: 116px;
+    height: 24px; 
+    border: 2px solid;
+    border-color: red; 
+    color: var(--vt-c-red);
+}
+
+.icon-download-purple {
+font-size: 24px;
+margin-right: 10px;
+}
+
+/* .icon-print-blue {
+    line-height: 25px
+} */

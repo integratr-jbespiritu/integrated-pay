@@ -1,0 +1,95 @@
+.sidebar {
+    width: 269px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--vt-c-purple);
+    color: var(--vt-c-default-white);
+    z-index: 1;
+}
+
+.sidebar .sidebar-header{
+    width: 269px;
+}
+
+.sidebar-header .pad-bottom-10p {
+    right: .4rem;
+}
+
+.sidebar-header {
+    background-color: var(--vt-c-black);
+    width: 248px;
+}
+
+.sidebar-header .account {
+    text-align: center;
+    top: 1rem;
+}
+
+.sidebar-header .account a {
+    font-size: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--vt-c-light-blue);
+    bottom: .9rem;
+}
+
+.sidebar-header .account p {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.sidebar .dashboard a {
+    color: var(--vt-c-default-white);
+    left: 2.7rem;
+    top: 1.3rem;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidebar .dashboard i {
+    font-size: 24px;
+    right: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li {
+    line-height: 2.3rem;
+}
+
+.sidebar .nav li:hover {
+    background-color: var(--vt-c-black);
+    margin: 0%;
+}
+
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-link i {
+    font-size: 24px;
+    margin-left: 0.4rem;
+}
+
+.sidebar .sub-menu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    top: 1rem;
+    left: 1rem;
+}
+
+.sidebar .flex-column {
+    font-family: Poppins-Semibold;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0%;
+}

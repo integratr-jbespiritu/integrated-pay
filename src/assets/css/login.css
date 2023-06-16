@@ -1,0 +1,74 @@
+
+/* div design for login btn and signup */
+.login-form .col-md-8 form .text-center {
+    padding: 10px 20px;
+    height: 11px;
+}
+
+.login-form .form-check-label {
+    top: .2rem;
+}
+/* button */
+.login-form .col-md-8 form .text-center .login-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--vt-c-purple);
+    box-shadow: none;
+}
+/* Amplify your payments with */
+.login-form .col-md-10 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+/* ampliPAY */
+.login-form .col-md-10  span {
+    color: var(--vt-c-blue);
+    font-weight: 900;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/* img design */
+.image-column {
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    background: url('/src/assets/images/login-image.svg');
+}
+
+.login-form [type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: var(--vt-c-default-white);
+    cursor: pointer;
+    display: flex;
+}
+
+.login-form [type="checkbox"]:checked {
+    background-color: var(--vt-c-purple); 
+}
+
+.login-form.password-container {
+    position: relative;
+}
+
+.login-form .forgot-pass:focus {
+    color: var(--vt-c-purple);
+}
+
+.login-form .style-1:hover
+ {
+    color: var(--vt-c-purple);
+}
+
+.login-form input[type="email"]:focus {
+    box-shadow: none;
+}
+
+.login-form input[type="password"]:focus {
+    box-shadow: none;
+}

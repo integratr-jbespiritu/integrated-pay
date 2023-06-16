@@ -1,0 +1,17 @@
+/* TICKET NAME: FOOTER */
+footer {
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--vt-c-purple);
+}
+.footer .row {
+  justify-content: space-around;
+}
+
+.footer img {
+  margin-bottom: 20px;
+}
+
+.footer .quick-links:hover {
+  color: var(--vt-c-purple);
+}
