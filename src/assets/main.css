@@ -20,6 +20,7 @@
 @import 'css/payout_configuration.css';
 @import 'css/assess_business_kyc.css';
 @import 'css/developer.css';
+@import 'css/marginsnpadding.css';
 
 
 @font-face {
@@ -597,13 +598,13 @@ thead, tbody, tfoot, tr, td, th {
   padding: 0;
 }
 /* statuses */
-.status-pending{
+.status-pending, .status-in-transit{
   border: 2px solid var(--vt-c-yellow);
   color: var(--vt-c-yellow);
   width: 120px;
 }
 
-.status-pending:focus {
+.status-pending, status-in-transit:focus {
   box-shadow: none;
 }
 
@@ -843,3 +844,33 @@ thead, tbody, tfoot, tr, td, th {
   height: 500px;
   width:fit-content;
 }
+
+.disbursement-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 170px;
+  background-color: #fff;
+  color: var(--vt-c-purple);
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-color: var(--vt-c-purple);
+  position: absolute;
+  z-index: 1;
+  top: -200%;
+  /* left: 100%; */
+  right: 1%;
+  align-items: center !important;  
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.disbursement-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+}
+.z-index-front
+{
+  z-index: 99;
+ }
+

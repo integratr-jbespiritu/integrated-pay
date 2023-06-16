@@ -25,6 +25,7 @@ import GovernmentUnit from '../views/admin/GovernmentUnit.vue'
 import Developer from '../views/consumer/Developer.vue'
 import UserListandDetails from '../views/admin/UserListandDetails.vue'
 import RequestRefund from '../views/RequestRefund.vue'
+// import kung ano name ng vue from '..kusa yan lalabas dyan gayahinmo format neto nasa taas'
 
 
 const router = createRouter({
@@ -164,6 +165,11 @@ const router = createRouter({
           name: 'consumer.request-refund',
           component: RequestRefund
         },
+        // {
+        //   path: '/Activate-Dashboard',
+        //   name: 'consumer.activate-dashboard',
+        //   component: ActivateDashboard
+        // },
        
       ],
     },

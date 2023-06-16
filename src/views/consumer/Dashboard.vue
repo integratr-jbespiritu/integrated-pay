@@ -115,11 +115,11 @@
                 <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
               </div>
             </div>
-            <!-- <div class="d-flex justify-content-center mt-3">
+             <div class="d-flex justify-content-center mt-3">
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-purple mx-1">&nbsp;</span> GCash</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-black mx-1">&nbsp;</span> BPI</p>
                 <p class="title-8 pe-2"><span class="badge rounded-pill bg-blue mx-1">&nbsp;</span> Maya</p>
-              </div> -->
+              </div> 
             <div class="row gx-0 g-0 mb-3 flex-box">
               <div class="col mt-3 d-flex justify-content-center gap-4">
                 <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>

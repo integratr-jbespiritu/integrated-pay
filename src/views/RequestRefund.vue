@@ -1,5 +1,5 @@
 <template>
-  <div class="pad-x-10p pad-end-20p">
+  <div class="pad-x-10p pad-end-20p px-3">
      <div class="row gx-0 g-0">
         <div class="col">
            <h1 class="fw-bold title-10 pad-top-20p text-nowrap">Refund Requests</h1>
@@ -16,14 +16,14 @@
         </div>
         <div class="row gx-0 pad-top-20p">
            <div class="col-12 col-md-3">
-              <div class="search-bar input-group">
+              <div class="search-bar input-group mb-3 pe-3">
                  <span class="input-group-text bg-white rounded-0" id="basic-addon1">
                  <i class="isax isax-search-status-1 fs-4"></i>
                  </span>
                  <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
               </div>
            </div>
-           <div class="col-12 col-md-4 mb-md-0">
+           <div class="col-12 col-md-4 mb-md-0 mb-3">
               <div class="input-group ">
                  <span class="span-btn-default input-group-text rounded-0 ">
                  <i class="icon isax isax-filter-search"></i>
@@ -34,7 +34,7 @@
            <div class="col-12 col-md-4 d-flex">
                     <router-link :to="{name: 'consumer.request-refund'}" class="text-decoration-none">
                     <button type="button" class="button-hover-icon-purple mt-1 bg-transparent">
-                            <span class="title-5 refund-request translate-middle-y text-nowrap mx-2">
+                            <span class="title-5 translate-middle-y text-nowrap mx-2">
                               Refund Request
                             </span>
                     </button> </router-link>
