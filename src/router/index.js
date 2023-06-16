@@ -26,7 +26,6 @@ import Developer from '../views/consumer/Developer.vue'
 import UserListandDetails from '../views/admin/UserListandDetails.vue'
 import RequestRefund from '../views/RequestRefund.vue'
 
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   
@@ -76,6 +75,7 @@ const router = createRouter({
           name: 'admin.user.list.and.details',
           component: UserListandDetails
         },
+
         
       ]
     },
@@ -164,7 +164,6 @@ const router = createRouter({
           name: 'consumer.request-refund',
           component: RequestRefund
         },
-       
       ],
     },
  ]

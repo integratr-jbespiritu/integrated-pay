@@ -55,7 +55,7 @@
          </div>
       </div>
       <div class="row gx-0 g-0 ms-3 margin-right-20p d-flex justify-content-start">
-         <div class="col-12 col-md-auto d-flex me-0 me-xxl-1" style="width:532px;">
+         <div class="col-12 col-md-auto d-flex me-0 me-xxl-1" style="width:520px;">
             <div class="duration-btn input-group mb-3 mt-3 w-100">
                <span class="icon-span input-group-text rounded-start"><i class="isax isax-clock"></i></span>
                <select class="form-select title-8 rounded-end" aria-label="Default select example">
@@ -63,7 +63,7 @@
                </select>
             </div>
          </div>
-         <div class="col-12 col-md-auto ms-0 ms-xxl-3" style="width:532px;">
+         <div class="col-12 col-md-auto ms-0 ms-xxl-3" style="width:520px;">
             <div class="date-range input-group mb-3 mt-3 w-100">
                <span class="icon-span input-group-text rounded-start"><i class="isax isax-calendar-1"></i></span>
                <input type="calendar" class="selected-duration form-control rounded-end"
@@ -83,10 +83,10 @@
                      <span class="title-6 mx-3">Net Revenue Income</span>
                      <i class="isax isax-refresh text-purple fs-5 me-4" style="top: 5px;"></i>
                   </div>
-                  <!-- <div class="d-flex mx-5 pt-3">
+                   <div class="d-flex mx-5 pt-3">
                      <p class="title-8"><span class="badge rounded-pill bg-purple">&nbsp;</span> GCash</p>
                      <p class="title-8 ms-3"><span class="badge rounded-pill bg-black">&nbsp;</span> BPI</p>
-                     </div> -->
+                     </div> 
                   <div class="row gx-0 g0">
                      <div class="col mt-3 mx-5">
                         <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
@@ -119,11 +119,11 @@
                         <span><i class="isax isax-refresh text-purple fs-5 me-3"></i></span>
                      </div>
                   </div>
-                  <!-- <div class="d-flex justify-content-center mt-3">
+                   <div class="d-flex justify-content-center mt-3">
                      <p class="title-8 pe-2"><span class="badge rounded-pill bg-purple mx-1">&nbsp;</span> GCash</p>
                      <p class="title-8 pe-2"><span class="badge rounded-pill bg-black mx-1">&nbsp;</span> BPI</p>
                      <p class="title-8 pe-2"><span class="badge rounded-pill bg-blue mx-1">&nbsp;</span> Maya</p>
-                     </div> -->
+                     </div> 
                   <div class="row gx-0 g-0 mb-3 flex-box">
                      <div class="col mt-3 d-flex justify-content-center gap-4">
                         <p class="title-12">Total Revenue&nbsp;<span class="title-6">PHP 1,000,000.00&nbsp;</span>
