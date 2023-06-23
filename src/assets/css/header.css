@@ -1,0 +1,42 @@
+ .header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: black;
+  height: 65px;
+} 
+
+.icon-search-status-purple {
+  top: 4px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 25px;
+}
+.notification-button {
+  color: #fff;
+}
+
+.search-white-bar {
+  border-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.fa-search,
+.fa-bell {
+  font-size: 18px;
+}
+
+.border-color-none{
+  border-color: transparent;
+}
+.border-color-none:focus{
+  border-color: transparent;
+  outline: none;
+}
+
+.container-header {
+  box-shadow: 0px 3px var(--vt-c-lavender);
+}

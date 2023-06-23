@@ -1,0 +1,49 @@
+.button-blue {
+    width: 200px;
+    height: 44px;
+    border-color: var(--vt-c-blue) !important;
+    color: var(--vt-c-blue);
+    box-shadow: none !important;
+
+}
+
+
+.button-purple-generate {
+    width: 200px; 
+    height: 45px;
+    border-radius: 3px;
+    background: var(--vt-c-purple) !important;
+    border-color: var(--vt-c-purple);
+}
+.font-text-blue-button {
+ width: 190px; 
+ height: 44px; 
+ border-color: var(--vt-c-blue);
+ background: transparent;
+ box-shadow: none !important;
+}
+
+.developer-input-box-password{
+    background-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.fas {
+    line-height: 45px; font-size: 20px;
+}
+.r-developer-fontsize{
+    font-size: calc(20px - 20%);
+}
+
+.color-purple-icon {
+    line-height: 29px; 
+    font-size: 20px;
+}
+
+@media screen and (max-width:570px) {
+    .r-developer-fontsize{
+        font-size: calc(20px - 40%) !important;
+    }
+}

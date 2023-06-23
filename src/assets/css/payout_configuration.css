@@ -1,0 +1,17 @@
+.input-border-hover {
+    border: 1px solid var(--vt-c-light-gray);
+}
+
+.input-border-hover:hover {
+    border-color: var(--vt-c-blue) !important;
+    background-color: var(--vt-c-default-white);
+}
+
+.btn-outline-blue {
+    color: var(--vt-c-blue);
+    border-color: var(--vt-c-blue);
+}
+
+.btn-outline-blue:hover {
+    color: var(--vt-c-blue);
+}

@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+ import TheTypography from '../components/TheTypography.vue'
+ import InputFieldsColorsButton from '../components/Input-Fields-Colors-Button.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main>     
+        <TheTypography />
+        <InputFieldsColorsButton/>
   </main>
 </template>

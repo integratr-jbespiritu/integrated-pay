@@ -1,0 +1,202 @@
+body {
+    background-color: var(--vt-c-white);
+}
+
+.input-height {
+    height: 57px;
+    border-radius: 0% !important; 
+}
+.input-height:hover {
+  border: 1px solid var(--vt-c-purple);
+}
+.step2-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+
+.step2-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 34%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+  
+.step2-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96% ;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+
+}
+  .activate-step1 {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 32px;
+    height: 32px; 
+    background-color: var(--vt-c-purple);
+    border-radius: 50%;
+  }
+
+  .activate-step2-circle {
+    background-color: var(--vt-c-default-white);
+    border: 2px solid var(--vt-c-purple);
+    border-radius: 50%;
+    height:32px;
+    width: 32px;
+  }
+
+ .inner-circle {
+   position: relative;
+    background: var(--vt-c-purple);
+    border-radius: 50%;
+    height:10px;
+    width:10px;
+}
+  .activate-step3-circle {
+    background-color: var(--vt-c-default-white);
+    border: 2px solid var(--vt-c-light-gray);
+    border-radius: 50%;
+    height:32px;
+    width: 32px;
+  }
+
+  .activate-step3-inner-circle {
+  position: relative;
+    background: var(--vt-c-light-gray); 
+    border-radius: 50%;
+    height:10px;
+    width:10px;
+  }
+
+  .activate-step4 {
+    font-size: 32px;
+    width:32px;
+    height: 32px;
+    background: var(--vt-c-white);
+    border:2px solid var(--vt-c-light-gray);    
+    border-radius: 50%;
+  }
+
+  /* step 2 style */
+
+.rectangle {
+  width:fit-content;
+  border-color: var(--vt-c-light-gray) !important;
+}
+
+.rectangle:hover , .container-content{
+  border-color: var(--vt-c-purple) !important;
+  color: var(--vt-c-purple);
+}
+
+.icons {
+    font-size: 56px;
+}
+
+.icon-activate {
+  font-size: 24px;
+  color: var(--vt-c-light-black);
+}
+
+.activate-image {
+  width: 550px;
+}
+
+.activate-button {
+  width: 109px;
+  height: 42px;
+  padding: 10px, 20px, 10px, 20px;;
+  color: var(--vt-c-default-white);
+  background: var(--vt-c-purple);
+  border: var(--vt-c-purple);
+}
+
+.activate-button:hover{
+ background-color: var(--vt-c-violet);
+}  
+
+.step3:hover{
+  border-color: var(--vt-c-purple);
+  color: var(--vt-c-purple);
+}
+
+.step3:hover + span > svg > path{
+  fill: var(--vt-c-purple);
+  fill-opacity: 1;
+}
+.form-control > .icon-hover:hover {
+  border: var(--vt-c-purple) !important;
+}
+
+/* step3 progressbar */
+.step3-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+
+.step3-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 65%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+  
+.step3-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+
+/* step4 progressbar */
+.step4-progressbar {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.step4-progressbar::before {
+  content: "";
+  height: 2px;
+  width: 99%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color: var(--vt-c-purple);
+  align-self: center;
+ }  
+.step4-progressbar::after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+    background: var(--vt-c-silver);
+    width: 96%;
+    height:2px;
+    transform: translateX(-1%);
+    z-index: -10;
+}
+
+.canvas{
+  height: 280px !important;
+}
+
